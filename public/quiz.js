@@ -21,7 +21,7 @@
       premiumBody: 'Premium 即将推出：全部专题精练、错题自动收集、考前速记表。一次付费，终身使用。',
       premiumCta: '看看 Premium', seenProgress: '本站练习记录', done: '已练', right: '答对',
       shuffleStart: '开始练习', pickTopic: '先选一个专题（或全部），点开始。题目顺序每次随机。',
-      examIntro: '按官方格式：{n} 题，{pass}，{time}。考试中不显示对错，交卷后出成绩报告。',
+      examIntro: '按官方格式：共 {n} 题{pass}，{time}。考试中不显示对错，交卷后出成绩报告。',
       noTime: '不限时', min: '分钟', needCorrect: '答对 {p} 题及格', percent: '正确率',
       prev: '上一题', questionNav: '题目导航', confirmSubmit: '还有未答题目，确定交卷吗？',
     },
@@ -36,7 +36,7 @@
       premiumBody: 'Premium is coming: every topic drilled, automatic mistake collection, a pre-test cram sheet. One payment, yours for life.',
       premiumCta: 'See Premium', seenProgress: 'Your practice on this device', done: 'practiced', right: 'correct',
       shuffleStart: 'Start practicing', pickTopic: 'Pick a topic (or all of them) and start. Question order is shuffled each time.',
-      examIntro: 'Official format: {n} questions, {pass}, {time}. No feedback until you submit — then a full score report.',
+      examIntro: 'Official format: {n} questions{pass}, {time}. No feedback until you submit — then a full score report.',
       noTime: 'untimed', min: 'minutes', needCorrect: '{p} correct to pass', percent: 'accuracy',
       prev: 'Previous', questionNav: 'Questions', confirmSubmit: 'Some questions are unanswered. Submit anyway?',
     },
@@ -181,9 +181,10 @@
   function renderExam() {
     if (!E.started) {
       var ex = DATA.exam;
+      var passPart = examPassLine();
       var intro = t('examIntro')
         .replace('{n}', ex.questions)
-        .replace('{pass}', examPassLine())
+        .replace('{pass}', passPart ? (lang === 'zh' ? '，' + passPart : ', ' + passPart) : '')
         .replace('{time}', ex.timeMinutes ? ex.timeMinutes + ' ' + t('min') : t('noTime'));
       root.innerHTML = '<div class="quiz-toolbar">' + langSeg() + '<strong>' + t('exam') + '</strong></div>' +
         '<div class="card"><p>' + intro + '</p><button class="btn amber" id="pd-start">' + t('start') + '</button></div>';
