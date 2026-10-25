@@ -1,0 +1,4274 @@
+{
+  "state": "washington",
+  "exam": {
+    "questions": 40,
+    "passCorrect": 32,
+    "passPercent": null,
+    "timeMinutes": null,
+    "handbook": {
+      "title": "Washington State Driver Guide",
+      "edition": "2025",
+      "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf",
+      "chineseUrl": "https://dol.wa.gov/media/pdf/4757/driver-guide-zh-hanspdf"
+    },
+    "currentAsOf": "October 2026"
+  },
+  "questions": [
+    {
+      "id": "wa-001",
+      "topic": "signs",
+      "q": {
+        "en": "You reach a red octagon at a corner. What must you do?",
+        "zh": "你来到路口，看到一块红色八边形标志。你必须怎么做？"
+      },
+      "options": {
+        "en": [
+          "Stop at the stop line, crosswalk, or corner, check all directions, and yield the right-of-way",
+          "Slow down and roll through if no one is coming",
+          "Stop only if another vehicle is already waiting",
+          "Honk, then proceed slowly"
+        ],
+        "zh": [
+          "在停车线、人行横道或路口处停住，查看各个方向，并让行",
+          "没人来时减速慢行通过即可",
+          "只有已有其他车辆等待时才停车",
+          "鸣笛后缓慢通过"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "An octagon is a stop sign: stop at the line, crosswalk, or corner and yield. See the Washington Driver Guide, Chapter 4.12: Signs.",
+        "zh": "八边形就是停车标志：应在停车线、人行横道或路口处停车并让行。见《华盛顿州驾驶指南》第4.12节：标志。"
+      },
+      "source": {
+        "section": "Chapter 4.12: Signs",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": "stop"
+    },
+    {
+      "id": "wa-002",
+      "topic": "signs",
+      "q": {
+        "en": "A red-and-white triangle points down ahead of you. What does it require?",
+        "zh": "前方有一块红白相间的倒三角形标志。它要求你怎么做？"
+      },
+      "options": {
+        "en": [
+          "Speed up to merge before other traffic",
+          "Come to a full stop in every case",
+          "Slow down and let traffic that has the right-of-way cross first",
+          "Treat it as a parking sign"
+        ],
+        "zh": [
+          "加速，在其他车辆之前汇入",
+          "任何情况下都要完全停住",
+          "减速，让拥有通行权的车辆先通过",
+          "把它当作停车标志"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "A yield sign means slow down and let traffic with the right-of-way go first. See the Washington Driver Guide, Chapter 4.12: Signs.",
+        "zh": "让行标志表示减速，让拥有通行权的车辆先行。见《华盛顿州驾驶指南》第4.12节：标志。"
+      },
+      "source": {
+        "section": "Chapter 4.12: Signs",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": "yield"
+    },
+    {
+      "id": "wa-003",
+      "topic": "signs",
+      "q": {
+        "en": "A white rectangular sign shows a number for speed. Which statement is correct?",
+        "zh": "一块白色长方形标志上标有速度数字。下列哪项正确？"
+      },
+      "options": {
+        "en": [
+          "It is a guaranteed safe speed in all weather",
+          "It is the maximum for ideal conditions, and you can still be ticketed for driving too fast for conditions below it",
+          "It is the minimum speed on every road",
+          "It only applies to trucks"
+        ],
+        "zh": [
+          "它是任何天气下都保证安全的速度",
+          "它是理想路况下的最高限速；即使低于该数字，路况不佳时开太快仍可能被开罚单",
+          "它是每条道路的最低速度",
+          "它只适用于卡车"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "A speed limit is the maximum for ideal conditions; too fast for conditions is ticketable even below the number. See the Washington Driver Guide, Chapter 4.12: Signs.",
+        "zh": "限速是理想路况下的最高速度；路况不佳时即使低于限速数字也可能因速度过快被罚。见《华盛顿州驾驶指南》第4.12节：标志。"
+      },
+      "source": {
+        "section": "Chapter 4.12: Signs",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": "speed-limit"
+    },
+    {
+      "id": "wa-004",
+      "topic": "signs",
+      "q": {
+        "en": "A square sign shows a white horizontal bar inside a red circle at a street entrance. What does it mean?",
+        "zh": "街道入口处有一块方形标志：红圆圈内有一条白色横杠。它是什么意思？"
+      },
+      "options": {
+        "en": [
+          "One-way traffic ahead",
+          "Parking is prohibited at night",
+          "A railroad crossing is near",
+          "You cannot enter the street from that direction"
+        ],
+        "zh": [
+          "前方单行道",
+          "夜间禁止停车",
+          "附近有铁路道口",
+          "禁止从该方向驶入这条街道"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "That is a Do Not Enter sign: entry from that direction is prohibited. See the Washington Driver Guide, Chapter 4.12: Signs.",
+        "zh": "这是“禁止驶入”标志：禁止从该方向进入。见《华盛顿州驾驶指南》第4.12节：标志。"
+      },
+      "source": {
+        "section": "Chapter 4.12: Signs",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": "do-not-enter"
+    },
+    {
+      "id": "wa-005",
+      "topic": "signs",
+      "q": {
+        "en": "You see a WRONG WAY sign facing you. What should you do?",
+        "zh": "你看到一块面向你的“WRONG WAY（逆行）”标志。你应该怎么做？"
+      },
+      "options": {
+        "en": [
+          "Continue carefully at low speed",
+          "Turn around only at the next intersection",
+          "Stop and turn around immediately",
+          "Move to the left shoulder and wait"
+        ],
+        "zh": [
+          "低速谨慎继续行驶",
+          "到下一个路口再掉头",
+          "立即停车并掉头",
+          "移到左路肩等待"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "A Wrong Way sign means you are travelling against traffic; stop and turn around immediately to avoid a head-on crash. See the Washington Driver Guide, Chapter 4.12: Signs.",
+        "zh": "“逆行”标志表示你正逆向行驶，应立即停车掉头，避免迎面相撞。见《华盛顿州驾驶指南》第4.12节：标志。"
+      },
+      "source": {
+        "section": "Chapter 4.12: Signs",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": "wrong-way"
+    },
+    {
+      "id": "wa-006",
+      "topic": "signs",
+      "q": {
+        "en": "A sign with an arrow shows traffic flows only in the arrow's direction. What must you never do?",
+        "zh": "一块带箭头的标志表示车辆只能按箭头方向行驶。你绝不能做什么？"
+      },
+      "options": {
+        "en": [
+          "Turn into the street going the opposite way",
+          "Use your turn signal on that street",
+          "Drive at the posted limit",
+          "Yield to pedestrians there"
+        ],
+        "zh": [
+          "逆着箭头方向驶入这条街道",
+          "在这条街道上使用转向灯",
+          "按限速行驶",
+          "在那里让行人"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "One Way signs mark streets where traffic flows only in the arrow's direction; never drive the wrong way on them. See the Washington Driver Guide, Chapter 4.12: Signs.",
+        "zh": "单行道标志表示车辆只能按箭头方向行驶，绝不能逆行。见《华盛顿州驾驶指南》第4.12节：标志。"
+      },
+      "source": {
+        "section": "Chapter 4.12: Signs",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": "one-way"
+    },
+    {
+      "id": "wa-007",
+      "topic": "signs",
+      "q": {
+        "en": "A sign shows a left-turn arrow inside a red circle with a slash through it. What does it mean?",
+        "zh": "一块标志上，左转箭头被红圈和斜杠覆盖。它是什么意思？"
+      },
+      "options": {
+        "en": [
+          "Left turns are protected",
+          "Left turns only for buses",
+          "Left lane ends ahead",
+          "Left turns are not allowed"
+        ],
+        "zh": [
+          "左转受保护",
+          "只有巴士可以左转",
+          "左侧车道即将结束",
+          "禁止左转"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "A red circle with a slash over a symbol means that action — here a left turn — is not allowed. See the Washington Driver Guide, Chapter 4.12: Signs.",
+        "zh": "红圈加斜杠表示该动作被禁止，这里指禁止左转。见《华盛顿州驾驶指南》第4.12节：标志。"
+      },
+      "source": {
+        "section": "Chapter 4.12: Signs",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": "no-left-turn"
+    },
+    {
+      "id": "wa-008",
+      "topic": "signs",
+      "q": {
+        "en": "A sign shows a U-turn arrow crossed out by a red slash. How should you treat a U-turn there?",
+        "zh": "一块标志上，U形掉头箭头被红斜杠划掉。在那里应如何对待掉头？"
+      },
+      "options": {
+        "en": [
+          "Allowed if the road looks empty",
+          "Not allowed at that location",
+          "Allowed only at night",
+          "Allowed only for small cars"
+        ],
+        "zh": [
+          "路面看起来没车就可以",
+          "该地点禁止掉头",
+          "只在夜间可以",
+          "只有小型车可以"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "The slashed U-turn symbol prohibits U-turns at that spot. See the Washington Driver Guide, Chapter 4.12: Signs.",
+        "zh": "被划掉的掉头符号表示该处禁止掉头。见《华盛顿州驾驶指南》第4.12节：标志。"
+      },
+      "source": {
+        "section": "Chapter 4.12: Signs",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": "no-u-turn"
+    },
+    {
+      "id": "wa-009",
+      "topic": "signs",
+      "q": {
+        "en": "A sign at the curb says parking is prohibited. Your friend says stopping 'just for a minute' is fine. What is correct?",
+        "zh": "路边标志写明禁止停车。朋友说“就停一分钟”没关系。哪项正确？"
+      },
+      "options": {
+        "en": [
+          "You may not park where a sign prohibits it",
+          "Stopping for one minute is always allowed",
+          "Only unloading is banned, parking is fine",
+          "The sign applies only on weekdays"
+        ],
+        "zh": [
+          "标志禁止停车的地方就不能停车",
+          "停一分钟永远可以",
+          "只禁止卸货，停车可以",
+          "该标志只在工作日有效"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "You may not park wherever a sign says you cannot park. See the Washington Driver Guide, Chapter 4.18: Parking.",
+        "zh": "凡标志禁止停车之处均不得停车。见《华盛顿州驾驶指南》第4.18节：停车。"
+      },
+      "source": {
+        "section": "Chapter 4.18: Parking",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": "no-parking"
+    },
+    {
+      "id": "wa-010",
+      "topic": "signs",
+      "q": {
+        "en": "A yellow sign shows a person walking. What is it warning you about?",
+        "zh": "一块黄色标志上画着一个行人。它在提醒你什么？"
+      },
+      "options": {
+        "en": [
+          "A bus stop ahead",
+          "A hiking trail parking lot",
+          "A pedestrian crossing area — be ready to yield to people crossing",
+          "Pedestrians are banned ahead"
+        ],
+        "zh": [
+          "前方有巴士站",
+          "徒步小径停车场",
+          "前方是行人过街区域——准备好让过街的行人",
+          "前方禁止行人通行"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "The walking-person sign warns of a pedestrian crossing; yield to people in crosswalks. See the Washington Driver Guide, Chapter 4.12: Signs.",
+        "zh": "行人图形标志提醒前方有人行横道，应让过街行人。见《华盛顿州驾驶指南》第4.12节：标志。"
+      },
+      "source": {
+        "section": "Chapter 4.12: Signs",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": "pedestrian-crossing"
+    },
+    {
+      "id": "wa-011",
+      "topic": "signs",
+      "q": {
+        "en": "What speed limit applies in a Washington school zone?",
+        "zh": "在华盛顿州的学区内，限速是多少？"
+      },
+      "options": {
+        "en": [
+          "25 mph",
+          "20 mph",
+          "35 mph",
+          "15 mph"
+        ],
+        "zh": [
+          "25英里/小时",
+          "20英里/小时",
+          "35英里/小时",
+          "15英里/小时"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "The school zone speed limit in Washington is 20 mph. See the Washington Driver Guide, Chapter 4.17: Zones.",
+        "zh": "华盛顿州学区限速为20英里/小时。见《华盛顿州驾驶指南》第4.17节：区域。"
+      },
+      "source": {
+        "section": "Chapter 4.17: Zones",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": "school-crossing"
+    },
+    {
+      "id": "wa-012",
+      "topic": "signs",
+      "q": {
+        "en": "A sign is fluorescent yellow-green. What kind of warning does that colour give in Washington?",
+        "zh": "一块标志是荧光黄绿色。在华盛顿州，这种颜色表示哪类警告？"
+      },
+      "options": {
+        "en": [
+          "Construction and maintenance",
+          "Motorist services",
+          "Recreation areas",
+          "School, pedestrian, and bicycling activity"
+        ],
+        "zh": [
+          "施工与养护",
+          "驾驶人服务设施",
+          "休闲娱乐区域",
+          "学校、行人和骑行活动"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "Fluorescent yellow-green warns of school, pedestrian, and bicycling activity. See the Washington Driver Guide, Chapter 4.12: Signs.",
+        "zh": "荧光黄绿色用于警告学校、行人和骑行活动。见《华盛顿州驾驶指南》第4.12节：标志。"
+      },
+      "source": {
+        "section": "Chapter 4.12: Signs",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-013",
+      "topic": "signs",
+      "q": {
+        "en": "An orange sign appears ahead on the highway. What should you expect?",
+        "zh": "高速公路前方出现橙色标志。你应预期什么？"
+      },
+      "options": {
+        "en": [
+          "A rest area",
+          "A toll plaza",
+          "Construction or maintenance warning ahead",
+          "A state border"
+        ],
+        "zh": [
+          "休息区",
+          "收费站",
+          "前方有施工或养护警告",
+          "州界"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Orange is the colour for construction and maintenance warnings. See the Washington Driver Guide, Chapter 4.12: Signs.",
+        "zh": "橙色是施工与养护警告的颜色。见《华盛顿州驾驶指南》第4.12节：标志。"
+      },
+      "source": {
+        "section": "Chapter 4.12: Signs",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-014",
+      "topic": "signs",
+      "q": {
+        "en": "What do blue and brown road signs each indicate?",
+        "zh": "蓝色和棕色的道路标志分别表示什么？"
+      },
+      "options": {
+        "en": [
+          "Blue = motorist services; brown = public recreation, cultural and historical areas",
+          "Blue = recreation; brown = services",
+          "Blue = regulatory; brown = guide",
+          "Blue = warning; brown = prohibitions"
+        ],
+        "zh": [
+          "蓝色＝驾驶人服务；棕色＝公共休闲、文化和历史区域",
+          "蓝色＝休闲；棕色＝服务",
+          "蓝色＝管制；棕色＝指引",
+          "蓝色＝警告；棕色＝禁止"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Blue signs give motorist services guidance; brown signs identify recreation, cultural, and historical areas. See the Washington Driver Guide, Chapter 4.12: Signs.",
+        "zh": "蓝色标志提供驾驶人服务指引；棕色标志标识休闲、文化和历史区域。见《华盛顿州驾驶指南》第4.12节：标志。"
+      },
+      "source": {
+        "section": "Chapter 4.12: Signs",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-015",
+      "topic": "signs",
+      "q": {
+        "en": "At a railroad crossing the lights flash and bells ring, but the gate is still up. What must you do?",
+        "zh": "在铁路道口，警示灯闪烁、警铃响起，但栏杆尚未放下。你必须怎么做？"
+      },
+      "options": {
+        "en": [
+          "Cross quickly before the gate lowers",
+          "Proceed if you cannot see a train",
+          "Stop only if a stop sign is also posted",
+          "Stop — you must stop whether or not the gate is down"
+        ],
+        "zh": [
+          "在栏杆放下前快速通过",
+          "看不到火车就可通过",
+          "只有同时设有停车标志时才停车",
+          "停车——无论栏杆是否放下都必须停车"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "When lights flash and bells ring you must stop, gate or no gate, and never drive around a gate. See the Washington Driver Guide, Chapter 4.7: Sharing the road with trains.",
+        "zh": "警示灯闪烁、警铃响起时必须停车，与栏杆无关，且绝不能绕过栏杆。见《华盛顿州驾驶指南》第4.7节：与火车共享道路。"
+      },
+      "source": {
+        "section": "Chapter 4.7: Sharing the road with trains",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": "railroad-crossing"
+    },
+    {
+      "id": "wa-016",
+      "topic": "signs",
+      "q": {
+        "en": "A round yellow sign with a black X and the letter R on each side warns of what?",
+        "zh": "一块圆形黄色标志上有黑色X，X两侧各有一个字母R。它警告什么？"
+      },
+      "options": {
+        "en": [
+          "A rest stop ahead",
+          "A railroad crossing ahead",
+          "A reversible lane ahead",
+          "A recreation area ahead"
+        ],
+        "zh": [
+          "前方有休息站",
+          "前方有铁路道口",
+          "前方有可变向车道",
+          "前方有休闲区"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "The round advance sign warns that a railroad crossing is ahead. See the Washington Driver Guide, Chapter 4.12: Signs.",
+        "zh": "圆形预告标志警告前方有铁路道口。见《华盛顿州驾驶指南》第4.12节：标志。"
+      },
+      "source": {
+        "section": "Chapter 4.12: Signs",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": "railroad-ahead"
+    },
+    {
+      "id": "wa-017",
+      "topic": "signs",
+      "q": {
+        "en": "A yellow diamond shows the road bending ahead. What is the safest response?",
+        "zh": "一块黄色菱形标志显示前方道路弯曲。最安全的做法是什么？"
+      },
+      "options": {
+        "en": [
+          "Reduce speed before entering the curve",
+          "Speed up to get through the bend sooner",
+          "Brake hard in the middle of the curve",
+          "Shift to the opposite lane"
+        ],
+        "zh": [
+          "进入弯道前减速",
+          "加速以便更快通过弯道",
+          "在弯道中间猛踩刹车",
+          "换到对向车道"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Slow down before the curve, keep a steady speed through it, and accelerate gently on exit. See the Washington Driver Guide, Chapter 5.6: Road and driving conditions.",
+        "zh": "应在弯道前减速，弯道中保持匀速，出弯时缓加速。见《华盛顿州驾驶指南》第5.6节：道路与驾驶条件。"
+      },
+      "source": {
+        "section": "Chapter 4.12: Signs",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": "curve-ahead"
+    },
+    {
+      "id": "wa-018",
+      "topic": "signs",
+      "q": {
+        "en": "A sign shows a hairpin-style sharp turn ahead with a small speed number below it. The number is:",
+        "zh": "一块标志显示前方有发夹式急转弯，下方有一个较小的速度数字。该数字是："
+      },
+      "options": {
+        "en": [
+          "A fine amount",
+          "The minimum legal speed",
+          "An advisory speed recommended for the hazard",
+          "The speed for trucks only"
+        ],
+        "zh": [
+          "罚款金额",
+          "法定最低速度",
+          "针对该危险路段的建议速度",
+          "仅适用于卡车的限速"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "A small speed panel under a warning sign is an advisory speed for the hazard, such as a curve or turn. See the Washington Driver Guide, Chapter 4.12: Signs.",
+        "zh": "警告标志下方的小速度牌是针对弯道等危险的建议速度。见《华盛顿州驾驶指南》第4.12节：标志。"
+      },
+      "source": {
+        "section": "Chapter 4.12: Signs",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": "sharp-turn"
+    },
+    {
+      "id": "wa-019",
+      "topic": "signs",
+      "q": {
+        "en": "A sign shows a car with squiggly tire tracks. When the road matches this warning, you should:",
+        "zh": "一块标志画着一辆打滑的汽车，轮胎轨迹弯弯曲曲。当路面正符合该警告时，你应该："
+      },
+      "options": {
+        "en": [
+          "Use cruise control to hold speed",
+          "Slow down and avoid sudden movements, since friction is reduced",
+          "Make sudden steering moves to test grip",
+          "Drive faster to spend less time on the surface"
+        ],
+        "zh": [
+          "用定速巡航保持速度",
+          "减速并避免突然动作，因为摩擦力已降低",
+          "突然打方向以测试抓地力",
+          "开快一点以减少在该路面的时间"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "The slippery-when-wet sign warns of reduced friction; slow down even more and avoid sudden movements. See the Washington Driver Guide, Chapter 5.6: Road and driving conditions.",
+        "zh": "“路面湿滑”标志警告摩擦力下降，应进一步减速并避免突然动作。见《华盛顿州驾驶指南》第5.6节：道路与驾驶条件。"
+      },
+      "source": {
+        "section": "Chapter 4.12: Signs",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": "slippery"
+    },
+    {
+      "id": "wa-020",
+      "topic": "signs",
+      "q": {
+        "en": "A sign shows two lines joining into one ahead. What is happening to the road?",
+        "zh": "一块标志显示前方两条线汇成一条。这条路将发生什么？"
+      },
+      "options": {
+        "en": [
+          "The road widens to two lanes",
+          "All traffic must stop",
+          "The lane becomes HOV only",
+          "Traffic from a side road merges ahead — be ready to adjust speed and space"
+        ],
+        "zh": [
+          "道路将拓宽为两条车道",
+          "所有车辆必须停车",
+          "该车道将变为仅限拼车",
+          "前方有支路车辆汇入——准备调整速度和间距"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "A merge sign warns that traffic merges ahead; adjust speed and space to merge safely. See the Washington Driver Guide, Chapter 4.12: Signs.",
+        "zh": "汇入标志警告前方有车辆汇入，应调整速度和间距以安全汇入。见《华盛顿州驾驶指南》第4.12节：标志。"
+      },
+      "source": {
+        "section": "Chapter 4.12: Signs",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": "merge"
+    },
+    {
+      "id": "wa-021",
+      "topic": "signs",
+      "q": {
+        "en": "A sign shows two arrows pointing in opposite directions. What does it tell you?",
+        "zh": "一块标志上有两个方向相反的箭头。它告诉你什么？"
+      },
+      "options": {
+        "en": [
+          "Passing is allowed in both directions",
+          "Two lanes are reserved for buses",
+          "You are leaving a one-way road and entering two-way traffic",
+          "A divided highway begins"
+        ],
+        "zh": [
+          "双向都允许超车",
+          "两条车道专供巴士",
+          "你正在离开单行道，进入双向交通路段",
+          "前方开始是分隔式公路"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "The two-way traffic sign warns that traffic now flows in both directions. See the Washington Driver Guide, Chapter 4.12: Signs.",
+        "zh": "双向交通标志警告前方为双向行驶路段。见《华盛顿州驾驶指南》第4.12节：标志。"
+      },
+      "source": {
+        "section": "Chapter 4.12: Signs",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": "two-way-traffic"
+    },
+    {
+      "id": "wa-022",
+      "topic": "signs",
+      "q": {
+        "en": "A sign shows a median splitting the road ahead. What does it indicate?",
+        "zh": "一块标志显示前方道路中间出现分隔带。它表示什么？"
+      },
+      "options": {
+        "en": [
+          "A divided highway begins — keep to the right of the median",
+          "The divided highway ends",
+          "You may cross the median to pass",
+          "The median is a parking area"
+        ],
+        "zh": [
+          "分隔式公路开始——应在分隔带右侧行驶",
+          "分隔式公路结束",
+          "可以越过分隔带超车",
+          "分隔带是停车区"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "The sign marks where a divided highway begins; driving within, over, or across a median is illegal. See the Washington Driver Guide, Chapter 4.16: Road markings.",
+        "zh": "该标志表示分隔式公路开始；在分隔带内行驶或穿越分隔带均为违法。见《华盛顿州驾驶指南》第4.16节：道路标线。"
+      },
+      "source": {
+        "section": "Chapter 4.12: Signs",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": "divided-highway"
+    },
+    {
+      "id": "wa-023",
+      "topic": "signs",
+      "q": {
+        "en": "A yellow sign shows a traffic light symbol. What should you prepare for?",
+        "zh": "一块黄色标志上有交通信号灯图形。你应做好什么准备？"
+      },
+      "options": {
+        "en": [
+          "A power outage on the road",
+          "A photo booth",
+          "A freeway ramp meter only",
+          "A traffic signal ahead — be ready to stop"
+        ],
+        "zh": [
+          "路面停电",
+          "照相亭",
+          "仅是高速公路入口匝道信号",
+          "前方有交通信号灯——准备停车"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "Signal Ahead warns of a traffic signal coming up, so be ready to slow and stop. See the Washington Driver Guide, Chapter 4.12: Signs.",
+        "zh": "“前方信号灯”标志提醒前方有交通信号，应准备减速停车。见《华盛顿州驾驶指南》第4.12节：标志。"
+      },
+      "source": {
+        "section": "Chapter 4.12: Signs",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": "signal-ahead"
+    },
+    {
+      "id": "wa-024",
+      "topic": "signs",
+      "q": {
+        "en": "A yellow sign reads STOP AHEAD. What is the right response?",
+        "zh": "一块黄色标志写着“STOP AHEAD（前方停车标志）”。正确的做法是："
+      },
+      "options": {
+        "en": [
+          "Ignore it if the road looks clear",
+          "Prepare to stop at a stop sign ahead",
+          "Stop immediately where you are",
+          "Speed up so you can stop later"
+        ],
+        "zh": [
+          "路面看起来没车就不用理会",
+          "做好准备，在前方的停车标志处停车",
+          "立即在原地停车",
+          "加速，以便之后再停"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Stop Ahead gives advance warning of a stop sign; slow down and prepare to stop. See the Washington Driver Guide, Chapter 4.12: Signs.",
+        "zh": "“前方停车标志”是预告，应减速并准备停车。见《华盛顿州驾驶指南》第4.12节：标志。"
+      },
+      "source": {
+        "section": "Chapter 4.12: Signs",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": "stop-ahead"
+    },
+    {
+      "id": "wa-025",
+      "topic": "signs",
+      "q": {
+        "en": "A yellow diamond shows a leaping deer. What risk does it flag?",
+        "zh": "一块黄色菱形标志上有一只跳跃的鹿。它提示什么风险？"
+      },
+      "options": {
+        "en": [
+          "Animals, especially deer, may cross the road — slow down and scan",
+          "A zoo entrance",
+          "Hunting is allowed from vehicles",
+          "A wildlife refuge parking area"
+        ],
+        "zh": [
+          "动物尤其是鹿可能横穿道路——减速并观察",
+          "动物园入口",
+          "允许在车上狩猎",
+          "野生动物保护区停车场"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "A deer crossing sign warns that animals may enter the road; reduce speed in animal areas and scan. See the Washington Driver Guide, Chapter 5.1: Speed.",
+        "zh": "鹿穿行标志警告动物可能进入道路，应在动物出没区域减速并观察。见《华盛顿州驾驶指南》第5.1节：速度。"
+      },
+      "source": {
+        "section": "Chapter 4.12: Signs",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": "deer-crossing"
+    },
+    {
+      "id": "wa-026",
+      "topic": "signs",
+      "q": {
+        "en": "Inside a signed work zone, who must you yield to?",
+        "zh": "在有标志的施工区域内，你必须让谁先行？"
+      },
+      "options": {
+        "en": [
+          "Only the flagger's own vehicle",
+          "No one — traffic always has priority",
+          "Highway construction personnel, vehicles with flashing yellow lights, and equipment inside the zone",
+          "Only vehicles larger than yours"
+        ],
+        "zh": [
+          "只有信号旗手自己的车辆",
+          "谁都不用让——通行车辆永远优先",
+          "施工人员、亮着黄色闪光灯的车辆以及区域内的设备",
+          "只有比你的车大的车辆"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "In a work zone, yield to construction personnel, vehicles with flashing yellow lights, and equipment in the zone. See the Washington Driver Guide, Chapter 4.12: Signs.",
+        "zh": "在施工区应让施工人员、亮黄闪灯的车辆和区域内设备。见《华盛顿州驾驶指南》第4.12节：标志。"
+      },
+      "source": {
+        "section": "Chapter 4.12: Signs",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": "construction"
+    },
+    {
+      "id": "wa-027",
+      "topic": "signs",
+      "q": {
+        "en": "A sign warns that bicyclists may be ahead on the road. How much space must you leave when passing a bicyclist?",
+        "zh": "一块标志警告前方道路上可能有骑行者。超越骑行者时必须留出多少间距？"
+      },
+      "options": {
+        "en": [
+          "At least 1 foot",
+          "At least 3 feet",
+          "At least 6 inches",
+          "No minimum — just do not touch them"
+        ],
+        "zh": [
+          "至少1英尺",
+          "至少3英尺",
+          "至少6英寸",
+          "没有最低要求——不碰到就行"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Leave at least 3 feet between the bicyclist and the widest part of your vehicle when passing. See the Washington Driver Guide, Chapter 4.6: Sharing with bicyclists.",
+        "zh": "超越骑行者时，你的车辆最宽处与骑行者之间至少留3英尺。见《华盛顿州驾驶指南》第4.6节：与骑行者共享道路。"
+      },
+      "source": {
+        "section": "Chapter 4.12: Signs",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": "bicycle"
+    },
+    {
+      "id": "wa-028",
+      "topic": "signs",
+      "q": {
+        "en": "Short dashed white lines appear in your lane. What do they tell you?",
+        "zh": "你的车道上出现短虚线白线。它们告诉你什么？"
+      },
+      "options": {
+        "en": [
+          "The lane is reserved for buses",
+          "Passing is prohibited",
+          "The road becomes gravel",
+          "The lane is ending — you will need to merge or exit"
+        ],
+        "zh": [
+          "该车道专供巴士",
+          "禁止超车",
+          "路面将变成碎石路",
+          "车道即将结束——你需要汇入或驶出"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "Shorter dashed white lines mean the lane is ending and you must merge or exit. See the Washington Driver Guide, Chapter 4.16: Road markings.",
+        "zh": "较短的白色虚线表示车道即将结束，需要汇入或驶出。见《华盛顿州驾驶指南》第4.16节：道路标线。"
+      },
+      "source": {
+        "section": "Chapter 4.12: Signs",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": "lane-ends"
+    },
+    {
+      "id": "wa-029",
+      "topic": "signs",
+      "q": {
+        "en": "A sign marks the entrance to a roundabout. What kind of junction is it?",
+        "zh": "一块标志标示着环岛入口。这是一种什么样的路口？"
+      },
+      "options": {
+        "en": [
+          "A four-way stop with lights",
+          "A junction where the fastest vehicle goes first",
+          "A circular intersection where entering traffic yields and travel is counterclockwise around a raised centre island",
+          "A parking circle for large trucks only"
+        ],
+        "zh": [
+          "带信号灯的四向停车路口",
+          "谁开得快谁先走的路口",
+          "环形路口：驶入车辆要让行，车辆绕着中央隆起的岛逆时针行驶",
+          "仅供大型卡车使用的停车环"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "A roundabout is a circular intersection with yield-on-entry and counterclockwise travel around a raised centre island. See the Washington Driver Guide, Chapter 4.15: Other intersections.",
+        "zh": "环岛是环形路口：驶入时让行，绕中央隆起的岛逆时针行驶。见《华盛顿州驾驶指南》第4.15节：其他路口。"
+      },
+      "source": {
+        "section": "Chapter 4.15: Other intersections",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": "roundabout-ahead"
+    },
+    {
+      "id": "wa-030",
+      "topic": "rules",
+      "q": {
+        "en": "On a multi-lane road in Washington, which lane should you normally drive in?",
+        "zh": "在华盛顿州的多车道道路上，你通常应在哪个车道行驶？"
+      },
+      "options": {
+        "en": [
+          "The right lane — use the left lane to pass slower traffic",
+          "The left lane, to stay clear of merging traffic",
+          "Any lane, including carpool lanes, for passing",
+          "The shoulder when traffic is heavy"
+        ],
+        "zh": [
+          "右侧车道——用左侧车道超越较慢的车辆",
+          "左侧车道，以免受汇入车辆影响",
+          "任意车道，包括拼车车道，都可用于超车",
+          "交通繁忙时走路肩"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Keep right except to pass; carpool lanes are not passing lanes. See the Washington Driver Guide, Chapter 4.10: Traffic laws.",
+        "zh": "除超车外靠右行驶；拼车车道不是超车道。见《华盛顿州驾驶指南》第4.10节：交通法规。"
+      },
+      "source": {
+        "section": "Chapter 4.10: Traffic laws",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-031",
+      "topic": "rules",
+      "q": {
+        "en": "You missed your exit on a freeway. What is the legal thing to do?",
+        "zh": "你在高速公路上错过了出口。合法的做法是什么？"
+      },
+      "options": {
+        "en": [
+          "Back up on the shoulder to the exit",
+          "Reverse in the travel lane if it is empty",
+          "Make a U-turn across the median",
+          "Keep moving forward to the next exit — backing up on a shoulder or freeway is illegal"
+        ],
+        "zh": [
+          "在路肩上倒车到出口",
+          "车道没车时在行车道倒车",
+          "越过分隔带掉头",
+          "继续前行到下一个出口——在路肩或高速公路上倒车是违法的"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "Never drive in reverse on the road; backing up on a shoulder or freeway is illegal. See the Washington Driver Guide, Chapter 4.10: Traffic laws.",
+        "zh": "绝不能在路上倒车；在路肩或高速公路上倒车是违法的。见《华盛顿州驾驶指南》第4.10节：交通法规。"
+      },
+      "source": {
+        "section": "Chapter 4.10: Traffic laws",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-032",
+      "topic": "rules",
+      "q": {
+        "en": "A traffic signal at an intersection is completely dark. How do you treat it?",
+        "zh": "路口的交通信号灯完全熄灭。你应如何处理？"
+      },
+      "options": {
+        "en": [
+          "As a yield sign",
+          "As a four-way stop: come to a complete stop and yield to traffic on your right",
+          "As a green light if you arrived first",
+          "As a signal that the road is closed"
+        ],
+        "zh": [
+          "当作让行标志",
+          "当作四向停车：完全停住，并让右侧车辆先行",
+          "先到就当作绿灯",
+          "表示道路封闭"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "A non-working signal is treated like a four-way stop; yield to traffic on your right and proceed cautiously. See the Washington Driver Guide, Chapter 4.10: Traffic laws.",
+        "zh": "失效的信号灯按四向停车处理；让右侧车辆先行，谨慎通过。见《华盛顿州驾驶指南》第4.10节：交通法规。"
+      },
+      "source": {
+        "section": "Chapter 4.10: Traffic laws",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-033",
+      "topic": "rules",
+      "q": {
+        "en": "You stop fully at a red light. There is no 'no turn on red' sign and the way is clear. What may you do?",
+        "zh": "你在红灯前完全停住。现场没有“红灯禁止转弯”标志，且道路畅通。你可以怎么做？"
+      },
+      "options": {
+        "en": [
+          "Turn right, or turn left only onto a one-way street",
+          "Turn left onto any street",
+          "Turn right only after the light turns green",
+          "Nothing — turning on red is always illegal in Washington"
+        ],
+        "zh": [
+          "右转；或者仅在驶入单行道时左转",
+          "左转进入任何街道",
+          "只能等绿灯后右转",
+          "什么都不能做——华盛顿州红灯永远禁止转弯"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "After a complete stop, right on red is allowed if not signed otherwise; left on red is allowed only onto a one-way street. See the Washington Driver Guide, Chapter 4.11: Traffic light signals.",
+        "zh": "完全停车后，如无禁止标志可以红灯右转；红灯左转仅限驶入单行道。见《华盛顿州驾驶指南》第4.11节：交通信号灯。"
+      },
+      "source": {
+        "section": "Chapter 4.11: Traffic light signals",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-034",
+      "topic": "rules",
+      "q": {
+        "en": "A traffic light is flashing red. How do you respond?",
+        "zh": "交通信号灯在闪烁红灯。你应如何应对？"
+      },
+      "options": {
+        "en": [
+          "Slow down and proceed with caution",
+          "Speed up before it turns solid",
+          "Treat it as a stop sign: full stop, then go when it is your turn",
+          "Treat it as a yield to the left only"
+        ],
+        "zh": [
+          "减速谨慎通过",
+          "在变常亮前加速通过",
+          "当作停车标志：完全停住，轮到你时再通过",
+          "只向左侧让行"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "A flashing red light functions as a stop sign. See the Washington Driver Guide, Chapter 4.11: Traffic light signals.",
+        "zh": "闪烁红灯等同于停车标志。见《华盛顿州驾驶指南》第4.11节：交通信号灯。"
+      },
+      "source": {
+        "section": "Chapter 4.11: Traffic light signals",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-035",
+      "topic": "rules",
+      "q": {
+        "en": "The light turns yellow while you are still approaching, with room to stop. What should you do?",
+        "zh": "你接近路口时信号灯变黄，且有足够距离停车。你应该怎么做？"
+      },
+      "options": {
+        "en": [
+          "Accelerate beyond the speed limit to clear the intersection",
+          "Slow down and prepare to stop",
+          "Stop instantly in the lane wherever you are",
+          "Flash your lights and continue"
+        ],
+        "zh": [
+          "超速加速以通过路口",
+          "减速并准备停车",
+          "无论在哪里立即在车道内急停",
+          "闪灯后继续行驶"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "A solid yellow means the light is changing to red; slow down and prepare to stop, and never exceed the limit to clear it. See the Washington Driver Guide, Chapter 4.11: Traffic light signals.",
+        "zh": "黄灯常亮表示即将变红灯，应减速准备停车，绝不能超速抢行。见《华盛顿州驾驶指南》第4.11节：交通信号灯。"
+      },
+      "source": {
+        "section": "Chapter 4.11: Traffic light signals",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-036",
+      "topic": "rules",
+      "q": {
+        "en": "A flashing yellow light is the same in meaning as which device?",
+        "zh": "闪烁的黄灯与下列哪种设施含义相同？"
+      },
+      "options": {
+        "en": [
+          "A stop sign",
+          "A green arrow",
+          "A ramp meter",
+          "A yield sign"
+        ],
+        "zh": [
+          "停车标志",
+          "绿色箭头",
+          "匝道信号灯",
+          "让行标志"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "A flashing yellow light has the same meaning as a yield sign; treat the intersection as uncontrolled. See the Washington Driver Guide, Chapter 4.11: Traffic light signals.",
+        "zh": "闪烁黄灯与让行标志含义相同，应按无控制路口处理。见《华盛顿州驾驶指南》第4.11节：交通信号灯。"
+      },
+      "source": {
+        "section": "Chapter 4.11: Traffic light signals",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-037",
+      "topic": "rules",
+      "q": {
+        "en": "A red arrow is lit for your movement. What does it mean?",
+        "zh": "你所行驶方向的红色箭头亮起。它是什么意思？"
+      },
+      "options": {
+        "en": [
+          "You may go after yielding",
+          "Turn only if a police officer waves you on, otherwise treat as yellow",
+          "You cannot go in the direction of the arrow",
+          "The arrow is advisory only"
+        ],
+        "zh": [
+          "让行后可以通行",
+          "除非警察挥手示意，否则当作黄灯",
+          "禁止按箭头方向行驶",
+          "该箭头仅供参考"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "A red arrow means you can't go in the direction of the arrow. See the Washington Driver Guide, Chapter 4.11: Traffic light signals.",
+        "zh": "红色箭头表示禁止按箭头方向行驶。见《华盛顿州驾驶指南》第4.11节：交通信号灯。"
+      },
+      "source": {
+        "section": "Chapter 4.11: Traffic light signals",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-038",
+      "topic": "rules",
+      "q": {
+        "en": "The light is green. Before moving ahead, what must you still do?",
+        "zh": "信号灯是绿灯。在前进之前，你仍必须做什么？"
+      },
+      "options": {
+        "en": [
+          "Check the intersection is clear and yield to emergency vehicles and pedestrians as required",
+          "Nothing — green means go unconditionally",
+          "Honk to warn crossing traffic",
+          "Wait for the vehicle behind you to move first"
+        ],
+        "zh": [
+          "确认路口已清空，并依法让应急车辆和行人",
+          "什么都不用——绿灯就无条件通行",
+          "鸣笛警告横向车辆",
+          "等后车先动"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Even on green, wait for the intersection to clear and yield to emergency vehicles and pedestrians. See the Washington Driver Guide, Chapter 4.11: Traffic light signals.",
+        "zh": "即使是绿灯，也要确认路口清空，并让应急车辆和行人。见《华盛顿州驾驶指南》第4.11节：交通信号灯。"
+      },
+      "source": {
+        "section": "Chapter 4.11: Traffic light signals",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-039",
+      "topic": "rules",
+      "q": {
+        "en": "Two vehicles arrive at a four-way stop at about the same time. Who goes first?",
+        "zh": "两辆车几乎同时到达四向停车路口。谁先走？"
+      },
+      "options": {
+        "en": [
+          "The vehicle on the left",
+          "The larger vehicle",
+          "Whoever honks first",
+          "The vehicle on the right — the other driver yields to it"
+        ],
+        "zh": [
+          "左侧的车辆",
+          "较大的车辆",
+          "谁先鸣笛谁先走",
+          "右侧的车辆——另一方应让它先行"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "At a four-way stop the first to arrive goes first; if simultaneous, yield to the vehicle on the right. See the Washington Driver Guide, Chapter 4.13: Common intersections.",
+        "zh": "四向停车时先到先行；同时到达时让右侧车辆先行。见《华盛顿州驾驶指南》第4.13节：常见路口。"
+      },
+      "source": {
+        "section": "Chapter 4.13: Common intersections",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-040",
+      "topic": "rules",
+      "q": {
+        "en": "At a four-way stop, a driver turning left must yield to:",
+        "zh": "在四向停车路口，左转驾驶人必须让谁先行？"
+      },
+      "options": {
+        "en": [
+          "Only pedestrians",
+          "Vehicles going straight or turning right",
+          "No one, if they arrived first in all cases",
+          "Vehicles behind them"
+        ],
+        "zh": [
+          "只有行人",
+          "直行或右转的车辆",
+          "任何人都不用让，只要先到就行",
+          "他们后面的车辆"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Left-turning vehicles yield the right-of-way to vehicles going straight or turning right. See the Washington Driver Guide, Chapter 4.13: Common intersections.",
+        "zh": "左转车辆应让直行或右转的车辆先行。见《华盛顿州驾驶指南》第4.13节：常见路口。"
+      },
+      "source": {
+        "section": "Chapter 4.13: Common intersections",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-041",
+      "topic": "rules",
+      "q": {
+        "en": "State law says you must turn into which lane when completing a turn?",
+        "zh": "州法规定，完成转弯时必须驶入哪个车道？"
+      },
+      "options": {
+        "en": [
+          "The lane closest to the direction you are coming from",
+          "Whichever lane is emptiest",
+          "The far lane, to avoid cyclists",
+          "The centre lane always"
+        ],
+        "zh": [
+          "与你驶来方向最接近的车道",
+          "哪个车道最空就进哪个",
+          "最远的车道，以避开骑行者",
+          "永远是中间车道"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Turn into the lane closest to where you came from, and stay in your lane through multi-lane turns. See the Washington Driver Guide, Chapter 4.14: Turning.",
+        "zh": "转弯时应驶入与来向最接近的车道；多车道转弯时保持在本车道内。见《华盛顿州驾驶指南》第4.14节：转弯。"
+      },
+      "source": {
+        "section": "Chapter 4.14: Turning",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-042",
+      "topic": "rules",
+      "q": {
+        "en": "How far before a turn across oncoming traffic must you switch on your turn signal, at minimum?",
+        "zh": "在横穿对向车流转弯前，至少应提前多远打开转向灯？"
+      },
+      "options": {
+        "en": [
+          "25 feet",
+          "50 feet",
+          "100 feet",
+          "300 feet"
+        ],
+        "zh": [
+          "25英尺",
+          "50英尺",
+          "100英尺",
+          "300英尺"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Signal at least 100 feet before turning left or right across oncoming traffic. See the Washington Driver Guide, Chapter 4.14: Turning.",
+        "zh": "横穿对向车流转弯前至少提前100英尺打转向灯。见《华盛顿州驾驶指南》第4.14节：转弯。"
+      },
+      "source": {
+        "section": "Chapter 4.14: Turning",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-043",
+      "topic": "rules",
+      "q": {
+        "en": "Which statement about U-turns in Washington is correct?",
+        "zh": "关于华盛顿州的掉头，下列哪项正确？"
+      },
+      "options": {
+        "en": [
+          "U-turns are always illegal",
+          "U-turns are generally allowed unless a sign prohibits them, and you need clear visibility in all directions",
+          "U-turns are allowed on curves if you signal",
+          "U-turns are allowed at hill crests at low speed"
+        ],
+        "zh": [
+          "掉头永远违法",
+          "一般允许掉头，除非标志禁止，且必须各方向视线清晰",
+          "打转向灯就可以在弯道掉头",
+          "低速时可以在坡顶掉头"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "U-turns are generally allowed unless signed otherwise; never U-turn on a curve or approaching a hill crest. See the Washington Driver Guide, Chapter 4.14: Turning.",
+        "zh": "除非标志禁止，一般可以掉头；绝不能在弯道或接近坡顶时掉头。见《华盛顿州驾驶指南》第4.14节：转弯。"
+      },
+      "source": {
+        "section": "Chapter 4.14: Turning",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-044",
+      "topic": "rules",
+      "q": {
+        "en": "How do you drive through a Washington roundabout?",
+        "zh": "在华盛顿州，环岛应如何通行？"
+      },
+      "options": {
+        "en": [
+          "Enter without yielding if your road is bigger",
+          "Stop in the circle to let others enter",
+          "Travel clockwise around the island",
+          "Slow to the design speed of 15–25 mph, yield to traffic already circulating, travel counterclockwise, and stay in your chosen lane until you exit"
+        ],
+        "zh": [
+          "你的路更宽就不用让行直接驶入",
+          "在环岛内停车让其他车辆驶入",
+          "绕岛顺时针行驶",
+          "减速到15–25英里/小时的设计速度，让已在环岛内的车辆先行，逆时针行驶，并保持所选车道直到驶出"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "Roundabouts are designed for 15–25 mph, with yield-on-entry and counterclockwise travel. See the Washington Driver Guide, Chapter 4.15: Other intersections.",
+        "zh": "环岛设计速度为15–25英里/小时，驶入时让行并逆时针行驶。见《华盛顿州驾驶指南》第4.15节：其他路口。"
+      },
+      "source": {
+        "section": "Chapter 4.15: Other intersections",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-045",
+      "topic": "rules",
+      "q": {
+        "en": "You enter an uncontrolled intersection (no signs or signals) as another vehicle is already inside it. Who has the right-of-way?",
+        "zh": "你驶入一个无控制路口（无标志无信号），而另一辆车已在路口内。谁有通行权？"
+      },
+      "options": {
+        "en": [
+          "You, because you are on the right side of the road",
+          "Whoever is travelling faster",
+          "The vehicle already in the intersection — you must yield",
+          "The vehicle turning left"
+        ],
+        "zh": [
+          "你，因为你在道路右侧",
+          "谁开得快谁有",
+          "已在路口内的车辆——你必须让行",
+          "左转的车辆"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "At an uncontrolled intersection you must yield if a vehicle is already in the intersection. See the Washington Driver Guide, Chapter 4.15: Other intersections.",
+        "zh": "在无控制路口，若已有车辆在路口内，你必须让行。见《华盛顿州驾驶指南》第4.15节：其他路口。"
+      },
+      "source": {
+        "section": "Chapter 4.15: Other intersections",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-046",
+      "topic": "rules",
+      "q": {
+        "en": "A double solid yellow centreline is painted on your road. What does it prohibit?",
+        "zh": "你的道路中央画有双黄实线。它禁止什么？"
+      },
+      "options": {
+        "en": [
+          "Passing in either direction",
+          "Turning left into driveways in all cases",
+          "Driving at night",
+          "Lane changes for HOV vehicles only"
+        ],
+        "zh": [
+          "双向都禁止超车",
+          "任何情况下左转进入车道入口",
+          "夜间行驶",
+          "仅禁止拼车车辆变道"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Double solid yellow lines mark the centre of a two-way road and passing is not allowed in either direction. See the Washington Driver Guide, Chapter 4.16: Road markings.",
+        "zh": "双黄实线是双向道路的中央线，双向均禁止超车。见《华盛顿州驾驶指南》第4.16节：道路标线。"
+      },
+      "source": {
+        "section": "Chapter 4.16: Road markings",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-047",
+      "topic": "rules",
+      "q": {
+        "en": "The centreline has a solid yellow line on your side and a dashed yellow line on the other side. May you pass?",
+        "zh": "中央线在你这一侧是黄实线，另一侧是黄虚线。你可以超车吗？"
+      },
+      "options": {
+        "en": [
+          "Yes, if it looks safe",
+          "Yes, but only at night",
+          "Yes, if you honk first",
+          "No — you may not pass when the solid yellow line is on your side"
+        ],
+        "zh": [
+          "可以，只要看起来安全",
+          "可以，但只限夜间",
+          "可以，只要先鸣笛",
+          "不可以——实线在你一侧时禁止超车"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "You may pass only when the dashed line is on your side; a solid line on your side prohibits passing. See the Washington Driver Guide, Chapter 4.16: Road markings.",
+        "zh": "只有虚线在你一侧时才能超车；实线在你一侧时禁止超车。见《华盛顿州驾驶指南》第4.16节：道路标线。"
+      },
+      "source": {
+        "section": "Chapter 4.16: Road markings",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-048",
+      "topic": "rules",
+      "q": {
+        "en": "What is the maximum distance you may travel in a shared centre left-turn lane?",
+        "zh": "在共享中央左转车道内，你最长可以行驶多远？"
+      },
+      "options": {
+        "en": [
+          "100 feet",
+          "300 feet",
+          "500 feet",
+          "Unlimited, if you are turning eventually"
+        ],
+        "zh": [
+          "100英尺",
+          "300英尺",
+          "500英尺",
+          "不限，只要最终会转弯"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Shared centre lanes are for left turns only, not passing, and you shouldn't travel farther than 300 feet in one. See the Washington Driver Guide, Chapter 4.16: Road markings.",
+        "zh": "共享中央车道只供左转，不能用于超车，在其中行驶不得超过300英尺。见《华盛顿州驾驶指南》第4.16节：道路标线。"
+      },
+      "source": {
+        "section": "Chapter 4.16: Road markings",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-049",
+      "topic": "rules",
+      "q": {
+        "en": "An overhead lane sign shows a steady red X over your lane. What does it mean?",
+        "zh": "车道上方信号显示常亮的红X。是什么意思？"
+      },
+      "options": {
+        "en": [
+          "You cannot use that lane",
+          "The lane is closing soon",
+          "The lane is for buses only",
+          "You may use it if traffic is light"
+        ],
+        "zh": [
+          "你不能使用该车道",
+          "该车道即将关闭",
+          "该车道仅供巴士",
+          "交通稀少时可以使用"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "On a reversible lane, a red X means you can't use the lane; a green arrow means you can. See the Washington Driver Guide, Chapter 4.16: Road markings.",
+        "zh": "在可变向车道上，红X表示不能使用该车道；绿箭头表示可以使用。见《华盛顿州驾驶指南》第4.16节：道路标线。"
+      },
+      "source": {
+        "section": "Chapter 4.16: Road markings",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-050",
+      "topic": "rules",
+      "q": {
+        "en": "Which vehicles may use an HOV lane in Washington?",
+        "zh": "在华盛顿州，哪些车辆可以使用拼车（HOV）车道？"
+      },
+      "options": {
+        "en": [
+          "Any vehicle with tinted windows",
+          "Only electric vehicles",
+          "Vehicles meeting the posted occupancy requirement, plus motorcycles",
+          "Only vehicles with three or more axles"
+        ],
+        "zh": [
+          "任何贴膜车辆",
+          "只有电动车",
+          "达到标志所载乘员人数要求的车辆，以及摩托车",
+          "只有三轴以上车辆"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "HOV lanes are for vehicles meeting the posted occupancy, and motorcycles are also allowed. See the Washington Driver Guide, Chapter 4.16: Road markings.",
+        "zh": "HOV车道供达到标志乘员要求的车辆使用，摩托车也可使用。见《华盛顿州驾驶指南》第4.16节：道路标线。"
+      },
+      "source": {
+        "section": "Chapter 4.16: Road markings",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-051",
+      "topic": "rules",
+      "q": {
+        "en": "How close to a fire hydrant may you park?",
+        "zh": "你可以在离消防栓多近的地方停车？"
+      },
+      "options": {
+        "en": [
+          "Within 5 feet",
+          "No closer than 15 feet",
+          "Within 10 feet",
+          "No closer than 30 feet"
+        ],
+        "zh": [
+          "5英尺以内",
+          "不得近于15英尺",
+          "10英尺以内",
+          "不得近于30英尺"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Parking within 15 feet of a fire hydrant is prohibited. See the Washington Driver Guide, Chapter 4.18: Parking.",
+        "zh": "禁止在距消防栓15英尺内停车。见《华盛顿州驾驶指南》第4.18节：停车。"
+      },
+      "source": {
+        "section": "Chapter 4.18: Parking",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-052",
+      "topic": "rules",
+      "q": {
+        "en": "Which parking position is legal?",
+        "zh": "下列哪种停车位置是合法的？"
+      },
+      "options": {
+        "en": [
+          "Within 50 feet of a railroad crossing",
+          "More than 12 inches from the curb",
+          "On a sidewalk if the street is narrow",
+          "Within 12 inches of the curb, facing with traffic, outside all prohibited distances"
+        ],
+        "zh": [
+          "距铁路道口50英尺内",
+          "距路缘12英寸以上",
+          "街道窄时停在人行道上",
+          "距路缘12英寸内、顺向停放，且不在任何禁停距离内"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "A parked vehicle must be no more than 12 inches from the curb and clear of all listed no-parking distances. See the Washington Driver Guide, Chapter 4.18: Parking.",
+        "zh": "停车时距路缘不得超过12英寸，并须避开所有列明的禁停距离。见《华盛顿州驾驶指南》第4.18节：停车。"
+      },
+      "source": {
+        "section": "Chapter 4.18: Parking",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-053",
+      "topic": "rules",
+      "q": {
+        "en": "You park facing uphill on a hill with a tall curb. How should your front wheels be turned?",
+        "zh": "你在有高路缘的坡道上面向上坡停车。前轮应如何打？"
+      },
+      "options": {
+        "en": [
+          "Toward the curb",
+          "Straight ahead",
+          "Away from the curb, until the back of the front tire touches the curb",
+          "It does not matter if the parking brake is set"
+        ],
+        "zh": [
+          "朝向路缘",
+          "保持正直",
+          "背离路缘，直到前轮后部碰到路缘",
+          "只要拉了手刹就无所谓"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Facing uphill with a tall curb, turn the wheel away from the curb so a rolling car rolls back into the curb. See the Washington Driver Guide, Chapter 4.18: Parking.",
+        "zh": "面向上坡且有高路缘时，方向盘背离路缘打，使车辆滑动时向后抵住路缘。见《华盛顿州驾驶指南》第4.18节：停车。"
+      },
+      "source": {
+        "section": "Chapter 4.18: Parking",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-054",
+      "topic": "rules",
+      "q": {
+        "en": "You park facing downhill. How should your front wheels be turned?",
+        "zh": "你面向下坡停车。前轮应如何打？"
+      },
+      "options": {
+        "en": [
+          "Toward the curb, until the front of the front tire touches the curb",
+          "Away from the curb",
+          "Straight, with wheels chocked only",
+          "Toward traffic"
+        ],
+        "zh": [
+          "朝向路缘，直到前轮前部碰到路缘",
+          "背离路缘",
+          "保持正直，只垫轮挡",
+          "朝向车流"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Facing downhill, turn the wheel toward the curb so the car would roll forward into the curb. See the Washington Driver Guide, Chapter 4.18: Parking.",
+        "zh": "面向下坡时方向盘朝向路缘打，使车辆滑动时向前抵住路缘。见《华盛顿州驾驶指南》第4.18节：停车。"
+      },
+      "source": {
+        "section": "Chapter 4.18: Parking",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-055",
+      "topic": "rules",
+      "q": {
+        "en": "A painted curb is white. What does that colour mean for parking?",
+        "zh": "路缘漆成白色。对停车意味着什么？"
+      },
+      "options": {
+        "en": [
+          "No stopping at any time",
+          "Loading zone",
+          "Disabled parking only",
+          "Only short stops are permitted"
+        ],
+        "zh": [
+          "任何时候都不能停",
+          "装卸区",
+          "仅供残障人士停车",
+          "只允许短暂停靠"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "White curb means only short stops are permitted; yellow or red indicates a loading zone or other restriction. See the Washington Driver Guide, Chapter 4.18: Parking.",
+        "zh": "白路缘表示只允许短暂停靠；黄色或红色表示装卸区或其他限制。见《华盛顿州驾驶指南》第4.18节：停车。"
+      },
+      "source": {
+        "section": "Chapter 4.18: Parking",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-056",
+      "topic": "rules",
+      "q": {
+        "en": "You approach roadside response vehicles with flashing lights and cannot change lanes. What must you do instead?",
+        "zh": "你接近路边亮着闪光灯的应急处置车辆，但无法变道。你必须改为怎么做？"
+      },
+      "options": {
+        "en": [
+          "Pass at the posted limit close to the workers",
+          "Slow to at least 10 mph below the posted limit, and never faster than 50 mph in the emergency zone",
+          "Stop completely in your lane",
+          "Speed up to clear the area quickly"
+        ],
+        "zh": [
+          "贴着工作人员按限速通过",
+          "减速到至少比限速低10英里/小时，且在紧急区域内绝不超过50英里/小时",
+          "在车道内完全停住",
+          "加速快速离开该区域"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "In an emergency zone, move over a lane or slow at least 10 mph below the posted limit, never exceeding 50 mph. See the Washington Driver Guide, Chapter 4.17: Zones.",
+        "zh": "在紧急区域内，应换到更远的车道，或减速到至少低于限速10英里/小时且不超过50英里/小时。见《华盛顿州驾驶指南》第4.17节：区域。"
+      },
+      "source": {
+        "section": "Chapter 4.17: Zones",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-057",
+      "topic": "rules",
+      "q": {
+        "en": "Automated traffic safety cameras in Washington can record drivers who:",
+        "zh": "华盛顿州的自动交通安全摄像头可以记录哪些驾驶人？"
+      },
+      "options": {
+        "en": [
+          "Fail to stop at a steady red light, fail to stop at a railroad crossing signal, or exceed the speed limit in a school zone",
+          "Drive with a passenger under 20",
+          "Park more than 12 inches from the curb",
+          "Use a hands-free phone"
+        ],
+        "zh": [
+          "未在常亮红灯前停车、未在铁路道口信号前停车，或在学区超速的",
+          "载有20岁以下乘客的",
+          "停车距路缘超过12英寸的",
+          "使用免提电话的"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Cameras record red-light running, railroad crossing signal violations, and school-zone speeding; locations are clearly signed. See the Washington Driver Guide, Chapter 4.12: Signs.",
+        "zh": "摄像头记录闯常亮红灯、违反铁路道口信号和学区超速；设置地点都有明确标志。见《华盛顿州驾驶指南》第4.12节：标志。"
+      },
+      "source": {
+        "section": "Chapter 4.12: Signs",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-058",
+      "topic": "safety",
+      "q": {
+        "en": "Which is the correct way to wear a seat belt?",
+        "zh": "安全带的正确系法是什么？"
+      },
+      "options": {
+        "en": [
+          "Shoulder belt behind your back for comfort",
+          "Lap belt across the stomach",
+          "Shoulder belt snug across the mid-shoulder and chest, lap belt snug on the hips below the stomach",
+          "Belt twisted so it feels tighter"
+        ],
+        "zh": [
+          "为舒适把肩带放在背后",
+          "腰带横过腹部",
+          "肩带贴身横过肩部中央和胸部，腰带贴身压在腹部以下的髋部",
+          "把安全带拧起来让它更紧"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "The shoulder belt crosses the mid-shoulder and chest, never behind the back or under the arm; the lap belt restrains the hips below the stomach. See the Washington Driver Guide, Chapter 2.6: Occupant protection.",
+        "zh": "肩带应横过肩部中央和胸部，绝不能放在背后或腋下；腰带应压在腹部以下的髋部。见《华盛顿州驾驶指南》第2.6节：乘员保护。"
+      },
+      "source": {
+        "section": "Chapter 2.6: Occupant protection",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-059",
+      "topic": "safety",
+      "q": {
+        "en": "Up to what age must a child ride in a rear-facing car seat in Washington?",
+        "zh": "在华盛顿州，儿童到几岁之前必须使用后向式儿童座椅？"
+      },
+      "options": {
+        "en": [
+          "Age 1",
+          "Age 2",
+          "Age 4",
+          "Age 8"
+        ],
+        "zh": [
+          "1岁",
+          "2岁",
+          "4岁",
+          "8岁"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Children up to age 2 must ride in a rear-facing car seat. See the Washington Driver Guide, Chapter 2.6: Occupant protection.",
+        "zh": "2岁以下儿童必须使用后向式儿童座椅。见《华盛顿州驾驶指南》第2.6节：乘员保护。"
+      },
+      "source": {
+        "section": "Chapter 2.6: Occupant protection",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-060",
+      "topic": "safety",
+      "q": {
+        "en": "Why should children under 13 not ride in the front seat?",
+        "zh": "为什么13岁以下儿童不应坐在前座？"
+      },
+      "options": {
+        "en": [
+          "They block the driver's mirror",
+          "Front seats have no seat belts",
+          "It is only a recommendation about noise",
+          "An airbag deploying could seriously injure or kill them"
+        ],
+        "zh": [
+          "他们会挡住驾驶人的后视镜",
+          "前座没有安全带",
+          "这只是关于噪音的建议",
+          "安全气囊弹出可能使他们重伤甚至死亡"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "Children under 13 should never ride in the front seat because a deploying airbag can seriously injure or kill them. See the Washington Driver Guide, Chapter 2.6: Occupant protection.",
+        "zh": "13岁以下儿童绝不能坐前座，因为安全气囊弹出可能造成重伤或死亡。见《华盛顿州驾驶指南》第2.6节：乘员保护。"
+      },
+      "source": {
+        "section": "Chapter 2.6: Occupant protection",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-061",
+      "topic": "safety",
+      "q": {
+        "en": "When must headlights be on in Washington, at a minimum?",
+        "zh": "在华盛顿州，至少在什么时段必须开车灯？"
+      },
+      "options": {
+        "en": [
+          "Only after midnight",
+          "Only on freeways",
+          "From a half hour after sunset to a half hour before sunrise",
+          "Only when it is raining"
+        ],
+        "zh": [
+          "仅在午夜之后",
+          "仅在高速公路上",
+          "日落后半小时到日出前半小时",
+          "仅在下雨时"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Washington law requires headlights from a half hour after sunset to a half hour before sunrise, and in rain, snow, fog, or smoke. See the Washington Driver Guide, Chapter 2.5: Vehicle maintenance.",
+        "zh": "华盛顿州法律要求日落后半小时至日出前半小时开灯，雨、雪、雾、烟时也要开灯。见《华盛顿州驾驶指南》第2.5节：车辆维护。"
+      },
+      "source": {
+        "section": "Chapter 2.5: Headlights",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-062",
+      "topic": "safety",
+      "q": {
+        "en": "At what distances must you switch from high beams back to regular headlights?",
+        "zh": "在多远距离内必须把远光灯切换回普通灯光？"
+      },
+      "options": {
+        "en": [
+          "500 feet in front of an oncoming vehicle, and 300 feet when following behind one",
+          "1,000 feet oncoming, 500 feet following",
+          "300 feet oncoming, 500 feet following",
+          "Only when the other driver flashes you"
+        ],
+        "zh": [
+          "距迎面车辆500英尺内，以及跟车时300英尺内",
+          "迎面1000英尺、跟车500英尺",
+          "迎面300英尺、跟车500英尺",
+          "只有对方闪灯时"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Dim high beams within 500 feet of an oncoming vehicle and within 300 feet when behind another vehicle. See the Washington Driver Guide, Chapter 2.5: Vehicle maintenance.",
+        "zh": "距迎面车辆500英尺内、跟车300英尺内应关闭远光。见《华盛顿州驾驶指南》第2.5节：车辆维护。"
+      },
+      "source": {
+        "section": "Chapter 2.5: Headlights",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-063",
+      "topic": "safety",
+      "q": {
+        "en": "Which use of a phone while driving is allowed under Washington's distracted driving law?",
+        "zh": "根据华盛顿州的分心驾驶法律，驾驶时下列哪种手机使用方式是允许的？"
+      },
+      "options": {
+        "en": [
+          "Holding the phone at a red light",
+          "Holding the phone if you drive slowly",
+          "Texting on an empty rural road",
+          "Hands-free use — holding any electronic device while driving is prohibited for all drivers"
+        ],
+        "zh": [
+          "在红灯时手持手机",
+          "开慢点就可以手持手机",
+          "在空旷的乡村道路上发短信",
+          "免提使用——所有驾驶人都禁止在驾驶时手持任何电子设备"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "You cannot hold any electronic device while driving, regardless of age or experience; hands-free use is permitted. See the Washington Driver Guide, Chapter 3.4: Avoiding distracted driving.",
+        "zh": "驾驶时不得手持任何电子设备，与年龄或经验无关；允许免提使用。见《华盛顿州驾驶指南》第3.4节：避免分心驾驶。"
+      },
+      "source": {
+        "section": "Chapter 3.4: Avoiding distracted driving",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-064",
+      "topic": "safety",
+      "q": {
+        "en": "What happens to distracted-driving fines after a first violation in Washington?",
+        "zh": "在华盛顿州，首次分心驾驶违规之后的罚款会怎样？"
+      },
+      "options": {
+        "en": [
+          "They are waived if you take a class",
+          "Fines after the first violation can be doubled",
+          "They stay the same forever",
+          "Only a warning is given"
+        ],
+        "zh": [
+          "上课就可以免除",
+          "首次违规之后的罚款可以加倍",
+          "永远不变",
+          "只给予警告"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Distracted driving can bring heavy fines, and fines after the first violation can be doubled. See the Washington Driver Guide, Chapter 3.4: Avoiding distracted driving.",
+        "zh": "分心驾驶可能面临高额罚款，首次违规之后的罚款可以加倍。见《华盛顿州驾驶指南》第3.4节：避免分心驾驶。"
+      },
+      "source": {
+        "section": "Chapter 3.4: Avoiding distracted driving",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-065",
+      "topic": "safety",
+      "q": {
+        "en": "Is it legal to drive while wearing earbuds or headphones in both ears that play sound or cancel noise?",
+        "zh": "驾驶时双耳佩戴播放声音或降噪的耳塞/耳机合法吗？"
+      },
+      "options": {
+        "en": [
+          "No — it is against the law; a compliant hands-free device in one ear is allowed",
+          "Yes, at any volume",
+          "Yes, only on freeways",
+          "No rule covers headphones"
+        ],
+        "zh": [
+          "不合法——这是违法的；单耳佩戴合规的免提设备是允许的",
+          "合法，不限音量",
+          "合法，仅限高速公路",
+          "没有关于耳机的规定"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Driving with sound-broadcasting or noise-cancelling earbuds/headphones is against the law; one-ear hands-free devices that comply with the rules are allowed. See the Washington Driver Guide, Chapter 3: Drivers.",
+        "zh": "驾驶时佩戴播放声音或降噪的耳机是违法的；允许单耳使用合规免提设备。见《华盛顿州驾驶指南》第3章：驾驶人。"
+      },
+      "source": {
+        "section": "Chapter 3.0: You behind the wheel",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-066",
+      "topic": "safety",
+      "q": {
+        "en": "You start skidding on a wet road. What is the Guide's sequence?",
+        "zh": "你在湿滑路面上开始打滑。指南给出的处理顺序是什么？"
+      },
+      "options": {
+        "en": [
+          "Accelerate to regain grip",
+          "Turn the wheel sharply the opposite way",
+          "Take your foot off the accelerator, brake appropriately, and steer in the direction the vehicle is moving until traction returns",
+          "Shift to park"
+        ],
+        "zh": [
+          "加速以恢复抓地力",
+          "猛朝反方向打方向",
+          "松开油门，适当制动，并朝车辆滑动的方向打方向，直到恢复抓地力",
+          "挂入驻车挡"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "In a skid: foot off the accelerator, brake appropriately (ABS helps you keep steering), and steer the way the vehicle is moving. See the Washington Driver Guide, Chapter 5.6: Road and driving conditions.",
+        "zh": "打滑时：松开油门、适当制动（ABS有助于保持转向），并朝车辆滑动方向打方向。见《华盛顿州驾驶指南》第5.6节：道路与驾驶条件。"
+      },
+      "source": {
+        "section": "Chapter 5.6: Road and driving conditions",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-067",
+      "topic": "safety",
+      "q": {
+        "en": "What causes hydroplaning, and how do you prevent it?",
+        "zh": "水滑（hydroplaning）由何引起？如何预防？"
+      },
+      "options": {
+        "en": [
+          "Ice under the tires; prevent it with chains",
+          "Water builds up between the tires and the road so traction is lost; prevent it by slowing down on wet roads",
+          "Low tire tread only; prevent it by speeding up",
+          "Wind gusts; prevent it by opening windows"
+        ],
+        "zh": [
+          "轮胎下有冰；用防滑链预防",
+          "水在轮胎与路面之间积聚导致失去抓地力；在湿路上减速可预防",
+          "只是胎纹不足；加速可预防",
+          "阵风；开窗可预防"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Hydroplaning is water building between tire and road; slowing down on wet roads is the best prevention. See the Washington Driver Guide, Chapter 5.6: Road and driving conditions.",
+        "zh": "水滑是水在轮胎与路面之间积聚所致；在湿路上减速是最佳预防。见《华盛顿州驾驶指南》第5.6节：道路与驾驶条件。"
+      },
+      "source": {
+        "section": "Chapter 5.6: Road and driving conditions",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-068",
+      "topic": "safety",
+      "q": {
+        "en": "Why is the road especially slippery in the first minutes of rain on a hot day?",
+        "zh": "为什么炎热天气刚下雨的头几分钟路面特别滑？"
+      },
+      "options": {
+        "en": [
+          "Rain washes dust onto the centre line",
+          "Tires expand in the heat",
+          "Paint markings melt",
+          "Heat brings oil in the asphalt to the surface, and the road stays slippery until the oil washes away"
+        ],
+        "zh": [
+          "雨水把灰尘冲到中央线上",
+          "轮胎受热膨胀",
+          "路面漆线融化",
+          "高温使沥青中的油浮到表面，在油被冲走之前路面都很滑"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "Heat draws oil in asphalt to the surface; the road is slippery until that oil washes away. See the Washington Driver Guide, Chapter 5.6: Road and driving conditions.",
+        "zh": "高温使沥青中的油浮到表面，油被冲走前路面湿滑。见《华盛顿州驾驶指南》第5.6节：道路与驾驶条件。"
+      },
+      "source": {
+        "section": "Chapter 5.6: Road and driving conditions",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-069",
+      "topic": "safety",
+      "q": {
+        "en": "Which surfaces can be icy even when the rest of the road is not?",
+        "zh": "哪些路面即使其他路段不结冰也可能结冰？"
+      },
+      "options": {
+        "en": [
+          "Gravel shoulders",
+          "Only tunnels",
+          "Overpasses and bridges, and shady spots on cold wet days",
+          "Painted crosswalks"
+        ],
+        "zh": [
+          "碎石路肩",
+          "只有隧道",
+          "高架桥、桥梁，以及寒冷潮湿天气里的阴凉处",
+          "漆画的人行横道"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Bridges and overpasses can ice over when other road surfaces don't, and shady spots can be icy on cold, wet days. See the Washington Driver Guide, Chapter 5.6: Road and driving conditions.",
+        "zh": "桥梁和高架路段可能在其他路面不结冰时结冰，寒冷潮湿天气的阴凉处也可能结冰。见《华盛顿州驾驶指南》第5.6节：道路与驾驶条件。"
+      },
+      "source": {
+        "section": "Chapter 5.6: Road and driving conditions",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-070",
+      "topic": "safety",
+      "q": {
+        "en": "At night, what speed rule should govern how fast you drive?",
+        "zh": "夜间驾驶时，应以什么速度规则为准？"
+      },
+      "options": {
+        "en": [
+          "A speed that lets you stop within the glow of your headlights, usually about 400 feet",
+          "The posted limit in all conditions",
+          "Five mph over the limit to stay alert",
+          "The speed of the fastest vehicle near you"
+        ],
+        "zh": [
+          "能让自己在车灯照亮范围内停住的速度，通常约400英尺",
+          "任何情况下都按限速",
+          "超速5英里/小时以保持清醒",
+          "跟附近最快的车一样快"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "At night, drive at a speed that allows you to stop within your headlight glow, usually 400 feet. See the Washington Driver Guide, Chapter 5.6: Road and driving conditions.",
+        "zh": "夜间应以能在车灯照亮范围内停住的速度行驶，通常约400英尺。见《华盛顿州驾驶指南》第5.6节：道路与驾驶条件。"
+      },
+      "source": {
+        "section": "Chapter 5.6: Road and driving conditions",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-071",
+      "topic": "safety",
+      "q": {
+        "en": "An oncoming vehicle has its high beams on at night. Where should you look?",
+        "zh": "夜里迎面车辆开着远光灯。你应看向哪里？"
+      },
+      "options": {
+        "en": [
+          "Directly into their headlights",
+          "At your dashboard",
+          "In your rearview mirror",
+          "Toward the right side of the road"
+        ],
+        "zh": [
+          "直视对方车灯",
+          "看仪表盘",
+          "看后视镜",
+          "看向道路右侧"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "Look toward the right side of the road so oncoming high beams don't blind you. See the Washington Driver Guide, Chapter 5.6: Road and driving conditions.",
+        "zh": "应看向道路右侧，避免被迎面远光灯晃眼。见《华盛顿州驾驶指南》第5.6节：道路与驾驶条件。"
+      },
+      "source": {
+        "section": "Chapter 5.6: Road and driving conditions",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-072",
+      "topic": "safety",
+      "q": {
+        "en": "Washington law requires more than obeying the posted limit. What else is required?",
+        "zh": "华盛顿州法律的要求不止于遵守限速。还有什么要求？"
+      },
+      "options": {
+        "en": [
+          "Driving exactly at the limit at all times",
+          "Driving at a speed that is safe for current road conditions, slowing down when conditions are poor",
+          "Keeping up with traffic even above the limit",
+          "Using the left lane in poor weather"
+        ],
+        "zh": [
+          "任何时候都精确按限速行驶",
+          "以适合当前路况的安全速度行驶，路况差时减速",
+          "即使超速也要跟上车流",
+          "恶劣天气时使用左侧车道"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "You must drive at speeds safe for current conditions and reduce speed when conditions are poor, regardless of the posted limit. See the Washington Driver Guide, Chapter 5.1: Speed.",
+        "zh": "必须以适合当前路况的安全速度行驶，路况差时无论限速多少都要减速。见《华盛顿州驾驶指南》第5.1节：速度。"
+      },
+      "source": {
+        "section": "Chapter 5.1: Speed",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-073",
+      "topic": "safety",
+      "q": {
+        "en": "You are merging onto an interstate. Who has the right-of-way, and how should you merge?",
+        "zh": "你正在汇入州际公路。谁有通行权？应如何汇入？"
+      },
+      "options": {
+        "en": [
+          "Drivers already on the interstate; use the entire on-ramp, signal, check mirrors, and adjust speed to enter a safe space",
+          "You do — traffic must yield to the ramp",
+          "Whoever honks first",
+          "No one — merge at any speed"
+        ],
+        "zh": [
+          "已在州际公路上的驾驶人；应使用整条加速匝道、打转向灯、看后视镜，并调整速度驶入安全空隙",
+          "你——主路车辆必须让匝道",
+          "谁先鸣笛谁有",
+          "没有人——任意速度汇入"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Traffic already on the interstate has the right-of-way; use the full on-ramp and adjust speed to merge into a safe space. See the Washington Driver Guide, Chapter 5.3: Merging.",
+        "zh": "已在州际公路上的车辆有通行权；应使用整条匝道并调整速度汇入安全空隙。见《华盛顿州驾驶指南》第5.3节：汇入。"
+      },
+      "source": {
+        "section": "Chapter 5.3: Merging",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-074",
+      "topic": "safety",
+      "q": {
+        "en": "How does a zipper merge work at a lane closure in slow traffic?",
+        "zh": "在车流缓慢、车道关闭时，拉链式汇入如何运作？"
+      },
+      "options": {
+        "en": [
+          "Everyone moves to the open lane as early as possible",
+          "The open lane always goes first for five cars",
+          "Drivers use both lanes until the merge point, then take turns alternating into the open lane like zipper teeth",
+          "Trucks merge first, then cars"
+        ],
+        "zh": [
+          "所有人尽早并到开放车道",
+          "开放车道先连续过五辆车",
+          "驾驶人使用双车道直到汇合点，然后像拉链齿一样轮流交替汇入开放车道",
+          "卡车先汇入，然后是小车"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Zipper merging uses both lanes to the merge point, then alternates one-by-one. See the Washington Driver Guide, Chapter 5.3: Merging.",
+        "zh": "拉链式汇入是使用双车道直到汇合点，然后逐辆交替汇入。见《华盛顿州驾驶指南》第5.3节：汇入。"
+      },
+      "source": {
+        "section": "Chapter 5.3: Merging",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-075",
+      "topic": "safety",
+      "q": {
+        "en": "A tire blows out while you are driving. What should you do?",
+        "zh": "行驶中爆胎。你应该怎么做？"
+      },
+      "options": {
+        "en": [
+          "Brake hard immediately",
+          "Grip the wheel firmly, keep the vehicle straight, slow down gradually with your foot off the accelerator, and pull off safely",
+          "Accelerate to a service station",
+          "Turn sharply to the shoulder"
+        ],
+        "zh": [
+          "立即猛踩刹车",
+          "紧握方向盘保持直行，松开油门逐渐减速，安全驶离路面",
+          "加速开到维修站",
+          "猛打方向到路肩"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "For a blowout: grip the wheel, go straight, slow gradually without hard braking, and pull off the road safely. See the Washington Driver Guide, Chapter 5.7: Vehicle failures.",
+        "zh": "爆胎时：紧握方向盘保持直行，不猛刹、逐渐减速，安全驶离路面。见《华盛顿州驾驶指南》第5.7节：车辆故障。"
+      },
+      "source": {
+        "section": "Chapter 5.7: Vehicle failures",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-076",
+      "topic": "safety",
+      "q": {
+        "en": "Your accelerator sticks and the vehicle keeps going faster. What is the correct response?",
+        "zh": "油门卡住，车辆不断加速。正确做法是什么？"
+      },
+      "options": {
+        "en": [
+          "Turn off the engine immediately in traffic",
+          "Pump the brake pedal repeatedly at highway speed",
+          "Reach down and pull the pedal up by hand",
+          "Keep your eyes on the road, shift to neutral, pull off when safe, and turn off the engine"
+        ],
+        "zh": [
+          "在车流中立即熄火",
+          "在高速时反复踩刹车",
+          "伸手下去用手拉油门踏板",
+          "眼睛盯着路面，挂入空挡，安全时驶离路面，并关闭发动机"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "With a stuck accelerator: eyes on the road, shift to neutral, pull off safely, then turn off the engine. See the Washington Driver Guide, Chapter 5.7: Vehicle failures.",
+        "zh": "油门卡住时：盯着路面、挂空挡、安全驶离路面，然后熄火。见《华盛顿州驾驶指南》第5.7节：车辆故障。"
+      },
+      "source": {
+        "section": "Chapter 5.7: Vehicle failures",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-077",
+      "topic": "safety",
+      "q": {
+        "en": "Your vehicle breaks down on the road. Where should warning flares be placed?",
+        "zh": "你的车辆在路上抛锚。警告信号弹应放在多远处？"
+      },
+      "options": {
+        "en": [
+          "50 feet behind the vehicle",
+          "Right at the rear bumper",
+          "200 to 300 feet behind the vehicle",
+          "One mile behind the vehicle"
+        ],
+        "zh": [
+          "车后50英尺",
+          "紧贴后保险杠",
+          "车后200至300英尺",
+          "车后一英里"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Place emergency flares 200 to 300 feet behind a disabled vehicle, with flashers and headlights on. See the Washington Driver Guide, Chapter 5.7: Vehicle failures.",
+        "zh": "应在抛锚车辆后200至300英尺处放置信号弹，并打开闪光灯和车灯。见《华盛顿州驾驶指南》第5.7节：车辆故障。"
+      },
+      "source": {
+        "section": "Chapter 5.7: Vehicle failures",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-078",
+      "topic": "safety",
+      "q": {
+        "en": "After a collision in which someone is injured, what must you do?",
+        "zh": "发生有人受伤的碰撞后，你必须怎么做？"
+      },
+      "options": {
+        "en": [
+          "Do not drive away; call 911 so law enforcement is notified, and move the vehicle to the side near the scene when possible",
+          "Leave if your vehicle still runs",
+          "Only exchange phone numbers and leave",
+          "Move injured people to the sidewalk in all cases"
+        ],
+        "zh": [
+          "不要驾车离开；拨打911通知执法部门，并尽可能把车辆移到事发地附近的路边",
+          "如果车还能开就离开",
+          "只交换电话号码后离开",
+          "任何情况下都把伤者移到人行道上"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Never drive away from a crash; with injuries, call 911, and don't move injured people unless they are in immediate danger. See the Washington Driver Guide, Chapter 5.9: Collisions.",
+        "zh": "绝不能逃离事故现场；有人受伤时拨打911，且除非伤者处于迫近危险中，不要移动伤者。见《华盛顿州驾驶指南》第5.9节：碰撞。"
+      },
+      "source": {
+        "section": "Chapter 5.9: Collisions",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-079",
+      "topic": "safety",
+      "q": {
+        "en": "You hit an empty parked vehicle and cannot find the owner. What must you do?",
+        "zh": "你撞到一辆空的停放车辆，且找不到车主。你必须怎么做？"
+      },
+      "options": {
+        "en": [
+          "Leave the scene quietly",
+          "Report it only to your insurer next month",
+          "Leave a note with only your first name",
+          "Leave a note where the owner can easily see it, with the date and time of the collision and your contact information"
+        ],
+        "zh": [
+          "悄悄离开现场",
+          "下个月只报告给保险公司",
+          "只留名字的字条",
+          "在车主容易看到的地方留一张字条，写明碰撞日期、时间和你的联系方式"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "If you can't locate the owner of a parked vehicle you hit, leave a visible note with the date, time, and your contact information. See the Washington Driver Guide, Chapter 5.9: Collisions.",
+        "zh": "找不到被撞停放车辆的车主时，应留一张显眼的字条，写明日期、时间和联系方式。见《华盛顿州驾驶指南》第5.9节：碰撞。"
+      },
+      "source": {
+        "section": "Chapter 5.9: Collisions",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-080",
+      "topic": "safety",
+      "q": {
+        "en": "If an officer does not file a collision report for your crash, within how many days must you file one?",
+        "zh": "如果警员没有为你的事故提交碰撞报告，你必须在几天内自行提交？"
+      },
+      "options": {
+        "en": [
+          "1 day",
+          "4 days",
+          "15 days",
+          "30 days"
+        ],
+        "zh": [
+          "1天",
+          "4天",
+          "15天",
+          "30天"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "You must file a collision report form within 4 days of a crash if a law enforcement officer doesn't do it for you. See the Washington Driver Guide, Chapter 5.9: Collisions.",
+        "zh": "若警员未提交，你必须在事故后4天内提交碰撞报告表。见《华盛顿州驾驶指南》第5.9节：碰撞。"
+      },
+      "source": {
+        "section": "Chapter 5.9: Collisions",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-081",
+      "topic": "safety",
+      "q": {
+        "en": "Power lines have fallen on your vehicle. What should you do?",
+        "zh": "电线落在你的车上。你应该怎么做？"
+      },
+      "options": {
+        "en": [
+          "Stay inside, turn off the engine, call 911, and assume the lines are energised until responders arrive",
+          "Get out quickly and run",
+          "Touch the lines to check if they are live",
+          "Drive forward to shake the lines off"
+        ],
+        "zh": [
+          "留在车内，关闭发动机，拨打911，并假定电线带电，直到救援人员到达",
+          "迅速下车跑开",
+          "摸一下电线看看是否带电",
+          "向前开车把电线抖掉"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Stay in the vehicle, call 911, and assume all lines are energised; bystanders should stay at least 35 feet away. See the Washington Driver Guide, Chapter 5.9: Collisions.",
+        "zh": "应留在车内、拨打911，并假定所有电线带电；旁观者应保持至少35英尺距离。见《华盛顿州驾驶指南》第5.9节：碰撞。"
+      },
+      "source": {
+        "section": "Chapter 5.9: Collisions",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-082",
+      "topic": "safety",
+      "q": {
+        "en": "You are pulled over at night. Which actions match the Guide's advice?",
+        "zh": "你夜间被警察拦下。下列哪些做法符合指南建议？"
+      },
+      "options": {
+        "en": [
+          "Get out immediately and walk to the officer",
+          "Keep the engine running and music on",
+          "Signal and pull right when safe, turn off engine and audio, stay in the vehicle, turn on interior lights, and keep hands on the steering wheel",
+          "Reach for your documents before the officer arrives, without saying anything"
+        ],
+        "zh": [
+          "立即下车走向警员",
+          "保持发动机运转和音乐开启",
+          "打转向灯、安全时靠右停车，关闭发动机和音响，留在车内，打开车内灯，双手放在方向盘上",
+          "在警员到达前默默去拿证件"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "When stopped: pull right safely, engine and audio off, stay in the vehicle, interior lights on at night, hands on the wheel. See the Washington Driver Guide, Chapter 5.10: Law enforcement.",
+        "zh": "被拦下时：安全靠右、熄火关音响、留在车内、夜间开车内灯、双手放在方向盘上。见《华盛顿州驾驶指南》第5.10节：执法。"
+      },
+      "source": {
+        "section": "Chapter 5.10: Law enforcement",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-083",
+      "topic": "safety",
+      "q": {
+        "en": "What does an antilock braking system (ABS) actually do?",
+        "zh": "防抱死制动系统（ABS）到底有什么作用？"
+      },
+      "options": {
+        "en": [
+          "It always shortens stopping distance",
+          "It keeps the wheels from locking so you can keep steering during hard braking — it does not shorten stopping distance",
+          "It brakes for you automatically",
+          "It only works in snow"
+        ],
+        "zh": [
+          "它总能缩短制动距离",
+          "它防止车轮抱死，使你在紧急制动时仍能转向——但不会缩短制动距离",
+          "它会自动替你刹车",
+          "它只在雪天起作用"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "ABS preserves steering control during emergency braking but does not shorten stopping distance. See the Washington Driver Guide, Chapter 2.8: Braking.",
+        "zh": "ABS在紧急制动时保持转向控制，但不会缩短制动距离。见《华盛顿州驾驶指南》第2.8节：制动。"
+      },
+      "source": {
+        "section": "Chapter 2.8: Braking",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-084",
+      "topic": "sharing",
+      "q": {
+        "en": "A pedestrian is crossing at an unmarked intersection. Who has the right-of-way?",
+        "zh": "一名行人在没有标线的路口过街。谁有通行权？"
+      },
+      "options": {
+        "en": [
+          "The driver, because the crosswalk is unmarked",
+          "Whoever is in a hurry",
+          "The pedestrian only if a signal is present",
+          "The pedestrian — pedestrians and bicyclists have the right-of-way at crosswalks and intersections, marked or not"
+        ],
+        "zh": [
+          "驾驶人，因为人行横道没有标线",
+          "谁赶时间谁有",
+          "只有在有信号灯时行人才有",
+          "行人——无论有无标线，行人和骑行者在人行横道和路口都有通行权"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "Every intersection is legally a crosswalk; pedestrians have the right-of-way whether it is marked or not. See the Washington Driver Guide, Chapter 4.1: Sharing with people.",
+        "zh": "每个路口在法律上都是人行横道；无论有无标线，行人都有通行权。见《华盛顿州驾驶指南》第4.1节：与行人共享。"
+      },
+      "source": {
+        "section": "Chapter 4.1: Sharing with people",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-085",
+      "topic": "sharing",
+      "q": {
+        "en": "How long must you wait for a pedestrian using a guide dog before proceeding?",
+        "zh": "对于使用导盲犬的行人，你必须等多久才能继续行驶？"
+      },
+      "options": {
+        "en": [
+          "Until they clear your lane only",
+          "Until they wave you on, even mid-crossing",
+          "Until they have completely crossed the street",
+          "No waiting is required for service animals"
+        ],
+        "zh": [
+          "等他们离开你的车道即可",
+          "等他们招手，即使还在过街途中",
+          "等他们完全过完街",
+          "对服务动物无需等待"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "For a pedestrian using a wheelchair, cane, guide dog, or other service animal, wait until they have completely crossed. See the Washington Driver Guide, Chapter 4.1: Sharing with people.",
+        "zh": "对于使用轮椅、手杖、导盲犬或其他服务动物的行人，应等其完全过街。见《华盛顿州驾驶指南》第4.1节：与行人共享。"
+      },
+      "source": {
+        "section": "Chapter 4.1: Sharing with people",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-086",
+      "topic": "sharing",
+      "q": {
+        "en": "A school bus ahead flashes red lights and extends its stop sign on a two-lane road. What must all drivers do?",
+        "zh": "前方校车在双车道道路上闪红灯并伸出停车牌。所有驾驶人必须怎么做？"
+      },
+      "options": {
+        "en": [
+          "Stop — it is unlawful to pass when the red lights flash, and fines are doubled for passing a stopped school bus",
+          "Pass slowly on the left",
+          "Stop only if children are visible",
+          "Sound the horn and continue"
+        ],
+        "zh": [
+          "停车——红灯闪烁时超越是违法的，且超越停下的校车罚款加倍",
+          "从左侧缓慢超越",
+          "只有看到儿童时才停",
+          "鸣笛后继续行驶"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Red flashing lights mean stop; passing a stopped school bus carries doubled fines. See the Washington Driver Guide, Chapter 4.2: Sharing with school buses.",
+        "zh": "红灯闪烁表示停车；超越停下的校车罚款加倍。见《华盛顿州驾驶指南》第4.2节：与校车共享道路。"
+      },
+      "source": {
+        "section": "Chapter 4.2: Sharing with school buses",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-087",
+      "topic": "sharing",
+      "q": {
+        "en": "When may you proceed past a school bus that was loading children?",
+        "zh": "校车刚才在上下学生。你什么时候可以继续通行？"
+      },
+      "options": {
+        "en": [
+          "As soon as the last child steps off",
+          "When the bus driver honks",
+          "As soon as you switch lanes",
+          "After the lights stop flashing, the stop sign is retracted, and the arm returns to the bus front bumper"
+        ],
+        "zh": [
+          "最后一个孩子下车后立即",
+          "校车司机鸣笛时",
+          "你换到另一车道后立即",
+          "等红灯停止闪烁、停车牌收回、且车头横杆回到校车前保险杠之后"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "Proceed only after the lights stop flashing, the sign is retracted, and the arm returns to the front bumper. See the Washington Driver Guide, Chapter 4.2: Sharing with school buses.",
+        "zh": "只有在红灯停闪、停车牌收回、横杆回到前保险杠后才能通行。见《华盛顿州驾驶指南》第4.2节：与校车共享道路。"
+      },
+      "source": {
+        "section": "Chapter 4.2: Sharing with school buses",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-088",
+      "topic": "sharing",
+      "q": {
+        "en": "You are driving opposite a stopped school bus on a road with three lanes separated by a median. Must you stop?",
+        "zh": "你在一条三车道、中间有分隔带的道路上，与停下的校车相向行驶。你必须停车吗？"
+      },
+      "options": {
+        "en": [
+          "Yes, in all cases",
+          "No — opposite-direction drivers need not stop when there are three or more lanes separated by a median or barrier",
+          "Yes, but only at half speed",
+          "Only if the median is painted yellow"
+        ],
+        "zh": [
+          "必须，任何情况",
+          "不必——当有三条以上车道且被分隔带或护栏隔开时，相向驾驶人无须停车",
+          "必须，但只需减半速",
+          "只有分隔带漆成黄色时才必须"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Opposite-direction drivers are excused only when there are 3+ lanes separated by a median or barrier. See the Washington Driver Guide, Chapter 4.2: Sharing with school buses.",
+        "zh": "只有在三条以上车道且被分隔带或护栏隔开时，相向驾驶人可免于停车。见《华盛顿州驾驶指南》第4.2节：与校车共享道路。"
+      },
+      "source": {
+        "section": "Chapter 4.2: Sharing with school buses",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-089",
+      "topic": "sharing",
+      "q": {
+        "en": "A transit bus travelling your direction signals and starts pulling back onto the roadway from a stop. What must you do?",
+        "zh": "一辆与你同向的公交巴士打灯并从车站驶回路面。你必须怎么做？"
+      },
+      "options": {
+        "en": [
+          "Yield to the transit bus",
+          "Speed up to pass before it moves",
+          "Honk so it waits",
+          "Stop completely behind it for one minute"
+        ],
+        "zh": [
+          "让行这辆公交巴士",
+          "在它动之前加速超过",
+          "鸣笛让它等",
+          "在它后面完全停一分钟"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Yield to any transit vehicle travelling your direction that has signalled and is pulling back onto the roadway. See the Washington Driver Guide, Chapter 4.3: Sharing with transit buses.",
+        "zh": "应让已打灯并驶回路面的同向公交车。见《华盛顿州驾驶指南》第4.3节：与公交车共享道路。"
+      },
+      "source": {
+        "section": "Chapter 4.3: Sharing with transit buses",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-090",
+      "topic": "sharing",
+      "q": {
+        "en": "A loaded truck travelling 55 mph with properly adjusted brakes needs about how far to stop completely?",
+        "zh": "一辆以55英里/小时行驶、刹车调整良好的满载卡车，大约需要多远才能完全停住？"
+      },
+      "options": {
+        "en": [
+          "150 feet",
+          "250 feet",
+          "450 feet",
+          "100 feet"
+        ],
+        "zh": [
+          "150英尺",
+          "250英尺",
+          "450英尺",
+          "100英尺"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "A loaded truck at 55 mph needs about 450 feet to stop, so never cut in front of one without enough space. See the Washington Driver Guide, Chapter 4.4: Sharing with large vehicles.",
+        "zh": "55英里/小时的满载卡车约需450英尺才能停住，切勿在空间不足时切入其前方。见《华盛顿州驾驶指南》第4.4节：与大型车辆共享道路。"
+      },
+      "source": {
+        "section": "Chapter 4.4: Sharing with large vehicles",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-091",
+      "topic": "sharing",
+      "q": {
+        "en": "You cannot see the driver of a large truck in its mirrors. What does that mean?",
+        "zh": "你无法在大型卡车的后视镜里看到其司机。这意味着什么？"
+      },
+      "options": {
+        "en": [
+          "The truck is parked",
+          "The truck driver cannot see you either — you are in a blind zone",
+          "You have the right-of-way",
+          "The mirrors are broken"
+        ],
+        "zh": [
+          "卡车停着",
+          "卡车司机也看不到你——你在盲区内",
+          "你有通行权",
+          "后视镜坏了"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "If you can't see a large vehicle's mirrors, its driver can't see you; avoid lingering in blind zones. See the Washington Driver Guide, Chapter 4.4: Sharing with large vehicles.",
+        "zh": "看不到大型车辆的后视镜，就意味着其司机也看不到你；不要在盲区停留。见《华盛顿州驾驶指南》第4.4节：与大型车辆共享道路。"
+      },
+      "source": {
+        "section": "Chapter 4.4: Sharing with large vehicles",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-092",
+      "topic": "sharing",
+      "q": {
+        "en": "When is it safe to merge back in front of a large vehicle after passing it?",
+        "zh": "超越大型车辆后，什么时候回到它前面是安全的？"
+      },
+      "options": {
+        "en": [
+          "As soon as your front bumper clears theirs",
+          "After one second",
+          "Whenever your vehicle fits",
+          "When you can clearly see both of their headlights in your rearview mirror"
+        ],
+        "zh": [
+          "你的前保险杠刚超过它时",
+          "一秒之后",
+          "只要你的车能挤进去",
+          "当你在后视镜里能清楚看到它的两只车头灯时"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "Wait until both headlights of the large vehicle are visible in your rearview mirror before merging in front of it. See the Washington Driver Guide, Chapter 4.4: Sharing with large vehicles.",
+        "zh": "应在后视镜中能清楚看到大型车辆的两只车头灯后，再汇入其前方。见《华盛顿州驾驶指南》第4.4节：与大型车辆共享道路。"
+      },
+      "source": {
+        "section": "Chapter 4.4: Sharing with large vehicles",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-093",
+      "topic": "sharing",
+      "q": {
+        "en": "A motorcyclist is riding on one side of a wide lane. May you move into the same lane beside them?",
+        "zh": "一名摩托车手在一条宽车道的一侧行驶。你可以进入同一车道与其并排吗？"
+      },
+      "options": {
+        "en": [
+          "Yes, if the lane is wide enough",
+          "Yes, only at low speed",
+          "No — motorcyclists are entitled to the full lane width; never share a lane beside one",
+          "Yes, if you signal first"
+        ],
+        "zh": [
+          "可以，只要车道够宽",
+          "可以，仅限低速",
+          "不可以——摩托车手有权使用整条车道宽度，绝不能与其同车道并排",
+          "可以，只要先打灯"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Never move into the same lane alongside a motorcyclist, even if the lane looks wide. See the Washington Driver Guide, Chapter 4.5: Sharing with motorcycles.",
+        "zh": "绝不能与摩托车手在同一车道并排，即使车道看起来很宽。见《华盛顿州驾驶指南》第4.5节：与摩托车共享道路。"
+      },
+      "source": {
+        "section": "Chapter 4.5: Sharing with motorcycles",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-094",
+      "topic": "sharing",
+      "q": {
+        "en": "A bicyclist is riding in a crosswalk. How must you treat them?",
+        "zh": "一名骑行者正在人行横道内骑行。你必须如何对待他们？"
+      },
+      "options": {
+        "en": [
+          "As a pedestrian — you must yield in marked and unmarked crosswalks",
+          "As a vehicle that must yield to you",
+          "As an obstacle to pass closely",
+          "They have no rights in a crosswalk"
+        ],
+        "zh": [
+          "当作行人——在有标线和无标线的人行横道都必须让行",
+          "当作必须让你先行的车辆",
+          "当作可以贴近超越的障碍物",
+          "他们在人行横道内没有任何权利"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Bicyclists in crosswalks are considered pedestrians and must be yielded to. See the Washington Driver Guide, Chapter 4.6: Sharing with bicyclists.",
+        "zh": "在人行横道内的骑行者被视为行人，必须让行。见《华盛顿州驾驶指南》第4.6节：与骑行者共享道路。"
+      },
+      "source": {
+        "section": "Chapter 4.6: Sharing with bicyclists",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-095",
+      "topic": "sharing",
+      "q": {
+        "en": "When may you legally drive in a bicycle lane?",
+        "zh": "什么时候可以在自行车道内合法行驶？"
+      },
+      "options": {
+        "en": [
+          "Whenever traffic is slow",
+          "To pass a slow car",
+          "During rush hour",
+          "Only when turning, or crossing the lane to park near the curb"
+        ],
+        "zh": [
+          "交通缓慢时随时",
+          "超越慢车时",
+          "高峰时段",
+          "只有在转弯时，或穿越车道到路边停车时"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "Drive in a bike lane only when turning or crossing it to park near the curb. See the Washington Driver Guide, Chapter 4.6: Sharing with bicyclists.",
+        "zh": "只有在转弯或穿越自行车道到路边停车时，才能在自行车道内行驶。见《华盛顿州驾驶指南》第4.6节：与骑行者共享道路。"
+      },
+      "source": {
+        "section": "Chapter 4.6: Sharing with bicyclists",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-096",
+      "topic": "sharing",
+      "q": {
+        "en": "How far from the nearest rail must you stop at a railroad crossing when a train is approaching?",
+        "zh": "火车接近时，在铁路道口你必须停在距最近铁轨多远处？"
+      },
+      "options": {
+        "en": [
+          "Right at the rail",
+          "Between 15 and 50 feet from the nearest rail",
+          "At least 100 feet away",
+          "Only behind the gate, wherever it is"
+        ],
+        "zh": [
+          "紧贴铁轨",
+          "距最近铁轨15至50英尺之间",
+          "至少100英尺外",
+          "只停在栏杆后面即可，不论位置"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Stop between 15 and 50 feet from the nearest rail when signals flash, a gate is down, a flagger signals, or a train is approaching. See the Washington Driver Guide, Chapter 4.7: Sharing the road with trains.",
+        "zh": "信号闪烁、栏杆放下、旗手示意停车或火车接近时，应停在距最近铁轨15至50英尺处。见《华盛顿州驾驶指南》第4.7节：与火车共享道路。"
+      },
+      "source": {
+        "section": "Chapter 4.7: Sharing the road with trains",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-097",
+      "topic": "sharing",
+      "q": {
+        "en": "Your vehicle stalls on railroad tracks. What is the first thing to do?",
+        "zh": "你的车辆在铁轨上熄火。首先应做什么？"
+      },
+      "options": {
+        "en": [
+          "Get everyone out of the vehicle immediately",
+          "Try to restart it for several minutes",
+          "Push the vehicle alone",
+          "Call the number on the blue sign and wait inside"
+        ],
+        "zh": [
+          "立即让所有人下车",
+          "花几分钟尝试重新启动",
+          "独自推车",
+          "拨打蓝色标志上的电话并在车内等待"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "If your vehicle gets stuck at a crossing, get everyone out immediately; never stop on the tracks. See the Washington Driver Guide, Chapter 4.7: Sharing the road with trains.",
+        "zh": "车辆困在道口时应立即让所有人下车；绝不能停在铁轨上。见《华盛顿州驾驶指南》第4.7节：与火车共享道路。"
+      },
+      "source": {
+        "section": "Chapter 4.7: Sharing the road with trains",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-098",
+      "topic": "sharing",
+      "q": {
+        "en": "A vehicle ahead displays an orange triangle on its back. What does that tell you?",
+        "zh": "前方车辆车尾有一个橙色三角标志。它告诉你什么？"
+      },
+      "options": {
+        "en": [
+          "It is carrying hazardous materials",
+          "It is turning soon",
+          "It is a slow-moving vehicle designed to go 25 mph or less — be patient and pass with at least 3 feet of space",
+          "It is a school vehicle"
+        ],
+        "zh": [
+          "它载有危险品",
+          "它即将转弯",
+          "它是设计时速25英里或更低的慢速车辆——应耐心等待，超越时至少留3英尺间距",
+          "它是校车类车辆"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "The triangle emblem marks a slow-moving vehicle (25 mph or less); pass carefully with at least 3 feet of clearance. See the Washington Driver Guide, Chapter 4.8: Sharing with agricultural vehicles.",
+        "zh": "三角形标志表示慢速车辆（25英里/小时或以下）；超越时应谨慎并至少留3英尺间距。见《华盛顿州驾驶指南》第4.8节：与农用车辆共享道路。"
+      },
+      "source": {
+        "section": "Chapter 4.8: Sharing with agricultural vehicles",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-099",
+      "topic": "sharing",
+      "q": {
+        "en": "An ambulance with lights and siren approaches behind you. What must you do?",
+        "zh": "一辆亮灯并鸣笛的救护车从你身后接近。你必须怎么做？"
+      },
+      "options": {
+        "en": [
+          "Speed up to stay ahead of it",
+          "Immediately pull to the right side of the road and stop, and re-enter traffic only after it has passed",
+          "Stop in your lane wherever you are",
+          "Follow it closely through red lights"
+        ],
+        "zh": [
+          "加速保持在它前面",
+          "立即靠到道路右侧并停车，等它通过后再重新进入车流",
+          "在原车道就地停车",
+          "紧跟它闯红灯"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Emergency vehicles using lights and/or sirens always have the right-of-way: pull right and stop at once. See the Washington Driver Guide, Chapter 4.9: Sharing with emergency vehicles.",
+        "zh": "使用灯光和/或警笛的应急车辆永远有通行权：应立即靠右停车。见《华盛顿州驾驶指南》第4.9节：与应急车辆共享道路。"
+      },
+      "source": {
+        "section": "Chapter 4.9: Sharing with emergency vehicles",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-100",
+      "topic": "sharing",
+      "q": {
+        "en": "In a roundabout, a large truck is circulating. What special allowance does it have?",
+        "zh": "在环岛内，一辆大型卡车正在绕行。它有什么特殊许可？"
+      },
+      "options": {
+        "en": [
+          "It may travel clockwise",
+          "It may stop inside the circle",
+          "It need not yield to pedestrians",
+          "It may use the truck apron and both lanes as it approaches and drives through — give it plenty of space"
+        ],
+        "zh": [
+          "它可以顺时针行驶",
+          "它可以在环岛内停车",
+          "它无须让行人",
+          "它可以使用卡车围裙区和两条车道进出环岛——应给它留足空间"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "Large vehicles may cross truck aprons and use both lanes in a roundabout; keep a safe distance behind them. See the Washington Driver Guide, Chapter 4.15: Other intersections.",
+        "zh": "大型车辆在环岛内可以使用围裙区和两条车道，应与其保持安全距离。见《华盛顿州驾驶指南》第4.15节：其他路口。"
+      },
+      "source": {
+        "section": "Chapter 4.15: Other intersections",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-101",
+      "topic": "alcohol",
+      "q": {
+        "en": "For a driver aged 21 or older in Washington, a blood alcohol concentration at or above what level is a DUI?",
+        "zh": "在华盛顿州，21岁及以上驾驶人的血液酒精浓度达到多少即构成酒驾（DUI）？"
+      },
+      "options": {
+        "en": [
+          "0.05%",
+          "0.10%",
+          "0.08%",
+          "0.02%"
+        ],
+        "zh": [
+          "0.05%",
+          "0.10%",
+          "0.08%",
+          "0.02%"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "For drivers 21 and older, a BAC of 0.08% or higher is a DUI. See the Washington Driver Guide, Chapter 1.15: Maintaining your license.",
+        "zh": "21岁及以上驾驶人，BAC达到0.08%或以上即构成酒驾。见《华盛顿州驾驶指南》第1.15节：保持驾照有效。"
+      },
+      "source": {
+        "section": "Chapter 1.15: Maintaining your license",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-102",
+      "topic": "alcohol",
+      "q": {
+        "en": "For a driver under 21, the BAC level that brings DUI consequences in Washington is:",
+        "zh": "对于21岁以下驾驶人，在华盛顿州会带来酒驾后果的BAC水平是："
+      },
+      "options": {
+        "en": [
+          "0.02%",
+          "0.08%",
+          "0.05%",
+          "0.00% exactly — any alcohol is fine below 0.02"
+        ],
+        "zh": [
+          "0.02%",
+          "0.08%",
+          "0.05%",
+          "恰好0.00%——低于0.02就没事"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Drivers under 21 face the same potential consequences at a BAC of 0.02%. See the Washington Driver Guide, Chapter 1.15: Maintaining your license.",
+        "zh": "21岁以下驾驶人在BAC达到0.02%时即面临同样的后果。见《华盛顿州驾驶指南》第1.15节：保持驾照有效。"
+      },
+      "source": {
+        "section": "Chapter 1.15: Maintaining your license",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-103",
+      "topic": "alcohol",
+      "q": {
+        "en": "What is the THC limit for drivers 21 and older in Washington?",
+        "zh": "华盛顿州21岁及以上驾驶人的THC限度是多少？"
+      },
+      "options": {
+        "en": [
+          "No limit for THC",
+          "0.02 nanograms",
+          "The same as the BAC limit",
+          "5.00 nanograms of active THC per millilitre of blood"
+        ],
+        "zh": [
+          "THC没有限度",
+          "0.02纳克",
+          "与BAC限度相同",
+          "血液中每毫升5.00纳克活性THC"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "For drivers 21+, more than 5 nanograms of active THC per millilitre of blood is a DUI; under 21, anything above 0 is. See the Washington Driver Guide, Chapter 1.15: Maintaining your license.",
+        "zh": "21岁以上驾驶人血液活性THC超过每毫升5纳克即构成酒驾；21岁以下则超过0即构成。见《华盛顿州驾驶指南》第1.15节：保持驾照有效。"
+      },
+      "source": {
+        "section": "Chapter 1.15: Maintaining your license",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-104",
+      "topic": "alcohol",
+      "q": {
+        "en": "What does Washington's implied consent law mean for you as a driver?",
+        "zh": "华盛顿州的“默示同意”法律对你作为驾驶人意味着什么？"
+      },
+      "options": {
+        "en": [
+          "You consent to vehicle searches at any time",
+          "By driving in Washington you agree to be tested if an officer suspects you are under the influence of alcohol or drugs",
+          "You consent to paying fines without a hearing",
+          "Nothing until you sign a form at arrest"
+        ],
+        "zh": [
+          "你同意随时接受车辆搜查",
+          "在华盛顿州驾驶即表示：若警员怀疑你受酒精或药物影响，你同意接受检测",
+          "你同意不经听证缴纳罚款",
+          "在被捕签表之前没有任何含义"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Under implied consent (RCW 46.20.308), everyone who drives in Washington agrees to be tested if impairment is suspected. See the Washington Driver Guide, Chapter 1.15: Maintaining your license.",
+        "zh": "根据默示同意（RCW 46.20.308），在华盛顿州驾驶即同意在被怀疑受损时接受检测。见《华盛顿州驾驶指南》第1.15节：保持驾照有效。"
+      },
+      "source": {
+        "section": "Chapter 1.15: Maintaining your license",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-105",
+      "topic": "alcohol",
+      "q": {
+        "en": "If you refuse to be tested when an officer suspects impairment, what can happen to your driving privilege?",
+        "zh": "若警员怀疑你受损而你拒绝检测，你的驾驶权会怎样？"
+      },
+      "options": {
+        "en": [
+          "You could lose it for 90 to 730 days, or until you reach age 21, whichever is longer",
+          "Nothing",
+          "You lose it for exactly 30 days",
+          "Only a warning is recorded"
+        ],
+        "zh": [
+          "可能丧失90至730天，或直到你年满21岁，以较长者为准",
+          "什么都不会",
+          "正好丧失30天",
+          "只记录一次警告"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Refusing a test can cost your driving privilege for 90 to 730 days, or until age 21, whichever is longer. See the Washington Driver Guide, Chapter 1.15: Maintaining your license.",
+        "zh": "拒绝检测可导致驾驶权丧失90至730天，或直到年满21岁，以较长者为准。见《华盛顿州驾驶指南》第1.15节：保持驾照有效。"
+      },
+      "source": {
+        "section": "Chapter 1.15: Maintaining your license",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-106",
+      "topic": "alcohol",
+      "q": {
+        "en": "Can DUI apply to someone sitting in a parked vehicle?",
+        "zh": "酒驾（DUI）会适用于坐在停着的车辆里的人吗？"
+      },
+      "options": {
+        "en": [
+          "No — the vehicle must be moving",
+          "Only if the engine is running and doors are open",
+          "Yes — DUI also covers being in physical control of a vehicle, even if it is parked, if you can take control of its engine or operation",
+          "Only on public roads, never in parking lots"
+        ],
+        "zh": [
+          "不会——车辆必须在行驶中",
+          "仅当发动机运转且车门打开时",
+          "会——如果你能控制车辆的发动机或操作，即使车辆停着，身处实际控制状态也属于酒驾范畴",
+          "仅在公共道路上，停车场里永远不会"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "DUI applies to being in physical control of a vehicle, even parked (RCW 46.61.503). See the Washington Driver Guide, Chapter 1.15: Maintaining your license.",
+        "zh": "即使车辆停着，处于实际控制状态也属于酒驾范畴（RCW 46.61.503）。见《华盛顿州驾驶指南》第1.15节：保持驾照有效。"
+      },
+      "source": {
+        "section": "Chapter 1.15: Maintaining your license",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-107",
+      "topic": "alcohol",
+      "q": {
+        "en": "Which of these can be part of a Washington DUI conviction?",
+        "zh": "下列哪项可以是华盛顿州酒驾定罪后果的一部分？"
+      },
+      "options": {
+        "en": [
+          "A discount on insurance",
+          "Driving privileges suspended for 90 days to 4 years, an ignition interlock device, and re-taking the knowledge and skills tests with a reissue fee",
+          "A warning letter only",
+          "Community service instead of any licence action in all cases"
+        ],
+        "zh": [
+          "保险折扣",
+          "驾驶权暂停90天至4年、安装点火联锁装置，并缴纳再发费后重考理论和路考",
+          "只有一封警告信",
+          "所有情况都以社区服务代替驾照处罚"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "DUI convictions can include suspension of 90 days to 4 years, ignition interlock, financial-responsibility proof, treatment, and re-testing with a reissue fee. See the Washington Driver Guide, Chapter 1.15: Maintaining your license.",
+        "zh": "酒驾定罪可包括暂停90天至4年、点火联锁、财务责任证明、治疗，以及缴费后重考。见《华盛顿州驾驶指南》第1.15节：保持驾照有效。"
+      },
+      "source": {
+        "section": "Chapter 1.15: Maintaining your license",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-108",
+      "topic": "alcohol",
+      "q": {
+        "en": "How long do alcohol- and drug-related offences stay on your Washington driving record?",
+        "zh": "酒精和药物相关违法记录会在你的华盛顿州驾驶记录上保留多久？"
+      },
+      "options": {
+        "en": [
+          "3 years",
+          "7 years",
+          "Until your next renewal",
+          "For life"
+        ],
+        "zh": [
+          "3年",
+          "7年",
+          "到下次换证为止",
+          "终身"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "Alcohol- and drug-related offences appear on your driving record for life. See the Washington Driver Guide, Chapter 1.15: Maintaining your license.",
+        "zh": "酒精和药物相关违法记录终身保留在驾驶记录上。见《华盛顿州驾驶指南》第1.15节：保持驾照有效。"
+      },
+      "source": {
+        "section": "Chapter 1.15: Maintaining your license",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-109",
+      "topic": "alcohol",
+      "q": {
+        "en": "Where may an opened bottle of alcohol legally be carried in a vehicle on the road?",
+        "zh": "在行驶的车辆中，已开封的酒瓶可以合法放在哪里？"
+      },
+      "options": {
+        "en": [
+          "In the glove box",
+          "In a storage compartment the driver cannot reach, in the back seat",
+          "Only in the trunk or truck bed — not in compartments accessible to the driver",
+          "In a cup holder if the seal is taped"
+        ],
+        "zh": [
+          "手套箱里",
+          "驾驶人够不到的储物格里、后座",
+          "只能放在后备箱或皮卡货斗里——不能放在驾驶人可及的储物格内",
+          "杯架里，只要把封口贴上"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Open alcohol or cannabis products can only be transported in a trunk or truck bed. See the Washington Driver Guide, Chapter 1.15: Maintaining your license.",
+        "zh": "已开封的酒精或大麻产品只能放在后备箱或皮卡货斗里运输。见《华盛顿州驾驶指南》第1.15节：保持驾照有效。"
+      },
+      "source": {
+        "section": "Chapter 1.15: Maintaining your license",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-110",
+      "topic": "alcohol",
+      "q": {
+        "en": "A friend says cannabis is fine to drive on because recreational use is legal at 21 in Washington. What is correct?",
+        "zh": "朋友说大麻在华盛顿州21岁可合法娱乐使用，所以开车前用一点没事。哪项正确？"
+      },
+      "options": {
+        "en": [
+          "Driving after consuming any cannabis is illegal for all ages, and there is no safe amount of cannabis for driving",
+          "Correct — legal use means legal driving",
+          "Correct only for edibles",
+          "Correct if you wait 10 minutes"
+        ],
+        "zh": [
+          "任何年龄在摄入任何大麻后驾驶都是违法的，且不存在对驾驶安全的用量",
+          "对——合法使用就意味着可以合法驾驶",
+          "只对食用类产品是对的",
+          "等10分钟就对了"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Recreational cannabis is legal at 21+, but driving after consuming any cannabis is illegal at all ages. See the Washington Driver Guide, Chapter 3.1: Impaired driving.",
+        "zh": "大麻娱乐使用在21岁以上合法，但任何年龄在摄入大麻后驾驶都违法。见《华盛顿州驾驶指南》第3.1节：受损驾驶。"
+      },
+      "source": {
+        "section": "Chapter 3.1: Impaired driving",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-111",
+      "topic": "alcohol",
+      "q": {
+        "en": "Your new prescription medicine carries a warning against 'operating heavy machinery'. What does that mean for driving?",
+        "zh": "你的新处方药带有“禁止操作重型机械”的警告。这对驾驶意味着什么？"
+      },
+      "options": {
+        "en": [
+          "It refers only to factory equipment",
+          "It only applies to commercial drivers",
+          "It is safe if your doctor did not mention driving",
+          "It includes driving a vehicle — do not drive until you know how the drug affects your judgment, coordination, and reaction time"
+        ],
+        "zh": [
+          "它只指工厂设备",
+          "它只适用于商业司机",
+          "医生没提驾驶就是安全的",
+          "它包括驾驶车辆——在你了解药物如何影响你的判断、协调和反应之前不要开车"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "Warnings against operating heavy machinery include driving; legal or prescribed drugs can still impair you. See the Washington Driver Guide, Chapter 3.1: Impaired driving.",
+        "zh": "“禁止操作重型机械”包括驾驶；合法或处方药同样可能损害驾驶能力。见《华盛顿州驾驶指南》第3.1节：受损驾驶。"
+      },
+      "source": {
+        "section": "Chapter 3.1: Impaired driving",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-112",
+      "topic": "alcohol",
+      "q": {
+        "en": "What is polydrug use, and why is it singled out in the Guide?",
+        "zh": "什么是多药混用？为什么指南特别指出它？"
+      },
+      "options": {
+        "en": [
+          "Using two hands on the wheel",
+          "Mixing more than one type of drug — effects can be greater than any drug alone, and it is the most common impairment in fatal crashes",
+          "A pharmacy discount program",
+          "Using prescription drugs exactly as directed, with no risk"
+        ],
+        "zh": [
+          "双手握方向盘",
+          "混合使用一种以上的药物——其影响可能超过任何单一药物，且它是致命事故中最常见的损害因素",
+          "药房折扣计划",
+          "严格按医嘱用处方药，没有任何风险"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Polydrug use mixes substances such as alcohol, cannabis, and medicines, multiplying impairment. See the Washington Driver Guide, Chapter 3.1: Impaired driving.",
+        "zh": "多药混用指混合酒精、大麻和药物等物质，会倍增损害。见《华盛顿州驾驶指南》第3.1节：受损驾驶。"
+      },
+      "source": {
+        "section": "Chapter 3.1: Impaired driving",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-113",
+      "topic": "alcohol",
+      "q": {
+        "en": "Which is a listed effect of alcohol on drivers?",
+        "zh": "下列哪项是指南列出的酒精对驾驶人的影响？"
+      },
+      "options": {
+        "en": [
+          "Overconfidence leading to risky behaviour, plus blurry vision and reduced reaction time",
+          "Sharper vision",
+          "Better multitasking",
+          "Improved scanning of the environment"
+        ],
+        "zh": [
+          "过度自信导致冒险行为，外加视力模糊和反应变慢",
+          "视力更敏锐",
+          "多任务能力更好",
+          "对环境的观察能力提高"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Alcohol can cause drowsiness, blurry vision, reduced reaction time and concentration, and overconfidence. See the Washington Driver Guide, Chapter 3.1: Impaired driving.",
+        "zh": "酒精可导致困倦、视力模糊、反应和注意力下降以及过度自信。见《华盛顿州驾驶指南》第3.1节：受损驾驶。"
+      },
+      "source": {
+        "section": "Chapter 3.1: Impaired driving",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-114",
+      "topic": "alcohol",
+      "q": {
+        "en": "On a long trip you start drifting from your lane and can't remember the last few miles. What does the Guide advise?",
+        "zh": "长途驾驶中你开始偏离车道，且记不清刚才几英里的路况。指南建议怎么做？"
+      },
+      "options": {
+        "en": [
+          "Open the window and keep going",
+          "Drink coffee and speed up to finish sooner",
+          "Pull off the road and take a 20-minute nap",
+          "Turn the radio up loud"
+        ],
+        "zh": [
+          "开窗继续开",
+          "喝咖啡并加速以早点结束行程",
+          "驶离路面，小睡20分钟",
+          "把收音机开到最大声"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Those are signs of fatigue; pull off and take a 20-minute nap rather than risk falling asleep at the wheel. See the Washington Driver Guide, Chapter 3.1: Impaired driving.",
+        "zh": "这些是疲劳的征兆；应驶离路面小睡20分钟，而不是冒险在驾驶中睡着。见《华盛顿州驾驶指南》第3.1节：受损驾驶。"
+      },
+      "source": {
+        "section": "Chapter 3.1: Impaired driving",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-115",
+      "topic": "licensing",
+      "q": {
+        "en": "A teen enrolled in a driver training course may apply for an instruction permit as early as what age?",
+        "zh": "报了驾驶培训课程的青少年，最早几岁可以申请学习许可（instruction permit）？"
+      },
+      "options": {
+        "en": [
+          "14",
+          "15",
+          "15 and a half",
+          "16"
+        ],
+        "zh": [
+          "14岁",
+          "15岁",
+          "15岁半",
+          "16岁"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "A teen enrolling in a driver training course can apply for a permit as early as age 15, 1–10 days before the course starts. See the Washington Driver Guide, Chapter 1.8: Getting a personal driver license.",
+        "zh": "报驾驶培训课程的青少年最早15岁可申请许可，在开课前1至10天办理。见《华盛顿州驾驶指南》第1.8节：申领个人驾照。"
+      },
+      "source": {
+        "section": "Chapter 1.8: Getting a personal driver license",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-116",
+      "topic": "licensing",
+      "q": {
+        "en": "A teen NOT enrolling in a driver training course may take the knowledge exam after what age — and when may they get a license?",
+        "zh": "没有报驾驶培训课程的青少年，几岁后可以参加理论考试？什么时候可以拿驾照？"
+      },
+      "options": {
+        "en": [
+          "Age 15; license at 16",
+          "Age 16; license at 16",
+          "Age 14; license at 18",
+          "After turning 15 and a half; but they must wait until 18 for the skills exam and license"
+        ],
+        "zh": [
+          "15岁；16岁拿驾照",
+          "16岁；16岁拿驾照",
+          "14岁；18岁拿驾照",
+          "满15岁半之后；但必须等到18岁才能参加路考并拿驾照"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "Without a course, the knowledge exam opens after 15½, but the skills exam and license wait until 18. See the Washington Driver Guide, Chapter 1.8: Getting a personal driver license.",
+        "zh": "不报课程者满15岁半后可考理论，但路考和驾照须等到18岁。见《华盛顿州驾驶指南》第1.8节：申领个人驾照。"
+      },
+      "source": {
+        "section": "Chapter 1.8: Getting a personal driver license",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-117",
+      "topic": "licensing",
+      "q": {
+        "en": "How long is an instruction permit valid, and how long does a knowledge exam score stay valid?",
+        "zh": "学习许可的有效期是多久？理论考试成绩的有效期是多久？"
+      },
+      "options": {
+        "en": [
+          "Permit 6 months; score 1 year",
+          "Permit 2 years; score 6 months",
+          "Permit 1 year (renewable for a fee); score 2 years",
+          "Both are valid for 45 days"
+        ],
+        "zh": [
+          "许可6个月；成绩1年",
+          "许可2年；成绩6个月",
+          "许可1年（可付费续期）；成绩2年",
+          "两者都只有45天"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "A permit is valid for 1 year and can be renewed for a fee; a knowledge exam score is valid for 2 years. See the Washington Driver Guide, Chapter 1.8: Getting a personal driver license.",
+        "zh": "学习许可有效期1年，可付费续期；理论考试成绩有效期2年。见《华盛顿州驾驶指南》第1.8节：申领个人驾照。"
+      },
+      "source": {
+        "section": "Chapter 1.8: Getting a personal driver license",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-118",
+      "topic": "licensing",
+      "q": {
+        "en": "To get a first license at 16 or 17, how many supervised practice hours are required?",
+        "zh": "16或17岁申领第一张驾照，需要多少小时的监督练习？"
+      },
+      "options": {
+        "en": [
+          "At least 40 hours of day driving and 10 hours of night driving, with a licensed driver who has 3 or more years of experience",
+          "20 hours day, 5 hours night",
+          "50 hours, all daytime",
+          "No set hours — only the course counts"
+        ],
+        "zh": [
+          "至少白天40小时、夜间10小时，由持照3年或以上经验的驾驶人监督",
+          "白天20小时、夜间5小时",
+          "50小时，全是白天",
+          "没有规定小时数——只算课程"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "First-license teens need 40 daytime and 10 nighttime practice hours, attested by a parent or guardian. See the Washington Driver Guide, Chapter 1.8: Getting a personal driver license.",
+        "zh": "首次申领驾照的青少年需要白天40小时、夜间10小时练习，由家长或监护人证明。见《华盛顿州驾驶指南》第1.8节：申领个人驾照。"
+      },
+      "source": {
+        "section": "Chapter 1.8: Getting a personal driver license",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-119",
+      "topic": "licensing",
+      "q": {
+        "en": "For how long must a 16–17 year old have held an instruction permit before getting a first license?",
+        "zh": "16至17岁青少年在取得第一张驾照前，必须持有学习许可多久？"
+      },
+      "options": {
+        "en": [
+          "30 days",
+          "3 months",
+          "1 year",
+          "At least 6 months"
+        ],
+        "zh": [
+          "30天",
+          "3个月",
+          "1年",
+          "至少6个月"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "A first license at 16–17 requires holding the instruction permit for at least 6 months, plus a clean 6 months before applying. See the Washington Driver Guide, Chapter 1.8: Getting a personal driver license.",
+        "zh": "16至17岁首次拿照须持有学习许可至少6个月，且申请前6个月无违规。见《华盛顿州驾驶指南》第1.8节：申领个人驾照。"
+      },
+      "source": {
+        "section": "Chapter 1.8: Getting a personal driver license",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-120",
+      "topic": "licensing",
+      "q": {
+        "en": "During the first 6 months of an intermediate license, which passengers may a teen driver carry?",
+        "zh": "中间驾照（intermediate license）的前6个月，青少年驾驶人可以载哪些乘客？"
+      },
+      "options": {
+        "en": [
+          "Any friends, if parents agree",
+          "No passengers under age 20, except immediate family members",
+          "Up to three passengers under 20",
+          "Only passengers over 25"
+        ],
+        "zh": [
+          "父母同意就可以载任何朋友",
+          "不能载20岁以下乘客，直系亲属除外",
+          "最多三名20岁以下乘客",
+          "只能载25岁以上乘客"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "For the first 6 months, intermediate drivers may not carry passengers under 20 except immediate family. See the Washington Driver Guide, Chapter 1.8: Intermediate driver license.",
+        "zh": "前6个月，中间驾照持有人不能载20岁以下乘客，直系亲属除外。见《华盛顿州驾驶指南》第1.8节：中间驾照。"
+      },
+      "source": {
+        "section": "Chapter 1.8: Intermediate driver license",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-121",
+      "topic": "licensing",
+      "q": {
+        "en": "An intermediate license holder may not drive between which hours, unless accompanied by a parent, guardian, or licensed driver at least 25?",
+        "zh": "中间驾照持有人在哪些时段不得驾驶，除非有父母、监护人或至少25岁的持照驾驶人陪同？"
+      },
+      "options": {
+        "en": [
+          "1 a.m. to 5 a.m.",
+          "10 p.m. to 6 a.m.",
+          "Midnight to 4 a.m.",
+          "9 p.m. to 7 a.m."
+        ],
+        "zh": [
+          "凌晨1点至5点",
+          "晚10点至早6点",
+          "午夜至凌晨4点",
+          "晚9点至早7点"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Intermediate drivers may not drive between 1 a.m. and 5 a.m. unless accompanied by a parent, guardian, or licensed driver aged 25 or older. See the Washington Driver Guide, Chapter 1.8: Intermediate driver license.",
+        "zh": "中间驾照持有人凌晨1点至5点不得驾驶，除非有父母、监护人或25岁以上持照驾驶人陪同。见《华盛顿州驾驶指南》第1.8节：中间驾照。"
+      },
+      "source": {
+        "section": "Chapter 1.8: Intermediate driver license",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-122",
+      "topic": "licensing",
+      "q": {
+        "en": "After the first 6 months of an intermediate license, what passenger limit applies (until 18 or one year, whichever comes first)?",
+        "zh": "中间驾照满6个月后，适用什么乘客限制（直至18岁或满一年，以先到者为准）？"
+      },
+      "options": {
+        "en": [
+          "No passengers at all",
+          "Unlimited passengers",
+          "No more than 3 passengers under age 20, except immediate family members",
+          "No more than 1 passenger under 20"
+        ],
+        "zh": [
+          "不能载任何乘客",
+          "乘客人数不限",
+          "20岁以下乘客不得超过3名，直系亲属除外",
+          "20岁以下乘客不得超过1名"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "After 6 months the limit becomes no more than 3 passengers under 20, immediate family excepted. See the Washington Driver Guide, Chapter 1.8: Intermediate driver license.",
+        "zh": "满6个月后，限制变为20岁以下乘客不超过3名，直系亲属除外。见《华盛顿州驾驶指南》第1.8节：中间驾照。"
+      },
+      "source": {
+        "section": "Chapter 1.8: Intermediate driver license",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-123",
+      "topic": "licensing",
+      "q": {
+        "en": "May an intermediate license holder use a hands-free phone while driving?",
+        "zh": "中间驾照持有人可以在驾驶时使用免提电话吗？"
+      },
+      "options": {
+        "en": [
+          "Yes, hands-free is fine",
+          "No — wireless devices are restricted even hands-free; the phone may only be used to report an emergency",
+          "Yes, for calls under one minute",
+          "Yes, if a parent is in the car"
+        ],
+        "zh": [
+          "可以，免提没问题",
+          "不可以——即使免提也受限制；电话只能用于报告紧急情况",
+          "可以，限一分钟以内的通话",
+          "可以，只要父母在车上"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Intermediate license laws restrict cell phone and wireless use even with hands-free technology; emergency reporting is the exception. See the Washington Driver Guide, Chapter 1.8: Intermediate driver license.",
+        "zh": "中间驾照法规限制手机和无线设备的使用，即使免提也不行；报告紧急情况是例外。见《华盛顿州驾驶指南》第1.8节：中间驾照。"
+      },
+      "source": {
+        "section": "Chapter 1.8: Intermediate driver license",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-124",
+      "topic": "licensing",
+      "q": {
+        "en": "What is the penalty for a SECOND violation of intermediate license rules?",
+        "zh": "第二次违反中间驾照规则的处罚是什么？"
+      },
+      "options": {
+        "en": [
+          "A warning letter",
+          "Current restrictions until 18",
+          "License suspended until 18 in all cases",
+          "License suspended for 6 months or until the driver turns 18, whichever comes first"
+        ],
+        "zh": [
+          "一封警告信",
+          "现行限制延续到18岁",
+          "所有情况都暂停到18岁",
+          "驾照暂停6个月或到年满18岁，以先到者为准"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "Second violation: suspension for 6 months or until age 18, whichever comes first; a third means suspension until 18. See the Washington Driver Guide, Chapter 1.8: Intermediate driver license.",
+        "zh": "第二次违规：暂停6个月或到18岁，以先到者为准；第三次则暂停到18岁。见《华盛顿州驾驶指南》第1.8节：中间驾照。"
+      },
+      "source": {
+        "section": "Chapter 1.8: Intermediate driver license",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-125",
+      "topic": "licensing",
+      "q": {
+        "en": "Which is an exception that lets an intermediate driver drive at any hour with passengers?",
+        "zh": "下列哪项是允许中间驾照持有人在任何时段载客驾驶的例外？"
+      },
+      "options": {
+        "en": [
+          "Driving to a part-time job",
+          "Driving with a note from a teacher",
+          "Driving for agricultural purposes",
+          "Driving on weekends"
+        ],
+        "zh": [
+          "开车去兼职上班",
+          "持有老师写的字条驾驶",
+          "出于农业目的驾驶",
+          "周末驾驶"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Agricultural purposes are an exception to the intermediate hours/passenger rules, as is one year of safe driving. See the Washington Driver Guide, Chapter 1.8: Intermediate driver license.",
+        "zh": "农业目的是中间驾照时段/乘客限制的例外，一年安全驾驶记录也是。见《华盛顿州驾驶指南》第1.8节：中间驾照。"
+      },
+      "source": {
+        "section": "Chapter 1.8: Intermediate driver license",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-126",
+      "topic": "licensing",
+      "q": {
+        "en": "You move to Washington with a valid license from another state. Within how many days must you get a Washington license?",
+        "zh": "你持另一州有效驾照迁入华盛顿州。必须在多少天内取得华盛顿州驾照？"
+      },
+      "options": {
+        "en": [
+          "30 days",
+          "10 days",
+          "60 days",
+          "90 days"
+        ],
+        "zh": [
+          "30天",
+          "10天",
+          "60天",
+          "90天"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "New residents licensed in another state have 30 days to obtain a Washington license, and 30 days to register a vehicle. See the Washington Driver Guide, Chapter 1.5: New residents.",
+        "zh": "持外州驾照的新居民有30天时间取得华盛顿州驾照，车辆登记也是30天。见《华盛顿州驾驶指南》第1.5节：新居民。"
+      },
+      "source": {
+        "section": "Chapter 1.5: New residents",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-127",
+      "topic": "licensing",
+      "q": {
+        "en": "If your license has been expired for 8 or more years, what must you do to renew?",
+        "zh": "如果你的驾照已过期8年或以上，续期时必须怎么做？"
+      },
+      "options": {
+        "en": [
+          "Pay a double fee only",
+          "Take only a vision test",
+          "Nothing extra",
+          "Retake the skills and knowledge tests"
+        ],
+        "zh": [
+          "只需缴纳双倍费用",
+          "只做视力测试",
+          "无额外要求",
+          "重新参加路考和理论考试"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "A license expired 8 or more years requires retaking the skills and knowledge tests. See the Washington Driver Guide, Chapter 1.15: Maintaining your license.",
+        "zh": "驾照过期8年或以上须重新参加路考和理论考试。见《华盛顿州驾驶指南》第1.15节：保持驾照有效。"
+      },
+      "source": {
+        "section": "Chapter 1.15: Maintaining your license",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-128",
+      "topic": "licensing",
+      "q": {
+        "en": "After moving within Washington, within how many days must you update your address?",
+        "zh": "在华盛顿州内搬家后，必须在多少天内更新地址？"
+      },
+      "options": {
+        "en": [
+          "5 days",
+          "10 days",
+          "30 days",
+          "45 days"
+        ],
+        "zh": [
+          "5天",
+          "10天",
+          "30天",
+          "45天"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Update your address in License Express within 10 days of the change; name changes must be done in person. See the Washington Driver Guide, Chapter 1.16: Additional services.",
+        "zh": "地址变更后10天内在License Express更新；姓名变更须本人到办公点办理。见《华盛顿州驾驶指南》第1.16节：其他服务。"
+      },
+      "source": {
+        "section": "Chapter 1.16: Additional services",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-129",
+      "topic": "licensing",
+      "q": {
+        "en": "What are Washington's minimum liability insurance amounts?",
+        "zh": "华盛顿州的最低责任保险金额是多少？"
+      },
+      "options": {
+        "en": [
+          "$25,000 for one person's injury or death, $50,000 for two or more persons in one collision, and $10,000 for property damage",
+          "$10,000 / $20,000 / $5,000",
+          "$50,000 / $100,000 / $25,000",
+          "Insurance is optional in Washington"
+        ],
+        "zh": [
+          "一人受伤或死亡2.5万美元、一次事故两人或以上5万美元、财产损失1万美元",
+          "1万/2万/0.5万美元",
+          "5万/10万/2.5万美元",
+          "华盛顿州保险是可选的"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Washington requires at least $25,000 / $50,000 bodily injury and $10,000 property damage liability coverage, with proof carried. See the Washington Driver Guide, Chapter 2.3: Insurance required.",
+        "zh": "华盛顿州要求至少2.5万/5万美元人身伤害和1万美元财产损失责任险，并随身携带保险证明。见《华盛顿州驾驶指南》第2.3节：保险要求。"
+      },
+      "source": {
+        "section": "Chapter 2.3: Insurance required",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-130",
+      "topic": "licensing",
+      "q": {
+        "en": "Which statement about an enhanced Washington license is correct?",
+        "zh": "关于华盛顿州增强型驾照，下列哪项正确？"
+      },
+      "options": {
+        "en": [
+          "It is valid for international air travel",
+          "It cannot be used as identification",
+          "It meets REAL ID standards and works for domestic air travel and land/sea border crossing, but not international air travel",
+          "It is the same as a standard license"
+        ],
+        "zh": [
+          "可用于国际航空旅行",
+          "它不能用作身份证件",
+          "它符合REAL ID标准，可用于国内航空旅行和陆路/海路过境，但不能用于国际航空旅行",
+          "它与标准驾照相同"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Enhanced licenses meet REAL ID standards; standard licenses do not work for air travel, border crossing, or federal facilities. See the Washington Driver Guide, Chapter 1.6: Identification and driver licenses.",
+        "zh": "增强型驾照符合REAL ID标准；标准驾照不能用于航空旅行、过境或联邦设施。见《华盛顿州驾驶指南》第1.6节：身份证件与驾照。"
+      },
+      "source": {
+        "section": "Chapter 1.6: Identification and driver licenses",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-131",
+      "topic": "licensing",
+      "q": {
+        "en": "In what order must the two personal license exams be taken, and how long do you have to finish the second?",
+        "zh": "两项个人驾照考试必须按什么顺序参加？通过第一项后有多长时间完成第二项？"
+      },
+      "options": {
+        "en": [
+          "Skills first, then knowledge; 1 year",
+          "Knowledge first, then skills; you have 2 years after passing the knowledge exam to complete the skills exam",
+          "Either order; no time limit",
+          "Knowledge only — skills is optional"
+        ],
+        "zh": [
+          "先路考后理论；1年",
+          "先理论后路考；理论通过后有2年时间完成路考",
+          "顺序任意；没有时限",
+          "只需理论——路考可选"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "You must pass the knowledge exam before the skills exam, and you have two years to complete the skills exam. See the Washington Driver Guide, Chapter 1.12: Personal driver license exams.",
+        "zh": "必须先通过理论考试再参加路考，理论通过后有2年时间完成路考。见《华盛顿州驾驶指南》第1.12节：个人驾照考试。"
+      },
+      "source": {
+        "section": "Chapter 1.12: Personal driver license exams",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-132",
+      "topic": "licensing",
+      "q": {
+        "en": "You sell your car to another person. Within how many days must you file a report of sale, and what else must you do?",
+        "zh": "你把车卖给另一个人。必须在多少天内提交售车报告？还要做什么？"
+      },
+      "options": {
+        "en": [
+          "15 days; keep the plates on the car",
+          "30 days; nothing else",
+          "10 days; hand over your registration only",
+          "5 days; remove the license plates from the vehicle"
+        ],
+        "zh": [
+          "15天；把车牌留在车上",
+          "30天；无其他事项",
+          "10天；只交车辆登记证",
+          "5天；把车牌从车上取下"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "File a report of sale within five days and remove the plates; the buyer must transfer the title within 15 days to avoid penalties. See the Washington Driver Guide, Chapter 2.1: Report of sale.",
+        "zh": "应在5天内提交售车报告并取下车牌；买方须在15天内过户以避免罚款。见《华盛顿州驾驶指南》第2.1节：售车报告。"
+      },
+      "source": {
+        "section": "Chapter 2.1: Report of sale",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "wa-133",
+      "topic": "licensing",
+      "q": {
+        "en": "To ride a motorcycle or drive a commercial motor vehicle in Washington, what must be added to your personal license?",
+        "zh": "在华盛顿州驾驶摩托车或商用机动车，必须在个人驾照上增加什么？"
+      },
+      "options": {
+        "en": [
+          "A second photograph",
+          "A medical certificate only",
+          "An endorsement for that vehicle type",
+          "Nothing — a personal license covers all vehicles"
+        ],
+        "zh": [
+          "第二张照片",
+          "只需体检证明",
+          "该车辆类型的增驾签注（endorsement）",
+          "什么都不用——个人驾照涵盖所有车辆"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Motorcycles and commercial vehicles require an additional endorsement on your personal driver license. See the Washington Driver Guide, Chapter 1.10: Endorsements.",
+        "zh": "摩托车和商用车辆需要在个人驾照上增加相应的增驾签注。见《华盛顿州驾驶指南》第1.10节：增驾签注。"
+      },
+      "source": {
+        "section": "Chapter 1.10: Endorsements",
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+      },
+      "sign": null
+    }
+  ]
+}

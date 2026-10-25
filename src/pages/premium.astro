@@ -1,0 +1,61 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base title="Premium — 一次付费，终身使用（即将推出）" description="PermitDrills Premium：完整题库精练、错题本、考前速记表。一次付费 $16.99，终身使用，不按周订阅。即将推出，先加入等候名单。">
+  <p><span class="chip">即将推出 · Coming soon</span></p>
+  <h1>Premium：一次付费，<br />练到上考场为止。</h1>
+  <p class="lede">
+    免费版已经够你把五州的题刷一遍。Premium 给认真备考的人三样东西——而且不像别家按周收费：
+    一次 <strong>$16.99</strong>，终身使用。
+  </p>
+
+  <div class="grid c3">
+    <div class="card">
+      <h3 style="margin-top:0">完整题库精练</h3>
+      <p class="muted" style="margin:0">五州全部专题的加深题，含更多标志题和易错数字题（限速、距离、罚则），按你的弱项自动加练。</p>
+    </div>
+    <div class="card">
+      <h3 style="margin-top:0">错题本</h3>
+      <p class="muted" style="margin:0">做错的题自动收集，反复出现直到你连续答对两次；考前只看错题本就够了。</p>
+    </div>
+    <div class="card">
+      <h3 style="margin-top:0">考前速记表</h3>
+      <p class="muted" style="margin:0">一州一张：必考数字、标志速认、易混规则对照。中英双语，手机上打开就能看。</p>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top:14px">
+    <h3 style="margin-top:0">加入等候名单 · Join the waitlist</h3>
+    <p class="muted">Premium 还在制作中。留下邮箱，上线当天我们只发一封通知邮件，不发广告。</p>
+    <form id="pd-waitlist">
+      <div style="display:grid;gap:10px;grid-template-columns:1fr auto;align-items:start">
+        <input class="email" type="email" required placeholder="you@example.com" aria-label="Email" id="pd-email" />
+        <button class="btn amber" type="submit">通知我</button>
+      </div>
+      <p class="small muted" id="pd-wait-msg" style="margin-bottom:0"></p>
+    </form>
+    <p class="small muted">
+      也可以直接写信到 <a href="mailto:waitlist@permitdrills.com?subject=Premium%20waitlist">waitlist@permitdrills.com</a> 加入名单。
+    </p>
+  </div>
+
+  <script>
+    document.getElementById('pd-waitlist').addEventListener('submit', function (e) {
+      e.preventDefault();
+      var email = document.getElementById('pd-email').value.trim();
+      if (!email) return;
+      try {
+        var list = JSON.parse(localStorage.getItem('pd-waitlist') || '[]');
+        list.push({ email: email, at: new Date().toISOString() });
+        localStorage.setItem('pd-waitlist', JSON.stringify(list));
+        localStorage.setItem('pd-premium-intent', '1');
+      } catch (err) {}
+      document.getElementById('pd-wait-msg').textContent = '已记下你的邮箱（保存在本机浏览器）。上线通知请以邮箱为准，建议同时用上面的邮件地址发一封任意内容的邮件完成登记。';
+      window.location.href = 'mailto:waitlist@permitdrills.com?subject=' + encodeURIComponent('Premium waitlist') + '&body=' + encodeURIComponent('Please notify me at ' + email + ' when PermitDrills Premium launches.');
+    });
+  </script>
+
+  <p class="small muted" style="margin-top:14px">
+    价格说明：$16.99 为计划中的一次性价格，正式上线时以本页公布为准。免费版不会因为 Premium 上线而缩水。
+  </p>
+</Base>

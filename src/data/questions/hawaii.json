@@ -1,0 +1,4466 @@
+{
+  "state": "hawaii",
+  "exam": {
+    "questions": 30,
+    "passCorrect": null,
+    "passPercent": null,
+    "timeMinutes": 60,
+    "handbook": {
+      "title": "Hawaii Driver's Manual",
+      "edition": "2023 (HMG 5/2023)",
+      "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf",
+      "chineseUrl": "https://hidot.hawaii.gov/highways/files/2021/11/CHINESE-SIMPLIFIED-Hawaii-Drivers-Manual.pdf"
+    },
+    "currentAsOf": "October 2026"
+  },
+  "questions": [
+    {
+      "id": "hi-001",
+      "topic": "signs",
+      "q": {
+        "en": "You arrive at an intersection where the only control is an eight-sided red sign with white lettering. What does that sign require?",
+        "zh": "你来到一个路口，那里唯一的管制标志是一个八边形、红底白字的标志。这个标志要求你怎么做？"
+      },
+      "options": {
+        "en": [
+          "Slow down and proceed if the way looks clear",
+          "Stop only if another vehicle is already in the intersection",
+          "Sound your horn and continue at the same speed",
+          "Come to a complete stop, yield to approaching traffic, then proceed when safe"
+        ],
+        "zh": [
+          "减速，如果看起来没车就继续行驶",
+          "只有当路口内已有车辆时才停车",
+          "鸣笛后保持原速通过",
+          "完全停稳，让行迎面来车，确认安全后再通行"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "An eight-sided white-on-red sign is a stop sign. Stop completely at the stop line (or before the crosswalk if there is no stop line), yield to approaching traffic, and proceed only when it is safe. (Chapter VI — Signals, Signs and Lane Markings)",
+        "zh": "八边形红底白字标志是停车标志。应在停车线处完全停稳（没有停车线时在人行横道前停车），让行迎面来车，确认安全后才能通行。（第六章——信号、标志与标线）"
+      },
+      "source": {
+        "section": "Chapter VI — Signals, Signs and Lane Markings",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": "stop"
+    },
+    {
+      "id": "hi-002",
+      "topic": "signs",
+      "q": {
+        "en": "A triangular red-and-white sign is posted where your road merges into a busier road. How should you respond?",
+        "zh": "在你的道路汇入一条更繁忙道路的地方，立着一个三角形红白相间的标志。你应该如何应对？"
+      },
+      "options": {
+        "en": [
+          "Be ready to stop, and stop only when traffic that has the right-of-way makes it necessary",
+          "Stop in every case, even if no traffic is coming",
+          "Speed up so you can merge ahead of other traffic",
+          "Treat it as an instruction to change lanes"
+        ],
+        "zh": [
+          "做好停车准备；只有当拥有路权的车辆需要时才停下",
+          "任何情况下都要停车，即使没有来车",
+          "加速，以便抢在其他车辆前面汇入",
+          "把它当作变道指示"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "A triangular red-and-white sign is a yield sign: other traffic has the right-of-way. Be prepared to stop, and stop when the traffic with the right-of-way requires it. (Chapter VI — Signals, Signs and Lane Markings)",
+        "zh": "三角形红白标志是让行标志：其他车辆拥有路权。应做好停车准备，当拥有路权的车辆需要时停下。（第六章——信号、标志与标线）"
+      },
+      "source": {
+        "section": "Chapter VI — Signals, Signs and Lane Markings",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": "yield"
+    },
+    {
+      "id": "hi-003",
+      "topic": "signs",
+      "q": {
+        "en": "Which description matches a speed limit sign in Hawaii?",
+        "zh": "下列哪一项符合夏威夷限速标志的描述？"
+      },
+      "options": {
+        "en": [
+          "A yellow diamond with black numbers",
+          "A rectangular black-and-white sign showing maximum and, where posted, minimum speeds",
+          "A round blue sign with a white number",
+          "A pennant-shaped sign on the left side of the road"
+        ],
+        "zh": [
+          "黄色菱形、黑色数字",
+          "长方形黑白标志，标示最高限速，在设有最低限速处一并标示",
+          "圆形蓝底白字数字标志",
+          "插在道路左侧的三角旗形标志"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Speed limit signs are rectangular and black and white. They show the established maximum limit and, where one applies, the minimum limit. (Chapter VI — Signals, Signs and Lane Markings)",
+        "zh": "限速标志为长方形黑白标志，标示规定的最高限速，在适用时也标示最低限速。（第六章——信号、标志与标线）"
+      },
+      "source": {
+        "section": "Chapter VI — Signals, Signs and Lane Markings",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": "speed-limit"
+    },
+    {
+      "id": "hi-004",
+      "topic": "signs",
+      "q": {
+        "en": "You pass a Reduced Speed Ahead sign on a highway where you are travelling at 55 mph. When does the lower limit take effect?",
+        "zh": "你以55英里/小时的速度在公路上行驶，路过一块“前方减速”标志。较低的限速从何时开始生效？"
+      },
+      "options": {
+        "en": [
+          "Immediately at the Reduced Speed Ahead sign",
+          "At the next speed limit sign posted ahead",
+          "One mile after the Reduced Speed Ahead sign",
+          "Only after you pass the next intersection"
+        ],
+        "zh": [
+          "从“前方减速”标志处立即生效",
+          "从前方下一块限速标志处开始生效",
+          "在“前方减速”标志之后一英里处",
+          "只有通过下一个路口之后才生效"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "A Reduced Speed Ahead sign has the same color and shape as a speed limit sign and tells you to begin slowing. The new, lower limit begins at the next speed limit sign. (Chapter VI — Signals, Signs and Lane Markings)",
+        "zh": "“前方减速”标志与限速标志颜色和形状相同，提示你开始减速；新的较低限速从下一块限速标志处开始生效。（第六章——信号、标志与标线）"
+      },
+      "source": {
+        "section": "Chapter VI — Signals, Signs and Lane Markings",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": "speed-limit"
+    },
+    {
+      "id": "hi-005",
+      "topic": "signs",
+      "q": {
+        "en": "On a two-lane road you see a pennant-shaped yellow-and-black sign on the left shoulder, pointing ahead. What is it telling you?",
+        "zh": "在一条双车道道路上，你看到左肩上有一块黄黑相间的三角旗形标志，指向前方。它在告诉你什么？"
+      },
+      "options": {
+        "en": [
+          "A no-passing zone begins at that point",
+          "A passing lane is about to open",
+          "A rest area is one mile ahead",
+          "Traffic must move to the left shoulder"
+        ],
+        "zh": [
+          "从该点起进入禁止超车区",
+          "前方即将出现一条超车道",
+          "前方一英里处有休息区",
+          "车辆必须驶向左肩"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "The pennant-shaped yellow-and-black sign is the No Passing Zone sign. It sits on the left side of the road and points to the beginning of the zone where passing is prohibited. (Chapter VI — Signals, Signs and Lane Markings)",
+        "zh": "黄黑相间的三角旗形标志是禁止超车区标志，位于道路左侧，指向禁止超车区的起点。（第六章——信号、标志与标线）"
+      },
+      "source": {
+        "section": "Chapter VI — Signals, Signs and Lane Markings",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-006",
+      "topic": "signs",
+      "q": {
+        "en": "After a stretch where passing was prohibited, you see a rectangular black-and-white sign reading PASS WITH CARE. What has changed?",
+        "zh": "在一段禁止超车的路段之后，你看到一块长方形黑白标志，上面写着“小心超车”（PASS WITH CARE）。这意味着什么变化？"
+      },
+      "options": {
+        "en": [
+          "The no-passing zone has ended",
+          "Passing is now prohibited in both directions",
+          "You must pass every vehicle ahead of you",
+          "Only care vehicles may use the road"
+        ],
+        "zh": [
+          "禁止超车区已经结束",
+          "现在双向都禁止超车",
+          "你必须超过前方所有车辆",
+          "只有护理车辆可以使用这条路"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Pass With Care signs are rectangular black-and-white signs that mark the end of a no-passing zone. (Chapter VI — Signals, Signs and Lane Markings)",
+        "zh": "“小心超车”标志为长方形黑白标志，表示禁止超车区结束。（第六章——信号、标志与标线）"
+      },
+      "source": {
+        "section": "Chapter VI — Signals, Signs and Lane Markings",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-007",
+      "topic": "signs",
+      "q": {
+        "en": "A rectangular sign shows a black left-turn arrow inside a red circle with a red diagonal slash. What kind of sign is this, and what does it mean?",
+        "zh": "一块长方形标志上，黑色左转箭头位于带红色斜杠的红圈内。这是什么标志？是什么意思？"
+      },
+      "options": {
+        "en": [
+          "An exclusion sign; the movement shown is prohibited",
+          "A warning sign; a sharp turn is ahead",
+          "A guide sign; a left-turn lane is ahead",
+          "A lane use sign; you must turn left"
+        ],
+        "zh": [
+          "禁令标志；所示的行驶动作被禁止",
+          "警告标志；前方有急转弯",
+          "指路标志；前方有左转车道",
+          "车道使用标志；你必须左转"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Exclusion signs are rectangular signs with a red circle, or a red circle with a diagonal, on a white or black-and-white background. They restrict or prohibit the vehicle movement or activity shown. (Chapter VI — Signals, Signs and Lane Markings)",
+        "zh": "禁令标志为长方形，白色或黑白底上带红圈（或带斜杠的红圈），表示限制或禁止所示的车辆行驶动作或活动。（第六章——信号、标志与标线）"
+      },
+      "source": {
+        "section": "Chapter VI — Signals, Signs and Lane Markings",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": "no-left-turn"
+    },
+    {
+      "id": "hi-008",
+      "topic": "signs",
+      "q": {
+        "en": "Most warning signs on Hawaii roads share which color and shape combination?",
+        "zh": "夏威夷道路上大多数警告标志具有哪种颜色与形状组合？"
+      },
+      "options": {
+        "en": [
+          "Yellow background on a diamond shape",
+          "Red and octagonal",
+          "Orange and rectangular",
+          "Green and rectangular"
+        ],
+        "zh": [
+          "黄色底、菱形",
+          "红色、八边形",
+          "橙色、长方形",
+          "绿色、长方形"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Warning signs are usually diamond-shaped with a black legend and border on a yellow background. Yellow is the color for warning of hazardous or dangerous conditions. (Chapter VI — Signals, Signs and Lane Markings)",
+        "zh": "警告标志通常为菱形，黄底黑字黑边。黄色表示警告有危险或危险状况。（第六章——信号、标志与标线）"
+      },
+      "source": {
+        "section": "Chapter VI — Signals, Signs and Lane Markings",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-009",
+      "topic": "signs",
+      "q": {
+        "en": "Entering a work area, you notice the signs and devices around you are mostly orange. What does the orange color indicate?",
+        "zh": "进入施工区域时，你注意到周围的标志和设施大多是橙色的。橙色表示什么？"
+      },
+      "options": {
+        "en": [
+          "A detour for bicycles only",
+          "A warning concerning road work",
+          "A school zone is in effect",
+          "Parking is allowed for workers only"
+        ],
+        "zh": [
+          "仅供自行车绕行",
+          "警告：道路施工",
+          "学校区域正在生效",
+          "仅允许施工人员停车"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Orange is the basic color for construction and maintenance devices and indicates a warning concerning road work. (Chapter VI — Signals, Signs and Lane Markings)",
+        "zh": "橙色是施工与养护设施的基本颜色，表示道路施工警告。（第六章——信号、标志与标线）"
+      },
+      "source": {
+        "section": "Chapter VI — Signals, Signs and Lane Markings",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": "construction"
+    },
+    {
+      "id": "hi-010",
+      "topic": "signs",
+      "q": {
+        "en": "Route markers, distance signs and service information signs in Hawaii are usually which colors?",
+        "zh": "夏威夷的路线标记、里程标志和服务信息标志通常是什么颜色？"
+      },
+      "options": {
+        "en": [
+          "Red, white and black",
+          "Green, blue and brown",
+          "Yellow and orange",
+          "Purple and silver"
+        ],
+        "zh": [
+          "红、白、黑",
+          "绿、蓝、棕",
+          "黄、橙",
+          "紫、银"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Guide and information signs use green, blue and brown, mostly on rectangular signs. They include route markers, location and distance signs, park and recreation signs, and service signs. (Chapter VI — Signals, Signs and Lane Markings)",
+        "zh": "指路与信息标志使用绿色、蓝色和棕色，多为长方形，包括路线标记、地点与里程标志、公园与休闲标志以及服务标志。（第六章——信号、标志与标线）"
+      },
+      "source": {
+        "section": "Chapter VI — Signals, Signs and Lane Markings",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-011",
+      "topic": "signs",
+      "q": {
+        "en": "A yellow diamond sign shows a car with wavy skid marks behind it. What is the sign warning you about?",
+        "zh": "一块黄色菱形标志上画着一辆汽车，后面有波浪形的打滑痕迹。这个标志在警告什么？"
+      },
+      "options": {
+        "en": [
+          "A winding road with many turns",
+          "The pavement may be slippery when wet",
+          "A tow-away zone begins",
+          "Loose gravel is being spread today only"
+        ],
+        "zh": [
+          "前方是多弯的蜿蜒道路",
+          "路面湿滑时可能打滑",
+          "前方进入拖车区",
+          "仅今天在撒碎石"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "That is the Slippery When Wet warning sign. Slow down and use extra care when the pavement is wet. (Chapter VI — Signals, Signs and Lane Markings)",
+        "zh": "这是“路面湿滑”警告标志。路面潮湿时应减速并格外小心。（第六章——信号、标志与标线）"
+      },
+      "source": {
+        "section": "Chapter VI — Signals, Signs and Lane Markings",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": "slippery"
+    },
+    {
+      "id": "hi-012",
+      "topic": "signs",
+      "q": {
+        "en": "What does a pedestrian crossing warning sign require you to be ready for?",
+        "zh": "行人过街警告标志要求你做好什么准备？"
+      },
+      "options": {
+        "en": [
+          "A pedestrian mall closed to all traffic",
+          "A crosswalk that has been removed",
+          "Pedestrians walking on the left shoulder only",
+          "Pedestrians crossing the road at the marked location"
+        ],
+        "zh": [
+          "前方是禁止一切车辆通行的步行街",
+          "该人行横道已被取消",
+          "行人只在左肩上行走",
+          "行人会在标示地点横过道路"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "The pedestrian crossing warning sign alerts you that pedestrians may be crossing at that location. Crosswalk lines supplement such signs, and you must stop for pedestrians in crosswalks. (Chapter VI — Signals, Signs and Lane Markings)",
+        "zh": "行人过街警告标志提醒你行人可能在该地点横过道路。人行横道线与此类标志相配合，你必须在人行横道前为行人停车。（第六章——信号、标志与标线）"
+      },
+      "source": {
+        "section": "Chapter VI — Signals, Signs and Lane Markings",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": "pedestrian-crossing"
+    },
+    {
+      "id": "hi-013",
+      "topic": "signs",
+      "q": {
+        "en": "A yellow sign in the shape of a pentagon (a house-like shape) shows two children walking. Where are you most likely driving?",
+        "zh": "一块五边形（像房子形状）的黄色标志上画着两个走路的儿童。你最可能在什么地方驾驶？"
+      },
+      "options": {
+        "en": [
+          "Near a playground equipment factory",
+          "Near a school crossing or school zone",
+          "On a road reserved for school buses only",
+          "At a bus stop on a freeway"
+        ],
+        "zh": [
+          "游乐设备工厂附近",
+          "学校过街处或学校区域附近",
+          "仅供校车使用的道路上",
+          "高速公路上的公交站"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "The manual lists the school crossing / school zone sign among its warning signs. Reduced speeds are required near schools when children are present. (Chapter VI — Signals, Signs and Lane Markings)",
+        "zh": "手册将学校过街/学校区域标志列为警告标志之一。学校附近在有儿童时必须降低车速。（第六章——信号、标志与标线）"
+      },
+      "source": {
+        "section": "Chapter VI — Signals, Signs and Lane Markings",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": "school-crossing"
+    },
+    {
+      "id": "hi-014",
+      "topic": "signs",
+      "q": {
+        "en": "A yellow diamond sign ahead shows a small traffic light symbol. What should you prepare to do?",
+        "zh": "前方一块黄色菱形标志上画着交通信号灯符号。你应该做好什么准备？"
+      },
+      "options": {
+        "en": [
+          "Stop at the sign itself",
+          "Turn around because the road is closed",
+          "Expect a railroad crossing beyond the signal",
+          "Be ready to stop at a traffic signal ahead"
+        ],
+        "zh": [
+          "就在标志处停车",
+          "掉头，因为道路封闭",
+          "信号灯后方有铁路道口",
+          "做好在前方交通信号灯处停车的准备"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "Traffic Signal Ahead is a warning sign: a signal-controlled intersection is coming up, so be prepared to stop. (Chapter VI — Signals, Signs and Lane Markings)",
+        "zh": "“前方有信号灯”是警告标志：前方是信号灯控制的路口，应做好停车准备。（第六章——信号、标志与标线）"
+      },
+      "source": {
+        "section": "Chapter VI — Signals, Signs and Lane Markings",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": "signal-ahead"
+    },
+    {
+      "id": "hi-015",
+      "topic": "signs",
+      "q": {
+        "en": "A warning sign shows two arrows separated by a widening black band in the middle. What condition is ahead?",
+        "zh": "一块警告标志上画着两支箭头，中间被一条变宽的黑色带隔开。前方是什么路况？"
+      },
+      "options": {
+        "en": [
+          "The road narrows to one lane",
+          "Two lanes merge into one",
+          "A two-way left-turn lane begins",
+          "The road becomes a divided highway"
+        ],
+        "zh": [
+          "道路将收窄为一条车道",
+          "两条车道将合并为一条",
+          "将出现双向左转车道",
+          "道路将变成有中央分隔带的公路"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "That is the Divided Highway warning sign; the manual also illustrates a Divided Highway Ends sign for where the divided section finishes. (Chapter VI — Signals, Signs and Lane Markings)",
+        "zh": "这是“分隔式公路”警告标志；手册还图示了“分隔式公路结束”标志，表示分隔路段到此为止。（第六章——信号、标志与标线）"
+      },
+      "source": {
+        "section": "Chapter VI — Signals, Signs and Lane Markings",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": "divided-highway"
+    },
+    {
+      "id": "hi-016",
+      "topic": "signs",
+      "q": {
+        "en": "A yellow diamond sign shows two vertical lines, with the right one bending inward toward the left. What is happening ahead?",
+        "zh": "一块黄色菱形标志上画着两条竖线，右边一条向左弯折。前方发生了什么？"
+      },
+      "options": {
+        "en": [
+          "The right lane ends or the road narrows",
+          "A right turn is required",
+          "The shoulder is closed to parking",
+          "Traffic must keep right of an island"
+        ],
+        "zh": [
+          "右侧车道结束或道路变窄",
+          "必须右转",
+          "路肩禁止停车",
+          "车辆必须从小岛右侧通过"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "That is the Lane Ends / Road Narrows warning sign. Prepare to merge safely into the remaining lane. (Chapter VI — Signals, Signs and Lane Markings)",
+        "zh": "这是“车道结束/道路变窄”警告标志。应做好准备，安全汇入剩余车道。（第六章——信号、标志与标线）"
+      },
+      "source": {
+        "section": "Chapter VI — Signals, Signs and Lane Markings",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": "lane-ends"
+    },
+    {
+      "id": "hi-017",
+      "topic": "signs",
+      "q": {
+        "en": "Approaching tracks, you see a large white \"X\" with the letter \"R\" on each side painted on your lane, plus a white line across the lane. What are these markings?",
+        "zh": "接近铁轨时，你看到车道上画着一个白色大“X”，两侧各有一个字母“R”，还有一条横贯车道的白线。这些标线是什么？"
+      },
+      "options": {
+        "en": [
+          "A helicopter landing pad marking",
+          "A school crossing pattern",
+          "Railroad crossing pavement markings, with a stop line",
+          "A no-parking grid"
+        ],
+        "zh": [
+          "直升机停机坪标线",
+          "学校过街处的图案",
+          "铁路道口地面标线，并带有停车线",
+          "禁止停车的网格线"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Railroad crossing markings are white markings painted in the traffic lane before a crossing: a large \"X\" and two \"R\"s, with a solid yellow centerline (no passing) and a white stop line across the lane. (Chapter VI — Signals, Signs and Lane Markings)",
+        "zh": "铁路道口标线是在道口前车道上绘制的白色标线：一个大“X”和两个“R”，配有黄色实线中心线（禁止超车）和一条横贯车道的白色停车线。（第六章——信号、标志与标线）"
+      },
+      "source": {
+        "section": "Chapter VI — Signals, Signs and Lane Markings",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": "railroad-crossing"
+    },
+    {
+      "id": "hi-018",
+      "topic": "signs",
+      "q": {
+        "en": "A barricade in a work zone has diagonal stripes that slope downward to the right. Which way should you pass?",
+        "zh": "施工区内一块路障上的斜条纹向右下方倾斜。你应该从哪一侧通过？"
+      },
+      "options": {
+        "en": [
+          "To the left, against the slope",
+          "Either side is equally correct",
+          "Stop and wait for the barricade to be moved",
+          "To the right, following the downward slope"
+        ],
+        "zh": [
+          "向左侧，逆着条纹方向",
+          "两侧都可以",
+          "停车等待路障被移走",
+          "向右侧，顺着条纹向下的方向"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "The diagonal stripes on a barricade or vertical panel guide you toward the side traffic must pass: stripes sloping downward to the right mean bear right; downward to the left mean bear left. (Chapter VI — Signals, Signs and Lane Markings)",
+        "zh": "路障或竖板上的斜条纹指向车辆应通过的一侧：条纹向右下倾斜表示靠右行驶，向左下倾斜表示靠左行驶。（第六章——信号、标志与标线）"
+      },
+      "source": {
+        "section": "Chapter VI — Signals, Signs and Lane Markings",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": "construction"
+    },
+    {
+      "id": "hi-019",
+      "topic": "signs",
+      "q": {
+        "en": "Red pavement markings and red reflectors are placed across the far end of a ramp. What do they mean?",
+        "zh": "一条匝道远端横着红色地面标线和红色反光标。这表示什么？"
+      },
+      "options": {
+        "en": [
+          "The ramp is reserved for red vehicles",
+          "The ramp closes only at night",
+          "That roadway must not be entered or used",
+          "You may enter if no traffic is visible"
+        ],
+        "zh": [
+          "该匝道专供红色车辆使用",
+          "该匝道仅在夜间关闭",
+          "该道路不得进入或使用",
+          "看不到来车时可以进入"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Red pavement markings or reflectors indicate a roadway that must not be entered or used. (Chapter VI — Signals, Signs and Lane Markings)",
+        "zh": "红色地面标线或反光标表示该道路不得进入或使用。（第六章——信号、标志与标线）"
+      },
+      "source": {
+        "section": "Chapter VI — Signals, Signs and Lane Markings",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": "do-not-enter"
+    },
+    {
+      "id": "hi-020",
+      "topic": "signs",
+      "q": {
+        "en": "The traffic light ahead begins flashing red. Legally, how must you treat it?",
+        "zh": "前方交通信号灯开始闪烁红光。在法律上你应如何对待它？"
+      },
+      "options": {
+        "en": [
+          "The same as a stop sign",
+          "As a yield sign — slow down only",
+          "As a warning to proceed with caution",
+          "As a green light for turning traffic only"
+        ],
+        "zh": [
+          "与停车标志相同",
+          "当作让行标志——只需减速",
+          "当作谨慎通行的警告",
+          "只对转弯车辆相当于绿灯"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "A flashing red signal has the same meaning as a stop sign, and a stop sign is also posted where the flashing red signal is located. A flashing yellow signal, by contrast, means proceed only with caution. (Chapter VI — Signals, Signs and Lane Markings)",
+        "zh": "闪烁红灯与停车标志含义相同，且闪烁红灯处也会立有停车标志。相比之下，闪烁黄灯表示只能谨慎通行。（第六章——信号、标志与标线）"
+      },
+      "source": {
+        "section": "Chapter VI — Signals, Signs and Lane Markings",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-021",
+      "topic": "signs",
+      "q": {
+        "en": "A green arrow lights up on the signal over your lane while the main light stays red. What may you do?",
+        "zh": "你车道上方的信号灯亮起绿色箭头，但主信号灯仍是红灯。你可以怎么做？"
+      },
+      "options": {
+        "en": [
+          "Proceed in any direction, since green overrides red",
+          "Move only in the direction the arrow indicates",
+          "Turn only after the main light turns green",
+          "Use the lane for parking briefly"
+        ],
+        "zh": [
+          "向任何方向行驶，因为绿色优先于红色",
+          "只能沿箭头指示的方向行驶",
+          "必须等主灯变绿后才能转弯",
+          "可以在该车道短暂停车"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "A green arrow has the same meaning as a green light for the indicated lane, but you must turn or proceed only in the direction the arrow indicates. (Chapter VI — Signals, Signs and Lane Markings)",
+        "zh": "绿色箭头对所指示车道的含义与绿灯相同，但你只能沿箭头指示的方向转弯或通行。（第六章——信号、标志与标线）"
+      },
+      "source": {
+        "section": "Chapter VI — Signals, Signs and Lane Markings",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-022",
+      "topic": "signs",
+      "q": {
+        "en": "Over the lane you are driving in, a lane control signal shows a red \"X\". What does it require?",
+        "zh": "你所在车道上方，车道控制信号显示红色“X”。这要求你怎么做？"
+      },
+      "options": {
+        "en": [
+          "Stop in the lane and wait for instructions",
+          "Use the lane only for turning right",
+          "Speed up to clear the lane quickly",
+          "Do not use that lane — it is being used by traffic coming the opposite way"
+        ],
+        "zh": [
+          "在车道内停车等待指示",
+          "该车道只能用于右转",
+          "加速以便迅速离开该车道",
+          "不得使用该车道——对向车辆正在使用它"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "In lane control signals, a red \"X\" means you must not use that lane because traffic in the opposite direction is using it. A green arrow means you may use the lane. (Chapter VI — Signals, Signs and Lane Markings)",
+        "zh": "在车道控制信号中，红色“X”表示不得使用该车道，因为对向交通正在使用它；绿色箭头表示可以使用该车道。（第六章——信号、标志与标线）"
+      },
+      "source": {
+        "section": "Chapter VI — Signals, Signs and Lane Markings",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-023",
+      "topic": "signs",
+      "q": {
+        "en": "The center lane of a five-lane road is marked on both sides by a solid yellow line next to a dashed yellow line. How may that center lane be used?",
+        "zh": "一条五车道道路的中央车道两侧都标有黄色实线加黄色虚线。该中央车道可以如何使用？"
+      },
+      "options": {
+        "en": [
+          "By traffic from either direction, for left turns only",
+          "For passing slower traffic in either direction",
+          "As a parking lane during off-peak hours",
+          "As a bicycle lane when traffic is light"
+        ],
+        "zh": [
+          "供双向车辆使用，但仅限左转",
+          "供双向超车使用",
+          "非高峰时段可作停车道",
+          "交通流量小时可作自行车道"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Those are two-way left-turn channelization markings. The center lane may be used by vehicles travelling in either direction for left-turn maneuvers only, and must never be used for passing. (Chapter VI — Signals, Signs and Lane Markings)",
+        "zh": "这是双向左转渠化标线。中央车道可供双向车辆仅作左转使用，绝不能用于超车。（第六章——信号、标志与标线）"
+      },
+      "source": {
+        "section": "Chapter VI — Signals, Signs and Lane Markings",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-024",
+      "topic": "signs",
+      "q": {
+        "en": "Two solid white lines are painted between your lane and the lane beside you. What is the rule?",
+        "zh": "你的车道与旁边车道之间画着双白色实线。规则是什么？"
+      },
+      "options": {
+        "en": [
+          "You must not cross a double solid white line",
+          "You may cross them whenever traffic is light",
+          "You may cross them only to pass a bicycle",
+          "They mark a lane reserved for buses"
+        ],
+        "zh": [
+          "不得跨越双白色实线",
+          "交通流量小时可以跨越",
+          "只能为超越自行车而跨越",
+          "它们表示公交专用车道"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Double solid white lines indicate that movement from lane to lane is prohibited. You must not cross them. (Chapter VI — Signals, Signs and Lane Markings)",
+        "zh": "双白色实线表示禁止车道之间的移动，不得跨越。（第六章——信号、标志与标线）"
+      },
+      "source": {
+        "section": "Chapter VI — Signals, Signs and Lane Markings",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-025",
+      "topic": "rules",
+      "q": {
+        "en": "On a narrow two-lane road with no centerline, a vehicle approaches from the opposite direction. How much of the main travelled portion must you leave for it?",
+        "zh": "在一条没有中心线的狭窄双车道道路上，对面有车辆驶来。你必须为它留出主要行车道的多大比例？"
+      },
+      "options": {
+        "en": [
+          "At least one-half of the main travelled portion",
+          "None — the other driver must pull off the road",
+          "One car length of space",
+          "The whole road; you must stop completely"
+        ],
+        "zh": [
+          "至少二分之一的主要行车道",
+          "不用留——对方驾驶员必须驶离道路",
+          "一辆车的空间",
+          "整条路；你必须完全停下"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Vehicles going in opposite directions pass each other on the right, and on narrow roads you must allow opposing vehicles at least one-half of the main travelled portion of the road. (Chapter V — Traffic Laws, Ordinances, Rules and Regulations)",
+        "zh": "相向行驶的车辆靠右交会；在狭窄道路上，必须为对向车辆留出至少一半的主要行车道。（第五章——交通法规、条例与规章）"
+      },
+      "source": {
+        "section": "Chapter V — Traffic Laws, Ordinances, Rules and Regulations",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-026",
+      "topic": "rules",
+      "q": {
+        "en": "In which of these situations may you legally drive on the left half of the roadway?",
+        "zh": "在下列哪种情况下，你可以合法地在道路左半侧行驶？"
+      },
+      "options": {
+        "en": [
+          "Overtaking on a two- or three-lane road when no traffic is coming the other way",
+          "On a four-lane highway whenever traffic is light",
+          "Approaching the top of a hill with a clear view",
+          "Within 100 feet of an intersection if you signal first"
+        ],
+        "zh": [
+          "在双车道或三车道道路上超车且对向无来车时",
+          "四车道公路上交通流量小时",
+          "接近山顶且视野清晰时",
+          "提前打信号后，在距路口100英尺内"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Driving on the left half is permitted to overtake on a two- or three-lane road with no oncoming traffic, to get around an obstruction, or on a one-way street. It is prohibited on roads with four or more lanes, near hilltops and curves, and within 100 feet of intersections, railroad crossings, bridges and tunnels with limited sight. (Chapter V — Traffic Laws, Ordinances, Rules and Regulations)",
+        "zh": "在双车道或三车道道路上无对向来车时超车、绕过障碍物、或在单行道上行驶，可以使用道路左半侧。在四车道及以上道路、接近山顶和弯道处，以及距路口、铁路道口、桥梁和隧道100英尺内禁止这样做。（第五章——交通法规、条例与规章）"
+      },
+      "source": {
+        "section": "Chapter V — Traffic Laws, Ordinances, Rules and Regulations",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-027",
+      "topic": "rules",
+      "q": {
+        "en": "The car ahead of you slows and signals a left turn on a two-lane road. Passing it on the right is allowed only if:",
+        "zh": "你前面的汽车在双车道道路上减速并打出左转信号。只有在什么条件下才允许从右侧超车？"
+      },
+      "options": {
+        "en": [
+          "You drive onto the shoulder to get around",
+          "You honk twice before passing",
+          "The driver waves you through",
+          "You can pass without driving off the pavement or main travelled portion of the roadway"
+        ],
+        "zh": [
+          "驶上路肩绕过去",
+          "超车前鸣笛两次",
+          "对方驾驶员挥手示意你通过",
+          "能够在不驶离路面或主要行车道的情况下通过"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "You may pass on the right when the vehicle ahead is about to make a left turn, but you may not drive off the pavement or main travelled portion of the roadway to do it. Passing on the right is also allowed on multi-lane paved roads and multi-lane one-way streets. (Chapter V — Traffic Laws, Ordinances, Rules and Regulations)",
+        "zh": "当前方车辆即将左转时可以从右侧超车，但不得驶离路面或主要行车道。在多车道的铺装道路和多车道单行道上也允许右侧超车。（第五章——交通法规、条例与规章）"
+      },
+      "source": {
+        "section": "Chapter V — Traffic Laws, Ordinances, Rules and Regulations",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-028",
+      "topic": "rules",
+      "q": {
+        "en": "For how long must your signal be given before you change lanes, turn, or stop?",
+        "zh": "在变道、转弯或停车之前，你的信号必须提前多长距离发出？"
+      },
+      "options": {
+        "en": [
+          "At least 30 feet before the maneuver",
+          "Only while the maneuver is happening",
+          "At least 100 feet before the maneuver — about five car lengths",
+          "Signalling is optional when no other vehicles are in sight"
+        ],
+        "zh": [
+          "动作前至少30英尺",
+          "只在动作进行时发出",
+          "动作前至少100英尺——约五辆车的长度",
+          "看不到其他车辆时可以不打信号"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Signals must be given for at least 100 feet (30.5 m) before you change lanes, turn or stop, and you must signal every time, even when no other vehicles are in sight. (Chapter V — Traffic Laws, Ordinances, Rules and Regulations)",
+        "zh": "变道、转弯或停车前至少100英尺（30.5米）就要发出信号；即使看不到其他车辆，每次也都必须打信号。（第五章——交通法规、条例与规章）"
+      },
+      "source": {
+        "section": "Chapter V — Traffic Laws, Ordinances, Rules and Regulations",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-029",
+      "topic": "rules",
+      "q": {
+        "en": "Your turn signals have stopped working. You still need to signal a turn. What must you do?",
+        "zh": "你的转向灯坏了，但你仍需要示意转弯。你必须怎么做？"
+      },
+      "options": {
+        "en": [
+          "Skip signalling until the signals are repaired",
+          "Flash your headlights instead",
+          "Use hand signals",
+          "Tap the brakes three times"
+        ],
+        "zh": [
+          "信号修好前就不打信号了",
+          "改用闪烁大灯代替",
+          "使用手势信号",
+          "连踩三次刹车"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Hand signals must be used when the vehicle's turn signals are not operating. Signalling does not by itself give you the right to make the maneuver. (Chapter V — Traffic Laws, Ordinances, Rules and Regulations)",
+        "zh": "当车辆转向信号不工作时，必须使用手势信号。发出信号本身并不赋予你实施该动作的权利。（第五章——交通法规、条例与规章）"
+      },
+      "source": {
+        "section": "Chapter V — Traffic Laws, Ordinances, Rules and Regulations",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-030",
+      "topic": "rules",
+      "q": {
+        "en": "You are approaching a railroad crossing. A train about 1,200 feet away sounds its horn as it approaches. What must you do?",
+        "zh": "你正接近一个铁路道口。一列火车在约1,200英尺外鸣笛驶近。你必须怎么做？"
+      },
+      "options": {
+        "en": [
+          "Speed up to cross before the train arrives",
+          "Stop only if the crossing gate is fully lowered",
+          "Stop your vehicle not less than 15 feet from the nearest rail",
+          "Cross slowly while looking both ways"
+        ],
+        "zh": [
+          "加速，在火车到达前通过",
+          "只有当道口栏杆完全放下时才停车",
+          "在距最近铁轨不少于15英尺处停车",
+          "一边观察两边一边缓慢通过"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "You must stop not less than 15 feet from the nearest rail when a train approaching within 1,500 feet gives audible warning of its approach — also when a warning device is operating, a gate is lowered or a flagger signals, or a visible train is so close as to be a hazard. (Chapter V — Traffic Laws, Ordinances, Rules and Regulations)",
+        "zh": "当火车在1,500英尺内鸣笛警示时必须在距最近铁轨不少于15英尺处停车；当警示装置启动、栏杆放下或旗手示意、或看得见的火车已近到构成危险时，也同样必须停车。（第五章——交通法规、条例与规章）"
+      },
+      "source": {
+        "section": "Chapter V — Traffic Laws, Ordinances, Rules and Regulations",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-031",
+      "topic": "rules",
+      "q": {
+        "en": "Hawaii's basic speed law requires that you never drive:",
+        "zh": "夏威夷的基本速度法规定你绝不能："
+      },
+      "options": {
+        "en": [
+          "Faster than is reasonable and prudent for the conditions",
+          "Faster than the speed of the vehicle ahead of you",
+          "At the same speed for more than ten minutes",
+          "Below the posted maximum limit"
+        ],
+        "zh": [
+          "以超过当时条件下合理且谨慎的速度行驶",
+          "开得比前方车辆快",
+          "以同一速度行驶超过十分钟",
+          "低于公布的最高限速行驶"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "The basic law: you must not drive at a speed greater than is reasonable and prudent. Your speed must fit the area, the type and condition of the road, traffic, pedestrians, weather and light conditions. (Chapter V — Traffic Laws, Ordinances, Rules and Regulations)",
+        "zh": "基本法：不得以超过合理且谨慎范围的速度行驶。车速必须适应区域、道路类型与状况、交通、行人、天气和光线条件。（第五章——交通法规、条例与规章）"
+      },
+      "source": {
+        "section": "Chapter V — Traffic Laws, Ordinances, Rules and Regulations",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-032",
+      "topic": "rules",
+      "q": {
+        "en": "You are driving well below the flow of traffic on a highway and holding up a line of vehicles behind you. What does the law expect you to do?",
+        "zh": "你在公路上开得远低于车流速度，后面堵了一列车。法律要求你怎么做？"
+      },
+      "options": {
+        "en": [
+          "Turn on your hazard lights and keep your speed",
+          "Speed up to twice the limit to clear the line",
+          "Pull off the roadway and let other traffic pass, or change to another route",
+          "Drive on the shoulder without stopping"
+        ],
+        "zh": [
+          "打开危险警示灯并保持速度",
+          "以两倍限速加速以疏通车流",
+          "驶离道路让其他车辆通过，或改走其他路线",
+          "不停地在路肩上行驶"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "You must not drive so slowly that you hold back other traffic. If you cannot keep up, pull off the roadway and let traffic pass or change to another route; on multi-lane roads, slower drivers use the right-hand lane. (Chapter V — Traffic Laws, Ordinances, Rules and Regulations)",
+        "zh": "不得开得太慢以致阻碍其他交通。跟不上车流时，应驶离道路让车辆通过或改走其他路线；在多车道道路上，慢行车辆使用右车道。（第五章——交通法规、条例与规章）"
+      },
+      "source": {
+        "section": "Chapter V — Traffic Laws, Ordinances, Rules and Regulations",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-033",
+      "topic": "rules",
+      "q": {
+        "en": "Two drivers agree to see whose car is faster on a public highway late at night when the road is empty. Is this allowed?",
+        "zh": "两名驾驶员约定深夜在空荡的公共公路上比谁的车快。这样可以吗？"
+      },
+      "options": {
+        "en": [
+          "Yes, if both drivers agree and the road is empty",
+          "Yes, if they stay under the speed limit",
+          "No — races, speed contests and speed exhibitions are prohibited on public streets and highways",
+          "No, unless a police officer is watching"
+        ],
+        "zh": [
+          "可以，只要双方同意且道路空旷",
+          "可以，只要不超速",
+          "不可以——在公共街道和公路上禁止赛车、速度竞赛和速度表演",
+          "不可以，除非有警察在旁观看"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "You must not engage in any race, speed contest or speed exhibition of any kind on a public street or highway. (Chapter V — Traffic Laws, Ordinances, Rules and Regulations)",
+        "zh": "在公共街道或公路上，不得进行任何形式的赛车、速度竞赛或速度表演。（第五章——交通法规、条例与规章）"
+      },
+      "source": {
+        "section": "Chapter V — Traffic Laws, Ordinances, Rules and Regulations",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-034",
+      "topic": "rules",
+      "q": {
+        "en": "Where does the manual require reduced speeds, beyond obeying posted signs?",
+        "zh": "除遵守公布标志外，手册还要求在哪些地方降低车速？"
+      },
+      "options": {
+        "en": [
+          "Only on freeways during rain",
+          "Only within 100 feet of a railroad crossing",
+          "On every road after dark",
+          "Near schools and playgrounds and at School Crossing locations when children are present, and in residential or business areas"
+        ],
+        "zh": [
+          "只在下雨时的高速公路上",
+          "只在距铁路道口100英尺内",
+          "天黑后在所有道路上",
+          "学校和游乐场附近、设有“学校过街”标志且有儿童在场时，以及住宅区或商业区的街道上"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "Speed limits are set by posted signs, and reduced speeds are required on streets near schools and playgrounds, at locations marked with a School Crossing sign when children are present, and on streets in residential or business areas. (Chapter V — Traffic Laws, Ordinances, Rules and Regulations)",
+        "zh": "限速由公布标志设定；学校和游乐场附近的街道、设有“学校过街”标志且有儿童在场时，以及住宅区或商业区的街道，都必须降低车速。（第五章——交通法规、条例与规章）"
+      },
+      "source": {
+        "section": "Chapter V — Traffic Laws, Ordinances, Rules and Regulations",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-035",
+      "topic": "rules",
+      "q": {
+        "en": "You finish parallel parking on a city street. How close to the curb must your vehicle be?",
+        "zh": "你在城市街道上完成平行停车。你的车辆必须离路缘多近？"
+      },
+      "options": {
+        "en": [
+          "More than 12 inches from the curb is a violation — park within 12 inches",
+          "Within 24 inches of the curb",
+          "Touching the curb with both tires",
+          "Any distance, as long as hazard lights are on"
+        ],
+        "zh": [
+          "距路缘超过12英寸即违法——应停在12英寸以内",
+          "距路缘24英寸以内",
+          "两个轮胎都碰到路缘",
+          "任何距离，只要开着危险警示灯"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Parking more than 12 inches (30 cm) from the curb is prohibited. (Chapter V — Traffic Laws, Ordinances, Rules and Regulations)",
+        "zh": "距路缘超过12英寸（30厘米）停车是被禁止的。（第五章——交通法规、条例与规章）"
+      },
+      "source": {
+        "section": "Chapter V — Traffic Laws, Ordinances, Rules and Regulations",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-036",
+      "topic": "rules",
+      "q": {
+        "en": "A side street is so narrow that parking on both sides would leave only 8 feet of open street for moving traffic. Parking there is:",
+        "zh": "一条小街很窄，两侧停车后只剩8英尺宽可供通行。在那里停车："
+      },
+      "options": {
+        "en": [
+          "Allowed if you park fully on the sidewalk",
+          "Allowed for residents of that street only",
+          "Allowed for up to one hour",
+          "Prohibited — at least 10 feet of street width must remain for the free movement of traffic"
+        ],
+        "zh": [
+          "把车完全停上人行道就可以",
+          "只允许该街居民停",
+          "最多可以停一小时",
+          "被禁止——必须至少留出10英尺宽的街道供车辆自由通行"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "Parking is prohibited at any place where less than 10 feet (3 m) of the width of the street remains for the free movement of traffic. (Chapter V — Traffic Laws, Ordinances, Rules and Regulations)",
+        "zh": "在任何使街道剩余宽度不足10英尺（3米）供车辆自由通行的地方，禁止停车。（第五章——交通法规、条例与规章）"
+      },
+      "source": {
+        "section": "Chapter V — Traffic Laws, Ordinances, Rules and Regulations",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-037",
+      "topic": "rules",
+      "q": {
+        "en": "The painted space beside a disabled parking space is marked as an access aisle. What is the rule for that aisle?",
+        "zh": "残障车位旁边标示的区域是无障碍通道（access aisle）。对该通道的规则是什么？"
+      },
+      "options": {
+        "en": [
+          "It must be kept clear so wheelchair lifts and ramps can be deployed",
+          "It may be used for parking by any vehicle for up to 15 minutes",
+          "Only taxis may stop in it",
+          "It is a loading zone for all vehicles"
+        ],
+        "zh": [
+          "必须保持畅通，以便轮椅升降机和坡道展开使用",
+          "任何车辆可在此停放最多15分钟",
+          "只有出租车可以在此停靠",
+          "它是所有车辆的装卸区"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "The access aisle next to an accessible parking space must be kept clear to allow deployment of a wheelchair lift or ramp and other mobility devices. Parking in the accessible space itself requires the placard or plate issued to the disabled person being transported. (Chapter V — Traffic Laws, Ordinances, Rules and Regulations)",
+        "zh": "无障碍车位旁的通道必须保持畅通，以便轮椅升降机/坡道及其他行动辅助设备展开使用。在无障碍车位内停车，需要展示被接送残障人士所获发的标牌或车牌。（第五章——交通法规、条例与规章）"
+      },
+      "source": {
+        "section": "Chapter V — Traffic Laws, Ordinances, Rules and Regulations",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-038",
+      "topic": "rules",
+      "q": {
+        "en": "A sign on a downtown street states a tow-away regulation is in effect during posted hours. During those hours you may stop there:",
+        "zh": "市中心一条街道的标志表明所示时段内实行拖车规定。在那些时段内，你可以在那里停车吗？"
+      },
+      "options": {
+        "en": [
+          "For five minutes with the engine running",
+          "Not at all — you must not park or stop even momentarily, unless blocked by other traffic",
+          "Only if you stay in the driver's seat",
+          "Only to load passengers"
+        ],
+        "zh": [
+          "可以停五分钟，只要发动机开着",
+          "完全不可以——即使短暂停留也不行，除非被其他车辆堵住",
+          "只要你坐在驾驶座上就可以",
+          "仅可停靠上下乘客"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "In a tow-away zone you must not park or stop your vehicle, even momentarily, except when blocked by other traffic, during the hours stated on the official signs. The police will have the vehicle towed. (Chapter V — Traffic Laws, Ordinances, Rules and Regulations)",
+        "zh": "在拖车区内，于官方标志所示时段不得停车或停留，哪怕是短暂的，除非被其他车辆堵住。警方会将车辆拖走。（第五章——交通法规、条例与规章）"
+      },
+      "source": {
+        "section": "Chapter V — Traffic Laws, Ordinances, Rules and Regulations",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-039",
+      "topic": "rules",
+      "q": {
+        "en": "You are leaving your car unattended on a slope. Which set of actions is required?",
+        "zh": "你把无人看管的车停在坡道上。必须采取哪一组动作？"
+      },
+      "options": {
+        "en": [
+          "Leave the engine running, wheels straight, doors unlocked",
+          "Set the parking brake only",
+          "Stop the engine, lock the ignition and remove the key, set the parking brake, and turn the wheels toward the curb",
+          "Turn the wheels away from the curb so the car rolls into the street if the brake fails"
+        ],
+        "zh": [
+          "让发动机运转，车轮摆正，车门不锁",
+          "只需拉紧驻车制动",
+          "熄火、锁住点火开关并拔下钥匙、拉紧驻车制动，并将车轮转向路缘一侧",
+          "将车轮转向远离路缘一侧，以便制动失效时车辆滚入街道"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "When you leave your vehicle unattended you must stop the engine, lock the ignition and remove the key, set the parking brake, and, when the vehicle is on a grade, turn the wheels toward the curb. (Chapter V — Traffic Laws, Ordinances, Rules and Regulations)",
+        "zh": "无人看管离开车辆时，必须熄火、锁住点火开关并拔下钥匙、拉紧驻车制动；在坡道上时，还要将车轮转向路缘一侧。（第五章——交通法规、条例与规章）"
+      },
+      "source": {
+        "section": "Chapter V — Traffic Laws, Ordinances, Rules and Regulations",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-040",
+      "topic": "rules",
+      "q": {
+        "en": "You hear a siren behind you in heavy traffic, and an ambulance is directly behind your car with no room to pass. What should you do?",
+        "zh": "在拥挤的交通中你听到身后有警笛声，一辆救护车就在你车正后方，没有超车空间。你应该怎么做？"
+      },
+      "options": {
+        "en": [
+          "Brake hard and stop immediately where you are",
+          "Keep moving slowly until you can get out of the way",
+          "Speed up to the next light and stop there",
+          "Back up to create space"
+        ],
+        "zh": [
+          "猛踩刹车，原地立即停下",
+          "保持缓慢行驶，直到能让出道路为止",
+          "加速到下个路口再停",
+          "倒车腾出空间"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Give the emergency vehicle a clear path and stop — but do not panic and jam on the brakes. If it is directly behind you in heavy traffic, keep moving slowly until you can get out of the way. (Chapter V — Traffic Laws, Ordinances, Rules and Regulations)",
+        "zh": "应为应急车辆让出通畅的道路并停车——但不要惊慌猛踩刹车。如果它在拥挤交通中就在你正后方，应保持缓慢行驶直到能让开为止。（第五章——交通法规、条例与规章）"
+      },
+      "source": {
+        "section": "Chapter V — Traffic Laws, Ordinances, Rules and Regulations",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-041",
+      "topic": "rules",
+      "q": {
+        "en": "You come upon a police car stopped on the shoulder with its lights flashing. As you pass it, you should:",
+        "zh": "你遇到一辆警车停在路肩上、警灯闪烁。经过它时你应该："
+      },
+      "options": {
+        "en": [
+          "Maintain speed and pass as close as usual",
+          "Honk to let the officer know you are passing",
+          "Slow down or stop as appropriate, and if possible and safe, leave an empty traffic lane between you and the emergency vehicle",
+          "Stop in the travel lane beside it"
+        ],
+        "zh": [
+          "保持速度，像平时一样贴近通过",
+          "鸣笛让警员知道你正通过",
+          "适当减速或停车，并在可能且安全时，让出一条空车道将你与应急车辆隔开",
+          "在行车道上停在它旁边"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "When you approach a stopped emergency vehicle with its lights flashing, slow down or stop as appropriate for the situation, and move away so there is an empty traffic lane separating you and the emergency vehicle, if possible and safe to do so. See §291C-27, HRS. (Chapter V — Traffic Laws, Ordinances, Rules and Regulations)",
+        "zh": "接近停着的、警灯闪烁的应急车辆时，应视情况减速或停车，并尽量在安全时让出一条空车道将其与你隔开。见《夏威夷修订法规》第291C-27条。（第五章——交通法规、条例与规章）"
+      },
+      "source": {
+        "section": "Chapter V — Traffic Laws, Ordinances, Rules and Regulations",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-042",
+      "topic": "rules",
+      "q": {
+        "en": "A funeral procession is passing through an intersection on a green light for your direction. What applies?",
+        "zh": "一支送葬车队正通过路口，此时你方向是绿灯。适用哪条规则？"
+      },
+      "options": {
+        "en": [
+          "You may slip between procession vehicles if a gap appears",
+          "Funeral processions have the right-of-way at intersections, and you should not drive between the vehicles of the procession",
+          "Processions must yield to all cross traffic",
+          "Only the first vehicle of the procession has the right-of-way"
+        ],
+        "zh": [
+          "如果出现空隙，你可以穿插进车队车辆之间",
+          "送葬车队在路口拥有路权，你不应驶入车队车辆之间",
+          "车队必须让行所有横向车辆",
+          "只有车队的第一辆车拥有路权"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Funeral processions and convoys have the right-of-way at intersections. Procession vehicles use headlamps for identification; you should not drive your vehicle between the vehicles in a funeral procession. (Chapter V — Traffic Laws, Ordinances, Rules and Regulations)",
+        "zh": "送葬车队和车队行列在路口拥有路权。车队车辆会开前照灯作识别；你不应驶入送葬车队车辆之间。（第五章——交通法规、条例与规章）"
+      },
+      "source": {
+        "section": "Chapter V — Traffic Laws, Ordinances, Rules and Regulations",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-043",
+      "topic": "rules",
+      "q": {
+        "en": "Behind a slow farm vehicle you notice a highly reflective orange-red triangular emblem, about 18 inches across, on its rear. What does the emblem tell you?",
+        "zh": "在一辆缓慢行驶的农用车后面，你注意到其尾部有一个高反光的橙红色三角形标志，约18英寸宽。这个标志在告诉你什么？"
+      },
+      "options": {
+        "en": [
+          "The vehicle carries hazardous materials",
+          "The vehicle is wider than the lane",
+          "The vehicle is designed to operate at speeds of 25 mph or less — reduce speed and approach cautiously",
+          "The vehicle is broken down"
+        ],
+        "zh": [
+          "该车辆载有危险品",
+          "该车辆比车道宽",
+          "该车辆设计时速为25英里或更低——应减速并谨慎接近",
+          "该车辆已抛锚"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "The slow-moving vehicle emblem is a reflective 18-inch triangular emblem required on the rear of vehicles designed to operate at 25 mph (40 km/h) or less. When you see it, reduce speed and approach cautiously. (Chapter V — Traffic Laws, Ordinances, Rules and Regulations)",
+        "zh": "慢行车辆标志是一个18英寸的高反光三角形标志，必须展示在设计时速25英里（40公里）或更低的车辆尾部。看到它时应减速并谨慎接近。（第五章——交通法规、条例与规章）"
+      },
+      "source": {
+        "section": "Chapter V — Traffic Laws, Ordinances, Rules and Regulations",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-044",
+      "topic": "rules",
+      "q": {
+        "en": "On a two-lane hill, you want to pass the car ahead. Passing is not allowed when:",
+        "zh": "在双车道的坡道上，你想超越前车。在什么情况下禁止超车？"
+      },
+      "options": {
+        "en": [
+          "The vehicle ahead is below the speed limit",
+          "The road is dry and visibility is good",
+          "You have signalled for 100 feet",
+          "There is not 700 to 1,000 feet of clear distance ahead as you approach the hill or a curve"
+        ],
+        "zh": [
+          "前方车辆低于限速时",
+          "路面干燥且视野良好时",
+          "你已提前100英尺打信号时",
+          "接近山坡或弯道，且前方没有700至1,000英尺的清晰距离时"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "Do not pass when approaching a hill or curve where there is not 700 to 1,000 feet (213 m to 305 m) of clear distance ahead. (Chapter V — Traffic Laws, Ordinances, Rules and Regulations)",
+        "zh": "接近山坡或弯道时，如果前方没有700至1,000英尺（213至305米）的清晰距离，禁止超车。（第五章——交通法规、条例与规章）"
+      },
+      "source": {
+        "section": "Chapter V — Traffic Laws, Ordinances, Rules and Regulations",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-045",
+      "topic": "rules",
+      "q": {
+        "en": "Which of these passing situations is prohibited?",
+        "zh": "下列哪种超车情形是被禁止的？"
+      },
+      "options": {
+        "en": [
+          "Passing on a multi-lane one-way street",
+          "Passing a vehicle that is turning left, on its right, on the pavement",
+          "Passing where a broken yellow line separates the lanes and the way is clear",
+          "Passing within 100 feet of a posted narrow bridge, viaduct or tunnel"
+        ],
+        "zh": [
+          "在多车道单行道上超车",
+          "从正在左转车辆的右侧、在路面上超车",
+          "在以黄色虚线分隔车道且道路通畅处超车",
+          "在距标示的窄桥、高架桥或隧道100英尺内超车"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "Passing is prohibited when approaching within 100 feet (30 m) of, or while traversing, an intersection or railroad crossing, and within 100 feet of any posted narrow bridge, viaduct or tunnel. (Chapter V — Traffic Laws, Ordinances, Rules and Regulations)",
+        "zh": "在接近距路口或铁路道口100英尺内、或正在通过路口或道口时，以及在距标示的窄桥、高架桥或隧道100英尺内，禁止超车。（第五章——交通法规、条例与规章）"
+      },
+      "source": {
+        "section": "Chapter V — Traffic Laws, Ordinances, Rules and Regulations",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-046",
+      "topic": "rules",
+      "q": {
+        "en": "Another driver begins passing your car on a two-lane road. Halfway through the pass, you speed up so they cannot get back in. Legally:",
+        "zh": "另一名驾驶员在双车道道路上开始超越你的车。超到一半时你加速，让对方无法回到车道。从法律上讲："
+      },
+      "options": {
+        "en": [
+          "It is unlawful to increase your speed when you are being passed",
+          "That is allowed if you stay under the limit",
+          "It is allowed if the other driver did not signal",
+          "It is required if oncoming traffic appears"
+        ],
+        "zh": [
+          "被超车时加速是违法的",
+          "只要不超速就可以",
+          "如果对方没有打信号就可以",
+          "如果对向有来车就必须这样做"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "When you are being passed, it is unlawful to increase your speed. (Chapter V — Traffic Laws, Ordinances, Rules and Regulations)",
+        "zh": "当你被超车时，加速是违法的。（第五章——交通法规、条例与规章）"
+      },
+      "source": {
+        "section": "Chapter V — Traffic Laws, Ordinances, Rules and Regulations",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-047",
+      "topic": "rules",
+      "q": {
+        "en": "You reach the end of a posted no-passing zone on a curving road. What does the end of the zone actually mean?",
+        "zh": "在一条弯路上，你到达了公布的禁止超车区的终点。该区域结束实际意味着什么？"
+      },
+      "options": {
+        "en": [
+          "Visibility ahead has increased — it does not by itself mean passing is safe",
+          "Passing is now guaranteed to be safe",
+          "All speed limits are lifted",
+          "You must pass the next vehicle you meet"
+        ],
+        "zh": [
+          "前方视野变好了——这本身并不意味着超车安全",
+          "现在超车保证安全",
+          "所有限速都取消了",
+          "你必须超过遇到的下一辆车"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "The end of a no-passing zone does not mean it is safe to pass. It means there is increased visibility ahead; you must still judge the pass yourself. (Chapter V — Traffic Laws, Ordinances, Rules and Regulations)",
+        "zh": "禁止超车区结束并不意味着超车安全；它只表示前方视野有所改善，你仍须自行判断超车是否安全。（第五章——交通法规、条例与规章）"
+      },
+      "source": {
+        "section": "Chapter V — Traffic Laws, Ordinances, Rules and Regulations",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-048",
+      "topic": "rules",
+      "q": {
+        "en": "Two cars approach an uncontrolled intersection from different roads at about the same moment. Who must yield?",
+        "zh": "两辆车从不同道路几乎同时驶近一个无管制路口。谁必须让行？"
+      },
+      "options": {
+        "en": [
+          "The faster vehicle has the right-of-way",
+          "The larger vehicle has the right-of-way",
+          "Both must stop for a full minute",
+          "The driver on the left yields to the vehicle on the right"
+        ],
+        "zh": [
+          "速度快的车辆拥有路权",
+          "体积大的车辆拥有路权",
+          "双方都必须停整整一分钟",
+          "左侧驾驶员让行右侧车辆"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "At an intersection, yield to the car on the right when vehicles approach at the same time. (Chapter V — Traffic Laws, Ordinances, Rules and Regulations)",
+        "zh": "在路口，当车辆同时到达时，应让行右侧的车辆。（第五章——交通法规、条例与规章）"
+      },
+      "source": {
+        "section": "Chapter V — Traffic Laws, Ordinances, Rules and Regulations",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-049",
+      "topic": "rules",
+      "q": {
+        "en": "You are turning left across oncoming traffic at an intersection. Your duty toward the oncoming vehicles is to:",
+        "zh": "你在路口左转，要横过对向车流。你对对向车辆的义务是："
+      },
+      "options": {
+        "en": [
+          "Turn quickly before they arrive",
+          "Yield to all oncoming traffic that is so close as to be a hazard",
+          "Honk and proceed, since turning traffic has priority",
+          "Yield only to vehicles in the far lane"
+        ],
+        "zh": [
+          "在它们到达前快速转过去",
+          "让行所有近到构成危险的对向车辆",
+          "鸣笛后通行，因为转弯车辆优先",
+          "只让行远处车道的车辆"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "When turning left, yield to all oncoming traffic that is so close as to constitute a hazard. (Chapter V — Traffic Laws, Ordinances, Rules and Regulations)",
+        "zh": "左转时，必须让行所有近到构成危险的对向车辆。（第五章——交通法规、条例与规章）"
+      },
+      "source": {
+        "section": "Chapter V — Traffic Laws, Ordinances, Rules and Regulations",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-050",
+      "topic": "rules",
+      "q": {
+        "en": "You are pulling out of a private driveway onto a public street. What must you do first?",
+        "zh": "你从私人车道驶出，进入一条公共街道。首先必须做什么？"
+      },
+      "options": {
+        "en": [
+          "Sound the horn and roll out slowly",
+          "Flash your lights twice",
+          "Nothing special — traffic on the street must yield to you",
+          "Stop and yield to all traffic on the public street"
+        ],
+        "zh": [
+          "鸣笛后慢慢驶出",
+          "闪灯两次",
+          "无需特别处理——街道上的车辆必须让你",
+          "停车并让行公共街道上的所有车辆"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "Stop and yield when entering any public street or road from an alley, driveway or farmyard. (Chapter V — Traffic Laws, Ordinances, Rules and Regulations)",
+        "zh": "从小巷、车道或场院进入任何公共街道或道路时，必须停车让行。（第五章——交通法规、条例与规章）"
+      },
+      "source": {
+        "section": "Chapter V — Traffic Laws, Ordinances, Rules and Regulations",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-051",
+      "topic": "rules",
+      "q": {
+        "en": "Your light turns green, but a pedestrian and a car are still inside the intersection from the previous phase. You should:",
+        "zh": "你的信号灯变绿了，但行人和一辆车还停留在上一相位的路口内。你应该："
+      },
+      "options": {
+        "en": [
+          "Enter slowly and weave around them",
+          "Honk until they clear the way",
+          "Yield to pedestrians and vehicles caught in the intersection when the light turns green",
+          "Enter, since green gives you absolute right-of-way"
+        ],
+        "zh": [
+          "慢慢进入并从他们身边绕过去",
+          "鸣笛直到他们让开",
+          "让行在灯变绿时仍滞留在路口内的行人和车辆",
+          "直接进入，因为绿灯赋予你绝对路权"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "When the light turns green, yield to pedestrians and cars caught in the intersection. A green light also requires yielding to all pedestrians and vehicles already in the intersection. (Chapter V — Traffic Laws, Ordinances, Rules and Regulations)",
+        "zh": "灯变绿时，应让行仍滞留在路口内的行人和车辆。绿灯同样要求让行已在路口内的所有行人和车辆。（第五章——交通法规、条例与规章）"
+      },
+      "source": {
+        "section": "Chapter V — Traffic Laws, Ordinances, Rules and Regulations",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-052",
+      "topic": "rules",
+      "q": {
+        "en": "A divided highway is split by a wide unpaved median with no opening in front of you. Crossing the median is:",
+        "zh": "一条分隔式公路被宽阔的未铺装中央带隔开，你前方没有开口。穿越中央带："
+      },
+      "options": {
+        "en": [
+          "Allowed whenever no traffic is near",
+          "Allowed for turning left only",
+          "Allowed only where an opening or paved surface is provided and signs do not prohibit it",
+          "Required if you miss your exit"
+        ],
+        "zh": [
+          "只要附近没车就可以",
+          "只有左转时可以",
+          "只有在设有开口或铺装路面且标志不禁止的地方才可以",
+          "错过出口时必须这样做"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "When a highway is divided by a barrier or an unpaved space, you must not drive across or through it except where an opening or paved surface is provided and signs do not prohibit it. (Chapter V — Traffic Laws, Ordinances, Rules and Regulations)",
+        "zh": "当公路被护栏或未铺装空间分隔时，不得穿越，除非在设有开口或铺装路面且标志不禁止的地方。（第五章——交通法规、条例与规章）"
+      },
+      "source": {
+        "section": "Chapter V — Traffic Laws, Ordinances, Rules and Regulations",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-053",
+      "topic": "rules",
+      "q": {
+        "en": "You have stopped at a red light and want to turn right. There is no sign prohibiting it. What is required before turning?",
+        "zh": "你在红灯前停下，想右转，且没有禁止标志。转弯前有什么要求？"
+      },
+      "options": {
+        "en": [
+          "Nothing — right turns on red need no stop",
+          "Only a yield to vehicles, not pedestrians",
+          "A complete stop first, then yield to all pedestrians and all vehicles while turning",
+          "A complete stop only if a police officer is present"
+        ],
+        "zh": [
+          "什么都不需要——红灯右转无需停车",
+          "只让行车辆，不用让行人",
+          "先完全停车，然后在转弯时让行所有行人和所有车辆",
+          "只有警察在场时才必须完全停车"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "After stopping at a red light, you may turn right except when a sign prohibits the movement, and you must yield to all pedestrians and all vehicles when making the turn. (Chapter VI — Signals, Signs and Lane Markings)",
+        "zh": "红灯停车后，除非标志禁止，可以右转；转弯时必须让行所有行人和所有车辆。（第六章——信号、标志与标线）"
+      },
+      "source": {
+        "section": "Chapter VI — Signals, Signs and Lane Markings",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-054",
+      "topic": "rules",
+      "q": {
+        "en": "Turning left on a red light is permitted in Hawaii only in which situation?",
+        "zh": "在夏威夷，只有在什么情况下允许红灯左转？"
+      },
+      "options": {
+        "en": [
+          "From a one-way street into a one-way street where traffic is moving to the left, after stopping, unless a sign prohibits it",
+          "From any street onto a one-way street",
+          "Never — left on red is always illegal",
+          "From a two-way street after midnight"
+        ],
+        "zh": [
+          "停车后，从一条单行道转入另一条交通向左行驶的单行道，除非标志禁止",
+          "从任何街道转入单行道",
+          "绝不允许——红灯左转永远违法",
+          "午夜后在双向街道上"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "After stopping, you may turn left on a red light from a one-way street into a one-way street where traffic is moving to the left, except when a sign prohibits such movement. (Chapter VI — Signals, Signs and Lane Markings)",
+        "zh": "停车后，可以在红灯时从单行道转入交通向左行驶的单行道，除非标志禁止该动作。（第六章——信号、标志与标线）"
+      },
+      "source": {
+        "section": "Chapter VI — Signals, Signs and Lane Markings",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-055",
+      "topic": "rules",
+      "q": {
+        "en": "The light ahead turns yellow as you approach at normal speed, too close to stop comfortably. What does the yellow light mean for drivers who have not yet entered?",
+        "zh": "你以正常速度接近路口时灯变黄，距离太近无法舒适停车。黄灯对尚未进入路口的驾驶员意味着什么？"
+      },
+      "options": {
+        "en": [
+          "The red light is about to be shown; you should avoid entering the intersection when the yellow light is shown",
+          "Speed up — yellow means the green is extended",
+          "Stop in the middle of the intersection",
+          "Yellow lights are only for buses"
+        ],
+        "zh": [
+          "红灯即将亮起；黄灯亮时应避免进入路口",
+          "加速——黄灯表示绿灯延长",
+          "停在路口中央",
+          "黄灯只对公交车有效"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "A yellow light means the red light is going to be shown immediately thereafter. You should avoid entering the intersection when the yellow light is shown, and you must not enter after the red light is shown. (Chapter VI — Signals, Signs and Lane Markings)",
+        "zh": "黄灯表示红灯紧接着就会亮起。黄灯亮时应避免进入路口，红灯亮起后不得进入。（第六章——信号、标志与标线）"
+      },
+      "source": {
+        "section": "Chapter VI — Signals, Signs and Lane Markings",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-056",
+      "topic": "safety",
+      "q": {
+        "en": "According to the manual, most \"bad\" driving habits grow out of five root causes. Which list is correct?",
+        "zh": "根据手册，大多数“不良”驾驶习惯源于五个根本原因。下列哪一组是正确的？"
+      },
+      "options": {
+        "en": [
+          "Hunger, thirst, boredom, anger and pride",
+          "Speed, weather, darkness, traffic and fatigue",
+          "Laziness, impatience, inattention, arrogance and ignorance",
+          "Inexperience, old age, youth, illness and emotion"
+        ],
+        "zh": [
+          "饥饿、口渴、无聊、愤怒和骄傲",
+          "速度、天气、黑暗、交通和疲劳",
+          "懒惰、急躁、注意力不集中、傲慢和无知",
+          "缺乏经验、年老、年轻、疾病和情绪"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "The manual groups bad driving habits under laziness, impatience, inattention, arrogance and ignorance — habits such as rolling through stop signs (impatience) or failing to check before changing lanes (laziness). (Chapter X — Safe Driving Techniques)",
+        "zh": "手册将不良驾驶习惯归为五类：懒惰、急躁、注意力不集中、傲慢和无知——例如不耐烦地在停车标志前只减速不停车，或懒惰地在变道前不检查。（第十章——安全驾驶技巧）"
+      },
+      "source": {
+        "section": "Chapter X — Safe Driving Techniques",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-057",
+      "topic": "safety",
+      "q": {
+        "en": "You need to read directions on your phone while driving on a rural highway. The manual's advice is to:",
+        "zh": "在乡村公路上驾驶时，你需要看手机上的路线指引。手册的建议是："
+      },
+      "options": {
+        "en": [
+          "Pull over to the side of the road in a safe place and stop until you can give driving your complete attention",
+          "Read them quickly at the next red light",
+          "Hold the phone at steering-wheel height so your eyes stay up",
+          "Use voice commands only, which remove all distraction"
+        ],
+        "zh": [
+          "在安全的地方靠边停车，直到你能完全专注于驾驶为止",
+          "在下个红灯时快速看完",
+          "把手机举到方向盘高度，让视线保持向上",
+          "只用语音命令，这样就没有分心了"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Anything that takes your attention away from driving can lead to a poor choice. If you need to read a map or directions — or take a phone call — pull over in a safe place and stop until you are ready to give driving your complete attention. Even hands-free phone use diverts attention from driving. (Chapter X — Safe Driving Techniques)",
+        "zh": "任何分散驾驶注意力的事都可能导致错误判断。需要看地图或路线指引——或接电话——时，应在安全的地方靠边停车，直到能完全专注于驾驶为止。即使使用免提设备打电话也会分散驾驶注意力。（第十章——安全驾驶技巧）"
+      },
+      "source": {
+        "section": "Chapter X — Safe Driving Techniques",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-058",
+      "topic": "safety",
+      "q": {
+        "en": "Why does the manual tell you not to drive with headsets or earphones covering or in both ears?",
+        "zh": "为什么手册说不要戴着覆盖双耳或塞入双耳的耳机驾驶？"
+      },
+      "options": {
+        "en": [
+          "They are illegal to own in a vehicle",
+          "They make it too hard to hear emergency horns and sirens",
+          "They drain the vehicle's battery",
+          "They interfere with the radio signal of police cars"
+        ],
+        "zh": [
+          "在车内拥有耳机是违法的",
+          "它们使你难以听到应急车辆的喇叭和警笛声",
+          "它们会耗尽车辆电池",
+          "它们会干扰警车的无线电信号"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Do not drive with headsets or earphones that cover or go in both ears. They make it too hard to hear emergency horns or sirens — and keep your stereo volume low enough to hear things outside the vehicle for the same reason. (Chapter X — Safe Driving Techniques)",
+        "zh": "不要戴着覆盖双耳或塞入双耳的耳机驾驶，因为它们使你难以听到应急喇叭或警笛声；出于同一原因，音响音量也要保持足够低，以便听到车外的声音。（第十章——安全驾驶技巧）"
+      },
+      "source": {
+        "section": "Chapter X — Safe Driving Techniques",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-059",
+      "topic": "safety",
+      "q": {
+        "en": "Defensive driving, as the manual defines it, mainly means:",
+        "zh": "手册所定义的防御性驾驶主要是指："
+      },
+      "options": {
+        "en": [
+          "Driving faster than surrounding traffic so others must react to you",
+          "Always having the right-of-way and insisting on it",
+          "Identifying dangerous situations and acting to defend against the danger before a crash situation develops",
+          "Braking early at every corner"
+        ],
+        "zh": [
+          "开得比周围车辆快，让别人来适应你",
+          "始终拥有路权并坚持路权",
+          "识别危险的驾驶情形，在事故发生前采取行动防御危险",
+          "在每个弯道都提前刹车"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Defensive driving is identifying dangerous driving situations and taking action to defend against the danger before a crash develops: stay alert, keep your eyes moving, look well ahead, always have an alternate plan of action ready — leave yourself a way out — and keep proper following distance and speed. (Chapter X — Safe Driving Techniques)",
+        "zh": "防御性驾驶是指识别危险的驾驶情形，并在事故形成之前采取行动加以防御：保持警觉、目光不断移动、看向远前方、随时准备好备选行动方案——给自己留一条出路——并保持适当的跟车距离和车速。（第十章——安全驾驶技巧）"
+      },
+      "source": {
+        "section": "Chapter X — Safe Driving Techniques",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-060",
+      "topic": "safety",
+      "q": {
+        "en": "After you start the engine, a red warning lamp on the instrument panel stays lit. What does a red lamp mean?",
+        "zh": "启动发动机后，仪表盘上一盏红色警告灯仍然亮着。红灯意味着什么？"
+      },
+      "options": {
+        "en": [
+          "Danger — it should be checked immediately",
+          "A routine reminder to check the lamp next month",
+          "The lamp itself is burned out",
+          "The vehicle is still warming up"
+        ],
+        "zh": [
+          "危险——应立即检查",
+          "常规提醒，下个月再检查这盏灯",
+          "灯本身烧坏了",
+          "车辆还在预热"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "After starting, warning lamps should go out. A remaining yellow lamp is a warning; a red lamp indicates danger and should be checked immediately. If the brake warning lamp lights when the pedal is pressed, the brake system is defective and the vehicle should not be driven. (Chapter X — Safe Driving Techniques)",
+        "zh": "启动后警告灯应熄灭。黄灯持续亮表示警告；红灯表示危险，应立即检查。如果踩下制动踏板时制动警告灯亮起，说明制动系统有故障，不应驾驶该车辆。（第十章——安全驾驶技巧）"
+      },
+      "source": {
+        "section": "Chapter X — Safe Driving Techniques",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-061",
+      "topic": "safety",
+      "q": {
+        "en": "How do your chances of being killed in a crash change if you are thrown from the car, compared with being belted in?",
+        "zh": "与系好安全带相比，如果你在事故中被甩出车外，死亡概率会如何变化？"
+      },
+      "options": {
+        "en": [
+          "They are about the same",
+          "Your chances of being killed are five times greater if you are thrown from the car",
+          "Being thrown clear is usually safer",
+          "Belts only matter above highway speed"
+        ],
+        "zh": [
+          "大致相同",
+          "被甩出车外时死亡概率高出五倍",
+          "被甩出去通常更安全",
+          "安全带只在高速公路速度下才有用"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Safety belts keep you from being thrown from the car — your chances of being killed are five times greater if you are thrown from the car. With lap and shoulder belts you can survive a crash at up to 60 mph; unbelted, it is possible to be killed at speeds as low as 12 mph. (Chapter X — Safe Driving Techniques)",
+        "zh": "安全带能防止你被甩出车外——被甩出车外时死亡概率高出五倍。系好腰肩安全带，在时速60英里的碰撞中可以生还；不系安全带，低至时速12英里也可能致命。（第十章——安全驾驶技巧）"
+      },
+      "source": {
+        "section": "Chapter X — Safe Driving Techniques",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-062",
+      "topic": "safety",
+      "q": {
+        "en": "How should your safety belts be adjusted for the best protection?",
+        "zh": "安全带应如何调节才能获得最佳保护？"
+      },
+      "options": {
+        "en": [
+          "Lap belt loose across the stomach; shoulder belt behind your back",
+          "Both belts as tight as possible at all times",
+          "Lap belt snug across the hip bones and lower abdomen; shoulder belt loose enough to fit a fist between the belt and your chest",
+          "Shoulder belt under your arm"
+        ],
+        "zh": [
+          "腰带松松地横在胃部；肩带绕到背后",
+          "两条带子随时都越紧越好",
+          "腰带紧贴胯骨和下腹部；肩带稍松，能在带与胸之间塞进一个拳头",
+          "肩带从腋下穿过"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Lap belts should fit snugly across the hip bones and the lower part of the abdomen. The shoulder belt should be not quite so tight — loose enough that you can insert your fist between the belt and your chest. (Chapter X — Safe Driving Techniques)",
+        "zh": "腰带应紧贴胯骨和下腹部。肩带不要过紧——松到能在带与胸之间塞进一个拳头即可。（第十章——安全驾驶技巧）"
+      },
+      "source": {
+        "section": "Chapter X — Safe Driving Techniques",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-063",
+      "topic": "safety",
+      "q": {
+        "en": "Hawaii law prohibits leaving a child unattended in a motor vehicle for five minutes or longer. The rule applies to children under what age?",
+        "zh": "夏威夷法律禁止将儿童单独留在车内五分钟或更久。该规定适用于多大以下的儿童？"
+      },
+      "options": {
+        "en": [
+          "Under 6 years of age",
+          "Under 12 years of age",
+          "Under 16 years of age",
+          "Under 9 years of age"
+        ],
+        "zh": [
+          "6岁以下",
+          "12岁以下",
+          "16岁以下",
+          "9岁以下"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "Hawaii law prohibits you or any adult passenger from leaving a child under nine years of age unattended in a motor vehicle for five minutes or longer, because of dangers such as extreme heat exposure. (Chapter X — Safe Driving Techniques)",
+        "zh": "夏威夷法律禁止你或任何成年乘客将9岁以下儿童单独留在车内五分钟或更久，因为存在极端高温暴露等危险。（第十章——安全驾驶技巧）"
+      },
+      "source": {
+        "section": "Chapter X — Safe Driving Techniques",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-064",
+      "topic": "safety",
+      "q": {
+        "en": "When backing up, why does the manual insist you turn around and look to the rear instead of relying on the mirrors?",
+        "zh": "倒车时，为什么手册坚持要你转身向后看，而不是只依赖后视镜？"
+      },
+      "options": {
+        "en": [
+          "Mirrors are not required equipment",
+          "The view through rear-view mirrors is too small to use for backing safely",
+          "Looking back is only needed for parallel parking",
+          "Mirrors reverse the image and confuse new drivers"
+        ],
+        "zh": [
+          "后视镜不是必需设备",
+          "后视镜中的视野太小，不足以安全倒车",
+          "只有平行停车时才需要回头看",
+          "后视镜会左右颠倒图像，让新手困惑"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Before backing, visually check the area behind the vehicle, then turn around and look to the rear — the view through the rear-view mirrors is too small for this purpose. If you cannot see to the rear, have someone outside guide you, and always back slowly. (Chapter X — Safe Driving Techniques)",
+        "zh": "倒车前先目视检查车辆后方的区域，然后转身向后看——后视镜的视野太小，不适合此用途。如果看不到后方，应请车外的人引导你，并且始终缓慢倒车。（第十章——安全驾驶技巧）"
+      },
+      "source": {
+        "section": "Chapter X — Safe Driving Techniques",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-065",
+      "topic": "safety",
+      "q": {
+        "en": "Pulling out of a driveway that crosses a sidewalk, where must your first stop be made?",
+        "zh": "从一条横过人行道的车道驶出时，你的第一次停车必须在什么位置？"
+      },
+      "options": {
+        "en": [
+          "Halfway across the sidewalk",
+          "Only after entering the roadway",
+          "No stop is required if the driveway is private",
+          "Before crossing the sidewalk area — failing to stop there is unlawful"
+        ],
+        "zh": [
+          "在人行道中间",
+          "进入道路之后",
+          "如果是私人车道则无需停车",
+          "在穿过人行道区域之前——不在此处停车是违法的"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "Entry from a driveway: always stop before entering the roadway, and make the stop before crossing the sidewalk area. Failure to stop is unlawful. Then move forward slowly, watch for pedestrians and vehicles, and enter the nearest lane. (Chapter X — Safe Driving Techniques)",
+        "zh": "从车道驶入：进入道路前必须停车，且停车位置应在穿过人行道区域之前，不停是违法的。然后缓慢向前，注意行人和车辆，进入最近的车道。（第十章——安全驾驶技巧）"
+      },
+      "source": {
+        "section": "Chapter X — Safe Driving Techniques",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-066",
+      "topic": "safety",
+      "q": {
+        "en": "Using the manual's counting method, what is the minimum safe following interval you should ever have?",
+        "zh": "按照手册的计数方法，你应始终保持的最小安全跟车时间间隔是多少？"
+      },
+      "options": {
+        "en": [
+          "One second",
+          "Four seconds at all speeds",
+          "At least a two-second interval",
+          "Half a car length per 10 mph"
+        ],
+        "zh": [
+          "一秒",
+          "所有速度下都是四秒",
+          "至少两秒的时间间隔",
+          "每10英里时速半辆车长"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Note when the vehicle ahead passes a tree, pole or other marker, then count \"one thousand one, one thousand two.\" If you reach \"two\" before your vehicle reaches the marker, you have at least a two-second interval. You should never have less. (Chapter X — Safe Driving Techniques)",
+        "zh": "当车辆前方通过一棵树、电线杆或其他标记物时开始数“一千零一、一千零二”。如果你的车到达标记物之前已数到“二”，你就有至少两秒的间隔。绝不能少于这个间隔。（第十章——安全驾驶技巧）"
+      },
+      "source": {
+        "section": "Chapter X — Safe Driving Techniques",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-067",
+      "topic": "safety",
+      "q": {
+        "en": "Before a lane change, the manual requires more than a mirror check. What else is required?",
+        "zh": "变道之前，手册要求的不只是看后视镜。还需要做什么？"
+      },
+      "options": {
+        "en": [
+          "A quick honk of the horn",
+          "Physically check the blind spots by turning your head and looking, signal well in advance (at least 100 feet), then move gradually",
+          "Speed up to match the fastest vehicle in the target lane",
+          "Flash your hazard lights"
+        ],
+        "zh": [
+          "快速鸣笛一次",
+          "转头亲眼检查盲点，提前足够距离打信号（至少100英尺），然后平稳地变道",
+          "加速到与目标车道最快车辆相同的速度",
+          "闪烁危险警示灯"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Check ahead, to the sides and to the rear with your mirrors and physically check the blind spots by turning your head and looking. Signal well in advance — the law requires signalling at least 100 feet before starting the lane change — then make a gradual, steady move, always yielding to vehicles already in the other lane. (Chapter X — Safe Driving Techniques)",
+        "zh": "用后视镜查看前方、两侧和后方，并转头亲眼检查盲点。提前足够距离打信号——法律要求在开始变道前至少100英尺打信号——然后平稳、渐进地变道，并始终让行已在另一车道内的车辆。（第十章——安全驾驶技巧）"
+      },
+      "source": {
+        "section": "Chapter X — Safe Driving Techniques",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-068",
+      "topic": "safety",
+      "q": {
+        "en": "You are entering a sharp curve on a wet road. When should most of your slowing be done?",
+        "zh": "你在湿滑路面上进入一个急弯。大部分减速应在什么时候完成？"
+      },
+      "options": {
+        "en": [
+          "Before you enter the curve; then hold a steady speed through it",
+          "In the middle of the curve, using firm braking",
+          "After the curve, to make up time",
+          "Curves should be taken at entry speed to keep momentum"
+        ],
+        "zh": [
+          "进入弯道之前；然后在弯中保持稳定速度",
+          "在弯道中间，用力刹车",
+          "出弯之后，以弥补时间",
+          "应以入弯速度过弯以保持势头"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Slow to a proper speed before you enter a curve or begin a turn, and maintain a steady speed while in the curve or turn. Braking or an abrupt change of speed in a turn or curve can cause you to lose control of the vehicle. (Chapter X — Safe Driving Techniques)",
+        "zh": "在进入弯道或开始转弯之前减速到适当速度，并在弯道或转弯过程中保持稳定速度。在转弯或弯道中刹车或突然改变速度会导致车辆失控。（第十章——安全驾驶技巧）"
+      },
+      "source": {
+        "section": "Chapter X — Safe Driving Techniques",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-069",
+      "topic": "safety",
+      "q": {
+        "en": "You are waiting in an intersection to complete a left turn when the light is green. How should your front wheels point while you wait?",
+        "zh": "绿灯时你在路口内等待完成左转。等待时前轮应指向哪里？"
+      },
+      "options": {
+        "en": [
+          "Turned fully to the left, ready to go",
+          "Turned slightly to the right",
+          "Pointing straight ahead",
+          "It does not matter"
+        ],
+        "zh": [
+          "完全向左打满，随时准备走",
+          "稍微向右",
+          "保持笔直向前",
+          "无所谓"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "While waiting to turn left, move slowly into the intersection when the light turns green, keep the wheels pointing straight ahead, and turn when the intersection is clear and it is safe to do so. (Chapter X — Safe Driving Techniques)",
+        "zh": "等待左转时，灯变绿后缓慢进入路口，保持车轮笔直向前，待路口通畅且安全时再转弯。（第十章——安全驾驶技巧）"
+      },
+      "source": {
+        "section": "Chapter X — Safe Driving Techniques",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-070",
+      "topic": "safety",
+      "q": {
+        "en": "You are passing a slower car on a two-lane road. At what point should you move back into your lane?",
+        "zh": "你在双车道道路上超越一辆较慢的车。应在什么时候回到你的车道？"
+      },
+      "options": {
+        "en": [
+          "As soon as your front bumper clears the other car's bumper",
+          "When you can see the overtaken vehicle in your interior rear-view mirror",
+          "After exactly five seconds in the passing lane",
+          "When the other driver flashes their lights"
+        ],
+        "zh": [
+          "你的前保险杠刚超过对方保险杠时",
+          "当你能从车内后视镜看到被超车辆时",
+          "在超车道上正好停留五秒后",
+          "当对方驾驶员闪灯时"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Move back into the proper traffic lane when you can see the overtaken vehicle in your interior rear-view mirror. If a conflict appears before you finish passing, brake sharply and return behind the vehicle instead of speeding up. (Chapter X — Safe Driving Techniques)",
+        "zh": "当你能从车内后视镜看到被超车辆时，再回到正确的行车道。如果超车未完成时出现冲突，应果断刹车回到对方车辆后面，而不是加速完成超车。（第十章——安全驾驶技巧）"
+      },
+      "source": {
+        "section": "Chapter X — Safe Driving Techniques",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-071",
+      "topic": "safety",
+      "q": {
+        "en": "Just as you pull alongside a car that parked a moment ago, what should you assume its driver is about to do?",
+        "zh": "当你正好驶到一辆刚刚停好的车旁边时，应该假设它的驾驶员正要做什么？"
+      },
+      "options": {
+        "en": [
+          "Turn off the engine and stay seated",
+          "Pull out without looking",
+          "Open the door into your path as you approach",
+          "All parked drivers wait for traffic to clear"
+        ],
+        "zh": [
+          "熄火并坐在车里",
+          "不看就直接驶出",
+          "在你接近时打开车门伸入你的行车路线",
+          "所有停车的驾驶员都会等交通清空"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "When you approach a vehicle that has just stopped in a parked position, assume the driver will open the door as you approach. Watch for clues: movement inside the vehicle, lit stop, back-up or signal lamps, exhaust vapor, and turning front wheels. (Chapter X — Safe Driving Techniques)",
+        "zh": "当你接近一辆刚刚停好的车辆时，应假设驾驶员会在你接近时打开车门。注意线索：车内有人活动、刹车灯/倒车灯/信号灯亮起、排气烟雾、前轮转动。（第十章——安全驾驶技巧）"
+      },
+      "source": {
+        "section": "Chapter X — Safe Driving Techniques",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-072",
+      "topic": "safety",
+      "q": {
+        "en": "Traffic ahead is slow and the far side of the intersection is full. Your light is green. What must you do?",
+        "zh": "前方交通缓慢，路口对面已经堵满。你的灯是绿灯。你必须怎么做？"
+      },
+      "options": {
+        "en": [
+          "Enter the intersection and stop in the middle",
+          "Enter the crosswalk only, to save space",
+          "Never drive into an intersection or crosswalk unless there is space for your entire vehicle on the opposite side",
+          "Honk so the far side clears"
+        ],
+        "zh": [
+          "进入路口并停在中间",
+          "只驶入人行横道，以节省空间",
+          "绝不能驶入路口或人行横道，除非对面有能容纳你整辆车的空间",
+          "鸣笛让对面腾空"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "You should not stop your vehicle within an intersection or a crosswalk. Never drive your vehicle into an intersection or a crosswalk unless there is space for your entire vehicle on the opposite side. (Chapter X — Safe Driving Techniques)",
+        "zh": "不应将车辆停在路口内或人行横道上。绝不能驶入路口或人行横道，除非对面有能容纳你整辆车的空间。（第十章——安全驾驶技巧）"
+      },
+      "source": {
+        "section": "Chapter X — Safe Driving Techniques",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-073",
+      "topic": "safety",
+      "q": {
+        "en": "After driving through deep water, your brakes feel weak and pull to one side. What should you do?",
+        "zh": "驶过深水后，你的刹车感觉无力且向一侧偏。应该怎么做？"
+      },
+      "options": {
+        "en": [
+          "Test the brakes and apply them lightly several times until proper braking action is restored",
+          "Drive faster so the wind dries them",
+          "Ignore it — brakes always recover by themselves",
+          "Use the parking brake for the rest of the trip"
+        ],
+        "zh": [
+          "测试刹车并轻轻多踩几次，直到制动恢复正常",
+          "开得更快，让风把刹车吹干",
+          "不用管——刹车总会自己恢复",
+          "在剩余路程中使用驻车制动"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Always test the action of the brakes after driving through water. If braking action has been reduced, apply the brakes lightly several times until proper braking action is restored. (Chapter X — Safe Driving Techniques)",
+        "zh": "驶过水后始终要测试刹车。如果制动力下降，轻轻多踩几次刹车，直到制动恢复正常。（第十章——安全驾驶技巧）"
+      },
+      "source": {
+        "section": "Chapter X — Safe Driving Techniques",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-074",
+      "topic": "safety",
+      "q": {
+        "en": "Before starting down a long steep grade, the manual recommends downshifting in order to:",
+        "zh": "开始下长陡坡之前，手册建议降挡，目的是："
+      },
+      "options": {
+        "en": [
+          "Warn following drivers with your stop lamps",
+          "Avoid using the brakes entirely",
+          "Get additional braking effect from the engine; the shift should be made before the downgrade begins",
+          "Increase your speed for the climb on the other side"
+        ],
+        "zh": [
+          "用刹车灯警告后车",
+          "完全不使用刹车",
+          "获得发动机额外的制动效果；降挡应在开始下坡之前完成",
+          "为另一侧的上坡提高速度"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Downshifting is proper when used to obtain additional braking effect from the engine on a steep grade, and the downshift should be made before starting the downgrade. Routine downshifting just to slow down is not recommended because it gives following drivers no stop-lamp warning. (Chapter X — Safe Driving Techniques)",
+        "zh": "在陡坡上利用发动机制动时，降挡是正确做法，且应在开始下坡之前完成降挡。仅仅为了减速而日常性降挡并不推荐，因为那不会给后车亮起刹车灯警告。（第十章——安全驾驶技巧）"
+      },
+      "source": {
+        "section": "Chapter X — Safe Driving Techniques",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-075",
+      "topic": "safety",
+      "q": {
+        "en": "Parking on a hill in Hawaii, the manual's rule for your front wheels is unusual compared with many mainland guides. What does it require?",
+        "zh": "在夏威夷的坡道上停车，手册对前轮方向的规定与许多大陆指南不同。它要求什么？"
+      },
+      "options": {
+        "en": [
+          "Wheels to the left when facing uphill, to the right downhill",
+          "Always turn the front wheels toward the curb — whether uphill or downhill, turn them to the right, so the vehicle would roll away from traffic if it rolled free",
+          "Wheels must always point straight",
+          "Wheels away from the curb so the car rolls into the curb"
+        ],
+        "zh": [
+          "上坡时车轮向左，下坡时向右",
+          "始终将前轮转向路缘一侧——无论上坡还是下坡都向右打，这样车辆若溜车会滚离交通流",
+          "车轮必须始终摆正",
+          "车轮转向远离路缘一侧，让车辆滚向路缘"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "For hill parking: always set the hand brake and shift to PARK (or reverse/low gear), and always turn the front wheels towards the curb. Whether you park uphill or downhill, turn the wheels to the right; this ensures the vehicle will roll away from traffic if it rolls free. (Chapter X — Safe Driving Techniques)",
+        "zh": "坡道停车：始终拉紧手刹并挂入P挡（或倒挡/低挡），并始终将前轮转向路缘。无论上坡还是下坡，都向右打轮；这样车辆若溜车会滚离交通流。（第十章——安全驾驶技巧）"
+      },
+      "source": {
+        "section": "Chapter X — Safe Driving Techniques",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-076",
+      "topic": "safety",
+      "q": {
+        "en": "Rain has just started after a dry week. Why are the first few drops a special danger signal?",
+        "zh": "干旱一周后刚开始下雨。为什么最初的几滴雨是特别的危险信号？"
+      },
+      "options": {
+        "en": [
+          "New rain makes headlights mandatory by law",
+          "Oil dropped from passing cars has not been washed away yet, so the road can be as slippery as ice",
+          "Rainwater hides the lane markings completely",
+          "Wipers are not effective until the rain becomes heavy"
+        ],
+        "zh": [
+          "新雨使法律强制开大灯",
+          "过往车辆滴落的油还没有被冲走，路面会像冰一样滑",
+          "雨水会完全遮住车道标线",
+          "雨不够大时雨刮器无效"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Roads are most slippery at the start of rain because oil dropped from passing cars has not been washed away. Reduce speed, use extra caution, and allow at least twice the normal following distance. (Chapter X — Safe Driving Techniques)",
+        "zh": "下雨初期路面最滑，因为过往车辆滴落的油还没被冲走。应减速、格外小心，并保持至少两倍于平时的跟车距离。（第十章——安全驾驶技巧）"
+      },
+      "source": {
+        "section": "Chapter X — Safe Driving Techniques",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-077",
+      "topic": "safety",
+      "q": {
+        "en": "In heavy rain at 55 mph, the manual warns that your tires may:",
+        "zh": "在大雨中以55英里/小时行驶时，手册警告你的轮胎可能会："
+      },
+      "options": {
+        "en": [
+          "Wear out twice as fast as normal",
+          "Lose all contact with the pavement through hydroplaning, so you cannot brake, accelerate or turn",
+          "Become over-inflated from the heat",
+          "Grip better because of the water pressure"
+        ],
+        "zh": [
+          "磨损速度是平时的两倍",
+          "因水滑（hydroplaning）完全失去与路面的接触，使你无法刹车、加速或转弯",
+          "因高温而过度充气",
+          "因水压而抓地更好"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "At speeds up to about 35 mph, good tires wipe water off the surface. Partial hydroplaning may start at 35 mph, and at 55 mph in heavy rain the tires may lose all contact with the pavement — when that happens you have no control over the vehicle. Good tread, proper inflation and reduced speed prevent it. (Chapter X — Safe Driving Techniques)",
+        "zh": "在时速约35英里以下，好轮胎能把水从路面排开。时速35英里可能开始出现部分水滑；大雨中时速55英里时轮胎可能完全失去与路面的接触——此时你对车辆毫无控制。良好的胎纹、正确的胎压和降低车速可以预防水滑。（第十章——安全驾驶技巧）"
+      },
+      "source": {
+        "section": "Chapter X — Safe Driving Techniques",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-078",
+      "topic": "safety",
+      "q": {
+        "en": "You are driving through a patch of dense fog on a mountain road. Which lighting and action are correct?",
+        "zh": "你在山路上驶过一片浓雾。哪种灯光与做法是正确的？"
+      },
+      "options": {
+        "en": [
+          "Low beams only; if you cannot see at least two car lengths (40 feet), pull completely off the pavement, stop, and turn on the hazard signals",
+          "High beams, so you can see farther into the fog",
+          "No lights, so the fog does not reflect",
+          "High beams plus hazard lights while continuing at normal speed"
+        ],
+        "zh": [
+          "只开近光灯；如果看不到至少两辆车长（40英尺），就完全驶离路面、停车并打开危险警示灯",
+          "开远光灯，以便看得更远",
+          "不开灯，以免雾反射灯光",
+          "开远光灯加危险警示灯，保持正常速度继续行驶"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "In fog, sharply reduce speed and turn on low-beam head lamps; never use the high beam because the reflection reduces your ability to see. If you cannot see at least two car lengths (40 feet), pull completely off the pavement and stop, and turn on the hazard warning signals. (Chapter X — Safe Driving Techniques)",
+        "zh": "雾中应大幅减速并打开近光灯；绝不要用远光灯，因为反射会降低你的能见度。如果看不到至少两辆车长（40英尺），应完全驶离路面、停车，并打开危险警示灯。（第十章——安全驾驶技巧）"
+      },
+      "source": {
+        "section": "Chapter X — Safe Driving Techniques",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-079",
+      "topic": "safety",
+      "q": {
+        "en": "On a flooded street, swiftly moving water covers the roadway. At what depth does the manual say the water can sweep your vehicle off the road?",
+        "zh": "在被淹的街道上，急流覆盖了路面。手册说水深超过多少时，水流能把你的车冲离道路？"
+      },
+      "options": {
+        "en": [
+          "Over 3 feet deep",
+          "Over 1 foot deep",
+          "Any visible water at all",
+          "Over 6 inches deep is always safe to cross"
+        ],
+        "zh": [
+          "超过3英尺",
+          "超过1英尺",
+          "只要看得见水就不能走",
+          "超过6英寸时总是可以安全通过的"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Never drive through a flooded area where water over one foot deep (30 cm) is moving swiftly. The water will sweep your vehicle off the road. (Chapter X — Safe Driving Techniques)",
+        "zh": "绝不要驶过水深超过1英尺（30厘米）且水流湍急的淹水区域。水会把你的车辆冲离道路。（第十章——安全驾驶技巧）"
+      },
+      "source": {
+        "section": "Chapter X — Safe Driving Techniques",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-080",
+      "topic": "safety",
+      "q": {
+        "en": "Driving at night, an oncoming car's lights are blindingly bright. The manual's recommended response is to:",
+        "zh": "夜间驾驶时，对向车辆的灯光刺眼。手册建议的做法是："
+      },
+      "options": {
+        "en": [
+          "Close your eyes briefly until it passes",
+          "Stare directly at the lights to adjust your eyes",
+          "Flash your high beams once, then look at the right edge of the road and use lane markings or reflectors as a guide",
+          "Turn your lights off so the other driver dims theirs"
+        ],
+        "zh": [
+          "短暂闭眼直到它通过",
+          "直视灯光让眼睛适应",
+          "闪一次远光灯，然后看向道路右边缘，以车道标线或反光标为引导",
+          "关掉你的灯，让对方把灯调暗"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "If the lights of an approaching vehicle are too bright, flash your high beams once and look at the right edge of the road, using lane markings or reflectors as a guide. Also reduce speed at night so you can stop within the distance you can see ahead. (Chapter X — Safe Driving Techniques)",
+        "zh": "如果对向车辆的灯光太亮，闪一次远光灯，然后看向道路右边缘，以车道标线或反光标为引导。夜间还应减速，确保能在你看得见的距离内停下。（第十章——安全驾驶技巧）"
+      },
+      "source": {
+        "section": "Chapter X — Safe Driving Techniques",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-081",
+      "topic": "safety",
+      "q": {
+        "en": "On a freeway entrance ramp, traffic in the entrance lane is congested and barely moving. What does the manual warn against?",
+        "zh": "在高速公路入口匝道上，入口车道拥堵、车辆缓慢移动。手册警告不要做什么？"
+      },
+      "options": {
+        "en": [
+          "Stopping near the entrance of the ramp",
+          "Using your turn signal before merging",
+          "Matching the speed of freeway traffic when the lane clears",
+          "Moving slowly to the very end of the entrance lane and stopping there"
+        ],
+        "zh": [
+          "在匝道入口附近停车",
+          "并线前使用转向灯",
+          "车道畅通时与高速公路车流同速",
+          "缓慢驶到入口车道的最末端并停在那里"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "If the entrance lane is congested, slow down or stop near the entrance. Do not move slowly to the end of the entrance lane and stop — it is very difficult and dangerous to enter freeway traffic from a stop at the end of the lane. (Chapter X — Safe Driving Techniques)",
+        "zh": "如果入口车道拥堵，应在入口附近减速或停车。不要缓慢驶到入口车道末端再停——从车道末端的静止状态进入高速车流非常困难且危险。（第十章——安全驾驶技巧）"
+      },
+      "source": {
+        "section": "Chapter X — Safe Driving Techniques",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-082",
+      "topic": "safety",
+      "q": {
+        "en": "A front tire blows out at highway speed. What is the first thing you should NOT do, and what should you do instead?",
+        "zh": "在高速公路速度下前轮爆胎。首先不应该做什么？应该怎么做？"
+      },
+      "options": {
+        "en": [
+          "Do not apply the brakes; grip the wheel firmly, stay in your lane, slow gradually without braking, then brake lightly and pull off when moving very slowly",
+          "Apply the brakes hard at once; then steer to the shoulder",
+          "Accelerate to keep the car stable; then stop suddenly",
+          "Turn the wheel sharply toward the shoulder immediately"
+        ],
+        "zh": [
+          "不要踩刹车；握紧方向盘、保持在车道内、不踩刹车地逐渐减速，等速度很慢时再轻踩刹车并驶离道路",
+          "立即用力踩刹车；然后转向路肩",
+          "加速保持车辆稳定；然后突然停车",
+          "立即猛打方向盘转向路肩"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "In a tire blowout, do not apply the brakes — that may make the vehicle uncontrollable. Grip the steering wheel firmly and steer to remain in your lane, reduce speed gradually without using the brakes, then apply the brakes lightly and pull off the road into a safe area. (Chapter X — Safe Driving Techniques)",
+        "zh": "爆胎时不要踩刹车——那会使车辆失控。应握紧方向盘、保持在本车道内、不使用刹车地逐渐减速，然后轻踩刹车，驶离道路到安全区域。（第十章——安全驾驶技巧）"
+      },
+      "source": {
+        "section": "Chapter X — Safe Driving Techniques",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-083",
+      "topic": "safety",
+      "q": {
+        "en": "Your brake pedal goes to the floor and the brakes fail completely while you are driving. In what order should you act?",
+        "zh": "驾驶时刹车踏板踩到底、刹车完全失灵。应按什么顺序行动？"
+      },
+      "options": {
+        "en": [
+          "Shift to neutral, coast, and hope the car slows",
+          "Pump the brake pedal quickly, shift to a lower gear, look for an escape route, and apply the parking brake gradually",
+          "Apply the parking brake as hard as possible first",
+          "Turn the engine off and steer to the shoulder"
+        ],
+        "zh": [
+          "挂空挡、滑行，希望车辆自己慢下来",
+          "快速连踩刹车踏板、降挡、寻找逃生路线，并逐渐拉起驻车制动",
+          "先尽可能用力拉驻车制动",
+          "熄火并转向路肩"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "If your brakes fail completely: pump the brake pedal quickly; shift to a lower gear; look for an escape route such as a side road or flat open area, using lights and horn to warn others; then apply the parking brake gradually — a rapid, forceful application can cause loss of control. (Chapter X — Safe Driving Techniques)",
+        "zh": "刹车完全失灵时：快速连踩刹车踏板；降挡；寻找侧路或平坦开阔地等逃生路线，用灯光和喇叭警告他人；然后逐渐拉起驻车制动——快速用力拉动会导致失控。（第十章——安全驾驶技巧）"
+      },
+      "source": {
+        "section": "Chapter X — Safe Driving Techniques",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-084",
+      "topic": "safety",
+      "q": {
+        "en": "Your car begins to skid sideways on a wet curve. To recover, you should:",
+        "zh": "你的车在湿滑弯道上开始侧滑。要恢复控制，你应该："
+      },
+      "options": {
+        "en": [
+          "Avoid the brakes, ease off the accelerator, and turn the steering wheel in the direction the rear of the vehicle is skidding",
+          "Brake firmly and turn the wheel away from the skid",
+          "Accelerate gently to pull the car straight",
+          "Turn the wheel as far as possible toward the inside of the curve"
+        ],
+        "zh": [
+          "避免使用刹车、松开油门，并把方向盘转向车辆尾部打滑的方向",
+          "用力刹车，并把方向盘向打滑的反方向打",
+          "轻踩油门把车拉直",
+          "把方向盘尽可能向弯道内侧打满"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "To steer out of a skid: avoid using the brakes (release them if braking started the skid), ease off the accelerator, and turn the steering wheel in the direction the rear of the vehicle is skidding — right for a right skid, left for a left skid — firmly but without a large sudden turn. Overcorrecting can skid the car the opposite way. (Chapter X — Safe Driving Techniques)",
+        "zh": "驶出打滑的方法：避免使用刹车（如果是刹车引发的打滑则松开刹车）、松开油门，并把方向盘转向车辆尾部打滑的方向——向右滑就向右打，向左滑就向左打——果断但不要大幅猛打。过度修正会使车辆向相反方向打滑。（第十章——安全驾驶技巧）"
+      },
+      "source": {
+        "section": "Chapter X — Safe Driving Techniques",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-085",
+      "topic": "safety",
+      "q": {
+        "en": "Your right wheels drop off the pavement edge onto a gravel shoulder. What is the correct way to get back on the road?",
+        "zh": "你的右侧车轮驶离路面边缘、掉到碎石路肩上。回到路面的正确方法是什么？"
+      },
+      "options": {
+        "en": [
+          "Jerk the steering wheel hard to the left at once",
+          "Speed up so the wheels climb the edge",
+          "Keep driving with the wheels off the pavement while you reduce speed, brake gently, and steer back onto the pavement only at a safe speed",
+          "Stop immediately with two wheels off the road"
+        ],
+        "zh": [
+          "立即猛打方向盘向左",
+          "加速让车轮爬上路面边缘",
+          "保持车轮在路面外继续行驶并减速，轻轻刹车，在安全速度下再打方向回到路面",
+          "立即停下，让两个轮子停在路外"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "If your vehicle slips off the edge of the road, do not try to force it back by jerking the steering wheel. Continue driving with the wheels off the pavement and reduce speed, use the brakes gently, and when at a safe speed turn the wheel to return to the pavement, ready to correct to stay in your lane. (Chapter X — Safe Driving Techniques)",
+        "zh": "如果车辆滑出路面边缘，不要猛打方向盘强行返回。应保持车轮在路面外继续行驶并减速，轻踩刹车，在安全速度下转动方向盘回到路面，并准备好修正以保持在车道内。（第十章——安全驾驶技巧）"
+      },
+      "source": {
+        "section": "Chapter X — Safe Driving Techniques",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-086",
+      "topic": "sharing",
+      "q": {
+        "en": "You are driving a car directly behind a large truck at a stop line and cannot see its mirrors. What does that position mean?",
+        "zh": "你在一辆大卡车正后方的停车线处，无法看到它的后视镜。这个位置意味着什么？"
+      },
+      "options": {
+        "en": [
+          "You are in the truck's blind spot for following distance",
+          "The truck driver is required to move forward for you",
+          "You are at the safest possible distance",
+          "The area immediately behind a large vehicle is not visible to its driver — if you cannot see the driver in the mirrors, the driver cannot see you"
+        ],
+        "zh": [
+          "你处于卡车的跟车距离盲区",
+          "卡车驾驶员必须为你向前移动",
+          "你处于最安全的距离",
+          "大型车辆正后方的区域其驾驶员看不到——如果你看不到后视镜中的驾驶员，驾驶员也看不到你"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "Visibility to the sides and rear of large vehicles is severely limited; other traffic can only be seen by mirrors, and the area to the immediate rear of the vehicle is not visible to the driver. Stay where the large-vehicle driver can see you. (Chapter XI — Trucks, Buses and Motorcycles)",
+        "zh": "大型车辆的两侧和后方视野严重受限；其他车辆只能通过后视镜看到，而车辆正后方的区域驾驶员根本看不到。应停留在大型车辆驾驶员能看到你的位置。（第十一章——卡车、公共汽车和摩托车）"
+      },
+      "source": {
+        "section": "Chapter XI — Trucks, Buses and Motorcycles",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-087",
+      "topic": "sharing",
+      "q": {
+        "en": "Why must you be especially careful changing lanes in front of, or turning across, a large truck or bus?",
+        "zh": "为什么在大型卡车或公共汽车前方变道、或横过其前方转弯时必须格外小心？"
+      },
+      "options": {
+        "en": [
+          "Large vehicles stop faster than cars",
+          "Large vehicles are not allowed to brake at intersections",
+          "Trucks always have the right-of-way",
+          "Large vehicles require greater stopping distances than other vehicles"
+        ],
+        "zh": [
+          "大型车辆比小汽车刹车更快",
+          "大型车辆不允许在路口刹车",
+          "卡车永远拥有路权",
+          "大型车辆需要的停车距离比其他车辆更大"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "Large vehicles require greater stopping distances. When changing lanes or at intersections, other drivers and highway users must make allowances for the increased stopping distance of large vehicles. (Chapter XI — Trucks, Buses and Motorcycles)",
+        "zh": "大型车辆需要更大的停车距离。变道或在路口时，其他驾驶员和道路使用者必须为大型车辆增加的停车距离留出余地。（第十一章——卡车、公共汽车和摩托车）"
+      },
+      "source": {
+        "section": "Chapter XI — Trucks, Buses and Motorcycles",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-088",
+      "topic": "sharing",
+      "q": {
+        "en": "A heavily loaded truck ahead of you starts down a long downgrade. Professional practice for that truck driver — and your best response — is:",
+        "zh": "一辆重载卡车在你前方开始下长坡。对卡车驾驶员的专业做法——以及你最佳的应对——是："
+      },
+      "options": {
+        "en": [
+          "The trucker shifts to an appropriate lower gear before descending to avoid overheating the brakes; you should be alert and move out of the way of an overtaking large vehicle",
+          "The trucker rides the brakes all the way down; you stay close behind",
+          "The trucker speeds up to shorten the descent; you do the same",
+          "Both of you should stop at the top and wait"
+        ],
+        "zh": [
+          "卡车司机在下坡前换入适当的低挡以避免刹车过热；你应警觉并为超车的大型车辆让路",
+          "卡车司机全程踩着刹车下坡；你紧跟其后",
+          "卡车司机加速以缩短下坡时间；你也这样做",
+          "你们都应在坡顶停车等待"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Continuous braking on downgrades makes brakes ineffective, which is more dangerous with large vehicles. Large-vehicle drivers should shift to an appropriate lower gear before descending a steep hill, and other drivers should be alert to overtaking large vehicles and move out of their way. (Chapter XI — Trucks, Buses and Motorcycles)",
+        "zh": "下坡时持续刹车会使刹车失效，对大型车辆更危险。大型车辆驾驶员应在下陡坡前换入适当的低挡；其他驾驶员应警觉超车的大型车辆并为其让路。（第十一章——卡车、公共汽车和摩托车）"
+      },
+      "source": {
+        "section": "Chapter XI — Trucks, Buses and Motorcycles",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-089",
+      "topic": "sharing",
+      "q": {
+        "en": "Passing a fast-moving semi-trailer on a windy day, your small car is pushed sideways for a moment. What caused this, and what should you be ready to do?",
+        "zh": "在有风的日子里超越一辆快速行驶的半挂车时，你的小车被横向推了一下。是什么造成的？你应做好什么准备？"
+      },
+      "options": {
+        "en": [
+          "A tire is going flat; stop immediately",
+          "The trailer's brakes are dragging; honk to warn the driver",
+          "The slipstream — wind gusts from the large vehicle can change the direction of smaller vehicles, so be ready to make corrective steering inputs",
+          "Road damage; report it and keep driving straight"
+        ],
+        "zh": [
+          "轮胎在漏气；立即停车",
+          "挂车的刹车在拖滞；鸣笛警告驾驶员",
+          "尾流——大型车辆的气流足以改变小型车辆的方向，因此要准备好修正方向",
+          "路面损坏；报告后继续直行"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Large fast-moving vehicles cause a slipstream: wind gusts with force great enough to cause direction changes in smaller vehicles. Drivers of smaller vehicles should be prepared to take proper corrective steering action when approaching or passing them. (Chapter XI — Trucks, Buses and Motorcycles)",
+        "zh": "快速行驶的大型车辆会产生尾流：其气流力量足以改变小型车辆的方向。小型车辆驾驶员在接近或超越它们时应准备好采取正确的方向修正。（第十一章——卡车、公共汽车和摩托车）"
+      },
+      "source": {
+        "section": "Chapter XI — Trucks, Buses and Motorcycles",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-090",
+      "topic": "sharing",
+      "q": {
+        "en": "Your trailer is wide enough to block your view through the inside rear-view mirror. What equipment is required?",
+        "zh": "你的挂车宽到挡住了车内后视镜的视线。需要什么设备？"
+      },
+      "options": {
+        "en": [
+          "A taller antenna",
+          "Outside rear-view mirrors of proper size on both sides of the car",
+          "A passenger to watch behind you",
+          "Convex mirrors are optional, so nothing extra"
+        ],
+        "zh": [
+          "更高的天线",
+          "在汽车两侧安装尺寸合适的外后视镜",
+          "一位乘客帮你看后面",
+          "凸面镜是可选的，所以不需要额外的东西"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "If your trailer is large enough to obstruct your view through your inside rear-view mirror, you must have outside rear-view mirrors of proper size on both sides of your car. (Chapter XI — Trucks, Buses and Motorcycles)",
+        "zh": "如果你的挂车大到挡住车内后视镜的视线，你必须在汽车两侧安装尺寸合适的外后视镜。（第十一章——卡车、公共汽车和摩托车）"
+      },
+      "source": {
+        "section": "Chapter XI — Trucks, Buses and Motorcycles",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-091",
+      "topic": "sharing",
+      "q": {
+        "en": "When must a towed trailer have its own brakes and breakaway protection?",
+        "zh": "被牵引的挂车在什么情况下必须有自己的刹车和脱离保护装置？"
+      },
+      "options": {
+        "en": [
+          "Only trailers carrying hazardous materials",
+          "When the loaded trailer weighs more than half the weight of the towing vehicle, or is 3,000 pounds or more",
+          "Only on freeways",
+          "All trailers, regardless of weight"
+        ],
+        "zh": [
+          "仅限运载危险品的挂车",
+          "当装载后的挂车重量超过牵引车辆重量的一半，或达到3,000磅或以上时",
+          "仅在高速公路上",
+          "所有挂车，无论重量"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "If your loaded trailer weighs more than half the weight of the towing vehicle or is 3,000 pounds or more, the trailer must be equipped with brakes and breakaway protection. (Chapter XI — Trucks, Buses and Motorcycles)",
+        "zh": "如果装载后的挂车重量超过牵引车辆重量的一半，或达到3,000磅或以上，挂车必须配备刹车和脱离保护装置。（第十一章——卡车、公共汽车和摩托车）"
+      },
+      "source": {
+        "section": "Chapter XI — Trucks, Buses and Motorcycles",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-092",
+      "topic": "sharing",
+      "q": {
+        "en": "How must trailer safety chains be attached?",
+        "zh": "挂车的安全链必须如何连接？"
+      },
+      "options": {
+        "en": [
+          "To any part of the trailer hitch",
+          "Only to the bumper of the towing vehicle",
+          "Chains are optional if the hitch has a locking pin",
+          "To the frame of the towing vehicle and the frame of the trailer — not to a part of the trailer hitch"
+        ],
+        "zh": [
+          "连接到挂车挂钩的任何部位",
+          "只能连到牵引车辆的保险杠上",
+          "如果挂钩有锁销，安全链是可选的",
+          "连接到牵引车辆的车架和挂车的车架——不得连接到挂车挂钩的任何部位"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "Safety chains must be attached to the frame of the towing vehicle and the trailer, and not connected to a part of the trailer hitch. Do not rely on bumper hitches for any trailer. (Chapter XI — Trucks, Buses and Motorcycles)",
+        "zh": "安全链必须连接到牵引车辆和挂车的车架上，不得连接到挂车挂钩的任何部位。任何挂车都不要依赖保险杠挂钩。（第十一章——卡车、公共汽车和摩托车）"
+      },
+      "source": {
+        "section": "Chapter XI — Trucks, Buses and Motorcycles",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-093",
+      "topic": "sharing",
+      "q": {
+        "en": "A trailer sways side to side (\"fishtails\") behind your car. Per the manual, a likely cause related to loading is:",
+        "zh": "挂车在你车后左右摆动（“鱼尾”摆动）。根据手册，与装载有关的一个可能原因是："
+      },
+      "options": {
+        "en": [
+          "Too little weight on the hitch — about 10% to 15% of the trailer's weight should rest on the hitch",
+          "Too much weight on the hitch",
+          "The trailer is painted the wrong color",
+          "The safety chains are too short"
+        ],
+        "zh": [
+          "挂钩上的重量太小——挂车重量的约10%至15%应压在挂钩上",
+          "挂钩上的重量太大",
+          "挂车颜色不对",
+          "安全链太短"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "About 10% to 15% of the trailer weight should be on the vehicle's trailer hitch. If the weight is too great you will have difficulty steering; if it is too small, the trailer will fishtail. Do not overload the trailer, and secure the load. (Chapter XI — Trucks, Buses and Motorcycles)",
+        "zh": "挂车重量的约10%至15%应压在车辆的挂钩上。重量太大将难以转向；太小则挂车会“鱼尾”摆动。不要超载，并固定好货物。（第十一章——卡车、公共汽车和摩托车）"
+      },
+      "source": {
+        "section": "Chapter XI — Trucks, Buses and Motorcycles",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-094",
+      "topic": "sharing",
+      "q": {
+        "en": "A motorcyclist ahead of you keeps shifting position within the lane — left, then center, then right. What should you understand and do?",
+        "zh": "你前方的一名摩托车骑手不断在车道内变换位置——左、中、右。你应该理解什么并怎么做？"
+      },
+      "options": {
+        "en": [
+          "The rider is being careless; pass quickly in the same lane",
+          "Riders change lane position to see and be seen and to avoid hazards like potholes; a motorcycle is entitled to the full width of the lane, so never share the lane with it",
+          "The rider is signalling a turn each time",
+          "Move into the rider's lane to give them a warning"
+        ],
+        "zh": [
+          "骑手很粗心；在同一车道内快速超过他",
+          "骑手变换车道位置是为了看见别人并被别人看见，并避开坑洼等危险；摩托车有权使用整条车道的宽度，所以绝不要与它共用车道",
+          "骑手每次都在示意转弯",
+          "驶入骑手的车道给他一个警告"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Motorcyclists position themselves in the lane to see and be seen, and shift position to increase distance from hazards such as potholes or railroad tracks — sometimes suddenly. Motorcycles are allowed the full width of a lane; refrain from sharing a lane with a motorcyclist. (Chapter XI — Trucks, Buses and Motorcycles)",
+        "zh": "摩托车骑手在车道内调整位置是为了看见别人并被别人看见，并拉开与坑洼、铁轨等危险的距离——有时会突然变换。摩托车有权使用整条车道的宽度；不要与摩托车共用车道。（第十一章——卡车、公共汽车和摩托车）"
+      },
+      "source": {
+        "section": "Chapter XI — Trucks, Buses and Motorcycles",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-095",
+      "topic": "sharing",
+      "q": {
+        "en": "A motorcycle ahead has its left turn signal blinking for a long stretch of straight road. Why should you be cautious about assuming the rider is about to turn?",
+        "zh": "前方一辆摩托车的左转灯在很长一段直路上一直闪烁。为什么你不应急于断定骑手即将转弯？"
+      },
+      "options": {
+        "en": [
+          "Motorcycle turn signals do not automatically shut off, and riders occasionally forget to cancel them — be sure of the rider's intention before moving into their path",
+          "Motorcycle signals are decorative only",
+          "The rider is required to signal for one full mile",
+          "A blinking signal on a motorcycle means the rider is stopping"
+        ],
+        "zh": [
+          "摩托车转向灯不会自动关闭，骑手有时会忘记关掉——在进入其行驶路线前，要先确认骑手的真实意图",
+          "摩托车信号灯只是装饰",
+          "骑手必须提前整整一英里打信号",
+          "摩托车上闪烁的信号表示骑手要停车"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Turn signals do not automatically shut off on a motorcycle, and riders occasionally forget to cancel them after a turn. Do not assume a rider's intention until the maneuver is unmistakably started. (Chapter XI — Trucks, Buses and Motorcycles)",
+        "zh": "摩托车的转向灯不会自动关闭，骑手偶尔会在转弯后忘记关掉。在动作明确开始之前，不要推测骑手的意图。（第十一章——卡车、公共汽车和摩托车）"
+      },
+      "source": {
+        "section": "Chapter XI — Trucks, Buses and Motorcycles",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-096",
+      "topic": "sharing",
+      "q": {
+        "en": "When following a motorcycle, what following distance does the manual specify, and why should you consider even more space?",
+        "zh": "跟随摩托车时，手册规定了多大的跟车距离？为什么还应考虑留更多空间？"
+      },
+      "options": {
+        "en": [
+          "At least a 2-second following distance; more space helps because a motorcycle's speed and distance are hard to judge",
+          "One car length; motorcycles stop slowly",
+          "No special distance applies to motorcycles",
+          "A full minute of following distance"
+        ],
+        "zh": [
+          "至少2秒的跟车距离；留更多空间是因为摩托车的速度和距离难以判断",
+          "一辆车长；摩托车停得慢",
+          "摩托车没有特别的距离规定",
+          "整整一分钟的跟车距离"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "When driving behind a motorcycle, allow at least a 2-second following distance so the cyclist has room to maneuver or stop in an emergency, and increase the space because motorists have difficulty judging a motorcycle's speed and distance. (Chapter XI — Trucks, Buses and Motorcycles)",
+        "zh": "在摩托车后方行驶时，至少保持2秒的跟车距离，让骑手有空间在紧急情况下机动或停车；并应加大空间，因为驾驶员难以判断摩托车的速度和距离。（第十一章——卡车、公共汽车和摩托车）"
+      },
+      "source": {
+        "section": "Chapter XI — Trucks, Buses and Motorcycles",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-097",
+      "topic": "sharing",
+      "q": {
+        "en": "How must you pass a motorcycle on a two-lane road?",
+        "zh": "在双车道道路上应如何超越摩托车？"
+      },
+      "options": {
+        "en": [
+          "Crowd into the same lane briefly — motorcycles are small",
+          "Pass on the right shoulder",
+          "Honk continuously while alongside",
+          "Allow the motorcycle a full lane; never crowd into its lane, and do not return to your lane too soon, which can force the rider to swerve right into traffic or off the road"
+        ],
+        "zh": [
+          "短暂挤进同一车道——摩托车体积小",
+          "从右侧路肩通过",
+          "并行时持续鸣笛",
+          "给摩托车留出整条车道；绝不挤进它的车道，也不要过早返回你的车道，那会迫使骑手向右猛拐进入车流或驶离道路"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "When passing a motorcycle, allow a full lane to the motorcycle and never crowd into the same lane. Returning to the original lane too soon can force a rider to swerve to the right into traffic or off the road. (Chapter XI — Trucks, Buses and Motorcycles)",
+        "zh": "超越摩托车时，应给它留出整条车道，绝不挤进同一车道。过早返回原车道会迫使骑手向右猛拐，进入车流或驶离道路。（第十一章——卡车、公共汽车和摩托车）"
+      },
+      "source": {
+        "section": "Chapter XI — Trucks, Buses and Motorcycles",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-098",
+      "topic": "sharing",
+      "q": {
+        "en": "A person with a white cane is stepping into the roadway mid-block while your light is green. What must you do?",
+        "zh": "一名手持白色手杖的人在街区中间走上道路，而你的信号灯是绿灯。你必须怎么做？"
+      },
+      "options": {
+        "en": [
+          "Proceed — the green light gives you the right-of-way",
+          "Stop for the blind person regardless of the traffic signal indication or traffic situation",
+          "Honk and pass slowly behind them",
+          "Yield only if they are in a marked crosswalk"
+        ],
+        "zh": [
+          "通行——绿灯赋予你路权",
+          "无论交通信号或交通状况如何，都必须为这名盲人停车",
+          "鸣笛后从其身后缓慢通过",
+          "只有当他们在标示的人行横道内时才让行"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Stop for all blind persons in the roadway — identified by a white cane or a guide dog — regardless of the traffic signal indication or traffic situation. (Chapter XII — Pedestrian Safety)",
+        "zh": "对所有在道路上的盲人——以白手杖或导盲犬为标识——无论交通信号显示或交通状况如何，都必须停车。（第十二章——行人安全）"
+      },
+      "source": {
+        "section": "Chapter XII — Pedestrian Safety",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-099",
+      "topic": "sharing",
+      "q": {
+        "en": "The SUV ahead of you has stopped mid-block and you suspect a pedestrian is crossing in front of it. Passing that stopped vehicle is:",
+        "zh": "你前方的SUV停在了街区中间，你怀疑有行人在它前面过街。超越这辆停着的车："
+      },
+      "options": {
+        "en": [
+          "Allowed if you slow to 10 mph",
+          "Allowed if you can see over the SUV",
+          "Required to keep traffic moving",
+          "Prohibited by law — never pass a vehicle stopped to allow a pedestrian to cross the street"
+        ],
+        "zh": [
+          "减速至10英里/小时就可以",
+          "如果你能越过SUV看到前方就可以",
+          "为保持交通顺畅必须这样做",
+          "法律禁止——绝不能超越为让行人过街而停下的车辆"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "Never pass a vehicle stopped to allow a pedestrian to cross the street — it is prohibited by law. It is likewise prohibited to drive through a pedestrian safety zone. (Chapter XII — Pedestrian Safety)",
+        "zh": "绝不能超越为让行人过街而停下的车辆——这是法律禁止的。同样，禁止驶过行人安全区。（第十二章——行人安全）"
+      },
+      "source": {
+        "section": "Chapter XII — Pedestrian Safety",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-100",
+      "topic": "sharing",
+      "q": {
+        "en": "Near a school at dismissal time, a crossing guard steps out and signals you to stop even though your light is green. What must you do?",
+        "zh": "放学时分在一所学校附近，一名过街护导员走出并示意你停车，尽管你的灯是绿灯。你必须怎么做？"
+      },
+      "options": {
+        "en": [
+          "Obey the green light — guards are advisory only",
+          "Stop only if children are already in your lane",
+          "Stop upon the signal of any school crossing guard, and be especially watchful for children near schools, parks, playgrounds and residential areas",
+          "Slow to half speed and continue"
+        ],
+        "zh": [
+          "服从绿灯——护导员只是建议性质",
+          "只有当儿童已进入你的车道时才停车",
+          "在任何学校过街护导员发出信号时停车，并在学校、公园、游乐场和住宅区附近格外留意儿童",
+          "减速到一半并继续行驶"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Be especially watchful for children near schools, parks, playgrounds and in residential areas, and stop upon the signal of any school crossing guard. (Chapter XII — Pedestrian Safety)",
+        "zh": "在学校、公园、游乐场和住宅区附近要格外留意儿童，并在任何学校过街护导员发出信号时停车。（第十二章——行人安全）"
+      },
+      "source": {
+        "section": "Chapter XII — Pedestrian Safety",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-101",
+      "topic": "sharing",
+      "q": {
+        "en": "A school bus in the lane next to yours stops and its alternating red lamps start flashing. What must you do, and what is the stated cost of failing to comply?",
+        "zh": "你旁边车道的一辆校车停下，其交替闪烁的红灯开始闪烁。你必须怎么做？不遵守的代价是什么？"
+      },
+      "options": {
+        "en": [
+          "Slow down and pass carefully; there is no fine",
+          "Stop only if children are visible; fine is $50",
+          "Stop before reaching the bus and stay stopped until it resumes motion or the red lamps are turned off; failure to comply can cost you $1,000",
+          "Stop only when travelling in the same direction as the bus"
+        ],
+        "zh": [
+          "减速并小心通过；没有罚款",
+          "只有看得见儿童时才停车；罚款50美元",
+          "在到达校车之前停车，并保持停车直到校车重新行驶或红灯熄灭；不遵守可能被罚1,000美元",
+          "只有与校车同向行驶时才停车"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "When a school bus is stopped with alternating red signal lamps flashing, drivers in the bus's lane and all lanes adjacent to it must stop before reaching the bus and not proceed until the bus resumes motion or the flashing red lamps are turned off. Failure to comply with §291C-95, HRS, can cost you $1,000. (Chapter XII — Pedestrian Safety)",
+        "zh": "当校车停下并闪烁交替红灯时，校车所在车道及所有相邻车道的驾驶员必须在到达校车之前停车，直到校车重新行驶或红灯熄灭后才能继续。不遵守《夏威夷修订法规》第291C-95条可能被罚1,000美元。（第十二章——行人安全）"
+      },
+      "source": {
+        "section": "Chapter XII — Pedestrian Safety",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-102",
+      "topic": "sharing",
+      "q": {
+        "en": "That same school bus is stopped on the far side of a divided highway while you travel in the opposite direction. Are you required to stop?",
+        "zh": "同一辆校车停在一条分隔式公路的对面，而你正对向行驶。你需要停车吗？"
+      },
+      "options": {
+        "en": [
+          "Yes — all traffic in both directions must always stop",
+          "Yes, but only until the bus doors close",
+          "Only if the median is narrower than a car length",
+          "No — vehicles proceeding in the opposite direction on a divided highway are not required to stop"
+        ],
+        "zh": [
+          "需要——双向所有车辆必须始终停车",
+          "需要，但只需停到校车门关闭为止",
+          "只有当中央分隔带窄于一辆车长时才需要",
+          "不需要——在分隔式公路上对向行驶的车辆无需停车"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "Vehicles proceeding in the opposite direction on a divided highway are not required to stop for a school bus. A divided highway is two roadways separated by a strip of land or other space not intended for vehicular travel. (Chapter XII — Pedestrian Safety)",
+        "zh": "在分隔式公路上对向行驶的车辆无需为校车停车。分隔式公路是指由一条不供车辆通行的土地带或其他空间隔开的两条道路。（第十二章——行人安全）"
+      },
+      "source": {
+        "section": "Chapter XII — Pedestrian Safety",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-103",
+      "topic": "sharing",
+      "q": {
+        "en": "You are passing a bicyclist on a two-lane road. How much space should you keep between your vehicle and the bicyclist?",
+        "zh": "你在双车道道路上超越一名骑自行车的人。你的车与自行车之间应保持多少空间？"
+      },
+      "options": {
+        "en": [
+          "As little as possible, to stay in your lane",
+          "Exactly one foot",
+          "Space is only required at night",
+          "At least 3 feet of space until you have safely passed"
+        ],
+        "zh": [
+          "越少越好，以便留在你的车道内",
+          "正好一英尺",
+          "只有夜间才要求留空间",
+          "至少3英尺，直到安全通过为止"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "Motorists should maintain at least 3 feet of space between the bicyclist and their vehicle until they have safely passed. (Chapter XIII — Bicycle Safety)",
+        "zh": "驾驶员应保持其车辆与自行车之间至少3英尺的空间，直到安全通过为止。（第十三章——自行车安全）"
+      },
+      "source": {
+        "section": "Chapter XIII — Bicycle Safety",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": "bicycle"
+    },
+    {
+      "id": "hi-104",
+      "topic": "sharing",
+      "q": {
+        "en": "A bicyclist is riding in the bike lane ahead and you need to turn right at the next intersection. What is the safest approach?",
+        "zh": "一名骑自行车的人在你前方的自行车道内行驶，你需要在下个路口右转。最安全的做法是什么？"
+      },
+      "options": {
+        "en": [
+          "Pass the bicyclist quickly, then turn right immediately in front of them",
+          "Honk so the bicyclist moves onto the sidewalk",
+          "Turn from the left lane across the bike lane",
+          "Stay clear of the bike lane, look for and yield to bicyclists when crossing it; if you plan an immediate right turn, it is better not to pass the bicyclist first"
+        ],
+        "zh": [
+          "快速超过自行车，然后立即在他们前面右转",
+          "鸣笛让骑车人上人行道",
+          "从左车道横过自行车道转弯",
+          "避开自行车道，在穿越自行车道时注意并让行骑车人；如果你打算立即右转，最好不要先超过骑车人"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "Remain clear of bike lanes, especially when making a right turn at an intersection, and look for and yield to bicyclists when crossing a bike lane. If you plan to make an immediate right turn, it is better not to pass the bicyclist. (Chapter XIII — Bicycle Safety)",
+        "zh": "保持避开自行车道，尤其在路口右转时；穿越自行车道时要注意并让行骑车人。如果你打算立即右转，最好不要先超过骑车人。（第十三章——自行车安全）"
+      },
+      "source": {
+        "section": "Chapter XIII — Bicycle Safety",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-105",
+      "topic": "sharing",
+      "q": {
+        "en": "You are parked at the curb and about to open your door next to a lane where bicyclists ride. Opening the door carelessly is:",
+        "zh": "你停在路边，正要打开靠近骑车人车道一侧的车门。不小心开门："
+      },
+      "options": {
+        "en": [
+          "Only a problem if a bicyclist is actually hit",
+          "Always legal when parked legally",
+          "A traffic violation if it creates a hazard for moving traffic, including bicyclists — look before you open your door",
+          "Governed by parking rules, not traffic rules"
+        ],
+        "zh": [
+          "只有真撞到骑车人才是问题",
+          "只要停车合法就永远合法",
+          "如果给包括骑车人在内的行驶交通造成危险，就是交通违法——开门前先观察",
+          "受停车规则而非交通规则管辖"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "It is a traffic violation to open a car door unexpectedly so as to create a hazard for moving traffic, including bicyclists. Look before you open your car door. (Chapter XIII — Bicycle Safety)",
+        "zh": "出乎意料地打开车门、给包括骑车人在内的行驶交通造成危险，是交通违法行为。打开车门前先观察。（第十三章——自行车安全）"
+      },
+      "source": {
+        "section": "Chapter XIII — Bicycle Safety",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-106",
+      "topic": "alcohol",
+      "q": {
+        "en": "A test shows a driver's blood alcohol content (BAC) is exactly 0.08 percent. Under Hawaii law as stated in the manual, that driver is considered:",
+        "zh": "检测显示一名驾驶员的血液酒精含量（BAC）正好为0.08%。根据手册所述的夏威夷法律，该驾驶员被视为："
+      },
+      "options": {
+        "en": [
+          "Only impaired, not under the influence",
+          "Under the influence of alcohol — 0.08 percent or more is the threshold",
+          "Legal to drive if they feel fine",
+          "In violation only if under 21"
+        ],
+        "zh": [
+          "只是受损，还不算酒后驾驶",
+          "属于酒后驾驶——0.08%或以上是界限",
+          "如果自我感觉良好就可以开车",
+          "只有21岁以下才违法"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "A driver with a blood alcohol content of 0.08 percent or more is considered under the influence of alcohol. (Chapter IX — Alcohol and Other Drugs)",
+        "zh": "血液酒精含量达到0.08%或以上的驾驶员被视为酒后驾驶。（第九章——酒精与其他药物）"
+      },
+      "source": {
+        "section": "Chapter IX — Alcohol and Other Drugs",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-107",
+      "topic": "alcohol",
+      "q": {
+        "en": "A driver's BAC measures 0.06 percent. How does the manual classify that driver?",
+        "zh": "一名驾驶员的BAC测得为0.06%。手册如何界定该驾驶员？"
+      },
+      "options": {
+        "en": [
+          "Impaired — more than 0.05 percent but less than 0.08 percent",
+          "Sober by definition",
+          "Under the influence",
+          "In violation of zero tolerance at any age"
+        ],
+        "zh": [
+          "受损——高于0.05%但低于0.08%",
+          "按定义是清醒的",
+          "酒后驾驶",
+          "在任何年龄都违反零容忍"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "When a test shows alcohol in the blood, the driver may be considered impaired if the BAC is more than 0.05 percent but less than 0.08 percent, and under the influence at 0.08 percent or more. (Chapter IX — Alcohol and Other Drugs)",
+        "zh": "当检测显示血液中含有酒精时，BAC高于0.05%但低于0.08%的驾驶员可被视为受损；达到0.08%或以上则为酒后驾驶。（第九章——酒精与其他药物）"
+      },
+      "source": {
+        "section": "Chapter IX — Alcohol and Other Drugs",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-108",
+      "topic": "alcohol",
+      "q": {
+        "en": "For drivers under 21, Hawaii's zero tolerance rule prohibits driving with a BAC of:",
+        "zh": "对21岁以下驾驶员，夏威夷的零容忍规则禁止在BAC达到多少时驾驶？"
+      },
+      "options": {
+        "en": [
+          "0.08 or more, same as adults",
+          "Any amount above 0.05",
+          "0.02 or more",
+          "Zero tolerance applies only after a first conviction"
+        ],
+        "zh": [
+          "0.08或以上，与成年人相同",
+          "任何高于0.05的数值",
+          "0.02或以上",
+          "零容忍只在第一次定罪后适用"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Zero tolerance: drivers under 21 are prohibited from operating a motor vehicle with a blood alcohol content of 0.02 or more. (Chapter IX — Alcohol and Other Drugs)",
+        "zh": "零容忍：21岁以下驾驶员禁止在血液酒精含量达到0.02或以上时驾驶机动车。（第九章——酒精与其他药物）"
+      },
+      "source": {
+        "section": "Chapter IX — Alcohol and Other Drugs",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-109",
+      "topic": "alcohol",
+      "q": {
+        "en": "What does \"implied consent\" mean for anyone driving on Hawaii's public highways?",
+        "zh": "对在夏威夷公共公路上驾驶的任何人来说，“默示同意”意味着什么？"
+      },
+      "options": {
+        "en": [
+          "You consent to police searches of your vehicle at any time",
+          "By operating a motor vehicle on the public highways, you are deemed to have given your consent to be tested to determine the amount of alcohol in your blood",
+          "You consent to have your license renewed automatically",
+          "You agree to attend traffic school if stopped"
+        ],
+        "zh": [
+          "你同意警方随时搜查你的车辆",
+          "只要你在公共公路上驾驶机动车，就视为你已同意接受检测，以确定你血液中的酒精含量",
+          "你同意驾照自动续期",
+          "你同意被拦下时参加交通学校"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Implied consent: any person who operates a motor vehicle on the public highways in Hawaii is deemed to have given his or her consent to be tested to determine the amount of alcohol in his or her blood. (Chapter IX — Alcohol and Other Drugs)",
+        "zh": "默示同意：任何在夏威夷公共公路上驾驶机动车的人，都被视为已同意接受检测，以确定其血液中的酒精含量。（第九章——酒精与其他药物）"
+      },
+      "source": {
+        "section": "Chapter IX — Alcohol and Other Drugs",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-110",
+      "topic": "alcohol",
+      "q": {
+        "en": "A driver's test comes back at 0.09 BAC. Under the administrative revocation procedure, what happens on the spot?",
+        "zh": "一名驾驶员的检测结果为0.09 BAC。根据行政吊销程序，当场会发生什么？"
+      },
+      "options": {
+        "en": [
+          "The license is taken away and the driver is given a 30-day temporary driving permit (the driver may request a hearing)",
+          "Nothing until a court conviction",
+          "The vehicle is impounded for 30 days",
+          "The driver is fined and keeps the license"
+        ],
+        "zh": [
+          "驾照被收走，驾驶员获得一张30天的临时驾驶许可（驾驶员可申请听证）",
+          "在法院定罪前什么都不会发生",
+          "车辆被扣押30天",
+          "驾驶员被罚款并保留驾照"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Under administrative license revocation, your license will be taken away and you will be given a 30-day temporary driving permit if a test shows a BAC of 0.08 or more — or if you refuse the test. Anyone whose license is revoked may request a hearing. (Chapter IX — Alcohol and Other Drugs)",
+        "zh": "根据行政吊销驾照程序，如果检测显示BAC达到0.08或以上——或驾驶员拒绝检测——驾照将被收走，并发给一张30天的临时驾驶许可。驾照被吊销者可申请听证。（第九章——酒精与其他药物）"
+      },
+      "source": {
+        "section": "Chapter IX — Alcohol and Other Drugs",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-111",
+      "topic": "alcohol",
+      "q": {
+        "en": "An officer who believes you are under the influence asks you to take a test, and you refuse. On top of possibly being charged with DUI anyway, refusing may result in revocation of your license for:",
+        "zh": "一名警员认为你处于酒精影响之下并要求你接受检测，你拒绝了。除了仍可能被控酒驾外，拒绝检测可能导致你的驾照被吊销多长时间？"
+      },
+      "options": {
+        "en": [
+          "30 days in every case",
+          "Six months for a first refusal, with no further increase",
+          "No revocation is possible for a refusal",
+          "One year, two years or four years, depending on your prior alcohol enforcement contacts"
+        ],
+        "zh": [
+          "任何情况下都是30天",
+          "首次拒绝六个月，且不再增加",
+          "拒绝不可能导致吊销",
+          "一年、两年或四年，取决于你以往的酒精执法记录"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "Refusal to take the test may result in revocation of your license for one year, two years or four years depending on the driver's prior alcohol enforcement contacts. In addition, the driver may be charged with driving under the influence even though he refuses the test. (Chapter IX — Alcohol and Other Drugs)",
+        "zh": "拒绝接受检测可能导致驾照被吊销一年、两年或四年，取决于驾驶员以往的酒精执法记录。此外，即使拒绝检测，驾驶员仍可能被控酒后驾驶。（第九章——酒精与其他药物）"
+      },
+      "source": {
+        "section": "Chapter IX — Alcohol and Other Drugs",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-112",
+      "topic": "alcohol",
+      "q": {
+        "en": "Your friend insists that refusing the alcohol test protects him, because with no test result he cannot be charged. What does the manual say?",
+        "zh": "你的朋友坚称拒绝酒精检测可以保护他，因为没有检测结果就不能指控他。手册怎么说？"
+      },
+      "options": {
+        "en": [
+          "He is right — no test, no charge",
+          "He is wrong — he may be charged with driving under the influence even though he refuses; the test can also prove a driver is NOT under the influence",
+          "Refusal charges apply only to commercial drivers",
+          "The officer must obtain a court order before any charge"
+        ],
+        "zh": [
+          "他是对的——没检测就没指控",
+          "他错了——即使拒绝检测，他仍可能被控酒后驾驶；而且检测也可以证明驾驶员并未酒后驾驶",
+          "拒绝的指控只适用于商业驾驶员",
+          "警员必须先取得法院命令才能指控"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "The driver may be charged with driving under the influence of alcohol even though he refuses the test. And the test can work in a driver's favor: it can also prove that you are not under the influence of alcohol. (Chapter IX — Alcohol and Other Drugs)",
+        "zh": "即使驾驶员拒绝检测，仍可能被控酒后驾驶。而且检测对驾驶员也有有利的一面：它也可以证明你并未酒后驾驶。（第九章——酒精与其他药物）"
+      },
+      "source": {
+        "section": "Chapter IX — Alcohol and Other Drugs",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-113",
+      "topic": "alcohol",
+      "q": {
+        "en": "You are a passenger riding in the front seat with an open bottle of beer on a public highway in Hawaii. What does the law say?",
+        "zh": "你坐在前排乘客座上，在夏威夷的一条公共公路上拿着一瓶打开的啤酒。法律怎么说？"
+      },
+      "options": {
+        "en": [
+          "Passengers may drink as long as the driver does not",
+          "Only the driver is covered by the alcohol laws",
+          "Open containers are allowed if the bottle is in a paper bag",
+          "It is against the law to consume or possess any alcoholic beverage on any public highway or public sidewalk, and storing an opened container in the driver/passenger area of a vehicle on a public road is prohibited"
+        ],
+        "zh": [
+          "只要驾驶员不喝，乘客可以喝",
+          "酒精法律只适用于驾驶员",
+          "打开的容器放进纸袋就可以",
+          "在任何公共公路或公共人行道上饮用或持有任何酒精饮料都是违法的；在公共道路上，将打开的酒精容器存放在车辆驾驶员或乘客通常乘坐的区域内也被禁止"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "It is against the law to consume or possess any alcoholic beverage on any public highway or any public sidewalk. Storing an opened alcoholic beverage container in the area of a motor vehicle normally occupied by the driver or passengers is prohibited on any public road. (Chapter IX — Alcohol and Other Drugs)",
+        "zh": "在任何公共公路或公共人行道上饮用或持有任何酒精饮料都是违法的。在公共道路上，将打开的酒精容器存放在车辆驾驶员或乘客通常乘坐的区域内也被禁止。（第九章——酒精与其他药物）"
+      },
+      "source": {
+        "section": "Chapter IX — Alcohol and Other Drugs",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-114",
+      "topic": "alcohol",
+      "q": {
+        "en": "A new driver tells you alcohol is a stimulant because it makes him feel more awake and confident. What does the manual teach?",
+        "zh": "一名新手驾驶员告诉你酒精是兴奋剂，因为它让他感觉更清醒、更自信。手册是怎么教的？"
+      },
+      "options": {
+        "en": [
+          "Alcohol is a mild stimulant at low doses",
+          "The effect depends entirely on the brand",
+          "Alcohol is a depressant, not a stimulant — it slows reflexes, interferes with judgment, reduces alertness and impairs vision; feeling stimulated is only lowered inhibitions",
+          "Feeling confident means your BAC is low"
+        ],
+        "zh": [
+          "酒精在低剂量时是温和的兴奋剂",
+          "效果完全取决于品牌",
+          "酒精是抑制剂，不是兴奋剂——它会减慢反应、干扰判断、降低警觉性并损害视力；感觉兴奋只是因为抑制降低，导致失去谨慎和自控",
+          "感觉自信说明你的BAC很低"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Alcohol is a depressant, not a stimulant. It slows normal reflexes, interferes with judgment, reduces alertness and impairs vision. If you feel stimulated after drinking, it is simply because your inhibitions are lowered, causing loss of caution and self-control. (Chapter IX — Alcohol and Other Drugs)",
+        "zh": "酒精是抑制剂，不是兴奋剂。它会减慢正常反应、干扰判断、降低警觉性并损害视力。饮酒后感觉兴奋，只是因为抑制降低，导致失去谨慎和自制力。（第九章——酒精与其他药物）"
+      },
+      "source": {
+        "section": "Chapter IX — Alcohol and Other Drugs",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-115",
+      "topic": "alcohol",
+      "q": {
+        "en": "Two friends drink the same evening — one drinks beer, the other whiskey — and each argues the other's drink is \"stronger for driving.\" What actually determines the problem?",
+        "zh": "两位朋友同一晚喝酒——一个喝啤酒，另一个喝威士忌——都说对方的酒“对驾驶更烈”。真正决定问题的是什么？"
+      },
+      "options": {
+        "en": [
+          "Beer is always safer than whiskey for driving",
+          "Whiskey affects driving only after three drinks",
+          "It doesn't matter whether you drink beer, wine, whiskey or any other alcoholic beverage — it's the amount of alcohol that enters your blood",
+          "Wine has no effect on driving"
+        ],
+        "zh": [
+          "啤酒对驾驶永远比威士忌安全",
+          "威士忌只有在三杯后才影响驾驶",
+          "无论你喝啤酒、葡萄酒、威士忌还是任何其他酒精饮料都无关紧要——起作用的是进入你血液的酒精量",
+          "葡萄酒对驾驶没有影响"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "It doesn't matter whether you drink beer, wine, whiskey or any other alcoholic beverage; it's the amount of alcohol that enters your blood that causes the problem. (Chapter IX — Alcohol and Other Drugs)",
+        "zh": "无论你喝啤酒、葡萄酒、威士忌还是任何其他酒精饮料都无关紧要；起作用的是进入你血液的酒精量。（第九章——酒精与其他药物）"
+      },
+      "source": {
+        "section": "Chapter IX — Alcohol and Other Drugs",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-116",
+      "topic": "alcohol",
+      "q": {
+        "en": "Why does the same amount of alcohol affect a driver more rapidly when it is drunk on an empty stomach?",
+        "zh": "为什么同样量的酒精在空腹时对驾驶员起作用更快？"
+      },
+      "options": {
+        "en": [
+          "An empty stomach increases the legal BAC limit",
+          "Food in the stomach slows how fast the alcohol affects you; on an empty stomach a small amount affects you more rapidly than after a recent meal",
+          "Alcohol evaporates faster on an empty stomach",
+          "It doesn't — the stomach makes no difference"
+        ],
+        "zh": [
+          "空腹会提高法定BAC上限",
+          "胃里的食物会减慢酒精起作用的速度；空腹时少量酒精比刚吃过饭后起作用更快",
+          "酒精在空腹时蒸发更快",
+          "不会——胃里有没有食物没有区别"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Alcohol can affect you differently at different times. A small amount on an empty stomach will affect you more rapidly than it would if you had recently eaten a meal. (Chapter IX — Alcohol and Other Drugs)",
+        "zh": "酒精在不同时候对你的影响不同。空腹时少量酒精起作用的速度，比刚吃过饭后要快。（第九章——酒精与其他药物）"
+      },
+      "source": {
+        "section": "Chapter IX — Alcohol and Other Drugs",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-117",
+      "topic": "alcohol",
+      "q": {
+        "en": "After several drinks, a driver drinks black coffee, eats a meal and takes a cold shower, and now feels ready to drive. Under the manual, what is his actual condition?",
+        "zh": "喝了几杯后，一名驾驶员喝了黑咖啡、吃了一顿饭、又冲了冷水澡，现在觉得可以开车了。根据手册，他的实际状态是？"
+      },
+      "options": {
+        "en": [
+          "Sober, because he feels awake",
+          "Still under the influence — coffee, food or a cold shower might wake you up, but they will not sober you up; only time lets the liver burn the alcohol off",
+          "Legal to drive if he passes a field sobriety test from a friend",
+          "Sober after exactly one hour regardless of intake"
+        ],
+        "zh": [
+          "清醒了，因为他感觉醒了",
+          "仍处于酒精影响之下——咖啡、食物或冷水澡可能让你清醒一点，但不会让你酒醒；只有时间能让肝脏把酒精代谢掉",
+          "如果通过了朋友做的现场清醒测试就可以开车",
+          "无论喝多少，正好一小时后就清醒"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Once alcohol enters your blood there is nothing you can do to lessen the effect. Black coffee, food or a cold shower might wake you up, but they will not sober you up. Alcohol is burned up by the liver and eliminated through the kidneys and lungs; the process takes time. (Chapter IX — Alcohol and Other Drugs)",
+        "zh": "酒精一旦进入血液，没有任何办法减轻其作用。黑咖啡、食物或冷水澡可能让你清醒一点，但不会让你酒醒。酒精由肝脏代谢，经肾脏和肺排出体外；这个过程需要时间。（第九章——酒精与其他药物）"
+      },
+      "source": {
+        "section": "Chapter IX — Alcohol and Other Drugs",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-118",
+      "topic": "alcohol",
+      "q": {
+        "en": "Before taking a new prescription medicine, and also when using common over-the-counter remedies, what should a driver do about driving effects?",
+        "zh": "在服用新的处方药时，以及使用常见非处方药时，驾驶员应就驾驶影响做些什么？"
+      },
+      "options": {
+        "en": [
+          "Nothing — medicines are never a driving issue",
+          "Ask your doctor about any possible effects of a medicine on your driving ability; some allergy remedies and cold pills you can buy without a prescription can also affect your driving",
+          "Only illegal drugs affect driving",
+          "Stop all medication before any trip"
+        ],
+        "zh": [
+          "什么都不用做——药物从来不是驾驶问题",
+          "向医生咨询药物对驾驶能力可能产生的影响；一些无需处方购买的抗过敏药和感冒药也可能影响驾驶能力",
+          "只有非法药物才影响驾驶",
+          "任何出行前停用所有药物"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Before taking medicine, ask your doctor about any possible effects which might relate to your driving ability. Some allergy remedies and cold pills sold without a prescription may contain ingredients which can affect your driving ability. (Chapter IX — Alcohol and Other Drugs)",
+        "zh": "服用药物前，应向医生咨询其对驾驶能力可能产生的影响。一些无需处方即可购买的抗过敏药和感冒药可能含有影响驾驶能力的成分。（第九章——酒精与其他药物）"
+      },
+      "source": {
+        "section": "Chapter IX — Alcohol and Other Drugs",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-119",
+      "topic": "alcohol",
+      "q": {
+        "en": "A driver takes a prescribed sedative and then has two drinks, reasoning that each alone is a small amount. Why is that reasoning dangerous?",
+        "zh": "一名驾驶员服用了处方镇静剂，然后又喝了两杯，认为每样单独量都很小。为什么这种想法危险？"
+      },
+      "options": {
+        "en": [
+          "Sedatives cancel out alcohol",
+          "Two drinks neutralize any prescription drug",
+          "The danger is only from the sedative, not the drinks",
+          "The combination of alcohol and drugs can have a much more pronounced effect than either taken separately — never mix alcohol and drugs"
+        ],
+        "zh": [
+          "镇静剂会抵消酒精",
+          "两杯酒会中和任何处方药",
+          "危险只来自镇静剂，与酒无关",
+          "酒精与药物混合的作用可能比单独使用任何一种都强得多——绝不要将酒精与药物混合"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "The combination of alcohol and drugs can, in some cases, have a much more pronounced effect than either taken separately. Never mix alcohol and drugs. (Chapter IX — Alcohol and Other Drugs)",
+        "zh": "在某些情况下，酒精与药物混合的作用比单独使用任何一种都强得多。绝不要将酒精与药物混合。（第九章——酒精与其他药物）"
+      },
+      "source": {
+        "section": "Chapter IX — Alcohol and Other Drugs",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-120",
+      "topic": "licensing",
+      "q": {
+        "en": "What is the minimum age to be eligible for a Hawaii instruction permit?",
+        "zh": "获得夏威夷学习许可（instruction permit）的最低年龄是多少？"
+      },
+      "options": {
+        "en": [
+          "15 years",
+          "16 years",
+          "16½ years",
+          "15½ years"
+        ],
+        "zh": [
+          "15岁",
+          "16岁",
+          "16岁半",
+          "15岁半"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "You must be at least 15½ years of age to be eligible for an instruction permit. (Chapter I — Licensing of Drivers)",
+        "zh": "必须年满15岁半才有资格获得学习许可。（第一章——驾驶员驾照）"
+      },
+      "source": {
+        "section": "Chapter I — Licensing of Drivers",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-121",
+      "topic": "licensing",
+      "q": {
+        "en": "Driving on an instruction permit, who must accompany you, and where must that person sit (in a car)?",
+        "zh": "持学习许可驾驶时，谁必须陪同你？（在小汽车内）该人必须坐在哪里？"
+      },
+      "options": {
+        "en": [
+          "Any licensed driver, anywhere in the car",
+          "A driver at least 21 years old who is licensed for that type of vehicle, sitting in the right front seat",
+          "A parent, in the back seat",
+          "Any passenger over 18, in the right front seat"
+        ],
+        "zh": [
+          "任何持证驾驶员，车内任何位置",
+          "年满21岁、持有该类车辆驾照的驾驶员，坐在右前座",
+          "父母，坐在后座",
+          "任何18岁以上的乘客，坐在右前座"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "An instruction permit allows you to drive when supervised by a driver at least 21 years of age who is licensed to drive that type of vehicle. In all vehicles except motorcycles, the licensed driver must sit in the right front seat. (Chapter I — Licensing of Drivers)",
+        "zh": "持学习许可驾驶时，必须由年满21岁、持有该类车辆驾照的驾驶员监督。除摩托车外，在所有车辆中，该持证驾驶员必须坐在右前座。（第一章——驾驶员驾照）"
+      },
+      "source": {
+        "section": "Chapter I — Licensing of Drivers",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-122",
+      "topic": "licensing",
+      "q": {
+        "en": "On an instruction permit, you may drive between 11:00 p.m. and 5:00 a.m. only when accompanied by:",
+        "zh": "持学习许可，在晚上11点到凌晨5点之间驾驶时，必须由谁陪同？"
+      },
+      "options": {
+        "en": [
+          "Any licensed driver aged 21 or older",
+          "A licensed driver education instructor",
+          "No one — permit driving is banned in those hours",
+          "Your parent or guardian"
+        ],
+        "zh": [
+          "任何年满21岁的持证驾驶员",
+          "持证的驾驶教育教练",
+          "任何人都不行——该时段禁止持许可驾驶",
+          "你的父母或监护人"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "With an instruction permit you may drive only when accompanied by a licensed driver at least 21 years of age; if it is between 11:00 p.m. and 5:00 a.m., you must be accompanied by your parent or guardian. (Chapter I — Licensing of Drivers)",
+        "zh": "持学习许可驾驶时，必须由年满21岁的持证驾驶员陪同；在晚上11点至凌晨5点之间，必须由父母或监护人陪同。（第一章——驾驶员驾照）"
+      },
+      "source": {
+        "section": "Chapter I — Licensing of Drivers",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-123",
+      "topic": "licensing",
+      "q": {
+        "en": "How long must you hold a valid instruction permit before you can apply for a provisional license?",
+        "zh": "在申请临时驾照（provisional license）之前，必须持有有效的学习许可多长时间？"
+      },
+      "options": {
+        "en": [
+          "90 days",
+          "6 months and one day",
+          "One year",
+          "180 days"
+        ],
+        "zh": [
+          "90天",
+          "6个月零一天",
+          "一年",
+          "180天"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "You must hold a valid instruction permit for a period of 180 days before applying for a provisional license. (Chapter I — Licensing of Drivers)",
+        "zh": "在申请临时驾照之前，必须持有有效的学习许可满180天。（第一章——驾驶员驾照）"
+      },
+      "source": {
+        "section": "Chapter I — Licensing of Drivers",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-124",
+      "topic": "licensing",
+      "q": {
+        "en": "To obtain a provisional license at the minimum age of 16, which requirements must be met?",
+        "zh": "要在最低年龄16岁获得临时驾照，必须满足哪些要求？"
+      },
+      "options": {
+        "en": [
+          "Only passing the written test again",
+          "Completing a state-certified driver's education course with classroom and behind-the-wheel certificates, and passing a road test",
+          "Holding a permit for one year and logging 100 hours",
+          "A parent must hold a Hawaii license for five years"
+        ],
+        "zh": [
+          "只需再次通过笔试",
+          "完成州认证的驾驶教育课程并持有课堂和实车证书，并通过路考",
+          "持有许可一年并记录100小时",
+          "父母必须持有夏威夷驾照满五年"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "The minimum age for a provisional license is 16 years. You must complete a state-certified driver's education course and possess the classroom and behind-the-wheel certificates, and you must pass a road test. (Chapter I — Licensing of Drivers)",
+        "zh": "临时驾照的最低年龄是16岁。你必须完成州认证的驾驶教育课程并持有课堂和实车证书，并且必须通过路考。（第一章——驾驶员驾照）"
+      },
+      "source": {
+        "section": "Chapter I — Licensing of Drivers",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-125",
+      "topic": "licensing",
+      "q": {
+        "en": "On a provisional license, how many passengers under 18 who are not household members may you transport?",
+        "zh": "持临时驾照时，可以搭载多少名非家庭成员的18岁以下乘客？"
+      },
+      "options": {
+        "en": [
+          "Only one person under 18 who is not a household member",
+          "None at all",
+          "Up to three, if they wear belts",
+          "There is no limit"
+        ],
+        "zh": [
+          "只能搭载一名非家庭成员的18岁以下人士",
+          "完全不能搭载",
+          "最多三名，只要他们系安全带",
+          "没有限制"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Your provisional license allows you to transport only one person under age 18 who is not a household member. (Chapter I — Licensing of Drivers)",
+        "zh": "你的临时驾照只允许搭载一名非家庭成员的18岁以下人士。（第一章——驾驶员驾照）"
+      },
+      "source": {
+        "section": "Chapter I — Licensing of Drivers",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-126",
+      "topic": "licensing",
+      "q": {
+        "en": "On a provisional license, driving between 11:00 p.m. and 5:00 a.m. is allowed without a parent or guardian only in which cases?",
+        "zh": "持临时驾照，在晚上11点至凌晨5点之间，只有在哪些情况下可以在没有父母或监护人陪同的情况下驾驶？"
+      },
+      "options": {
+        "en": [
+          "When driving anywhere within your home county",
+          "When driving to and from employment, or to and from a school-authorized activity",
+          "When at least two passengers are present",
+          "It is never allowed"
+        ],
+        "zh": [
+          "在本县内任何地方驾驶时",
+          "上下班途中，或往返学校批准的活动时",
+          "至少有两名乘客时",
+          "永远不允许"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "With a provisional license you may drive between 11:00 p.m. and 5:00 a.m. only when accompanied by a licensed parent or guardian — unless driving to and from employment or driving to and from the driver's school-authorized activity. During those hours you also may not transport more than one person under 18 unless accompanied by your parent or guardian. (Chapter I — Licensing of Drivers)",
+        "zh": "持临时驾照，在晚上11点至凌晨5点之间只有在持证父母或监护人陪同时才能驾驶——除非是上下班途中，或往返学校批准的活动。在这些时段内，除非有父母或监护人陪同，也不得搭载超过一名18岁以下人士。（第一章——驾驶员驾照）"
+      },
+      "source": {
+        "section": "Chapter I — Licensing of Drivers",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-127",
+      "topic": "licensing",
+      "q": {
+        "en": "After getting a provisional license at 16, when do you become eligible for a full Class 3 driver's license?",
+        "zh": "16岁获得临时驾照后，什么时候才有资格获得正式的3类驾照？"
+      },
+      "options": {
+        "en": [
+          "Immediately after passing a second written test",
+          "At age 18 in all cases",
+          "After one full year on the provisional license",
+          "After holding the provisional license for six months — and the minimum age for a Class 3 license is 17 years"
+        ],
+        "zh": [
+          "通过第二次笔试后立即可以",
+          "所有情况都要到18岁",
+          "在临时驾照满一整年之后",
+          "持有临时驾照满六个月后——且3类驾照的最低年龄是17岁"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "You must hold a provisional license for six months before applying for a driver's license, and to get a Class 3 license you must be at least 17 years old. Drivers under 18 follow the graduated licensing program. (Chapter I — Licensing of Drivers)",
+        "zh": "在申请正式驾照之前必须持有临时驾照满六个月，且获得3类驾照必须年满17岁。18岁以下驾驶员遵循分级驾照计划。（第一章——驾驶员驾照）"
+      },
+      "source": {
+        "section": "Chapter I — Licensing of Drivers",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-128",
+      "topic": "licensing",
+      "q": {
+        "en": "Which license class covers mopeds, and what testing does it require?",
+        "zh": "哪一类驾照涵盖轻便摩托车（moped）？它需要什么考试？"
+      },
+      "options": {
+        "en": [
+          "Class 3; the regular car tests",
+          "Class 2; a special knowledge test only",
+          "No license is needed for a moped",
+          "Class 1; a special knowledge test and an off-street skills test"
+        ],
+        "zh": [
+          "第3类；普通汽车考试",
+          "第2类；只需专项知识考试",
+          "轻便摩托车不需要驾照",
+          "第1类；专项知识考试和场内技能考试"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "A Class 1 license covers mopeds, and a Class 2 license covers motorcycles and motor scooters. Each requires a special knowledge test and an off-street skills test. (Chapter I — Licensing of Drivers)",
+        "zh": "第1类驾照涵盖轻便摩托车，第2类涵盖摩托车和机动踏板车。两者都需要专项知识考试和场内技能考试。（第一章——驾驶员驾照）"
+      },
+      "source": {
+        "section": "Chapter I — Licensing of Drivers",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-129",
+      "topic": "licensing",
+      "q": {
+        "en": "A standard Class 3 driver's license authorizes you to drive:",
+        "zh": "标准3类驾照授权你驾驶："
+      },
+      "options": {
+        "en": [
+          "Any vehicle up to 26,000 pounds GVWR",
+          "Only passenger cars under 10,000 pounds",
+          "Any vehicle except motorcycles",
+          "Any single vehicle with a GVWR of 18,000 pounds or less, and vehicles designed to transport 15 or fewer passengers including the driver"
+        ],
+        "zh": [
+          "任何GVWR不超过26,000磅的车辆",
+          "只有10,000磅以下的乘用车",
+          "除摩托车外的任何车辆",
+          "任何GVWR为18,000磅或以下的单辆车辆，以及设计载客15人或以下（包括驾驶员）的车辆"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "Class 3 covers any single vehicle with a GVWR of 18,000 pounds or less, and vehicles designed to transport 15 or fewer passengers including the driver. Class 4 covers single vehicles of 18,001 to 26,000 pounds. (Chapter I — Licensing of Drivers)",
+        "zh": "第3类涵盖任何GVWR为18,000磅或以下的单辆车辆，以及设计载客15人或以下（包括驾驶员）的车辆。第4类涵盖GVWR为18,001至26,000磅的单辆车辆。（第一章——驾驶员驾照）"
+      },
+      "source": {
+        "section": "Chapter I — Licensing of Drivers",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-130",
+      "topic": "licensing",
+      "q": {
+        "en": "A Class A commercial driver's license (CDL) is required for:",
+        "zh": "A类商业驾照（CDL）适用于："
+      },
+      "options": {
+        "en": [
+          "A combination of vehicles with a GVWR of 26,001 pounds or more, where the towed vehicle's GVWR is in excess of 10,000 pounds",
+          "Any vehicle with air brakes",
+          "Any vehicle carrying 10 or more passengers",
+          "Single vehicles of 18,001 to 26,000 pounds"
+        ],
+        "zh": [
+          "GVWR为26,001磅或以上的组合车辆，且被牵引车辆的GVWR超过10,000磅",
+          "任何带气压刹车的车辆",
+          "任何载客10人或以上的车辆",
+          "GVWR为18,001至26,000磅的单辆车辆"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Class A (CDL) covers any combination of vehicles with a GVWR of 26,001 pounds or more, with the GVWR of the towed vehicle in excess of 10,000 pounds. Class B covers single vehicles of 26,001 pounds or more with a towed unit not over 10,000 pounds; Class C covers vehicles designed for 16 or more passengers or hauling placarded hazardous materials. (Chapter I — Licensing of Drivers)",
+        "zh": "A类（CDL）涵盖GVWR为26,001磅或以上的组合车辆，且被牵引车辆的GVWR超过10,000磅。B类涵盖GVWR为26,001磅或以上的单辆车辆（被牵引部分不超过10,000磅）；C类涵盖设计载客16人或以上、或运输需挂标牌危险品的车辆。（第一章——驾驶员驾照）"
+      },
+      "source": {
+        "section": "Chapter I — Licensing of Drivers",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-131",
+      "topic": "licensing",
+      "q": {
+        "en": "Before applying for any of the larger-class (Category 4 / commercial-type) licenses, an applicant must be at least:",
+        "zh": "申请任何较大型类别（第4类/商业型）驾照之前，申请人必须至少年满："
+      },
+      "options": {
+        "en": [
+          "21 years old",
+          "18 years old",
+          "25 years old",
+          "17 years old with parental consent"
+        ],
+        "zh": [
+          "21岁",
+          "18岁",
+          "25岁",
+          "17岁并有父母同意"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "You must be at least 21 years old before applying for any of the larger class licenses; each class or endorsement requires special tests. (Chapter I — Licensing of Drivers)",
+        "zh": "申请任何较大型类别驾照之前必须年满21岁；每个类别或签注都需要专项考试。（第一章——驾驶员驾照）"
+      },
+      "source": {
+        "section": "Chapter I — Licensing of Drivers",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-132",
+      "topic": "licensing",
+      "q": {
+        "en": "Your Hawaii driver's license expires next month. Which renewal statements are correct?",
+        "zh": "你的夏威夷驾照下个月到期。关于续期的说法哪项正确？"
+      },
+      "options": {
+        "en": [
+          "You may renew within six months before the expiration date, and there is a 90-day grace period after expiry",
+          "Renewal is only possible after the license expires",
+          "Your license can be renewed within six months before the expiration date; every Hawaii license is void after the expiration date — there is no grace period — though renewal is still possible within one year after expiration",
+          "An expired license remains valid for two years"
+        ],
+        "zh": [
+          "可以在到期前六个月内续期，到期后有90天宽限期",
+          "只有在驾照过期后才能续期",
+          "可以在到期前六个月内续期；夏威夷驾照在到期日后即失效——没有宽限期——但到期后一年内仍可续期",
+          "过期驾照在两年内仍然有效"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "You may renew your license within six months before the expiration date. Every Hawaii State driver's license is void after the expiration date; there is no grace period. Your license may be renewed within a year after the expiration date; after that, you must follow the procedure for an original license. (Chapter I — Licensing of Drivers)",
+        "zh": "你可以在到期前六个月内续期。夏威夷州驾照在到期日后即失效；没有宽限期。到期后一年内仍可续期；超过该期限，必须按首次申领程序办理。（第一章——驾驶员驾照）"
+      },
+      "source": {
+        "section": "Chapter I — Licensing of Drivers",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-133",
+      "topic": "licensing",
+      "q": {
+        "en": "What must you do at every license renewal, and what is the limit on renewing by mail?",
+        "zh": "每次续期驾照时必须做什么？邮寄续期有什么限制？"
+      },
+      "options": {
+        "en": [
+          "Pay a road test fee; mail renewal is unlimited",
+          "Retake the written test; mail renewal is never allowed",
+          "Pass a vision test before renewal; you may renew by mail once, but must appear in person at every other renewal",
+          "Nothing — renewal is automatic with registration"
+        ],
+        "zh": [
+          "缴纳路考费；邮寄续期次数不限",
+          "重考笔试；从不允许邮寄续期",
+          "续期前必须通过视力检查；可以邮寄续期一次，但每隔一次续期必须本人到场",
+          "什么都不用做——随车辆登记自动续期"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Before your license is renewed, you must pass a vision test. You may renew your license once by mail, but you must present yourself before the examiner of drivers every other renewal. (Chapter I — Licensing of Drivers)",
+        "zh": "续期前必须通过视力检查。你可以邮寄续期一次，但每隔一次续期必须亲自到驾驶员考官面前办理。（第一章——驾驶员驾照）"
+      },
+      "source": {
+        "section": "Chapter I — Licensing of Drivers",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-134",
+      "topic": "licensing",
+      "q": {
+        "en": "For a REAL ID compliant license or permit, how many documents proving your principal residence address in Hawaii are required?",
+        "zh": "申请符合REAL ID标准的驾照或许可时，需要提供几份证明你在夏威夷主要居住地址的文件？"
+      },
+      "options": {
+        "en": [
+          "One document",
+          "Three documents",
+          "Residence proof is not required for a permit",
+          "Two documents, each showing your name and principal residence address in Hawaii"
+        ],
+        "zh": [
+          "一份文件",
+          "三份文件",
+          "许可不需要居住证明",
+          "两份文件，每份都显示你的姓名和在夏威夷的主要居住地址"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "Applicants must provide documents proving legal name, date of birth, legal presence in the USA, and Social Security number, plus two forms of proof of principal residence address in the State of Hawaii — for example a current utility bill, telephone bill, bank statement or medical statement. (Chapter I — Licensing of Drivers)",
+        "zh": "申请人必须提供证明法定姓名、出生日期、在美国合法居留和社会安全号码的文件，以及两份在夏威夷州主要居住地址的证明——例如当前的水电费账单、电话账单、银行对账单或医疗账单。（第一章——驾驶员驾照）"
+      },
+      "source": {
+        "section": "Chapter I — Licensing of Drivers",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-135",
+      "topic": "licensing",
+      "q": {
+        "en": "An applicant cannot provide a Social Security number. What credential is available to them?",
+        "zh": "一名申请人无法提供社会安全号码。他们可以获得什么证件？"
+      },
+      "options": {
+        "en": [
+          "No license of any kind",
+          "A limited purpose driver's license — valid for driving only, and not acceptable as identification for federal purposes such as boarding an airplane",
+          "A full REAL ID license without the number",
+          "A permit that must be renewed every 30 days"
+        ],
+        "zh": [
+          "任何驾照都不能获得",
+          "有限用途驾照——仅可用于驾驶，不能作为联邦用途的身份证明，例如不能用于登机",
+          "无需号码的完整REAL ID驾照",
+          "必须每30天续期一次的许可"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Drivers who choose not to provide, or are unable to provide, a Social Security number may obtain a limited purpose driver's license. It is valid for driving only and is not an acceptable identification document for federal purposes, such as boarding an airplane. (Chapter I — Licensing of Drivers)",
+        "zh": "选择不提供或无法提供社会安全号码的驾驶员可以获得有限用途驾照。它仅可用于驾驶，不能作为联邦用途的身份证明文件，例如不能用于登机。（第一章——驾驶员驾照）"
+      },
+      "source": {
+        "section": "Chapter I — Licensing of Drivers",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-136",
+      "topic": "licensing",
+      "q": {
+        "en": "You hold a driver's license from a foreign country that is party to the compact, together with an International Driving Permit issued there. How long is it valid in Hawaii after your entry into the USA?",
+        "zh": "你持有一本来自缔约国的外国驾照，以及在该国签发的国际驾驶许可。它在入境美国后在夏威夷有效多长时间？"
+      },
+      "options": {
+        "en": [
+          "30 days",
+          "Six months",
+          "One year after the date of entry into the USA",
+          "It is never valid in Hawaii"
+        ],
+        "zh": [
+          "30天",
+          "六个月",
+          "入境美国之日起一年",
+          "在夏威夷从不有效"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Compact foreign drivers' licenses accompanied by an International Driving Permit issued in the foreign jurisdiction are valid for one year after the date of entry into the USA (counted from your first port of entry). (Chapter I — Licensing of Drivers)",
+        "zh": "缔约国驾照附带在该司法管辖区签发的国际驾驶许可的，在入境美国之日起一年内有效（自你首次入境口岸起算）。（第一章——驾驶员驾照）"
+      },
+      "source": {
+        "section": "Chapter I — Licensing of Drivers",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-137",
+      "topic": "licensing",
+      "q": {
+        "en": "For your road (performance) test, which vehicle and document conditions apply?",
+        "zh": "参加路考（实车考试）时，车辆和文件方面适用哪些条件？"
+      },
+      "options": {
+        "en": [
+          "Any borrowed vehicle is fine, documents are checked later",
+          "The testing station provides the vehicle and insurance",
+          "You must be accompanied by a licensed driver and provide a vehicle in safe operating condition with current registration, a current safety inspection certificate and an insurance identification card; all safety defects must be corrected before the test, and passengers are not permitted during the test",
+          "Only the registration document is required"
+        ],
+        "zh": [
+          "任何借来的车都可以，文件之后再查",
+          "考场提供车辆和保险",
+          "必须由持证驾驶员陪同，并提供一辆运行安全的车辆，带有效的登记、有效的安全检验合格证和保险识别卡；所有安全缺陷必须在考试前修复，考试期间不允许有乘客",
+          "只需登记文件"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "You must be accompanied to the testing station by a licensed driver and provide a vehicle in safe operating condition with a current registration, current safety inspection certificate and insurance identification card. All vehicle safety defects must be corrected prior to the test, and passengers are not permitted during the test. (Chapter I — Licensing of Drivers)",
+        "zh": "你必须由持证驾驶员陪同到考场，并提供一辆运行安全的车辆，带有效的登记、有效的安全检验合格证和保险识别卡。所有车辆安全缺陷必须在考试前修复，考试期间不允许有乘客。（第一章——驾驶员驾照）"
+      },
+      "source": {
+        "section": "Chapter I — Licensing of Drivers",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-138",
+      "topic": "licensing",
+      "q": {
+        "en": "What are the minimum mandatory liability coverages under Hawaii's motor vehicle insurance law, as stated in the manual?",
+        "zh": "根据手册，夏威夷机动车保险法规定的最低强制责任险保额是多少？"
+      },
+      "options": {
+        "en": [
+          "$10,000 per person / $10,000 per accident bodily injury; $5,000 property damage",
+          "$50,000 / $100,000 / $50,000",
+          "$20,000 per person with an aggregate limit of $40,000 per accident for bodily injury, and $10,000 for property damage per accident",
+          "Liability coverage is optional in Hawaii"
+        ],
+        "zh": [
+          "人身伤害每人10,000美元/每起事故10,000美元；财产损失5,000美元",
+          "50,000/100,000/50,000美元",
+          "人身伤害每人20,000美元、每起事故总额上限40,000美元；财产损失每起事故10,000美元",
+          "夏威夷的责任险是可选的"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "The basic benefits include up to $10,000 per person for medical and rehabilitative expenses. Liability coverage is $20,000 per person with an aggregate limit of $40,000 per accident for bodily injury, and $10,000 for property damage per accident. Damage to your own car is not covered unless you carry additional coverage. (Chapter VIII — No Fault Insurance / Financial Responsibility)",
+        "zh": "基本保障包括每人最高10,000美元的医疗和康复费用。责任险为人身伤害每人20,000美元、每起事故总额上限40,000美元；财产损失每起事故10,000美元。除非你另行投保，否则自己车辆的损坏不在保障范围内。（第八章——无过错保险/财务责任）"
+      },
+      "source": {
+        "section": "Chapter VIII — No Fault Insurance / Financial Responsibility",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    },
+    {
+      "id": "hi-139",
+      "topic": "licensing",
+      "q": {
+        "en": "After a conviction for certain offenses involving vehicles, how long must you file and maintain proof of financial responsibility (Form SR-22)?",
+        "zh": "因某些涉及车辆的违法行为被定罪后，必须提交并维持财务责任证明（SR-22表）多长时间？"
+      },
+      "options": {
+        "en": [
+          "Three years from the conviction date",
+          "One year from the conviction date",
+          "Until the next license renewal only",
+          "Six months"
+        ],
+        "zh": [
+          "自定罪之日起三年",
+          "自定罪之日起一年",
+          "只到下一次驾照续期为止",
+          "六个月"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Upon conviction of certain offenses involving vehicles, you must file and maintain proof of financial responsibility for a period of three (3) years from the conviction date, filing evidence of insurance (Form SR-22). The penalty for non-compliance is suspension of the driver's license. (Chapter VIII — No Fault Insurance / Financial Responsibility)",
+        "zh": "因某些涉及车辆的违法行为被定罪后，必须自定罪之日起三（3）年内提交并维持财务责任证明，提交保险证明（SR-22表）。不遵守的处罚是吊销驾照。（第八章——无过错保险/财务责任）"
+      },
+      "source": {
+        "section": "Chapter VIII — No Fault Insurance / Financial Responsibility",
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+      },
+      "sign": null
+    }
+  ]
+}

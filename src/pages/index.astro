@@ -1,0 +1,78 @@
+---
+import Base from '../layouts/Base.astro';
+import { STATES, allBanks, topicCounts } from '../lib/site';
+
+const banks = Object.fromEntries(allBanks().map(({ slug, bank }) => [slug, bank]));
+const stateList = Object.values(STATES);
+function examLine(slug: string) {
+  const b = banks[slug];
+  if (!b) return null;
+  const ex = b.exam;
+  const pass = ex.passCorrect != null ? `答对 ${ex.passCorrect} 题及格` : ex.passPercent != null ? `${ex.passPercent}% 及格` : '见州页';
+  const time = ex.timeMinutes ? ` · 限时 ${ex.timeMinutes} 分钟` : '';
+  return `${ex.questions} 题 · ${pass}${time}`;
+}
+---
+<Base title="美国驾照笔试中文练习 — 五州官方手册原创题">
+  <p><span class="chip">中文讲解 · 中英题面一键切换</span> <span class="chip gray">根据官方手册编写 · 逐题标注出处</span></p>
+  <h1>考美国驾照笔试，<br />用中文先练会，再上考场。</h1>
+  <p class="lede">
+    PermitDrills 的题目全部根据各州<strong>官方驾驶手册</strong>自行编写，每道题都标注手册章节出处；题面和讲解都有简体中文，
+    也能一键切回英文原题面——因为考场上的题是英文的，练的时候就要两种都看。
+    Practice questions written from the official state driver handbooks — every question cites its handbook section, in Simplified Chinese and English.
+  </p>
+
+  <h2>选你的州 · Pick your state</h2>
+  <div class="grid c2">
+    {stateList.map((s) => {
+      const b = banks[s.slug];
+      return (
+        <a class="card statecard" href={b ? `/${s.slug}/` : '#'} aria-disabled={!b}>
+          <h3>{s.nameZh} {s.nameEn}</h3>
+          <div class="facts">
+            <span class="chip gray">{s.agency}</span>
+            {examLine(s.slug) && <span class="chip">{examLine(s.slug)}</span>}
+            {b && <span class="chip gray">{b.questions.length} 道练习题</span>}
+          </div>
+          <p class="muted small" style="margin:0">
+            {b ? `依据《${b.exam.handbook.title}》（${b.exam.handbook.edition}）编写 · 数据截至 ${b.exam.currentAsOf}` : '即将上线'}
+          </p>
+        </a>
+      );
+    })}
+  </div>
+
+  <h2>怎么练 · How it works</h2>
+  <div class="grid c3">
+    <div class="card">
+      <h3 style="margin-top:0">① 分专题练习</h3>
+      <p class="muted" style="margin:0">交通标志、交规路权、安全驾驶、共享道路、酒驾处罚、驾照手续——按专题刷，点完立刻看对错和讲解。</p>
+    </div>
+    <div class="card">
+      <h3 style="margin-top:0">② 中英一键切换</h3>
+      <p class="muted" style="margin:0">每道题都能在中文和英文之间切换。先用中文理解规则，再用英文熟悉考场题面，两种都不耽误。</p>
+    </div>
+    <div class="card">
+      <h3 style="margin-top:0">③ 按官方格式模考</h3>
+      <p class="muted" style="margin:0">题量、及格线、限时都按各州官方格式来。交卷出成绩报告，按专题告诉你哪块最弱。</p>
+    </div>
+  </div>
+
+  <h2>为什么敢说题目靠谱</h2>
+  <div class="card">
+    <p style="margin-top:0">
+      市面上的题库大多只写一句"根据官方手册"，我们把出处<strong>标在每一道题下面</strong>：手册名称、章节、官方链接。
+      题目是我们根据手册里的规则和数字自己编写的原创练习题，讲解也是我们自己写的——你随时可以点开官方手册核对。
+      详细方法见 <a href="/methodology/">出题方法</a>。
+    </p>
+    <p class="muted small" style="margin-bottom:0">
+      Every question on this site shows the handbook section it is based on, with a link to the official handbook. Questions are original practice questions written by us from the rules and figures in each state's handbook — never copied from the handbook text or from any official sample test.
+    </p>
+  </div>
+
+  <div class="card premium" style="margin-top:14px">
+    <h3 style="margin-top:0">Premium 即将推出</h3>
+    <p class="muted">完整题库精练 + 错题本 + 考前速记表。一次付费 <strong style="color:#fff">$16.99</strong>，终身使用——不是按周订阅。</p>
+    <a class="btn amber" href="/premium/">加入等候名单</a>
+  </div>
+</Base>

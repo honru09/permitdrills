@@ -1,0 +1,4658 @@
+{
+  "state": "maryland",
+  "exam": {
+    "questions": 25,
+    "passCorrect": null,
+    "passPercent": null,
+    "timeMinutes": 20,
+    "handbook": {
+      "title": "Maryland Driver's Manual",
+      "edition": "October 2026 Edition",
+      "url": "https://mva.maryland.gov/media/148",
+      "chineseUrl": "https://mva.maryland.gov/media/134"
+    },
+    "currentAsOf": "October 2026"
+  },
+  "questions": [
+    {
+      "id": "md-001",
+      "topic": "signs",
+      "q": {
+        "en": "You reach an intersection where the sign facing you has eight sides and is red with white letters. What must you do?",
+        "zh": "你来到一个路口，面对你的标志有八条边，红底白字。你必须怎么做？"
+      },
+      "options": {
+        "en": [
+          "Come to a complete stop, then proceed when it is safe",
+          "Stop only if other vehicles are coming",
+          "Treat it like a yield sign and keep rolling slowly",
+          "Slow down and go if the road looks clear"
+        ],
+        "zh": [
+          "完全停稳，确认安全后再通过",
+          "只有其他车辆驶来时才停车",
+          "当作让行标志，慢慢滑行通过",
+          "减速，如果路面看起来没车就通过"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "An eight-sided sign is a stop sign. Stop completely at the stop line, or before the crosswalk or intersection if there is no stop line, yield to vehicles and pedestrians in the intersection, and go only when it is safe. See Section 4: Signs, Signals and Pavement Markings.",
+        "zh": "八边形标志是停车标志。应在停车线处完全停稳；没有停车线时，在人行横道或路口之前停稳，让行路口内的车辆和行人，确认安全后才能通过。见第4节：标志、信号与路面标线。"
+      },
+      "source": {
+        "section": "Section 4: Signs, Signals and Pavement Markings",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": "stop"
+    },
+    {
+      "id": "md-002",
+      "topic": "signs",
+      "q": {
+        "en": "A sign shaped like an upside-down triangle is posted at the entrance to a busy road. What does this shape always mean?",
+        "zh": "一条繁忙道路的入口处立着一个倒三角形标志。这个形状始终表示什么？"
+      },
+      "options": {
+        "en": [
+          "A railroad crossing is ahead",
+          "No passing is allowed",
+          "Yield — slow down and give the right-of-way if needed",
+          "Stop for exactly three seconds"
+        ],
+        "zh": [
+          "前方有铁路道口",
+          "禁止超车",
+          "让行——减速，必要时让出路权",
+          "准确停车三秒钟"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "The inverted triangle is the yield sign, the only sign with this shape. Slow down, look both ways, and yield to pedestrians, bicycles, and vehicles before proceeding when safe. See Section 4: Signs, Signals and Pavement Markings.",
+        "zh": "倒三角形是让行标志，也是唯一这种形状的标志。应减速、左右观察，让行行人、自行车和车辆，安全时再通过。见第4节：标志、信号与路面标线。"
+      },
+      "source": {
+        "section": "Section 4: Signs, Signals and Pavement Markings",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": "yield"
+    },
+    {
+      "id": "md-003",
+      "topic": "signs",
+      "q": {
+        "en": "Warning signs that alert you to hazards ahead are usually which color and shape?",
+        "zh": "提醒你前方有危险的警告标志通常是什么颜色和形状？"
+      },
+      "options": {
+        "en": [
+          "Green diamonds",
+          "Orange circles",
+          "Yellow diamonds",
+          "Red rectangles"
+        ],
+        "zh": [
+          "绿色菱形",
+          "橙色圆形",
+          "黄色菱形",
+          "红色长方形"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Diamond-shaped signs are warning signs, and yellow is the general warning color. They tell you about special conditions or hazards ahead so you can slow down and get ready. See Section 4: Signs, Signals and Pavement Markings.",
+        "zh": "菱形标志是警告标志，黄色是通用警告色。这类标志提示前方有特殊路况或危险，以便你减速并做好准备。见第4节：标志、信号与路面标线。"
+      },
+      "source": {
+        "section": "Section 4: Signs, Signals and Pavement Markings",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-004",
+      "topic": "signs",
+      "q": {
+        "en": "You see an orange sign with black lettering as you approach a stretch of road work. What is orange used for on Maryland roads?",
+        "zh": "你接近一段道路施工区时，看到一块橙底黑字的标志。在马里兰州道路上，橙色表示什么？"
+      },
+      "options": {
+        "en": [
+          "Services such as food and gas",
+          "A recreation area",
+          "A school zone",
+          "Construction and maintenance work areas"
+        ],
+        "zh": [
+          "餐饮、加油等服务",
+          "休闲娱乐区",
+          "学校区域",
+          "施工与养护作业区"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "Orange is the color for construction and maintenance work-area warnings. Slow down, watch for workers and changed traffic patterns, and obey work-zone signs. See Section 4: Signs, Signals and Pavement Markings.",
+        "zh": "橙色是施工与养护作业区的警告色。应减速、注意工人和变化的交通组织，并遵守施工区标志。见第4节：标志、信号与路面标线。"
+      },
+      "source": {
+        "section": "Section 4: Signs, Signals and Pavement Markings",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-005",
+      "topic": "signs",
+      "q": {
+        "en": "A five-sided (pentagon-shaped) sign appears on a residential street. What is it warning you about?",
+        "zh": "一条住宅区街道上出现了一个五边形标志。它在提醒你注意什么？"
+      },
+      "options": {
+        "en": [
+          "A school zone or school crossing",
+          "A rest area is near",
+          "A divided highway begins",
+          "A hospital entrance"
+        ],
+        "zh": [
+          "学校区域或学校过街处",
+          "附近有休息区",
+          "前方是分隔式公路",
+          "医院入口"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "The pentagon shape warns of school zones and marks school crossings. Slow down and watch carefully for children. See Section 4: Signs, Signals and Pavement Markings.",
+        "zh": "五边形标志提示学校区域并标示学校过街处。应减速并仔细观察儿童。见第4节：标志、信号与路面标线。"
+      },
+      "source": {
+        "section": "Section 4: Signs, Signals and Pavement Markings",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": "school-crossing"
+    },
+    {
+      "id": "md-006",
+      "topic": "signs",
+      "q": {
+        "en": "On a rural road, a round yellow sign is posted well before the tracks. What does a round sign mean?",
+        "zh": "在一条乡村道路上，铁轨前方较远处立着一个圆形黄色标志。圆形标志表示什么？"
+      },
+      "options": {
+        "en": [
+          "A traffic circle is ahead",
+          "A railroad crossing is ahead",
+          "The exact spot where tracks cross the road",
+          "Trains are prohibited here"
+        ],
+        "zh": [
+          "前方有环岛",
+          "前方有铁路道口",
+          "铁轨与道路交叉的确切位置",
+          "此处禁止火车通行"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "A round sign is the advance warning for a railroad crossing ahead. The crossing itself is identified by the crossbuck where the tracks cross the road. See Section 4: Signs, Signals and Pavement Markings.",
+        "zh": "圆形标志是铁路道口的前方预告。道口本身的位置由道口处的叉架标志（crossbuck）标示。见第4节：标志、信号与路面标线。"
+      },
+      "source": {
+        "section": "Section 4: Signs, Signals and Pavement Markings",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": "railroad-ahead"
+    },
+    {
+      "id": "md-007",
+      "topic": "signs",
+      "q": {
+        "en": "Which sign identifies the exact location where railroad tracks cross the road at grade?",
+        "zh": "哪个标志标示铁轨与道路平面交叉的确切位置？"
+      },
+      "options": {
+        "en": [
+          "A round yellow sign",
+          "An X-shaped crossbuck",
+          "A diamond with a train symbol",
+          "A pennant-shaped sign"
+        ],
+        "zh": [
+          "圆形黄色标志",
+          "X形的叉架标志",
+          "带火车图案的菱形标志",
+          "三角旗形标志"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "The crossbuck — the X-shaped sign — identifies the location of a highway-rail grade crossing. The round sign only warns that a crossing is ahead. See Section 4: Signs, Signals and Pavement Markings.",
+        "zh": "叉架标志（X形）标示公路与铁路平面道口的位置。圆形标志只是预告前方有道口。见第4节：标志、信号与路面标线。"
+      },
+      "source": {
+        "section": "Section 4: Signs, Signals and Pavement Markings",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": "railroad-crossing"
+    },
+    {
+      "id": "md-008",
+      "topic": "signs",
+      "q": {
+        "en": "A pennant-shaped sign is posted on the left side of a two-lane road. What is it telling you?",
+        "zh": "一条双车道道路左侧立着一个三角旗形标志。它在告诉你什么？"
+      },
+      "options": {
+        "en": [
+          "Left turns are banned ahead",
+          "A no-passing zone begins here",
+          "A side road enters from the left",
+          "The left lane ends"
+        ],
+        "zh": [
+          "前方禁止左转",
+          "此处开始是禁止超车区",
+          "左侧有支路汇入",
+          "左侧车道结束"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "The pennant shape marks the start of a no-passing zone. Do not pass other vehicles there. See Section 4: Signs, Signals and Pavement Markings.",
+        "zh": "三角旗形标志标示禁止超车区的起点。在该区域不得超越其他车辆。见第4节：标志、信号与路面标线。"
+      },
+      "source": {
+        "section": "Section 4: Signs, Signals and Pavement Markings",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-009",
+      "topic": "signs",
+      "q": {
+        "en": "At the exit ramp of a highway, a red-and-white sign reads DO NOT ENTER. You are about to drive up that ramp. What should you do?",
+        "zh": "在高速公路出口匝道处，一块红白标志写着“禁止驶入”。你正要驶上那条匝道。你应该怎么做？"
+      },
+      "options": {
+        "en": [
+          "Honk and enter quickly",
+          "Enter only if no cars are coming down",
+          "Do not enter — you would be driving against traffic",
+          "Enter slowly with hazard lights on"
+        ],
+        "zh": [
+          "鸣笛后快速驶入",
+          "只有没有车下来时才能驶入",
+          "不要驶入——那会逆行",
+          "打开危险报警灯慢慢驶入"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Do Not Enter signs mark roadways where traffic moves in the opposite direction. Entering would put you head-on against traffic. See Section 4: Signs, Signals and Pavement Markings.",
+        "zh": "“禁止驶入”标志标示交通方向相反的道路。驶入将与来车正面相对。见第4节：标志、信号与路面标线。"
+      },
+      "source": {
+        "section": "Section 4: Signs, Signals and Pavement Markings",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": "do-not-enter"
+    },
+    {
+      "id": "md-010",
+      "topic": "signs",
+      "q": {
+        "en": "You turned onto a street and immediately see a WRONG WAY sign facing you. What is the safest response?",
+        "zh": "你拐进一条街道后，立刻看到一块面对你的“错误方向”标志。最安全的做法是什么？"
+      },
+      "options": {
+        "en": [
+          "Turn around or pull over safely as soon as possible — you are going against traffic",
+          "Ignore it if the street is empty",
+          "Speed up to reach the next intersection",
+          "Keep driving in the left lane"
+        ],
+        "zh": [
+          "尽快安全掉头或靠边停车——你正在逆行",
+          "如果街上没车就不用管",
+          "加速开到下一个路口",
+          "继续在左侧车道行驶"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "A Wrong Way sign means you are traveling against the flow of traffic. Get out of the opposing flow safely as soon as you can. See Section 4: Signs, Signals and Pavement Markings.",
+        "zh": "“错误方向”标志表示你正逆着交通流行驶。应尽快安全地脱离对向车流。见第4节：标志、信号与路面标线。"
+      },
+      "source": {
+        "section": "Section 4: Signs, Signals and Pavement Markings",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": "wrong-way"
+    },
+    {
+      "id": "md-011",
+      "topic": "signs",
+      "q": {
+        "en": "A black-and-white sign shows an arrow pointing right with the words ONE WAY. What does it require?",
+        "zh": "一块黑白标志上有一个向右的箭头和“单行道”字样。它要求什么？"
+      },
+      "options": {
+        "en": [
+          "Right turns are allowed on red here",
+          "Traffic on this road may travel only in the direction of the arrow",
+          "Parking is allowed on the right side only",
+          "You must turn right at the next corner"
+        ],
+        "zh": [
+          "此处红灯可以右转",
+          "此路交通只能按箭头方向行驶",
+          "只允许在右侧停车",
+          "你必须在下一个路口右转"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "A One Way sign means traffic can only go in the direction of the arrow. See Section 4: Signs, Signals and Pavement Markings.",
+        "zh": "“单行道”标志表示交通只能按箭头所指方向行驶。见第4节：标志、信号与路面标线。"
+      },
+      "source": {
+        "section": "Section 4: Signs, Signals and Pavement Markings",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": "one-way"
+    },
+    {
+      "id": "md-012",
+      "topic": "signs",
+      "q": {
+        "en": "A rectangular black-on-white sign shows a number for speed. What does that number represent?",
+        "zh": "一块长方形黑字白底标志上标着一个速度数字。这个数字表示什么？"
+      },
+      "options": {
+        "en": [
+          "The average speed of traffic",
+          "The suggested speed in bad weather",
+          "The slowest speed you may drive",
+          "The maximum legal speed for that part of the road under ideal conditions"
+        ],
+        "zh": [
+          "车流的平均速度",
+          "恶劣天气下的建议速度",
+          "你可行驶的最低速度",
+          "理想条件下该路段的最高法定速度"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "The speed limit sign states the maximum speed limit for that part of the road. The posted limit is the maximum under ideal conditions, and you must still slow down when conditions require it. See Section 4: Signs, Signals and Pavement Markings.",
+        "zh": "限速标志标明该路段的最高限速。该限速是理想条件下的最大值，路况需要时仍必须减速。见第4节：标志、信号与路面标线。"
+      },
+      "source": {
+        "section": "Section 4: Signs, Signals and Pavement Markings",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": "speed-limit"
+    },
+    {
+      "id": "md-013",
+      "topic": "signs",
+      "q": {
+        "en": "A sign shows a left-turn arrow with a red circle and slash over it. What is prohibited?",
+        "zh": "一个标志上左转箭头被红圈斜杠覆盖。禁止什么？"
+      },
+      "options": {
+        "en": [
+          "Parking on the left",
+          "Driving in the left lane",
+          "Turning left",
+          "Passing on the left"
+        ],
+        "zh": [
+          "在左侧停车",
+          "在左侧车道行驶",
+          "左转",
+          "从左侧超车"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "A red circle with a slash over a left-turn arrow means no left turn is allowed at that location. See Section 4: Signs, Signals and Pavement Markings.",
+        "zh": "左转箭头上带红圈斜杠表示该处禁止左转。见第4节：标志、信号与路面标线。"
+      },
+      "source": {
+        "section": "Section 4: Signs, Signals and Pavement Markings",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": "no-left-turn"
+    },
+    {
+      "id": "md-014",
+      "topic": "signs",
+      "q": {
+        "en": "A sign shows a U-shaped arrow crossed out by a red circle and slash. What maneuver is banned?",
+        "zh": "一个标志上U形箭头被红圈斜杠划掉。禁止哪种操作？"
+      },
+      "options": {
+        "en": [
+          "Turning right on red",
+          "Making a U-turn",
+          "Backing up",
+          "Merging"
+        ],
+        "zh": [
+          "红灯右转",
+          "掉头（U形转弯）",
+          "倒车",
+          "汇入车流"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "The crossed-out U-shaped arrow means U-turns are prohibited there. See Section 4: Signs, Signals and Pavement Markings.",
+        "zh": "被划掉的U形箭头表示此处禁止掉头。见第4节：标志、信号与路面标线。"
+      },
+      "source": {
+        "section": "Section 4: Signs, Signals and Pavement Markings",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": "no-u-turn"
+    },
+    {
+      "id": "md-015",
+      "topic": "signs",
+      "q": {
+        "en": "You are looking for a place to leave your car and see a NO PARKING sign on the post. What does it mean for you?",
+        "zh": "你想找地方停车，看到杆子上有一块“禁止停车”标志。这对你意味着什么？"
+      },
+      "options": {
+        "en": [
+          "You may park if you stay in the car",
+          "You may not park there",
+          "You may park only at night",
+          "You may park for up to 10 minutes"
+        ],
+        "zh": [
+          "只要人留在车里就可以停",
+          "不得在此停车",
+          "只能在夜间停车",
+          "可以停最多10分钟"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "A No Parking regulatory sign prohibits parking in that area. You must find a place that is clearly meant for parking. See Section 4: Signs, Signals and Pavement Markings.",
+        "zh": "“禁止停车”管制标志禁止在该区域停车。应寻找明确用于停车的地点。见第4节：标志、信号与路面标线。"
+      },
+      "source": {
+        "section": "Section 4: Signs, Signals and Pavement Markings",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": "no-parking"
+    },
+    {
+      "id": "md-016",
+      "topic": "signs",
+      "q": {
+        "en": "A yellow diamond sign shows a person walking inside a crosswalk symbol. Drivers should expect:",
+        "zh": "一块黄色菱形标志上画着人行横道中的行人。驾驶员应预料到："
+      },
+      "options": {
+        "en": [
+          "A sidewalk ends ahead",
+          "A bus stop ahead",
+          "A hiking trail parking lot",
+          "Pedestrians crossing the road ahead"
+        ],
+        "zh": [
+          "前方人行道结束",
+          "前方有公交站",
+          "徒步小径停车场",
+          "前方有行人过街"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "That warning sign marks a pedestrian crossing ahead. Slow down and be ready to stop for people crossing. See Section 4: Signs, Signals and Pavement Markings.",
+        "zh": "该警告标志标示前方有行人过街处。应减速并准备为过街行人停车。见第4节：标志、信号与路面标线。"
+      },
+      "source": {
+        "section": "Section 4: Signs, Signals and Pavement Markings",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": "pedestrian-crossing"
+    },
+    {
+      "id": "md-017",
+      "topic": "signs",
+      "q": {
+        "en": "A yellow diamond shows the road bending to the right ahead. What should you do before the bend?",
+        "zh": "一块黄色菱形标志显示前方道路向右弯曲。进入弯道前你应该怎么做？"
+      },
+      "options": {
+        "en": [
+          "Turn on your high beams only",
+          "Slow down and be ready for the curve",
+          "Shift to the left side of the road",
+          "Speed up to get through quickly"
+        ],
+        "zh": [
+          "只打开远光灯",
+          "减速并为弯道做好准备",
+          "移到道路左侧",
+          "加速快速通过"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "A curve warning sign tells you the road bends ahead. Reduce speed before the curve, especially since sharp curves and hills limit how far you can see. See Section 4: Signs, Signals and Pavement Markings.",
+        "zh": "弯道警告标志提示前方道路转弯。应在弯道前减速，特别是急弯和坡道会限制视距。见第4节：标志、信号与路面标线。"
+      },
+      "source": {
+        "section": "Section 4: Signs, Signals and Pavement Markings",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": "curve-ahead"
+    },
+    {
+      "id": "md-018",
+      "topic": "signs",
+      "q": {
+        "en": "A warning sign shows an arrow making a sharp, hairpin-style turn. Compared with an ordinary curve sign, this warns of:",
+        "zh": "一个警告标志上的箭头呈急剧的发夹式转弯。与普通弯道标志相比，它警告的是："
+      },
+      "options": {
+        "en": [
+          "A turn that only trucks must slow for",
+          "A much sharper turn that needs a greater speed reduction",
+          "A turn you may take at full speed",
+          "A one-way turn lane"
+        ],
+        "zh": [
+          "只有卡车需要减速的转弯",
+          "急得多的转弯，需要更大减速",
+          "可以全速通过的转弯",
+          "单行转弯车道"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "The sharp-turn warning sign indicates a turn much sharper than a regular curve. Slow down more and proceed with care. See Section 4: Signs, Signals and Pavement Markings.",
+        "zh": "急转弯警告标志表示转弯比普通弯道急得多。应更多减速并小心通过。见第4节：标志、信号与路面标线。"
+      },
+      "source": {
+        "section": "Section 4: Signs, Signals and Pavement Markings",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": "sharp-turn"
+    },
+    {
+      "id": "md-019",
+      "topic": "signs",
+      "q": {
+        "en": "A yellow diamond shows a car with wavy skid lines behind it. When is this hazard most likely?",
+        "zh": "一块黄色菱形标志上画着一辆车，后面有波浪形打滑线。这种危险最可能在何时出现？"
+      },
+      "options": {
+        "en": [
+          "Only on gravel roads",
+          "When traffic is stopped",
+          "On dry summer afternoons",
+          "When the road is wet"
+        ],
+        "zh": [
+          "只在碎石路上",
+          "交通停滞时",
+          "干燥的夏日午后",
+          "路面潮湿时"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "That is the Slippery When Wet warning. Wet roads reduce traction, so slow down and avoid sudden braking or steering. See Section 4: Signs, Signals and Pavement Markings.",
+        "zh": "这是“路面湿滑”警告标志。湿路会降低抓地力，应减速并避免急刹车或急打方向。见第4节：标志、信号与路面标线。"
+      },
+      "source": {
+        "section": "Section 4: Signs, Signals and Pavement Markings",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": "slippery"
+    },
+    {
+      "id": "md-020",
+      "topic": "signs",
+      "q": {
+        "en": "A warning sign shows two lanes coming together into one stream of traffic. What should you prepare for?",
+        "zh": "一个警告标志显示两条车道汇成一股车流。你应做好什么准备？"
+      },
+      "options": {
+        "en": [
+          "A lane reserved for buses",
+          "A divided highway ending",
+          "Traffic merging ahead — adjust speed and position to merge safely",
+          "A toll plaza"
+        ],
+        "zh": [
+          "公交专用道",
+          "分隔式公路结束",
+          "前方有车辆汇入——调整速度和位置以安全汇流",
+          "收费站"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "The merge warning tells you traffic will be joining or lanes will combine ahead. Be ready to adjust speed and leave space so merging can happen safely. See Section 4: Signs, Signals and Pavement Markings.",
+        "zh": "汇流警告标志提示前方有车辆汇入或车道合并。应准备调整速度并留出空间，使汇流安全完成。见第4节：标志、信号与路面标线。"
+      },
+      "source": {
+        "section": "Section 4: Signs, Signals and Pavement Markings",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": "merge"
+    },
+    {
+      "id": "md-021",
+      "topic": "signs",
+      "q": {
+        "en": "A warning sign shows two arrows pointing in opposite directions, one up and one down. It warns that:",
+        "zh": "一个警告标志上有两个方向相反的箭头，一个向上一个向下。它警告："
+      },
+      "options": {
+        "en": [
+          "You are leaving a one-way street and entering two-way traffic",
+          "Two highways run parallel",
+          "Bicycles travel both directions",
+          "The road becomes one-way"
+        ],
+        "zh": [
+          "你正离开单行道，进入双向交通",
+          "两条高速公路平行",
+          "自行车双向行驶",
+          "道路变为单行道"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "The two-way traffic warning tells you the roadway ahead carries traffic in both directions, so expect oncoming vehicles in the other lane. See Section 4: Signs, Signals and Pavement Markings.",
+        "zh": "双向交通警告标志提示前方道路双向通行，应预料对向车道有来车。见第4节：标志、信号与路面标线。"
+      },
+      "source": {
+        "section": "Section 4: Signs, Signals and Pavement Markings",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": "two-way-traffic"
+    },
+    {
+      "id": "md-022",
+      "topic": "signs",
+      "q": {
+        "en": "A warning sign shows two roadways separated by a median strip. It is telling you that:",
+        "zh": "一个警告标志显示两条被中央分隔带分开的道路。它在告诉你："
+      },
+      "options": {
+        "en": [
+          "You must use the median to turn",
+          "The divided highway is ending",
+          "Trucks must use the right roadway",
+          "A divided highway begins ahead"
+        ],
+        "zh": [
+          "必须使用分隔带转弯",
+          "分隔式公路即将结束",
+          "卡车必须走右侧道路",
+          "前方开始是分隔式公路"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "That sign warns that a divided road begins ahead — traffic directions will be separated by a median or barrier. See Section 4: Signs, Signals and Pavement Markings.",
+        "zh": "该标志警告前方开始是分隔式道路——两个方向的交通将被分隔带或屏障分开。见第4节：标志、信号与路面标线。"
+      },
+      "source": {
+        "section": "Section 4: Signs, Signals and Pavement Markings",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": "divided-highway"
+    },
+    {
+      "id": "md-023",
+      "topic": "signs",
+      "q": {
+        "en": "A yellow diamond shows a traffic light symbol. What should you be ready to do?",
+        "zh": "一块黄色菱形标志上画着交通信号灯图案。你应准备做什么？"
+      },
+      "options": {
+        "en": [
+          "Turn around",
+          "Speed up before the light changes",
+          "Expect a railroad signal instead",
+          "Stop for a traffic signal ahead if required"
+        ],
+        "zh": [
+          "掉头",
+          "在信号灯变化前加速",
+          "前方是铁路信号",
+          "前方有交通信号灯，必要时停车"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "The signal-ahead warning tells you a traffic signal is coming up, possibly where you cannot yet see it. Be ready to stop. See Section 4: Signs, Signals and Pavement Markings.",
+        "zh": "信号灯前方警告提示前方有交通信号灯，可能你还看不到。应做好停车准备。见第4节：标志、信号与路面标线。"
+      },
+      "source": {
+        "section": "Section 4: Signs, Signals and Pavement Markings",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": "signal-ahead"
+    },
+    {
+      "id": "md-024",
+      "topic": "signs",
+      "q": {
+        "en": "You see a yellow diamond with an octagon symbol and an upward arrow. What lies ahead?",
+        "zh": "你看到一块黄色菱形标志，上面有八边形图案和向上的箭头。前方有什么？"
+      },
+      "options": {
+        "en": [
+          "A stop sign ahead",
+          "A parking area",
+          "A road closed sign",
+          "A detour around a stop line"
+        ],
+        "zh": [
+          "前方有停车标志",
+          "停车区",
+          "道路封闭标志",
+          "绕过停车线的绕行路"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "That is the Stop Ahead warning. A stop sign is coming up, so prepare to make a complete stop. See Section 4: Signs, Signals and Pavement Markings.",
+        "zh": "这是“前方停车标志”警告。前方有停车标志，应准备完全停车。见第4节：标志、信号与路面标线。"
+      },
+      "source": {
+        "section": "Section 4: Signs, Signals and Pavement Markings",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": "stop-ahead"
+    },
+    {
+      "id": "md-025",
+      "topic": "signs",
+      "q": {
+        "en": "A yellow diamond shows a leaping deer. Where should you be especially alert?",
+        "zh": "一块黄色菱形标志上画着一只跳跃的鹿。你应在哪种路段特别警觉？"
+      },
+      "options": {
+        "en": [
+          "In parking garages",
+          "In areas where deer or other wildlife may cross the road",
+          "Near airports only",
+          "Near schools"
+        ],
+        "zh": [
+          "停车楼里",
+          "鹿或其他野生动物可能穿越道路的区域",
+          "只在机场附近",
+          "学校附近"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "The deer/wildlife crossing warning marks areas where animals may enter the road. Slow down and scan the roadside, especially in low light. See Section 4: Signs, Signals and Pavement Markings.",
+        "zh": "鹿/野生动物穿越警告标示动物可能进入道路的区域。应减速并扫视路边，光线较暗时尤其注意。见第4节：标志、信号与路面标线。"
+      },
+      "source": {
+        "section": "Section 4: Signs, Signals and Pavement Markings",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": "deer-crossing"
+    },
+    {
+      "id": "md-026",
+      "topic": "signs",
+      "q": {
+        "en": "A diamond sign shows a worker with a flag. What should you expect ahead?",
+        "zh": "一个菱形标志上画着一名手持旗帜的工人。前方应预料到什么？"
+      },
+      "options": {
+        "en": [
+          "A parade route",
+          "A school crossing guard",
+          "A flagger directing traffic in a work zone",
+          "A pedestrian with the right-of-way"
+        ],
+        "zh": [
+          "游行路线",
+          "学校过街护导员",
+          "施工区里指挥交通的旗手",
+          "拥有路权的行人"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "The flagger-ahead warning means a person with a flag is directing traffic through a work zone. Slow down and obey the flagger's directions. See Section 4: Signs, Signals and Pavement Markings.",
+        "zh": "“前方有旗手”警告表示有人持旗在施工区指挥交通。应减速并服从旗手的指挥。见第4节：标志、信号与路面标线。"
+      },
+      "source": {
+        "section": "Section 4: Signs, Signals and Pavement Markings",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": "construction"
+    },
+    {
+      "id": "md-027",
+      "topic": "signs",
+      "q": {
+        "en": "A warning sign shows a bicycle and a pedestrian together. It most likely marks:",
+        "zh": "一个警告标志上同时画着自行车和行人。它最可能标示："
+      },
+      "options": {
+        "en": [
+          "A place where pedestrians and bicyclists cross the road",
+          "A no-bicycle zone",
+          "A bicycle repair shop",
+          "A bike lane that ends"
+        ],
+        "zh": [
+          "行人与骑行者过街的地点",
+          "禁止自行车区",
+          "自行车修理店",
+          "自行车道结束处"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "The pedestrian and bicycle crossing warning marks where people walking and biking cross the road. Slow down and yield as required. See Section 4: Signs, Signals and Pavement Markings.",
+        "zh": "行人与自行车过街警告标示步行和骑行者过街的地点。应减速并按规定让行。见第4节：标志、信号与路面标线。"
+      },
+      "source": {
+        "section": "Section 4: Signs, Signals and Pavement Markings",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": "bicycle"
+    },
+    {
+      "id": "md-028",
+      "topic": "signs",
+      "q": {
+        "en": "A warning sign shows one lane narrowing and disappearing into another. What is about to happen?",
+        "zh": "一个警告标志显示一条车道变窄并汇入另一条车道。即将发生什么？"
+      },
+      "options": {
+        "en": [
+          "The road widens",
+          "A lane ends ahead — merge safely into the remaining lane",
+          "A new lane is added",
+          "An exit-only lane begins"
+        ],
+        "zh": [
+          "道路变宽",
+          "前方车道结束——安全汇入剩余车道",
+          "新增一条车道",
+          "出口专用道开始"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "The lane-ends warning tells you a lane is ending ahead. Check traffic, signal if changing lanes, and merge when it is safe. See Section 4: Signs, Signals and Pavement Markings.",
+        "zh": "车道结束警告提示前方车道结束。应观察交通、变道时打灯，在安全时汇入。见第4节：标志、信号与路面标线。"
+      },
+      "source": {
+        "section": "Section 4: Signs, Signals and Pavement Markings",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": "lane-ends"
+    },
+    {
+      "id": "md-029",
+      "topic": "signs",
+      "q": {
+        "en": "A warning sign shows arrows moving in a circle. As you approach what it warns of, you must:",
+        "zh": "一个警告标志显示箭头沿圆圈运动。接近它所警告的地点时，你必须："
+      },
+      "options": {
+        "en": [
+          "Yield to traffic already traveling in the circle",
+          "Speed up to enter before others",
+          "Use the leftmost lane at all times",
+          "Stop completely for one full minute"
+        ],
+        "zh": [
+          "让行已在环岛内行驶的车辆",
+          "加速抢在他人之前进入",
+          "始终使用最左侧车道",
+          "完全停车整整一分钟"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "The sign warns of a traffic circle (roundabout) ahead. At the circle you must always yield to traffic already in it. See Section 4: Signs, Signals and Pavement Markings; Section 5: Driving Situations and Conditions.",
+        "zh": "该标志警告前方有环岛。在环岛处必须始终让行已在岛内行驶的车辆。见第4节：标志、信号与路面标线；第5节：驾驶情形与条件。"
+      },
+      "source": {
+        "section": "Section 4: Signs, Signals and Pavement Markings",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": "roundabout-ahead"
+    },
+    {
+      "id": "md-030",
+      "topic": "rules",
+      "q": {
+        "en": "Two cars arrive at a four-way stop at exactly the same moment. Which driver goes first?",
+        "zh": "两辆车同时到达四向停车路口。哪位驾驶员先行？"
+      },
+      "options": {
+        "en": [
+          "The driver on the left",
+          "The larger vehicle",
+          "The driver on the right",
+          "Whoever honks first"
+        ],
+        "zh": [
+          "左侧的驾驶员",
+          "体积更大的车辆",
+          "右侧的驾驶员",
+          "先鸣笛的人"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "When two drivers arrive at an intersection at the same time, the driver on the right has the right-of-way; the other driver yields. See Section 3: Basic Driving.",
+        "zh": "两名驾驶员同时到达路口时，右侧驾驶员拥有路权，另一方应让行。见第3节：基本驾驶。"
+      },
+      "source": {
+        "section": "Section 3: Basic Driving",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-031",
+      "topic": "rules",
+      "q": {
+        "en": "You are turning left at an intersection while traffic approaches from the opposite direction. Who has the right-of-way?",
+        "zh": "你在路口左转时，对面有车辆驶来。谁拥有路权？"
+      },
+      "options": {
+        "en": [
+          "You do, because you signaled first",
+          "You split the intersection equally",
+          "The opposing traffic — you must yield to it",
+          "Whoever is driving faster"
+        ],
+        "zh": [
+          "你，因为你先打了灯",
+          "双方平分路口",
+          "对向车流——你必须让行",
+          "开得快的人"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "A driver turning left must yield to drivers in the opposing traffic lane. See Section 3: Basic Driving.",
+        "zh": "左转驾驶员必须让行对向车道的车辆。见第3节：基本驾驶。"
+      },
+      "source": {
+        "section": "Section 3: Basic Driving",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-032",
+      "topic": "rules",
+      "q": {
+        "en": "You pull out of a private driveway onto a public street. What does right-of-way require of you?",
+        "zh": "你从私人车道驶出到公共街道上。路权规则要求你怎么做？"
+      },
+      "options": {
+        "en": [
+          "Enter quickly before traffic arrives",
+          "Yield to drivers already on the road you are entering",
+          "Enter without stopping if your driveway is steep",
+          "Traffic on the street must yield to you"
+        ],
+        "zh": [
+          "在车流到达前快速驶入",
+          "让行你所进入道路上的车辆",
+          "如果车道很陡可以不停直接驶入",
+          "街上车辆必须让你"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Drivers entering a road from a driveway or private road must yield to drivers already on that road. See Section 3: Basic Driving.",
+        "zh": "从车道或私人道路进入道路的驾驶员必须让行已在该道路上行驶的车辆。见第3节：基本驾驶。"
+      },
+      "source": {
+        "section": "Section 3: Basic Driving",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-033",
+      "topic": "rules",
+      "q": {
+        "en": "You are on an entrance ramp merging toward a highway. The vehicles already on the highway are moving steadily. Who yields?",
+        "zh": "你在入口匝道上正要汇入高速公路，高速公路上的车辆正稳定行驶。谁让行？"
+      },
+      "options": {
+        "en": [
+          "The slowest highway driver yields",
+          "You must yield to drivers already on the highway",
+          "Nobody yields; merge at any speed",
+          "Highway drivers must yield to you"
+        ],
+        "zh": [
+          "高速公路上最慢的驾驶员让行",
+          "你必须让行已在高速公路上的车辆",
+          "谁都不让；以任何速度汇入",
+          "高速公路驾驶员必须让你"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Drivers on an entrance or acceleration ramp yield to drivers already on the highway. Use the acceleration lane to match traffic speed, then merge. See Section 3: Basic Driving; Section 5: Driving Situations and Conditions.",
+        "zh": "在入口或加速车道上的驾驶员应让行已在高速公路上的车辆。应利用加速车道匹配车流速度后再汇入。见第3节：基本驾驶；第5节：驾驶情形与条件。"
+      },
+      "source": {
+        "section": "Section 3: Basic Driving",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-034",
+      "topic": "rules",
+      "q": {
+        "en": "Your light turns green, but a pedestrian and another car are still inside the intersection. What should you do?",
+        "zh": "你的信号灯变绿了，但一名行人和一辆车还在路口内。你应该怎么做？"
+      },
+      "options": {
+        "en": [
+          "Yield to the pedestrian and the vehicle already in the intersection",
+          "Proceed — green means go regardless",
+          "Drive around them on the shoulder",
+          "Honk until they move"
+        ],
+        "zh": [
+          "让行行人和已在路口内的车辆",
+          "通过——绿灯就是无条件通行",
+          "从路肩绕过去",
+          "鸣笛直到他们让开"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Even on a green signal, or a green arrow, you must yield to pedestrians and vehicles already in the intersection. See Section 4: Signs, Signals and Pavement Markings.",
+        "zh": "即使是绿灯或绿色箭头，也必须让行已在路口内的行人和车辆。见第4节：标志、信号与路面标线。"
+      },
+      "source": {
+        "section": "Section 4: Signs, Signals and Pavement Markings",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-035",
+      "topic": "rules",
+      "q": {
+        "en": "The traffic light ahead turns yellow while you are still far enough away to stop safely. What does a steady yellow signal mean?",
+        "zh": "前方信号灯变黄时，你的距离还足够安全停车。持续黄灯表示什么？"
+      },
+      "options": {
+        "en": [
+          "The signal is changing from green to red — stop safely if you can",
+          "Stop only if a camera is present",
+          "Speed up before it turns red",
+          "Yellow gives you the right-of-way over everyone"
+        ],
+        "zh": [
+          "信号正由绿变红——能安全停就停",
+          "只有有摄像头时才停",
+          "在变红前加速",
+          "黄灯时你拥有对所有人的路权"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "A steady yellow means the signal is about to change to red. If you can stop safely, do so; if you are too close to stop safely, proceed carefully through. See Section 4: Signs, Signals and Pavement Markings.",
+        "zh": "持续黄灯表示信号即将变红。能安全停车就应停车；如果距离太近无法安全停车，则小心通过。见第4节：标志、信号与路面标线。"
+      },
+      "source": {
+        "section": "Section 4: Signs, Signals and Pavement Markings",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-036",
+      "topic": "rules",
+      "q": {
+        "en": "You stop at a red light where no sign prohibits turning. After a complete stop, which turns may you make?",
+        "zh": "你在红灯前停车，该处没有禁止转弯的标志。完全停稳后，你可以做哪些转弯？"
+      },
+      "options": {
+        "en": [
+          "Left turns from any two-way street",
+          "Turn right, or turn left from a one-way street onto another one-way street — yielding to pedestrians and all other traffic",
+          "Any turn, including a U-turn",
+          "Right turns only, without stopping again"
+        ],
+        "zh": [
+          "从任何双向街道左转",
+          "右转，或从单行道向另一条单行道左转——并让行行人和所有其他交通",
+          "任何转弯，包括掉头",
+          "只能右转，且不用再停"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "After a complete stop at a red signal, and unless a sign prohibits it, you may turn right or turn left from one one-way street to another, yielding to pedestrians and all other traffic. See Section 4: Signs, Signals and Pavement Markings.",
+        "zh": "在红灯前完全停稳后，除非标志禁止，你可以右转，或从一条单行道向另一条单行道左转，并须让行行人和所有其他交通。见第4节：标志、信号与路面标线。"
+      },
+      "source": {
+        "section": "Section 4: Signs, Signals and Pavement Markings",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-037",
+      "topic": "rules",
+      "q": {
+        "en": "Approaching an intersection, the signal is completely dark and not working. How must you treat it?",
+        "zh": "接近路口时，信号灯完全熄灭、不工作。你必须如何处理？"
+      },
+      "options": {
+        "en": [
+          "Stop at the stop line, or before the crosswalk or intersection, and yield to vehicles and pedestrians in the intersection",
+          "Drive through at normal speed",
+          "Stop only during rush hour",
+          "Treat it as a green light for your direction"
+        ],
+        "zh": [
+          "在停车线，或人行横道、路口之前停车，并让行路口内的车辆和行人",
+          "以正常速度通过",
+          "只在高峰时段停车",
+          "当作你方向的绿灯"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "When a traffic signal is not working, stop at the stop line — or before the crosswalk or intersection if there is none — yield to vehicles and pedestrians in the intersection, and proceed only when safe. See Section 4: Signs, Signals and Pavement Markings.",
+        "zh": "信号灯不工作时，应在停车线处停车；没有停车线时在人行横道或路口前停车，让行路口内的车辆和行人，安全时再通过。见第4节：标志、信号与路面标线。"
+      },
+      "source": {
+        "section": "Section 4: Signs, Signals and Pavement Markings",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-038",
+      "topic": "rules",
+      "q": {
+        "en": "The signal facing you is flashing red. What must you do before proceeding?",
+        "zh": "面对你的信号灯在闪烁红光。通过前你必须怎么做？"
+      },
+      "options": {
+        "en": [
+          "Slow down and continue with caution",
+          "Come to a complete stop, yield to all other traffic and pedestrians, and go when the way is clear",
+          "Treat it exactly like a yellow light",
+          "Stop only if cross traffic is present"
+        ],
+        "zh": [
+          "减速并小心继续",
+          "完全停车，让行所有其他交通和行人，路通畅后再通过",
+          "完全当作黄灯处理",
+          "只有横向有车时才停"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "A flashing red signal requires a complete stop, then yield to all traffic and pedestrians and proceed when clear — like a stop sign. See Section 4: Signs, Signals and Pavement Markings.",
+        "zh": "闪烁红灯要求完全停车，然后让行所有交通和行人，通畅后再通过——如同停车标志。见第4节：标志、信号与路面标线。"
+      },
+      "source": {
+        "section": "Section 4: Signs, Signals and Pavement Markings",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-039",
+      "topic": "rules",
+      "q": {
+        "en": "The signal facing you is flashing yellow. What must you do?",
+        "zh": "面对你的信号灯在闪烁黄光。你必须怎么做？"
+      },
+      "options": {
+        "en": [
+          "Speed up to clear the intersection",
+          "Stop and wait for green",
+          "Slow down and proceed with caution",
+          "Come to a complete stop"
+        ],
+        "zh": [
+          "加速通过路口",
+          "停车等绿灯",
+          "减速并小心通过",
+          "完全停车"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "A flashing yellow signal means slow down and proceed with caution; it does not require a complete stop. See Section 4: Signs, Signals and Pavement Markings.",
+        "zh": "闪烁黄灯表示减速并小心通过，不需要完全停车。见第4节：标志、信号与路面标线。"
+      },
+      "source": {
+        "section": "Section 4: Signs, Signals and Pavement Markings",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-040",
+      "topic": "rules",
+      "q": {
+        "en": "Overhead lane signals show a red X above the lane you are in. What does that mean?",
+        "zh": "你所在车道上方信号显示红色X。这表示什么？"
+      },
+      "options": {
+        "en": [
+          "You must never drive in a lane under a red X",
+          "You may use the lane for left turns only",
+          "The lane closes in one hour",
+          "Trucks only may use the lane"
+        ],
+        "zh": [
+          "绝不能在红色X下方的车道行驶",
+          "该车道只能用于左转",
+          "车道将在一小时后关闭",
+          "只有卡车可使用该车道"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Lane-use signals control reversible lanes. You must never drive in a lane under a red X signal. See Section 4: Signs, Signals and Pavement Markings.",
+        "zh": "车道使用信号控制可变车道。绝不能在红色X信号下方的车道行驶。见第4节：标志、信号与路面标线。"
+      },
+      "source": {
+        "section": "Section 4: Signs, Signals and Pavement Markings",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-041",
+      "topic": "rules",
+      "q": {
+        "en": "An overhead lane signal changes to a steady yellow X above your lane. What should you do?",
+        "zh": "你车道上方的信号变为持续黄色X。你应该怎么做？"
+      },
+      "options": {
+        "en": [
+          "Use the lane only for passing",
+          "Stop immediately in the lane",
+          "Ignore it until it turns red",
+          "Move out of the lane as soon as you safely can"
+        ],
+        "zh": [
+          "该车道只能用于超车",
+          "立即在车道内停车",
+          "等它变红再管",
+          "在能安全做到时尽快驶离该车道"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "A steady yellow X means you should move out of that lane as soon as you safely can. See Section 4: Signs, Signals and Pavement Markings.",
+        "zh": "持续黄色X表示应尽快安全地驶离该车道。见第4节：标志、信号与路面标线。"
+      },
+      "source": {
+        "section": "Section 4: Signs, Signals and Pavement Markings",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-042",
+      "topic": "rules",
+      "q": {
+        "en": "On a two-lane road, the center line on your side is a solid yellow line. What does that line mean for passing?",
+        "zh": "在双车道道路上，你一侧的中央线是黄色实线。这条线对超车意味着什么？"
+      },
+      "options": {
+        "en": [
+          "Passing is allowed at night only",
+          "You may pass bicycles only",
+          "Passing is allowed with extra care",
+          "You may not pass — the solid yellow line is on your side"
+        ],
+        "zh": [
+          "只允许夜间超车",
+          "只能超越自行车",
+          "可以格外小心地超车",
+          "不得超车——黄色实线在你一侧"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "You may not pass where the solid yellow line is on your side of the road, or where there are double solid yellow lines. See Section 3: Basic Driving; Section 4: Signs, Signals and Pavement Markings.",
+        "zh": "当黄色实线在你一侧时不得超车，双黄实线时也不得超车。见第3节：基本驾驶；第4节：标志、信号与路面标线。"
+      },
+      "source": {
+        "section": "Section 3: Basic Driving",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-043",
+      "topic": "rules",
+      "q": {
+        "en": "You need to turn left into a driveway across double solid yellow lines. Is that allowed?",
+        "zh": "你需要越过双黄实线左转进入一条车道。这样做允许吗？"
+      },
+      "options": {
+        "en": [
+          "No — double yellow lines may never be crossed",
+          "Only if a police officer waves you through",
+          "Yes — you may make a left turn across double solid yellow lines, though passing is not allowed",
+          "Only on weekends"
+        ],
+        "zh": [
+          "不允许——双黄线永不能越过",
+          "只有警察挥手放行时才行",
+          "允许——可以越过双黄实线左转，但不得超车",
+          "只在周末允许"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Double solid yellow lines ban passing in either direction, but a left turn across them is allowed, for example into a driveway. See Section 4: Signs, Signals and Pavement Markings.",
+        "zh": "双黄实线禁止双向超车，但允许越过它左转，例如进入车道。见第4节：标志、信号与路面标线。"
+      },
+      "source": {
+        "section": "Section 4: Signs, Signals and Pavement Markings",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-044",
+      "topic": "rules",
+      "q": {
+        "en": "A center line is made of one solid yellow line and one broken yellow line. Traffic on the broken-line side may:",
+        "zh": "中央线由一条黄色实线和一条黄色虚线组成。虚线一侧的车辆可以："
+      },
+      "options": {
+        "en": [
+          "Pass only when following a truck",
+          "Pass carefully — passing is permitted from the broken-line side only",
+          "Cross into oncoming lanes freely",
+          "Never pass"
+        ],
+        "zh": [
+          "只在跟随卡车时超车",
+          "小心超车——只允许虚线一侧超车",
+          "自由驶入对向车道",
+          "永不超车"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "With solid-plus-broken yellow lines, careful passing is allowed for traffic on the broken-line side and not allowed for traffic on the solid-line side. See Section 4: Signs, Signals and Pavement Markings.",
+        "zh": "黄实线加黄虚线时，虚线一侧可小心超车，实线一侧不得超车。见第4节：标志、信号与路面标线。"
+      },
+      "source": {
+        "section": "Section 4: Signs, Signals and Pavement Markings",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-045",
+      "topic": "rules",
+      "q": {
+        "en": "White crosswalk lines are painted across the road at an intersection. What do they show?",
+        "zh": "路口处路面画有白色人行横道线。它们标示什么？"
+      },
+      "options": {
+        "en": [
+          "Where bicycles must dismount",
+          "Where vehicles must stop for fuel checks",
+          "A loading zone",
+          "Where pedestrians cross"
+        ],
+        "zh": [
+          "骑行者必须下车处",
+          "车辆必须停车接受燃油检查处",
+          "装卸区",
+          "行人过街的位置"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "Crosswalk lines are white, solid lines that show where pedestrians cross. Most intersections have a crosswalk even if it is not marked. See Section 4: Signs, Signals and Pavement Markings.",
+        "zh": "人行横道线是白色实线，标示行人过街的位置。大多数路口即使没有标线也有人行横道。见第4节：标志、信号与路面标线。"
+      },
+      "source": {
+        "section": "Section 4: Signs, Signals and Pavement Markings",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-046",
+      "topic": "rules",
+      "q": {
+        "en": "You are about to pass a car traveling in the same direction. When may you return to your original lane?",
+        "zh": "你正要超越同向行驶的一辆车。何时可以返回原车道？"
+      },
+      "options": {
+        "en": [
+          "As soon as your front bumper passes theirs",
+          "Only after you can see both headlights of the passed vehicle in your rear-view mirror",
+          "After honking twice",
+          "After traveling one full mile"
+        ],
+        "zh": [
+          "你的前保险杠一超过对方就可以",
+          "只有在后视镜中能看到被超车辆的两个大灯后",
+          "鸣笛两次后",
+          "行驶满一英里后"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Before returning to your lane, you must be able to see both headlights of the vehicle you passed in your rear-view mirror. See Section 3: Basic Driving.",
+        "zh": "返回原车道前，必须在后视镜中能看到被超车辆的两个大灯。见第3节：基本驾驶。"
+      },
+      "source": {
+        "section": "Section 3: Basic Driving",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-047",
+      "topic": "rules",
+      "q": {
+        "en": "Which of these is a situation where passing on the right is allowed in Maryland?",
+        "zh": "以下哪种情况在马里兰州允许从右侧超车？"
+      },
+      "options": {
+        "en": [
+          "When the vehicle ahead is about to make a left turn and you can pass safely while staying on the road",
+          "Within 100 feet of an intersection",
+          "On the shoulder of any road",
+          "Whenever your lane is moving slowly"
+        ],
+        "zh": [
+          "当前车正要左转，且你能在路面上安全超越时",
+          "在距路口100英尺以内",
+          "在任何道路的路肩上",
+          "只要你的车道行驶缓慢"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Passing on the right is allowed only if it is safe, you stay on the road, and the other vehicle is about to turn left — or you are on an unobstructed multi-lane or one-way road with two or more lanes. Passing on the shoulder is prohibited. See Section 3: Basic Driving.",
+        "zh": "只有在安全、保持在路面上，且对方车辆正要左转时才允许右侧超车——或在无阻碍的多车道或双车道以上单行道上。在路肩上超车是禁止的。见第3节：基本驾驶。"
+      },
+      "source": {
+        "section": "Section 3: Basic Driving",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-048",
+      "topic": "rules",
+      "q": {
+        "en": "Another driver begins passing you. What must you do?",
+        "zh": "另一位驾驶员开始超越你。你必须怎么做？"
+      },
+      "options": {
+        "en": [
+          "Flash your lights repeatedly",
+          "Move to the left",
+          "Yield to the passing vehicle and not increase your speed",
+          "Speed up so they cannot get in"
+        ],
+        "zh": [
+          "反复闪灯",
+          "移到左侧",
+          "让行超车车辆且不加速",
+          "加速让对方进不来"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "When being passed, you must yield to the other vehicle and not increase your speed. See Section 3: Basic Driving.",
+        "zh": "被超车时，必须让行对方车辆且不得加速。见第3节：基本驾驶。"
+      },
+      "source": {
+        "section": "Section 3: Basic Driving",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-049",
+      "topic": "rules",
+      "q": {
+        "en": "How close to an intersection or railroad grade crossing does the ban on passing apply when your view is obstructed?",
+        "zh": "当视线受阻时，禁止超车的规定在距路口或铁路道口多远范围内适用？"
+      },
+      "options": {
+        "en": [
+          "Within 500 feet",
+          "Within 25 feet",
+          "Within 100 feet",
+          "Within 50 feet"
+        ],
+        "zh": [
+          "500英尺以内",
+          "25英尺以内",
+          "100英尺以内",
+          "50英尺以内"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "You may not pass when crossing or within 100 feet of an intersection or railroad grade crossing, or within 100 feet of a bridge, elevated road, or tunnel when your view is obstructed. See Section 3: Basic Driving.",
+        "zh": "在路口或铁路道口处或其100英尺以内不得超车；视线受阻时，在桥梁、高架路或隧道的100英尺以内也不得超车。见第3节：基本驾驶。"
+      },
+      "source": {
+        "section": "Section 3: Basic Driving",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-050",
+      "topic": "rules",
+      "q": {
+        "en": "Before making a turn, what is the correct sequence according to the manual?",
+        "zh": "根据手册，转弯前的正确步骤顺序是什么？"
+      },
+      "options": {
+        "en": [
+          "Signal only after starting the turn",
+          "Turn first, then check mirrors",
+          "Speed up, then signal at the last second",
+          "Check signs and signals, plan the turn, switch on your turn signal, check front, behind, and both sides, and adjust your speed"
+        ],
+        "zh": [
+          "开始转弯后才打灯",
+          "先转弯，再看镜子",
+          "先加速，最后时刻再打灯",
+          "查看标志和信号、提前规划转弯、打开转向灯、查看前方、后方和两侧，并调整速度"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "When turning: look for signs and signals, plan before the turning point, signal before the turn, check front, behind, and both sides, and adjust your speed for the turn. See Section 3: Basic Driving.",
+        "zh": "转弯时应：查看标志和信号、在到达转弯点前规划、提前打开转向灯、查看前方、后方和两侧，并调整转弯速度。见第3节：基本驾驶。"
+      },
+      "source": {
+        "section": "Section 3: Basic Driving",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-051",
+      "topic": "rules",
+      "q": {
+        "en": "You need to make a U-turn where U-turns are allowed. What must you do first?",
+        "zh": "你需要在允许掉头的地方掉头。首先必须怎么做？"
+      },
+      "options": {
+        "en": [
+          "Turn without stopping if the road looks empty",
+          "Signal left, stop, and yield to oncoming traffic; when clear, turn into the outside (right-hand) lane going the opposite way",
+          "Turn into the left-hand lane of the opposite direction",
+          "Honk and turn quickly"
+        ],
+        "zh": [
+          "路面看似没车时不用停直接转",
+          "打左转向灯、停车并让行对向车辆；通畅后转入对向的外侧（右侧）车道",
+          "转入对向的左侧车道",
+          "鸣笛后快速转弯"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "For a U-turn: check that U-turns are allowed, signal left, stop and yield to oncoming traffic, and when clear turn into the outside or right-hand lane traveling the opposite direction. See Section 3: Basic Driving.",
+        "zh": "掉头时应：先确认允许掉头，打左转向灯，停车让行对向车辆，通畅后转入对向的外侧即右侧车道。见第3节：基本驾驶。"
+      },
+      "source": {
+        "section": "Section 3: Basic Driving",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-052",
+      "topic": "rules",
+      "q": {
+        "en": "Generally, where should you position your vehicle on the road?",
+        "zh": "一般情况下，你应把车辆保持在道路的什么位置？"
+      },
+      "options": {
+        "en": [
+          "In the left lane at all times",
+          "As close to the center as possible",
+          "To the right of the center of the road, unless passing, a sign or signal allows otherwise, or an obstruction requires it",
+          "Straddling the center line"
+        ],
+        "zh": [
+          "始终在左侧车道",
+          "尽量靠近中央",
+          "在道路中央的右侧，除非超车、标志或信号允许，或障碍物要求改变位置",
+          "骑压中央线"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Keep your vehicle to the right of the center of the road unless you are passing a same-direction vehicle, a sign or signal says it is okay, or something in the way makes a change necessary. See Section 3: Basic Driving.",
+        "zh": "应将车辆保持在道路中央右侧，除非正在超越同向车辆、标志或信号允许，或前方障碍要求改变位置。见第3节：基本驾驶。"
+      },
+      "source": {
+        "section": "Section 3: Basic Driving",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-053",
+      "topic": "rules",
+      "q": {
+        "en": "Which statement about lane changes inside an intersection is correct?",
+        "zh": "关于在路口内变道，下列说法哪项正确？"
+      },
+      "options": {
+        "en": [
+          "Lane changes in intersections are encouraged",
+          "You may drift across lines if you signal",
+          "You should not make lane changes when in an intersection, and you should not drift across lane lines",
+          "Lane lines do not apply inside intersections"
+        ],
+        "zh": [
+          "鼓励在路口内变道",
+          "只要打灯就可以漂移越线",
+          "不应在路口内变道，也不应漂移越过车道线",
+          "路口内车道线不适用"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Drive in a single lane, do not drift across lane lines, and do not make lane changes when in an intersection. See Section 3: Basic Driving.",
+        "zh": "应在单一车道内行驶，不要漂移越过车道线，也不要在路口内变道。见第3节：基本驾驶。"
+      },
+      "source": {
+        "section": "Section 3: Basic Driving",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-054",
+      "topic": "rules",
+      "q": {
+        "en": "You park along a road with a curb. Which parking steps does the manual require?",
+        "zh": "你在有路缘的路边停车。手册要求哪些停车步骤？"
+      },
+      "options": {
+        "en": [
+          "Park as close to the curb as possible, set the parking brake, place the vehicle in gear or Park, check traffic before opening the door, and take your keys and lock up",
+          "Never set the parking brake on a flat road",
+          "Park as far into traffic as possible and leave the engine running",
+          "Leave the keys in the ignition for emergencies"
+        ],
+        "zh": [
+          "尽量靠近路缘停车，拉手刹，挂挡或挂P挡，开门前观察交通，带走钥匙并锁车",
+          "平路时永不拉手刹",
+          "尽量停在靠车流一侧并让发动机运转",
+          "把钥匙留在点火开关上以备紧急情况"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "When parking by a road: park as far from traffic as possible and close to the curb, set the parking brake, use gear (manual) or Park (automatic), check mirrors and traffic before opening the door, and take your keys and lock the vehicle. See Section 3: Basic Driving.",
+        "zh": "路边停车时：尽量远离车流并靠近路缘，拉手刹，手动挡挂挡或自动挡挂P挡，开门前查看镜子和交通，带走钥匙并锁车。见第3节：基本驾驶。"
+      },
+      "source": {
+        "section": "Section 3: Basic Driving",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-055",
+      "topic": "rules",
+      "q": {
+        "en": "You are entering a traffic circle (roundabout). Traffic is already circulating inside. What must you do?",
+        "zh": "你正进入环岛，岛内已有车辆在环行。你必须怎么做？"
+      },
+      "options": {
+        "en": [
+          "Stop at the yield line even when the circle is empty and wait one minute",
+          "Drive to the left of the island if it is shorter",
+          "Enter quickly — entering traffic has priority",
+          "Always yield to traffic already in the circle, keep right of the island, and yield to pedestrians in the crosswalk"
+        ],
+        "zh": [
+          "即使环岛为空也要在让行线停一分钟",
+          "如果更近可以从中心岛左侧走",
+          "快速进入——进入车辆优先",
+          "始终让行已在环岛内的车辆，保持在中心岛右侧，并让行人行横道上的行人"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "At a traffic circle you must always yield to traffic already in the circle, reduce speed, keep to the right of the island, and watch for pedestrians in the crosswalk. See Section 5: Driving Situations and Conditions.",
+        "zh": "在环岛处必须始终让行已在岛内的车辆，减速，保持在中心岛右侧，并注意人行横道上的行人。见第5节：驾驶情形与条件。"
+      },
+      "source": {
+        "section": "Section 5: Driving Situations and Conditions",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-056",
+      "topic": "rules",
+      "q": {
+        "en": "You missed your exit on an interstate highway. What must you never do?",
+        "zh": "你在州际公路上错过了出口。绝不能做什么？"
+      },
+      "options": {
+        "en": [
+          "Never stop and back up on any part of the highway — continue off the ramp and find a way to re-enter",
+          "Use the shoulder to reverse to the exit",
+          "Continue to the next exit",
+          "Make a U-turn across the median"
+        ],
+        "zh": [
+          "绝不能在高速公路任何部分停车倒车——应继续驶离匝道再找路返回",
+          "用路肩倒车回到出口",
+          "继续开到下一个出口",
+          "横穿中央分隔带掉头"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "If you exit at the wrong place, continue until you are off the exit ramp, then look for a way to re-enter. Never stop and back up on any part of the highway. See Section 5: Driving Situations and Conditions.",
+        "zh": "如果走错出口，应继续驶离出口匝道，再寻找重新进入的办法。绝不能在高速公路任何部分停车倒车。见第5节：驾驶情形与条件。"
+      },
+      "source": {
+        "section": "Section 5: Driving Situations and Conditions",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-057",
+      "topic": "rules",
+      "q": {
+        "en": "Your car breaks down on an interstate and you pull onto the shoulder. What does the manual advise?",
+        "zh": "你的车在州际公路上抛锚，你停到路肩上。手册建议怎么做？"
+      },
+      "options": {
+        "en": [
+          "Leave the flashers off to save the battery",
+          "Walk along the highway to the nearest exit",
+          "Turn on your emergency flashers and stay inside your vehicle if you can",
+          "Stand behind the car and wave traffic around"
+        ],
+        "zh": [
+          "为省电关掉报警灯",
+          "沿高速公路步行到最近的出口",
+          "打开危险报警灯，并尽量留在车内",
+          "站在车后挥手指挥交通绕行"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "On an interstate shoulder: turn on emergency flashers to warn other drivers and stay inside your vehicle if you can — standing or walking along an interstate is very dangerous. See Section 5: Driving Situations and Conditions.",
+        "zh": "在州际公路路肩：打开危险报警灯警告其他驾驶员，并尽量留在车内——在州际公路旁站立或行走非常危险。见第5节：驾驶情形与条件。"
+      },
+      "source": {
+        "section": "Section 5: Driving Situations and Conditions",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-058",
+      "topic": "rules",
+      "q": {
+        "en": "A police officer is directing traffic and waves you through a red light. A school crossing guard in uniform is also nearby. When may you disobey a traffic control device?",
+        "zh": "一名警察正在指挥交通并挥手让你通过红灯，附近还有一名穿制服的学校过街护导员。何时可以不服从交通控制装置？"
+      },
+      "options": {
+        "en": [
+          "Never — devices always override people",
+          "Whenever you are in a hurry",
+          "Only when a police officer, emergency personnel, or a uniformed school crossing guard directs you to do something different",
+          "Whenever traffic is light"
+        ],
+        "zh": [
+          "永不——装置永远优先于人",
+          "只要你赶时间时",
+          "只有当警察、应急人员或穿制服的学校过街护导员指示你采取不同行动时",
+          "只要交通不繁忙时"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "The only time you do not obey traffic control devices is when a police officer or other emergency personnel, or a school crossing guard in uniform, tells you to do something different. See Section 4: Signs, Signals and Pavement Markings.",
+        "zh": "唯一可以不服从交通控制装置的情况是警察或其他应急人员、或穿制服的学校过街护导员指示你采取不同行动时。见第4节：标志、信号与路面标线。"
+      },
+      "source": {
+        "section": "Section 4: Signs, Signals and Pavement Markings",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-059",
+      "topic": "safety",
+      "q": {
+        "en": "On a dry road in ideal conditions, what minimum following distance does the MVA recommend?",
+        "zh": "在理想条件下干燥路面上，MVA建议的最小跟车距离是多少？"
+      },
+      "options": {
+        "en": [
+          "10 seconds",
+          "3 to 4 seconds",
+          "1 second",
+          "2 seconds"
+        ],
+        "zh": [
+          "10秒",
+          "3到4秒",
+          "1秒",
+          "2秒"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "The MVA recommends a minimum following distance of 3 to 4 seconds under ideal driving conditions, measured by counting as the vehicle ahead passes a fixed reference point. See Section 3: Basic Driving.",
+        "zh": "MVA建议理想条件下最小跟车距离为3到4秒，用前车经过固定参照物后开始计数的方法测量。见第3节：基本驾驶。"
+      },
+      "source": {
+        "section": "Section 3: Basic Driving",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-060",
+      "topic": "safety",
+      "q": {
+        "en": "You are following a delivery van that stops frequently. How should you adjust your following distance?",
+        "zh": "你跟在一辆经常停车的送货车后面。应如何调整跟车距离？"
+      },
+      "options": {
+        "en": [
+          "Keep it exactly the same as for any car",
+          "Increase it to four or five seconds, and possibly more if needed",
+          "Follow closer so you can pass sooner",
+          "Reduce it to 1 second so others cannot cut in"
+        ],
+        "zh": [
+          "与跟随普通轿车完全一样",
+          "增加到四到五秒，需要时还可以更多",
+          "跟得更近以便更早超越",
+          "减到1秒，防止别人插进来"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "When following vehicles that stop often, such as buses and delivery vans, increase the distance to four or five seconds, and possibly more if needed. See Section 3: Basic Driving.",
+        "zh": "跟随经常停车的车辆（如公交车、送货车）时，应将距离增加到四到五秒，需要时还可以更多。见第3节：基本驾驶。"
+      },
+      "source": {
+        "section": "Section 3: Basic Driving",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-061",
+      "topic": "safety",
+      "q": {
+        "en": "Which of these does NOT affect your vehicle's stopping distance?",
+        "zh": "以下哪项不会影响你车辆的停车距离？"
+      },
+      "options": {
+        "en": [
+          "The type and condition of the road",
+          "The condition of your tires and brakes",
+          "The time it takes you to notice a dangerous situation",
+          "The color of your vehicle"
+        ],
+        "zh": [
+          "道路的类型和状况",
+          "轮胎和刹车的状况",
+          "你注意到危险情况所需的时间",
+          "你车辆的颜色"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "Stopping distance depends on how long it takes you to see a dangerous situation, the type and condition of the road, tire tread condition, and brake condition — not on vehicle color. See Section 3: Basic Driving.",
+        "zh": "停车距离取决于你察觉危险所需的时间、道路类型和状况、轮胎花纹状况和刹车状况——与车辆颜色无关。见第3节：基本驾驶。"
+      },
+      "source": {
+        "section": "Section 3: Basic Driving",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-062",
+      "topic": "safety",
+      "q": {
+        "en": "Rain is falling and your windshield wipers are running. What does Maryland law require?",
+        "zh": "正在下雨，你的雨刷在工作。马里兰州法律要求什么？"
+      },
+      "options": {
+        "en": [
+          "Turn on your headlights whenever you use your windshield wipers in inclement weather",
+          "Use hazard lights instead of headlights",
+          "Turn on your high beams",
+          "Turn off your headlights to reduce glare"
+        ],
+        "zh": [
+          "在恶劣天气使用雨刷时打开大灯",
+          "用危险报警灯代替大灯",
+          "打开远光灯",
+          "关掉大灯以减少眩光"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Maryland law requires you to turn on your headlights when using your windshield wipers in inclement weather. See Section 5: Driving Situations and Conditions.",
+        "zh": "马里兰州法律要求在恶劣天气使用雨刷时打开大灯。见第5节：驾驶情形与条件。"
+      },
+      "source": {
+        "section": "Section 5: Driving Situations and Conditions",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-063",
+      "topic": "safety",
+      "q": {
+        "en": "On an unlit road at night you are using high beams. A car approaches from the opposite direction. When must you switch to low beams?",
+        "zh": "夜间在没有路灯的路上你使用远光灯。对面有车驶来。你必须在多远时切换为近光灯？"
+      },
+      "options": {
+        "en": [
+          "At least 500 feet before reaching it",
+          "At least 100 feet before reaching it",
+          "Only after it passes you",
+          "At least 300 feet before reaching it"
+        ],
+        "zh": [
+          "到达其前方至少500英尺时",
+          "到达其前方至少100英尺时",
+          "等它通过你之后",
+          "到达其前方至少300英尺时"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Change to low beams at least 500 feet before reaching vehicles coming toward you, and when following a vehicle that is 300 feet or less in front of you. See Section 5: Driving Situations and Conditions.",
+        "zh": "应在距对向车辆至少500英尺时切换为近光灯；跟随前方300英尺以内的车辆时也应使用近光灯。见第5节：驾驶情形与条件。"
+      },
+      "source": {
+        "section": "Section 5: Driving Situations and Conditions",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-064",
+      "topic": "safety",
+      "q": {
+        "en": "You are following another vehicle closely at night. At what distance must you be using low beams instead of high beams?",
+        "zh": "夜间你正近距离跟随另一辆车。在多远距离内必须使用近光灯而非远光灯？"
+      },
+      "options": {
+        "en": [
+          "300 feet or less",
+          "50 feet or less",
+          "1,000 feet or less",
+          "500 feet or less"
+        ],
+        "zh": [
+          "300英尺或更近",
+          "50英尺或更近",
+          "1000英尺或更近",
+          "500英尺或更近"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Change to low beams when following a vehicle that is 300 feet or less in front of you. See Section 5: Driving Situations and Conditions.",
+        "zh": "跟随前方300英尺或更近的车辆时，应切换为近光灯。见第5节：驾驶情形与条件。"
+      },
+      "source": {
+        "section": "Section 5: Driving Situations and Conditions",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-065",
+      "topic": "safety",
+      "q": {
+        "en": "Visibility drops until you cannot clearly see a certain distance ahead. Headlights must be on whenever you cannot clearly see at least:",
+        "zh": "能见度下降，直到你无法看清前方一定距离。看不清至少多远时必须打开大灯？"
+      },
+      "options": {
+        "en": [
+          "2,000 feet",
+          "500 feet",
+          "200 feet",
+          "1,000 feet"
+        ],
+        "zh": [
+          "2000英尺",
+          "500英尺",
+          "200英尺",
+          "1000英尺"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "You must turn on your headlights anytime there is not enough light to clearly see at least 1,000 feet in front of your vehicle. See Section 5: Driving Situations and Conditions.",
+        "zh": "每当光线不足以看清车辆前方至少1000英尺时，必须打开大灯。见第5节：驾驶情形与条件。"
+      },
+      "source": {
+        "section": "Section 5: Driving Situations and Conditions",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-066",
+      "topic": "safety",
+      "q": {
+        "en": "In fog, which headlight setting should you use?",
+        "zh": "在雾中，应使用哪种大灯设置？"
+      },
+      "options": {
+        "en": [
+          "Hazard lights only",
+          "High beams only",
+          "Low beams only, plus fog lights if you have them",
+          "No lights, to avoid glare"
+        ],
+        "zh": [
+          "只用危险报警灯",
+          "只用远光灯",
+          "只用近光灯，如有雾灯也打开",
+          "不开灯，以免眩光"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "In fog, use low beam headlights only, and fog lights if equipped. High beams make it harder to see in fog. See Section 5: Driving Situations and Conditions.",
+        "zh": "在雾中只使用近光灯，如有雾灯则一并打开。远光灯会使雾中更难看清。见第5节：驾驶情形与条件。"
+      },
+      "source": {
+        "section": "Section 5: Driving Situations and Conditions",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-067",
+      "topic": "safety",
+      "q": {
+        "en": "The fog becomes so thick that you cannot drive safely. What should you do?",
+        "zh": "雾浓到无法安全驾驶。你应该怎么做？"
+      },
+      "options": {
+        "en": [
+          "Pull completely off the road to a safe location and turn on your emergency flashers",
+          "Follow the taillights ahead very closely",
+          "Stop in your travel lane and wait",
+          "Keep driving slowly in the left lane"
+        ],
+        "zh": [
+          "完全驶离道路到安全地点，并打开危险报警灯",
+          "紧跟前方的尾灯",
+          "停在行车道内等待",
+          "在左侧车道慢慢继续开"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "If fog is so thick you cannot safely drive, pull completely off the road to a safe location and turn on your emergency flashers. See Section 5: Driving Situations and Conditions.",
+        "zh": "如果雾浓到无法安全驾驶，应完全驶离道路到安全地点，并打开危险报警灯。见第5节：驾驶情形与条件。"
+      },
+      "source": {
+        "section": "Section 5: Driving Situations and Conditions",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-068",
+      "topic": "safety",
+      "q": {
+        "en": "Your vehicle begins to skid on a wet curve. What is the correct first response?",
+        "zh": "你的车在湿弯道上开始打滑。正确的第一反应是什么？"
+      },
+      "options": {
+        "en": [
+          "Brake as hard as possible",
+          "Release the accelerator or brake pedal you are using, steer in the direction of the skid, and look where you want to go",
+          "Steer opposite to the skid",
+          "Accelerate quickly to regain grip"
+        ],
+        "zh": [
+          "尽可能用力刹车",
+          "松开正在使用的油门或刹车踏板，向打滑方向打方向，并看向你想去的方向",
+          "向打滑的反方向打方向",
+          "快速加速以恢复抓地力"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "In a skid: release the accelerator or brake pedal, steer in the direction you are skidding, look where you want the vehicle to go, and press the brake only after traction returns. See Section 5: Driving Situations and Conditions.",
+        "zh": "打滑时：松开油门或刹车踏板，向打滑方向打方向，看向你想去的方向，待抓地力恢复后再踩刹车。见第5节：驾驶情形与条件。"
+      },
+      "source": {
+        "section": "Section 5: Driving Situations and Conditions",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-069",
+      "topic": "safety",
+      "q": {
+        "en": "Driving fast through standing water, your tires ride up on a sheet of water and you lose contact with the road. This is called hydroplaning. What should you do?",
+        "zh": "快速驶过积水时，轮胎浮在水面上失去与路面的接触。这叫水滑（hydroplaning）。你应该怎么做？"
+      },
+      "options": {
+        "en": [
+          "Speed up to push through the water",
+          "Turn the wheel sharply toward the shoulder",
+          "Take your foot off the gas, do not apply the brakes, keep the vehicle going straight, and slow down until you regain control",
+          "Brake firmly at once"
+        ],
+        "zh": [
+          "加速冲过积水",
+          "猛打方向朝路肩",
+          "松开油门，不踩刹车，保持车辆直行，减速直到恢复控制",
+          "立即用力刹车"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "To recover from hydroplaning: take your foot off the gas, do not apply the brakes, keep the vehicle going straight, and slow down until you get control back. See Section 5: Driving Situations and Conditions.",
+        "zh": "水滑后恢复控制的方法：松开油门，不踩刹车，保持车辆直行，减速直到恢复控制。见第5节：驾驶情形与条件。"
+      },
+      "source": {
+        "section": "Section 5: Driving Situations and Conditions",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-070",
+      "topic": "safety",
+      "q": {
+        "en": "Which road surfaces freeze first in cold weather and deserve extra caution?",
+        "zh": "在寒冷天气里，哪些路面最先结冰，需要格外小心？"
+      },
+      "options": {
+        "en": [
+          "Ramps and bridges",
+          "Toll plazas",
+          "Straight flat highways",
+          "Parking lots"
+        ],
+        "zh": [
+          "匝道和桥梁",
+          "收费站",
+          "笔直平坦的高速公路",
+          "停车场"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Ramps and bridges freeze before roads. Plowed roads may also refreeze at night or keep icy patches from melted snow. See Section 5: Driving Situations and Conditions.",
+        "zh": "匝道和桥梁比道路先结冰。已清雪的道路夜间也可能重新结冰或留有融雪后的冰斑。见第5节：驾驶情形与条件。"
+      },
+      "source": {
+        "section": "Section 5: Driving Situations and Conditions",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-071",
+      "topic": "safety",
+      "q": {
+        "en": "A thin, nearly invisible layer of ice on asphalt, formed by melting and re-freezing, is known as:",
+        "zh": "沥青路面上由融化和再冻结形成的薄而几乎看不见的冰层被称为："
+      },
+      "options": {
+        "en": [
+          "Sheet rain",
+          "White frost",
+          "Road glaze paint",
+          "Black ice"
+        ],
+        "zh": [
+          "片状雨",
+          "白霜",
+          "路面釉面漆",
+          "黑冰"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "That thin layer of ice on blacktop roads is called black ice. It is caused by ice or snow melting and re-freezing and can cause a crash if you are not aware of it. See Section 5: Driving Situations and Conditions.",
+        "zh": "沥青路面上的这种薄冰层称为黑冰。它由冰雪融化后再次冻结形成，如不警觉可能导致事故。见第5节：驾驶情形与条件。"
+      },
+      "source": {
+        "section": "Section 5: Driving Situations and Conditions",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-072",
+      "topic": "safety",
+      "q": {
+        "en": "Before driving in snow or ice, which preparation does the manual require?",
+        "zh": "在冰雪中驾驶前，手册要求做哪项准备？"
+      },
+      "options": {
+        "en": [
+          "Remove your mirrors",
+          "Turn off your headlights",
+          "Remove all ice and snow from your vehicle before driving",
+          "Let air out of your tires"
+        ],
+        "zh": [
+          "拆下后视镜",
+          "关掉大灯",
+          "驾驶前清除车辆上所有冰雪",
+          "给轮胎放气"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Remove all ice and snow from your vehicle before driving in winter weather, start very slowly, test your brakes gently, and begin slowing long before intersections or turns. See Section 5: Driving Situations and Conditions.",
+        "zh": "冬季驾驶前应清除车辆上所有冰雪，起步要非常缓慢，轻试刹车，并在路口或转弯前很早就开始减速。见第5节：驾驶情形与条件。"
+      },
+      "source": {
+        "section": "Section 5: Driving Situations and Conditions",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-073",
+      "topic": "safety",
+      "q": {
+        "en": "Gates are down and red warning lights are flashing at a railroad crossing, but you see no train. What must you do?",
+        "zh": "铁路道口栏杆已放下、红色警告灯闪烁，但你没看到火车。你必须怎么做？"
+      },
+      "options": {
+        "en": [
+          "Stop and wait — the road is temporarily closed until the gates go up and the lights stop flashing",
+          "Cross only in the oncoming lane",
+          "Drive around the gates slowly",
+          "Cross quickly before the train arrives"
+        ],
+        "zh": [
+          "停车等待——在栏杆升起、警告灯停止闪烁前道路暂时封闭",
+          "只从对向车道通过",
+          "慢慢绕过栏杆",
+          "在火车到来前快速通过"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "If gates are down or warning lights are flashing, the road is temporarily closed. Stop and wait until the gates go up and the warning lights stop flashing. See Section 5: Driving Situations and Conditions.",
+        "zh": "栏杆放下或警告灯闪烁时，道路暂时封闭。应停车等待，直到栏杆升起且警告灯停止闪烁。见第5节：驾驶情形与条件。"
+      },
+      "source": {
+        "section": "Section 5: Driving Situations and Conditions",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-074",
+      "topic": "safety",
+      "q": {
+        "en": "A train has just passed and the gates are rising. Before crossing, what must you check?",
+        "zh": "一列火车刚通过，栏杆正在升起。通过前你必须检查什么？"
+      },
+      "options": {
+        "en": [
+          "Wave to the driver behind you",
+          "Nothing — one train means the tracks are clear",
+          "Check only your mirrors",
+          "Look both ways — another train may be coming on another track"
+        ],
+        "zh": [
+          "向后车挥手",
+          "什么都不用——过了一列火车就说明轨道通畅",
+          "只看后视镜",
+          "左右观察——另一条轨道上可能有另一列火车驶来"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "After a train passes, look both ways before starting over the tracks and make sure the tracks are clear; another train may be coming on another track. See Section 5: Driving Situations and Conditions.",
+        "zh": "火车通过后，驶上轨道前应左右观察并确认轨道通畅；另一条轨道上可能有另一列火车驶来。见第5节：驾驶情形与条件。"
+      },
+      "source": {
+        "section": "Section 5: Driving Situations and Conditions",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-075",
+      "topic": "safety",
+      "q": {
+        "en": "Which vehicles must stop before every railroad crossing?",
+        "zh": "哪些车辆必须在每个铁路道口前停车？"
+      },
+      "options": {
+        "en": [
+          "Only vehicles over 10 years old",
+          "Buses, school buses, and trucks carrying hazardous materials",
+          "All passenger cars",
+          "Only motorcycles"
+        ],
+        "zh": [
+          "只有10年以上的车辆",
+          "公交车、校车和运载危险品的卡车",
+          "所有乘用车",
+          "只有摩托车"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Buses, school buses, and trucks carrying hazardous materials must stop before every railroad crossing, so be aware of vehicles stopping ahead of you at crossings. See Section 5: Driving Situations and Conditions.",
+        "zh": "公交车、校车和运载危险品的卡车必须在每个铁路道口前停车，因此要注意前方车辆在道口停车。见第5节：驾驶情形与条件。"
+      },
+      "source": {
+        "section": "Section 5: Driving Situations and Conditions",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-076",
+      "topic": "safety",
+      "q": {
+        "en": "You enter a work zone where workers are present. Which statement is correct?",
+        "zh": "你进入一个有工人在场的施工区。下列哪项正确？"
+      },
+      "options": {
+        "en": [
+          "You may ignore temporary signs",
+          "Speeding fines may be much higher in work zones, and even higher if workers are present; flashing blue lights mean speed cameras are active",
+          "Orange signs are only suggestions",
+          "Speed limits do not apply in work zones"
+        ],
+        "zh": [
+          "可以忽略临时标志",
+          "施工区超速罚款可能高得多，有工人时更高；蓝色闪灯表示测速摄像头正在工作",
+          "橙色标志只是建议",
+          "施工区内限速不适用"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "In work zones, obey posted limits — fines may be much higher, and higher still if workers are present. Flashing amber/yellow lights mean an active work zone with workers present; flashing blue lights mean active speed cameras. See Section 5: Driving Situations and Conditions.",
+        "zh": "在施工区应遵守标示限速——罚款可能高得多，有工人时更高。琥珀/黄色闪灯表示有工人的活跃施工区；蓝色闪灯表示测速摄像头正在工作。见第5节：驾驶情形与条件。"
+      },
+      "source": {
+        "section": "Section 5: Driving Situations and Conditions",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-077",
+      "topic": "safety",
+      "q": {
+        "en": "A vehicle displaying a slow-moving vehicle sign on its rear is traveling at what speed?",
+        "zh": "后部带有慢行车辆标志的车辆，行驶速度是多少？"
+      },
+      "options": {
+        "en": [
+          "25 mph or less",
+          "15 mph or less",
+          "35 mph or less",
+          "40 mph or less"
+        ],
+        "zh": [
+          "25英里/小时或更低",
+          "15英里/小时或更低",
+          "35英里/小时或更低",
+          "40英里/小时或更低"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "The slow-moving vehicle sign warns that the vehicle is going 25 miles per hour or less. Pass such vehicles only when it is safe. See Section 5: Driving Situations and Conditions.",
+        "zh": "慢行车辆标志表示该车速度为25英里/小时或更低。只在安全时才超越这类车辆。见第5节：驾驶情形与条件。"
+      },
+      "source": {
+        "section": "Section 5: Driving Situations and Conditions",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-078",
+      "topic": "safety",
+      "q": {
+        "en": "Your eyes keep closing, you cannot stop yawning, and you do not remember the last few miles. These are danger signs of drowsy driving. What is the best action?",
+        "zh": "你的眼睛不断闭合、打哈欠停不下来，且不记得刚才几英里的路。这些是疲劳驾驶的危险信号。最好的做法是什么？"
+      },
+      "options": {
+        "en": [
+          "Rest or change drivers — being tired dulls your mind and slows your reactions",
+          "Drink an energy drink and speed up",
+          "Turn the radio up loud",
+          "Open the window and keep driving"
+        ],
+        "zh": [
+          "休息或换驾驶员——疲劳会使思维迟钝、反应变慢",
+          "喝能量饮料并加速",
+          "把收音机开到最大声",
+          "开窗继续开"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "If you become tired or sleepy while driving, it is best to rest or change drivers. Sleepiness slows reaction time, decreases awareness, and impairs judgment, much like drugs or alcohol. See Section 6: Dangerous Driving Behaviors.",
+        "zh": "驾驶时感到疲倦或困倦，最好休息或更换驾驶员。困倦会减慢反应、降低警觉并损害判断力，与毒品或酒精类似。见第6节：危险驾驶行为。"
+      },
+      "source": {
+        "section": "Section 6: Dangerous Driving Behaviors",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-079",
+      "topic": "safety",
+      "q": {
+        "en": "Which of these counts as distracted driving according to the manual?",
+        "zh": "根据手册，以下哪项属于分心驾驶？"
+      },
+      "options": {
+        "en": [
+          "Checking your mirrors",
+          "Listening to traffic reports with hands on the wheel and eyes on the road is the only example",
+          "Using your turn signal",
+          "Eating, programming a GPS, dealing with children or pets, or reading — anything that takes your eyes, hands, or mind off driving"
+        ],
+        "zh": [
+          "查看后视镜",
+          "手握方向盘、眼看道路听交通广播是唯一例子",
+          "使用转向灯",
+          "吃东西、设置GPS、照看孩子或宠物、阅读——任何使眼睛、手或注意力离开驾驶的行为"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "Distracted driving is taking your eyes, hands, or especially your mind away from driving. Examples include eating and drinking, adjusting the radio, programming a GPS, dealing with children and pets, loose objects, talking or texting on a phone, smoking, makeup, shaving, and reading. See Section 6: Dangerous Driving Behaviors.",
+        "zh": "分心驾驶是指眼睛、手，尤其是注意力离开驾驶。例子包括吃喝、调收音机、设置GPS、照看孩子和宠物、松散物品、用电话通话或发短信、吸烟、化妆、刮胡子和阅读。见第6节：危险驾驶行为。"
+      },
+      "source": {
+        "section": "Section 6: Dangerous Driving Behaviors",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-080",
+      "topic": "safety",
+      "q": {
+        "en": "By law, who in a motor vehicle in Maryland must wear a safety belt or be buckled in a child safety seat?",
+        "zh": "按法律，马里兰州机动车内的哪些人必须系安全带或固定在儿童安全座椅中？"
+      },
+      "options": {
+        "en": [
+          "Only children",
+          "Only the driver",
+          "The driver and all passengers",
+          "Only front-seat passengers"
+        ],
+        "zh": [
+          "只有儿童",
+          "只有驾驶员",
+          "驾驶员和所有乘客",
+          "只有前排乘客"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "By law, the driver and all passengers of a motor vehicle must wear a safety belt or be buckled in a child safety seat. See Section 10: Other Important Information.",
+        "zh": "按法律，机动车驾驶员和所有乘客都必须系安全带或固定在儿童安全座椅中。见第10节：其他重要信息。"
+      },
+      "source": {
+        "section": "Section 10: Other Important Information",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-081",
+      "topic": "safety",
+      "q": {
+        "en": "All children under what age must ride in a child safety seat, unless the child is 4 feet 9 inches or taller?",
+        "zh": "除非身高达4英尺9英寸或更高，多大以下的儿童必须乘坐儿童安全座椅？"
+      },
+      "options": {
+        "en": [
+          "Under age 6",
+          "Under age 8",
+          "Under age 12",
+          "Under age 5"
+        ],
+        "zh": [
+          "6岁以下",
+          "8岁以下",
+          "12岁以下",
+          "5岁以下"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "All children under age 8 must ride in a child safety seat, unless the child is 4'9\" or taller. Children under age 2 must ride rear-facing until they reach the manufacturer's height or weight limit. See Section 10: Other Important Information.",
+        "zh": "8岁以下儿童必须乘坐儿童安全座椅，除非身高达到4英尺9英寸或更高。2岁以下儿童必须使用后向式座椅，直到达到制造商规定的身高或体重上限。见第10节：其他重要信息。"
+      },
+      "source": {
+        "section": "Section 10: Other Important Information",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-082",
+      "topic": "safety",
+      "q": {
+        "en": "Children under what age must ride in a rear-facing child safety seat until reaching the manufacturer's height or weight limit?",
+        "zh": "多大以下的儿童必须使用后向式儿童安全座椅，直到达到制造商规定的身高或体重上限？"
+      },
+      "options": {
+        "en": [
+          "Under age 4",
+          "Under age 1",
+          "Under age 2",
+          "Under age 8"
+        ],
+        "zh": [
+          "4岁以下",
+          "1岁以下",
+          "2岁以下",
+          "8岁以下"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Children younger than 2 must ride in a rear-facing child safety seat that meets federal guidelines until they reach the height or weight specified by the manufacturer. See Section 10: Other Important Information.",
+        "zh": "2岁以下儿童必须使用符合联邦标准的后向式儿童安全座椅，直到达到制造商规定的身高或体重。见第10节：其他重要信息。"
+      },
+      "source": {
+        "section": "Section 10: Other Important Information",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-083",
+      "topic": "safety",
+      "q": {
+        "en": "Where should children under age 13 ride, according to the manual?",
+        "zh": "根据手册，13岁以下儿童应坐在哪里？"
+      },
+      "options": {
+        "en": [
+          "On an adult's lap",
+          "In the front seat with an air bag",
+          "Buckled up in a rear seat, in a child safety seat or with a seat belt",
+          "Standing behind the front seats"
+        ],
+        "zh": [
+          "坐在成人腿上",
+          "有气囊的前排座位",
+          "后排座位，固定在儿童安全座椅中或系安全带",
+          "站在前排座椅后面"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Children under age 13 should ride buckled up in a rear seat in a child safety seat or with a seat belt, and a child in a rear-facing seat should never ride in the front seat of a vehicle with a passenger air bag. See Section 10: Other Important Information.",
+        "zh": "13岁以下儿童应系好安全带坐在后排，固定在儿童安全座椅中或系安全带；使用后向式座椅的儿童绝不能坐在有乘客气囊的前排。见第10节：其他重要信息。"
+      },
+      "source": {
+        "section": "Section 10: Other Important Information",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-084",
+      "topic": "safety",
+      "q": {
+        "en": "When your vehicle's ABS engages during hard braking, what may you feel and hear?",
+        "zh": "紧急刹车时车辆ABS启动，你可能会感觉和听到什么？"
+      },
+      "options": {
+        "en": [
+          "The horn sounds automatically",
+          "The engine shuts off",
+          "The steering wheel locks completely",
+          "A rumble from the brakes and the brake pedal vibrating under your foot"
+        ],
+        "zh": [
+          "喇叭自动响起",
+          "发动机熄火",
+          "方向盘完全锁死",
+          "刹车发出隆隆声，刹车踏板在脚下振动"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "When ABS engages you may hear a rumble from the brakes and the brake pedal will vibrate under your foot. ABS pumps the brakes faster than a driver can so the wheels do not lock and steering control is kept. See Section 10: Other Important Information.",
+        "zh": "ABS启动时，你可能听到刹车隆隆声并感到刹车踏板在脚下振动。ABS以比人更快的速度点刹，使车轮不锁死并保持转向控制。见第10节：其他重要信息。"
+      },
+      "source": {
+        "section": "Section 10: Other Important Information",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-085",
+      "topic": "safety",
+      "q": {
+        "en": "You are in a crash in which someone, including a pedestrian or bicyclist, is injured. What must you do?",
+        "zh": "你发生了一起有人受伤的事故，包括行人或骑行者受伤。你必须怎么做？"
+      },
+      "options": {
+        "en": [
+          "Remain at the scene, call 911 immediately, and do not move the vehicles",
+          "Leave and report it later from home",
+          "Exchange phone numbers and drive away",
+          "Move the vehicles first, then decide whether to call"
+        ],
+        "zh": [
+          "留在现场，立即拨打911，且不要移动车辆",
+          "离开现场，回家后再报告",
+          "交换电话号码后驾车离开",
+          "先移动车辆，再决定是否报警"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "In an injury crash you must remain at the scene, call 911 immediately to report the people involved, the injuries, and the location, and not move the vehicles. See Section 8: Crashes and Traffic Stops.",
+        "zh": "在有人受伤的事故中，必须留在现场，立即拨打911报告涉及人数、伤情和地点，且不要移动车辆。见第8节：事故与交通拦截。"
+      },
+      "source": {
+        "section": "Section 8: Crashes and Traffic Stops",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-086",
+      "topic": "safety",
+      "q": {
+        "en": "In a crash with no injuries where your vehicle can still move, what should you do with the vehicle?",
+        "zh": "在无人受伤且车辆仍能移动的事故中，你应如何处理车辆？"
+      },
+      "options": {
+        "en": [
+          "Leave it in the travel lane with flashers on",
+          "Drive it home before exchanging information",
+          "Move it off the road as close as possible to where the crash occurred, then exchange information",
+          "Push it into the nearest intersection"
+        ],
+        "zh": [
+          "让它留在行车道上并打开报警灯",
+          "先开回家再交换信息",
+          "把它移出道路，尽量靠近事故发生地点，然后交换信息",
+          "把它推到最近的路口"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "If there are no injuries and your vehicle can move, move it off the road as close as possible to the crash location to keep everyone safe and prevent backups, then exchange information with the other driver. See Section 8: Crashes and Traffic Stops.",
+        "zh": "如果无人受伤且车辆能移动，应把它移出道路并尽量靠近事故地点，以保安全并防堵车，然后与对方驾驶员交换信息。见第8节：事故与交通拦截。"
+      },
+      "source": {
+        "section": "Section 8: Crashes and Traffic Stops",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-087",
+      "topic": "safety",
+      "q": {
+        "en": "You strike an unattended parked vehicle and cannot find its owner. What are you required to do?",
+        "zh": "你撞到一辆无人看管的停放车辆，且找不到车主。你必须怎么做？"
+      },
+      "options": {
+        "en": [
+          "Wait exactly five minutes, then leave",
+          "Drive away — no one saw it",
+          "Leave only your first name",
+          "Leave a note where the owner can easily find it, explaining what happened and giving your contact information"
+        ],
+        "zh": [
+          "正好等五分钟后离开",
+          "驾车离开——没人看到",
+          "只留下你的名字",
+          "在车主容易找到的地方留一张字条，说明发生的事情并留下你的联系方式"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "If you cannot find the owner of an unattended vehicle or property you struck, leave a note where they can easily find it, describing what happened and giving your contact information. See Section 8: Crashes and Traffic Stops.",
+        "zh": "如果你找不到被撞的无人车辆或财物的主人，应在对方容易找到的地方留一张字条，说明经过并留下联系方式。见第8节：事故与交通拦截。"
+      },
+      "source": {
+        "section": "Section 8: Crashes and Traffic Stops",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-088",
+      "topic": "safety",
+      "q": {
+        "en": "During a traffic stop, where should your hands be and what should you avoid doing?",
+        "zh": "在交通拦截期间，你的手应放在哪里，应避免做什么？"
+      },
+      "options": {
+        "en": [
+          "Reach into the glove box quickly before the officer arrives",
+          "Get out and walk toward the officer",
+          "Hide your hands so the officer is not nervous",
+          "Keep your hands in plain view — on the steering wheel is best — stay in the vehicle with your seat belt fastened, and do not argue about a citation at the roadside"
+        ],
+        "zh": [
+          "在警官到达前快速伸手去手套箱",
+          "下车走向警官",
+          "把手藏起来免得警官紧张",
+          "让双手清楚可见——放在方向盘上最好——留在车内系好安全带，不要在路边就罚单争辩"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "At a traffic stop: pull off as far from traffic as possible, turn on flashers, turn off the engine and radio, roll down your window, stay in the vehicle with your seat belt fastened, keep hands in plain view on the steering wheel, and save any argument about a citation for court. See Section 8: Crashes and Traffic Stops.",
+        "zh": "交通拦截时：将车停到尽量远离车流处，打开报警灯，关闭发动机和收音机，摇下车窗，留在车内系好安全带，双手放在方向盘上清楚可见，对罚单的异议留到法庭提出。见第8节：事故与交通拦截。"
+      },
+      "source": {
+        "section": "Section 8: Crashes and Traffic Stops",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-089",
+      "topic": "sharing",
+      "q": {
+        "en": "There is no traffic signal, and a pedestrian is in an unmarked crosswalk at an intersection. What must you do?",
+        "zh": "没有交通信号灯，一名行人正在路口无标线的人行横道上。你必须怎么做？"
+      },
+      "options": {
+        "en": [
+          "Honk so the pedestrian hurries",
+          "Stop for the pedestrian — drivers must stop for pedestrians in a marked or unmarked crosswalk when there is no signal",
+          "Pass behind the pedestrian quickly",
+          "Continue — unmarked crosswalks do not count"
+        ],
+        "zh": [
+          "鸣笛催促行人加快",
+          "为行人停车——无信号时，驾驶员必须为在有标线或无标线人行横道上的行人停车",
+          "快速从行人身后通过",
+          "继续——无标线人行横道不算数"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "When there is no traffic signal, you must stop for pedestrians in a marked or unmarked crosswalk. Most intersections have a crosswalk even if it is not marked. See Section 7: Sharing the Road.",
+        "zh": "没有交通信号时，必须为在有标线或无标线人行横道上的行人停车。大多数路口即使没有标线也有人行横道。见第7节：共享道路。"
+      },
+      "source": {
+        "section": "Section 7: Sharing the Road",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-090",
+      "topic": "sharing",
+      "q": {
+        "en": "A car ahead of you has stopped at a crosswalk. May you pass it?",
+        "zh": "你前方的一辆车在人行横道前停了下来。你可以超越它吗？"
+      },
+      "options": {
+        "en": [
+          "Yes, on the shoulder",
+          "No — you may not pass any vehicle that is stopped at a crosswalk",
+          "Yes, on the left if clear",
+          "Yes, if you honk first"
+        ],
+        "zh": [
+          "可以，从路肩超",
+          "不可以——不得超越任何在人行横道前停车的车辆",
+          "可以，通畅时从左侧超",
+          "可以，先鸣笛就行"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "You may not pass any vehicle that is stopped at a crosswalk — a pedestrian you cannot see may be crossing. See Section 7: Sharing the Road.",
+        "zh": "不得超越任何在人行横道前停车的车辆——可能有你看不到的行人正在过街。见第7节：共享道路。"
+      },
+      "source": {
+        "section": "Section 7: Sharing the Road",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-091",
+      "topic": "sharing",
+      "q": {
+        "en": "You hear a siren and see flashing lights approaching behind you. What must you do immediately?",
+        "zh": "你听到警笛声并看到闪光灯从后方接近。你必须立即怎么做？"
+      },
+      "options": {
+        "en": [
+          "Stop in the middle of the intersection",
+          "Follow it closely to get through traffic",
+          "Speed up to stay ahead of it",
+          "Move as close as possible to the edge of the road, stay out of intersections, and remain stopped until the emergency vehicle passes"
+        ],
+        "zh": [
+          "停在路口中央",
+          "紧跟它以便穿过车流",
+          "加速保持在它前面",
+          "尽量靠道路边缘行驶，避开路口，并保持停车直到应急车辆通过"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "Emergency vehicles using sirens and flashing lights have the right-of-way. Move as close as possible to the edge of the road, stay out of intersections, and remain stopped until the vehicle has passed. See Section 7: Sharing the Road.",
+        "zh": "使用警笛和闪光灯的应急车辆拥有路权。应尽量靠道路边缘，避开路口，并保持停车直到该车通过。见第7节：共享道路。"
+      },
+      "source": {
+        "section": "Section 7: Sharing the Road",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-092",
+      "topic": "sharing",
+      "q": {
+        "en": "You are traveling in the same direction as an ambulance using its lights and siren. When may you pass it?",
+        "zh": "你与一辆使用灯光和警笛的救护车同向行驶。何时可以超越它？"
+      },
+      "options": {
+        "en": [
+          "On its right side only",
+          "After 30 seconds of following",
+          "Whenever your lane is clear",
+          "Only if it stops, or a police officer tells you to pass it"
+        ],
+        "zh": [
+          "只能从其右侧超",
+          "跟随30秒后",
+          "只要你的车道通畅",
+          "只有当它停下，或警察让你超越时"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "If you are going the same direction as an emergency vehicle using its signals, you may not pass it unless it stops or a police officer tells you to pass. See Section 7: Sharing the Road.",
+        "zh": "与使用信号的应急车辆同向时，不得超越它，除非它停下或警察让你超越。见第7节：共享道路。"
+      },
+      "source": {
+        "section": "Section 7: Sharing the Road",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-093",
+      "topic": "sharing",
+      "q": {
+        "en": "You approach a tow truck stopped on the shoulder with its lights flashing, and the lane next to it is open. Under Maryland's Move Over law, what must you do?",
+        "zh": "你接近一辆停在路肩、闪光灯亮着的拖车，旁边车道空着。根据马里兰州“让行法”（Move Over），你必须怎么做？"
+      },
+      "options": {
+        "en": [
+          "Stop completely behind it",
+          "Pass it at full speed in the adjacent lane",
+          "Honk and continue",
+          "Move to a lane that is not immediately next to the stopped vehicle; if you cannot move over safely, slow down to a safe speed"
+        ],
+        "zh": [
+          "在它后面完全停车",
+          "在相邻车道全速通过",
+          "鸣笛后继续",
+          "变道到不与停靠车辆紧邻的车道；如果无法安全变道，则减速到安全速度"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "When approaching any vehicle stopped, standing, or parked with its lights flashing, you must move over if you can; if it is not safe or possible, slow down to a safe speed considering weather, road conditions, traffic, and pedestrians. See Section 8: Crashes and Traffic Stops.",
+        "zh": "接近任何停车、停放且闪光灯亮着的车辆时，必须在可能时变道让开；如果不安全或无法做到，则应考虑天气、路况、交通和行人，减速到安全速度。见第8节：事故与交通拦截。"
+      },
+      "source": {
+        "section": "Section 8: Crashes and Traffic Stops",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-094",
+      "topic": "sharing",
+      "q": {
+        "en": "A driver violates the Move Over law and the violation causes a crash. What penalty does the manual state?",
+        "zh": "一名驾驶员违反“让行法”并导致了一起事故。手册规定的处罚是什么？"
+      },
+      "options": {
+        "en": [
+          "A $150 fine and three points",
+          "A $110 fine and one point",
+          "A $750 fine and three points",
+          "A warning only"
+        ],
+        "zh": [
+          "罚款150美元和3分",
+          "罚款110美元和1分",
+          "罚款750美元和3分",
+          "仅警告"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Move Over penalties: a $110 fine and one point for a basic violation; a $150 fine and three points if the violation causes a crash; a $750 fine and three points if there is a death or serious injury. See Section 8: Crashes and Traffic Stops.",
+        "zh": "“让行法”处罚：一般违法罚款110美元和1分；导致事故的罚款150美元和3分；导致死亡或重伤的罚款750美元和3分。见第8节：事故与交通拦截。"
+      },
+      "source": {
+        "section": "Section 8: Crashes and Traffic Stops",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-095",
+      "topic": "sharing",
+      "q": {
+        "en": "A Move Over violation results in a death or serious injury. What is the stated penalty?",
+        "zh": "一起“让行法”违法导致了死亡或重伤。规定的处罚是什么？"
+      },
+      "options": {
+        "en": [
+          "A $110 fine and one point",
+          "A $150 fine and three points",
+          "A $750 fine and three points",
+          "No fine, only points"
+        ],
+        "zh": [
+          "罚款110美元和1分",
+          "罚款150美元和3分",
+          "罚款750美元和3分",
+          "不罚款，只记分"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "If a Move Over violation results in a death or serious injury, the penalty is a $750 fine and three points on the license. See Section 8: Crashes and Traffic Stops.",
+        "zh": "如果“让行法”违法导致死亡或重伤，处罚是罚款750美元并在驾照上记3分。见第8节：事故与交通拦截。"
+      },
+      "source": {
+        "section": "Section 8: Crashes and Traffic Stops",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-096",
+      "topic": "sharing",
+      "q": {
+        "en": "A school bus ahead of you stops and turns on its flashing red lights. You are behind it. Where must you stop?",
+        "zh": "你前方的一辆校车停下并打开红色闪光灯。你在它后面。你必须在哪里停车？"
+      },
+      "options": {
+        "en": [
+          "Right at its bumper",
+          "At least 5 feet behind it",
+          "You do not need to stop if no children are visible",
+          "At least 20 feet from the back of the school bus"
+        ],
+        "zh": [
+          "紧贴其保险杠处",
+          "距它至少5英尺处",
+          "如果看不到儿童就不用停",
+          "距校车后部至少20英尺处"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "Stop at least 20 feet from the back of the school bus if you are behind it, or at least 20 feet from the front if you are in front of it, and do not move again until the bus moves or turns off its flashing red lights. See Section 7: Sharing the Road.",
+        "zh": "在校车后面时，应距其后部至少20英尺停车；在校车前方时，应距其前部至少20英尺停车，并且在校车移动或关闭红色闪光灯前不得再行驶。见第7节：共享道路。"
+      },
+      "source": {
+        "section": "Section 7: Sharing the Road",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-097",
+      "topic": "sharing",
+      "q": {
+        "en": "You approach a stopped school bus with flashing red lights from the opposite direction on a multi-lane road divided by a physical barrier, and the bus is on the other side of the barrier. What must you do?",
+        "zh": "你从对面接近一辆打开红色闪光灯的停靠校车，这是一条由物理屏障分隔的多车道道路，校车在屏障另一侧。你必须怎么做？"
+      },
+      "options": {
+        "en": [
+          "Stop at least 20 feet from the bus",
+          "Slow to 5 mph and pass",
+          "Stop only if children are crossing toward you",
+          "You do not need to stop, because the bus is on the other side of a physical barrier"
+        ],
+        "zh": [
+          "距校车至少20英尺停车",
+          "减速到5英里/小时并通过",
+          "只有儿童朝你这边过街时才停",
+          "不需要停车，因为校车在物理屏障的另一侧"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "If you are on a multiple-lane road divided by a physical barrier, do not stop if the bus is on the other side of the barrier. In other cases you must stop at least 20 feet from the bus. See Section 7: Sharing the Road.",
+        "zh": "如果是在由物理屏障分隔的多车道道路上，校车在屏障另一侧时不需要停车。其他情况下必须距校车至少20英尺停车。见第7节：共享道路。"
+      },
+      "source": {
+        "section": "Section 7: Sharing the Road",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-098",
+      "topic": "sharing",
+      "q": {
+        "en": "A large truck ahead signals right and swings wide to the left before turning. What is the risk if you try to pass it on the right?",
+        "zh": "前方一辆大卡车打右转灯，先向左大幅摆动再转弯。如果你试图从右侧超越它，有什么风险？"
+      },
+      "options": {
+        "en": [
+          "You could be caught between the turning truck and the curb; wait to see whether the truck is turning before passing",
+          "You will save time safely",
+          "None — the truck is leaving your lane",
+          "The truck driver can always see you on the right"
+        ],
+        "zh": [
+          "你可能被夹在转弯的卡车和路缘之间；应先确认卡车是否在转弯再决定是否超越",
+          "你会安全地节省时间",
+          "没有风险——卡车正在离开你的车道",
+          "卡车司机总能看到右侧的你"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Trucks make wide turns and often move left before a right turn. Passing a truck on the right can be risky — never cut in along its right side as it begins to turn. See Section 7: Sharing the Road.",
+        "zh": "卡车转弯半径大，右转前常先向左摆动。从右侧超越卡车有风险——当它开始转弯时，绝不能从其右侧切入。见第7节：共享道路。"
+      },
+      "source": {
+        "section": "Section 7: Sharing the Road",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-099",
+      "topic": "sharing",
+      "q": {
+        "en": "You have just passed a large truck. When is it safe to move back in front of it?",
+        "zh": "你刚超越一辆大卡车。何时可以安全地回到它前面？"
+      },
+      "options": {
+        "en": [
+          "When the truck honks",
+          "As soon as you are one car-length ahead",
+          "After signaling for one second",
+          "Only when you can see both of the truck's headlights in your rear-view mirror — never cut in front of a truck, which needs almost twice the time and room of a car to stop"
+        ],
+        "zh": [
+          "卡车鸣笛时",
+          "只要领先一个车身就可以",
+          "打灯一秒后",
+          "只有在后视镜中能看到卡车的两个大灯后——绝不能切到卡车前面，卡车停车所需的时间和距离几乎是轿车的两倍"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "Do not move in front of a truck or bus too soon after passing: wait until you can see both of its headlights in your rear-view mirror, and do not slow down. See Section 7: Sharing the Road.",
+        "zh": "超越卡车或公交车后不要太早回到其前方：等到在后视镜中能看到它的两个大灯后再并入，且不要减速。见第7节：共享道路。"
+      },
+      "source": {
+        "section": "Section 7: Sharing the Road",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-100",
+      "topic": "sharing",
+      "q": {
+        "en": "Truck blind spots are called no-zones. If you cannot see the truck driver's face in the truck's side-view mirror:",
+        "zh": "卡车的盲区被称为“no-zones”（盲区）。如果你在卡车的侧视镜中看不到卡车司机的脸："
+      },
+      "options": {
+        "en": [
+          "The driver is looking the other way on purpose",
+          "You are in the safest position",
+          "The driver cannot see you",
+          "The driver can still see you"
+        ],
+        "zh": [
+          "司机是故意看向别处",
+          "你处在最安全的位置",
+          "司机看不到你",
+          "司机仍然能看到你"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "If you cannot see the truck driver's face in their side-view mirror, they cannot see you. Trucks and buses have four large blind spots — side, rear, front, and backing no-zones. See Section 7: Sharing the Road.",
+        "zh": "如果你在侧视镜中看不到卡车司机的脸，对方也看不到你。卡车和公交车有四个大盲区——侧面、后方、前方和倒车盲区。见第7节：共享道路。"
+      },
+      "source": {
+        "section": "Section 7: Sharing the Road",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-101",
+      "topic": "sharing",
+      "q": {
+        "en": "You are turning left and a motorcycle is approaching from the opposite direction. What does the manual require?",
+        "zh": "你正在左转，一辆摩托车从对面驶来。手册要求什么？"
+      },
+      "options": {
+        "en": [
+          "Motorcycles always go last",
+          "Turn quickly — motorcycles must yield to cars",
+          "Yield the right-of-way to the oncoming motorcycle; failing to yield can bring a citation with significant penalties and cause serious injury",
+          "Turn only if you honk first"
+        ],
+        "zh": [
+          "摩托车总是最后通行",
+          "快速转弯——摩托车必须让轿车",
+          "让行对向摩托车；不让行可能被开罚单并受重罚，还可能造成严重伤害",
+          "先鸣笛才能转弯"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Yield right-of-way to an oncoming motorcycle when turning left. Drivers are at fault in over half of car crashes with motorcycles. See Section 7: Sharing the Road.",
+        "zh": "左转时应让行对向摩托车。在汽车与摩托车的事故中，超过一半是汽车驾驶员的责任。见第7节：共享道路。"
+      },
+      "source": {
+        "section": "Section 7: Sharing the Road",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-102",
+      "topic": "sharing",
+      "q": {
+        "en": "How much following distance should you leave behind a motorcycle, and why might the motorcycle slow without its brake light appearing?",
+        "zh": "你应在摩托车后留多少跟车距离？为什么摩托车可能在刹车灯不亮的情况下减速？"
+      },
+      "options": {
+        "en": [
+          "Half a car length; brake lights are optional",
+          "At least a 3 to 4-second following distance; motorcyclists may reduce speed for road hazards in ways that do not trigger the brake light",
+          "10 seconds; motorcycles never slow down",
+          "1 second; brake lights always appear"
+        ],
+        "zh": [
+          "半个车身；刹车灯是可选的",
+          "至少3到4秒跟车距离；骑行者可能因路面危险以不触发刹车灯的方式减速",
+          "10秒；摩托车从不减速",
+          "1秒；刹车灯总会亮"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Leave at least a 3 to 4-second following distance behind a motorcycle. Motorcyclists may slow for hazards like gravel or wet roads in ways that do not cause their brake lights to come on. See Section 7: Sharing the Road.",
+        "zh": "应在摩托车后留至少3到4秒跟车距离。骑行者可能因碎石、湿路等危险以不点亮刹车灯的方式减速。见第7节：共享道路。"
+      },
+      "source": {
+        "section": "Section 7: Sharing the Road",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-103",
+      "topic": "sharing",
+      "q": {
+        "en": "When passing a bicyclist in the same lane, how much space must you leave between your vehicle and the bicycle?",
+        "zh": "在同一车道超越骑行者时，你的车辆与自行车之间必须留多少空间？"
+      },
+      "options": {
+        "en": [
+          "At least 2 feet",
+          "At least 3 feet",
+          "At least 1 foot",
+          "No minimum, as long as you do not touch the bicycle"
+        ],
+        "zh": [
+          "至少2英尺",
+          "至少3英尺",
+          "至少1英尺",
+          "没有最低要求，只要不碰到自行车"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Leave at least 3 feet between your vehicle and the bicycle when passing — in a bike lane, on the shoulder, or in the same lane — and see the bicycle in your rear-view mirror before returning to your lane. See Section 7: Sharing the Road.",
+        "zh": "超车时你的车辆与自行车之间至少留3英尺——无论是在自行车道、路肩还是同一车道——并在后视镜中看到自行车后再返回车道。见第7节：共享道路。"
+      },
+      "source": {
+        "section": "Section 7: Sharing the Road",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-104",
+      "topic": "sharing",
+      "q": {
+        "en": "A bicyclist is riding in the center of a narrow travel lane, well below the speed of traffic, because the lane is too narrow for a car to pass safely within it. Is this allowed in Maryland?",
+        "zh": "一名骑行者在一狭窄车道中央行驶，速度远低于车流，因为该车道太窄，汽车无法在车道内安全超越。在马里兰州这允许吗？"
+      },
+      "options": {
+        "en": [
+          "Only if the bicyclist is over 18",
+          "Only on weekends",
+          "Yes — a bicyclist may use the full lane, even well below traffic speed, when the lane is too narrow for a motor vehicle to pass safely in the lane",
+          "No — bicyclists must always hug the curb"
+        ],
+        "zh": [
+          "只有骑行者年满18岁才行",
+          "只在周末允许",
+          "允许——当车道太窄、机动车无法在车道内安全超越时，骑行者可以使用整条车道，即使速度远低于车流",
+          "不允许——骑行者必须始终贴路缘"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "In Maryland a bicyclist may use the full lane even while traveling significantly below the speed of traffic if the lane is too narrow for a motor vehicle to safely pass the bicycle within the lane. See Section 7: Sharing the Road.",
+        "zh": "在马里兰州，如果车道太窄、机动车无法在车道内安全超越自行车，骑行者可以使用整条车道，即使速度明显低于车流。见第7节：共享道路。"
+      },
+      "source": {
+        "section": "Section 7: Sharing the Road",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-105",
+      "topic": "sharing",
+      "q": {
+        "en": "You approach a bicyclist from behind on a quiet road. Why should you avoid honking your horn?",
+        "zh": "在一条安静的路上你从后方接近一名骑行者。为什么应避免鸣笛？"
+      },
+      "options": {
+        "en": [
+          "It is only a problem at night",
+          "Horns are banned everywhere in Maryland",
+          "Honking uses too much battery",
+          "Bicyclists can usually hear an approaching vehicle, and a loud noise can startle them and cause a crash"
+        ],
+        "zh": [
+          "只有夜间才是问题",
+          "马里兰州各地都禁止鸣笛",
+          "鸣笛太耗电",
+          "骑行者通常能听到接近的车辆，响亮的声响可能惊吓他们并导致事故"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "As you approach a bicyclist, slow down and do not honk your horn. Bicyclists can usually hear an approaching vehicle, and loud noises can startle them, causing a crash. See Section 7: Sharing the Road.",
+        "zh": "接近骑行者时应减速且不要鸣笛。骑行者通常能听到接近的车辆，巨响可能惊吓他们并导致事故。见第7节：共享道路。"
+      },
+      "source": {
+        "section": "Section 7: Sharing the Road",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-106",
+      "topic": "sharing",
+      "q": {
+        "en": "Mopeds and motor scooters may be ridden on roads with a posted maximum speed limit of:",
+        "zh": "轻便摩托车和踏板车可以在最高限速为多少的道路上行驶？"
+      },
+      "options": {
+        "en": [
+          "25 mph or less",
+          "35 mph or less",
+          "50 mph or less",
+          "Any speed limit"
+        ],
+        "zh": [
+          "25英里/小时或更低",
+          "35英里/小时或更低",
+          "50英里/小时或更低",
+          "任何限速"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Mopeds and scooters may be ridden on any road with a posted maximum speed limit of 50 miles per hour or less, on the road or on the shoulder, side-by-side or alone. See Section 7: Sharing the Road.",
+        "zh": "轻便摩托车和踏板车可以在最高限速50英里/小时或更低的任何道路上行驶，可在路面或路肩上，可并排或单独行驶。见第7节：共享道路。"
+      },
+      "source": {
+        "section": "Section 7: Sharing the Road",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-107",
+      "topic": "sharing",
+      "q": {
+        "en": "You are driving in a funeral procession with your headlights and hazard flashers on. Another driver facing a green signal reaches the procession's path. What must that driver do?",
+        "zh": "你正在送葬车队中行驶，开着大灯和危险报警灯。另一名驾驶员面对绿灯来到车队路径上。该驾驶员必须怎么做？"
+      },
+      "options": {
+        "en": [
+          "Yield the right-of-way to the procession until all its vehicles have passed, unless they can proceed safely without crossing the procession's path",
+          "Proceed — green always wins",
+          "Pass the procession on the shoulder",
+          "Honk until the procession stops"
+        ],
+        "zh": [
+          "让行车队，直到车队所有车辆都通过，除非能在不穿越车队路径的情况下安全通过",
+          "通过——绿灯永远优先",
+          "从路肩超过车队",
+          "鸣笛直到车队停下"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Even with a green signal, other vehicles must yield the right-of-way to vehicles in a funeral procession until all of them have passed, unless they can safely proceed without crossing the procession's path. See Section 5: Driving Situations and Conditions.",
+        "zh": "即使面对绿灯，其他车辆也必须让行送葬车队，直到车队全部通过，除非能在不穿越车队路径的情况下安全通过。见第5节：驾驶情形与条件。"
+      },
+      "source": {
+        "section": "Section 7: Sharing the Road",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-108",
+      "topic": "alcohol",
+      "q": {
+        "en": "In Maryland, a driver is considered to be driving under the influence of alcohol at a blood alcohol concentration (BAC) of:",
+        "zh": "在马里兰州，血液酒精浓度（BAC）达到多少即被视为酒后驾驶？"
+      },
+      "options": {
+        "en": [
+          "Any detectable amount, for all drivers",
+          "0.08 or higher",
+          "0.05 or higher",
+          "0.10 or higher"
+        ],
+        "zh": [
+          "对所有驾驶员来说只要检测到即可",
+          "0.08或更高",
+          "0.05或更高",
+          "0.10或更高"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Maryland considers drivers to be driving under the influence of alcohol when their BAC is .08 or higher. Any amount of alcohol can still impair driving and bring criminal charges at a lower BAC. See Section 6: Dangerous Driving Behaviors.",
+        "zh": "当驾驶员的BAC达到0.08或更高时，马里兰州视为酒后驾驶。任何量的酒精都可能影响驾驶，BAC更低时也可能面临刑事指控。见第6节：危险驾驶行为。"
+      },
+      "source": {
+        "section": "Section 6: Dangerous Driving Behaviors",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-109",
+      "topic": "alcohol",
+      "q": {
+        "en": "A driver under 21 is stopped and has been drinking, though his BAC is low. Under the manual, what can happen?",
+        "zh": "一名21岁以下驾驶员被拦下且饮过酒，尽管BAC较低。根据手册，可能发生什么？"
+      },
+      "options": {
+        "en": [
+          "Drinking any alcohol is illegal under 21; his license will be suspended or revoked and he can be charged with violating the alcohol restriction on his license",
+          "His parents are fined instead",
+          "Nothing, if the BAC is under 0.08",
+          "Only a verbal warning"
+        ],
+        "zh": [
+          "21岁以下饮酒本身违法；他的驾照将被暂停或吊销，并可能因违反驾照上的酒精限制而被指控",
+          "改为罚款其父母",
+          "如果BAC低于0.08就没事",
+          "仅口头警告"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "If you are not yet 21, it is against the law to drink any alcohol. If stopped after drinking, your license will be suspended or revoked and you could be charged with violating the alcohol restriction on your license. See Section 6: Dangerous Driving Behaviors.",
+        "zh": "未满21岁饮用任何酒精都违法。如果饮酒后被拦下，驾照将被暂停或吊销，并可能因违反驾照上的酒精限制而被指控。见第6节：危险驾驶行为。"
+      },
+      "source": {
+        "section": "Section 6: Dangerous Driving Behaviors",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-110",
+      "topic": "alcohol",
+      "q": {
+        "en": "By driving in Maryland, what have you agreed to under the implied consent law?",
+        "zh": "根据默示同意法（implied consent），在马里兰州驾驶即表示你同意了什么？"
+      },
+      "options": {
+        "en": [
+          "To install a breathalyzer voluntarily",
+          "To take a drug or alcohol test if a law enforcement officer requests one, because driving on a road or public-use private property counts as consent",
+          "To allow vehicle searches at any time",
+          "To surrender your license on demand without a hearing"
+        ],
+        "zh": [
+          "自愿安装呼吸检测仪",
+          "如果执法人员要求，则接受毒品或酒精检测，因为在道路或公众使用的私人财产上驾驶即构成同意",
+          "随时允许搜查车辆",
+          "一经要求且无听证即交出驾照"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "In Maryland, if you drive or attempt to drive on a road or private property used by the public, you consent to take a drug or alcohol test if a law enforcement officer asks you to. See Section 9: Other Restrictions, Violations and Penalties.",
+        "zh": "在马里兰州，如果你在道路或公众使用的私人财产上驾驶或试图驾驶，即表示同意在执法人员要求时接受毒品或酒精检测。见第9节：其他限制、违法与处罚。"
+      },
+      "source": {
+        "section": "Section 9: Other Restrictions, Violations and Penalties",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-111",
+      "topic": "alcohol",
+      "q": {
+        "en": "An officer submits a certified statement that a driver refused a requested alcohol test. What will the MVA do?",
+        "zh": "一名警官提交了经认证的声明，称某驾驶员拒绝了要求的酒精检测。MVA会怎么做？"
+      },
+      "options": {
+        "en": [
+          "The test is rescheduled in 30 days",
+          "Nothing — refusal is a protected right with no consequence",
+          "The driver receives one point only",
+          "The MVA will suspend the driver's license"
+        ],
+        "zh": [
+          "检测改在30天后",
+          "什么都不做——拒绝是受保护的权利，无后果",
+          "驾驶员仅被记1分",
+          "MVA将暂停该驾驶员的驾照"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "If a police officer submits a certified statement that you refused a test, the MVA will suspend your license. The license is also suspended if your BAC is .08 or higher or you are impaired with drugs in your system. See Section 9: Other Restrictions, Violations and Penalties.",
+        "zh": "如果警官提交经认证的拒绝检测声明，MVA将暂停你的驾照。如果BAC达到0.08或更高，或体内有毒品影响驾驶，驾照也会被暂停。见第9节：其他限制、违法与处罚。"
+      },
+      "source": {
+        "section": "Section 9: Other Restrictions, Violations and Penalties",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-112",
+      "topic": "alcohol",
+      "q": {
+        "en": "Which statement about judging your own BAC is correct?",
+        "zh": "关于判断自己的BAC，下列哪项正确？"
+      },
+      "options": {
+        "en": [
+          "BAC depends only on the type of drink",
+          "You cannot tell your BAC by the number of drinks alone — weight, body fat, food, tiredness, mood, and medications all affect how alcohol affects you",
+          "Coffee brings BAC down quickly",
+          "Two drinks always equals 0.08 for everyone"
+        ],
+        "zh": [
+          "BAC只取决于酒的种类",
+          "不能仅凭杯数判断BAC——体重、体脂、进食、疲劳、情绪和药物都会影响酒精对你的作用",
+          "咖啡能快速降低BAC",
+          "两杯酒对每个人都等于0.08"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "It is very difficult to know your own BAC or how alcohol is affecting you. You cannot tell by the number of drinks, because weight, body fat, how long ago and how much you ate, tiredness, mood, and medications all make a difference. See Section 6: Dangerous Driving Behaviors.",
+        "zh": "很难知道自己的BAC或酒精对自己的影响。不能仅凭杯数判断，因为体重、体脂、进食时间和量、疲劳、情绪和药物都会产生影响。见第6节：危险驾驶行为。"
+      },
+      "source": {
+        "section": "Section 6: Dangerous Driving Behaviors",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-113",
+      "topic": "alcohol",
+      "q": {
+        "en": "After just one drink, which abilities may already be affected?",
+        "zh": "只喝了一杯酒后，哪些能力可能已经受到影响？"
+      },
+      "options": {
+        "en": [
+          "Vision, ability to perform simple movements, and reaction time",
+          "None — one drink has no effect",
+          "Only your hearing",
+          "Only your sense of smell"
+        ],
+        "zh": [
+          "视力、做简单动作的能力和反应时间",
+          "没有——一杯酒没有任何影响",
+          "只有听力",
+          "只有嗅觉"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Your vision, ability to perform simple movements, and reaction time may be affected with just one drink, increasing the risk of a crash. See Section 6: Dangerous Driving Behaviors.",
+        "zh": "只喝一杯酒，视力、做简单动作的能力和反应时间就可能受到影响，从而增加事故风险。见第6节：危险驾驶行为。"
+      },
+      "source": {
+        "section": "Section 6: Dangerous Driving Behaviors",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-114",
+      "topic": "alcohol",
+      "q": {
+        "en": "An unopened-looking six-pack in the back seat has one can open and one missing. Under Maryland's open container rule:",
+        "zh": "后座上有一提看似未开封的六罐装啤酒，其中一罐已打开、一罐缺失。根据马里兰州开封容器规定："
+      },
+      "options": {
+        "en": [
+          "A six-pack with open, empty, or missing bottles or cans can be considered an open container, and driving with an open container in the passenger area is illegal",
+          "It is legal if kept behind the rear seat",
+          "It is legal because most cans are sealed",
+          "It counts only if the driver drank from it"
+        ],
+        "zh": [
+          "一提中有打开、空置或缺失的瓶/罐可被视为开封容器，在乘客区携带开封容器驾驶违法",
+          "放在后座后面就合法",
+          "合法，因为大多数罐是密封的",
+          "只有驾驶员喝过才算"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "It is against the law to drive with an open container of alcohol in the passenger area, and a six-pack with open, empty, or missing bottles or cans can be considered an open container. See Section 6: Dangerous Driving Behaviors.",
+        "zh": "在乘客区携带开封的酒精容器驾驶违法；一提中有打开、空置或缺失瓶/罐的，可被视为开封容器。见第6节：危险驾驶行为。"
+      },
+      "source": {
+        "section": "Section 6: Dangerous Driving Behaviors",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-115",
+      "topic": "alcohol",
+      "q": {
+        "en": "For the open container law, the 'passenger area' of a vehicle includes:",
+        "zh": "就开封容器法而言，车辆的“乘客区”包括："
+      },
+      "options": {
+        "en": [
+          "Only the front seats",
+          "The driver and passenger seats and any place the driver or passengers can easily reach from where they are sitting",
+          "Any attached trailer",
+          "Only the trunk"
+        ],
+        "zh": [
+          "只有前排座位",
+          "驾驶员和乘客座位，以及驾驶员或乘客坐在座位上容易够到的任何地方",
+          "任何连接的拖车",
+          "只有后备箱"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "The passenger area includes the driver and passenger seats and any place the driver or passengers can easily reach from where they are sitting. See Section 6: Dangerous Driving Behaviors.",
+        "zh": "乘客区包括驾驶员和乘客座位，以及驾驶员或乘客坐在座位上容易够到的任何地方。见第6节：危险驾驶行为。"
+      },
+      "source": {
+        "section": "Section 6: Dangerous Driving Behaviors",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-116",
+      "topic": "alcohol",
+      "q": {
+        "en": "A driver is convicted of a drunk or drugged driving offense while a child was in the vehicle. What extra consequence may apply?",
+        "zh": "一名驾驶员在车内有儿童时因酒驾或毒驾被定罪。可能适用什么额外后果？"
+      },
+      "options": {
+        "en": [
+          "The license is automatically upgraded",
+          "The judge can double the fine and jail time",
+          "No extra consequence",
+          "The child receives the points"
+        ],
+        "zh": [
+          "驾照自动升级",
+          "法官可以将罚款和监禁时间加倍",
+          "没有额外后果",
+          "由儿童承担记分"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "If you are convicted of a drunk or drugged driving offense with a child in your vehicle, the judge can double your fine and jail time. See Section 6: Dangerous Driving Behaviors.",
+        "zh": "如果你在车内有儿童时因酒驾或毒驾被定罪，法官可以将你的罚款和监禁时间加倍。见第6节：危险驾驶行为。"
+      },
+      "source": {
+        "section": "Section 6: Dangerous Driving Behaviors",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-117",
+      "topic": "alcohol",
+      "q": {
+        "en": "A prescription medication's label warns not to drive while taking it. The driver takes it, is impaired, and drives anyway. What does the manual say?",
+        "zh": "一种处方药标签警告服药期间不要驾驶。驾驶员服药后受影响仍开车。手册怎么说？"
+      },
+      "options": {
+        "en": [
+          "Prescription drugs can never lead to charges",
+          "The warning is advice only with no legal effect",
+          "Only illegal drugs matter",
+          "The driver could be charged with a criminal offense for driving after taking a medication that warns against driving when it impairs safe driving"
+        ],
+        "zh": [
+          "处方药永不会导致指控",
+          "该警告只是建议，无法律效力",
+          "只有非法毒品才重要",
+          "如果驾驶员服用了警告不要驾驶的药物且影响安全驾驶，可能被指控刑事罪行"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "Illegal drugs, some prescription medications, and chemical inhalants can severely affect driving. If you drive after taking a medication that tells you not to and it impairs your ability to drive safely, you could be charged with a criminal offense. See Section 6: Dangerous Driving Behaviors.",
+        "zh": "非法毒品、某些处方药和化学吸入剂会严重影响驾驶。如果你服用了标明不要驾驶的药物后仍开车且影响安全驾驶，可能被指控刑事罪行。见第6节：危险驾驶行为。"
+      },
+      "source": {
+        "section": "Section 6: Dangerous Driving Behaviors",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-118",
+      "topic": "alcohol",
+      "q": {
+        "en": "Which of these is a way controlled dangerous substances can affect a driver?",
+        "zh": "以下哪项是受控危险物质影响驾驶员的方式？"
+      },
+      "options": {
+        "en": [
+          "They only affect vision",
+          "They improve concentration",
+          "They can affect alertness, concentration, coordination, and reaction time, and make it hard to judge distances and react to signals and sounds",
+          "They have no effect if legally prescribed, in all cases"
+        ],
+        "zh": [
+          "它们只影响视力",
+          "它们提高注意力",
+          "它们会影响警觉性、注意力、协调性和反应时间，并使人难以判断距离和对信号和声音作出反应",
+          "只要合法处方就永远没有影响"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Controlled dangerous substances can affect alertness, concentration, coordination, and reaction time, and all drugs can make it hard to judge distances and react to signals and sounds on the road. See Section 6: Dangerous Driving Behaviors.",
+        "zh": "受控危险物质会影响警觉性、注意力、协调性和反应时间，所有药物都可能使人难以判断距离并对道路上的信号和声音作出反应。见第6节：危险驾驶行为。"
+      },
+      "source": {
+        "section": "Section 6: Dangerous Driving Behaviors",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-119",
+      "topic": "alcohol",
+      "q": {
+        "en": "A person caught drinking and driving in Maryland will have to install what device, according to the manual?",
+        "zh": "根据手册，在马里兰州因酒后驾驶被抓的人必须安装什么装置？"
+      },
+      "options": {
+        "en": [
+          "A dash camera",
+          "A speed limiter set to 25 mph",
+          "An ignition interlock — a breathalyzer car lock that prevents starting the vehicle if alcohol is detected",
+          "A GPS tracker for one year"
+        ],
+        "zh": [
+          "行车记录仪",
+          "限速25英里/小时的限速器",
+          "点火联锁装置——一种酒精检测汽车锁，检测到酒精时阻止车辆启动",
+          "一年的GPS追踪器"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "A driver caught drinking and driving must install a breathalyzer car lock (ignition interlock) that prevents the vehicle from starting if alcohol is detected. See Section 9: Other Restrictions, Violations and Penalties.",
+        "zh": "因酒后驾驶被抓的驾驶员必须安装酒精检测汽车锁（点火联锁装置），检测到酒精时阻止车辆启动。见第9节：其他限制、违法与处罚。"
+      },
+      "source": {
+        "section": "Section 9: Other Restrictions, Violations and Penalties",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-120",
+      "topic": "alcohol",
+      "q": {
+        "en": "Lying about your age to buy alcohol can lead to what licensing consequence, besides other penalties?",
+        "zh": "谎报年龄购买酒精，除其他处罚外，还可能导致什么驾照后果？"
+      },
+      "options": {
+        "en": [
+          "A free license renewal",
+          "Extra practice hours",
+          "Nothing beyond a fine in all cases",
+          "Your driver's license may be suspended"
+        ],
+        "zh": [
+          "免费续驾照",
+          "额外的练习小时数",
+          "在所有情况下仅罚款",
+          "你的驾照可能被暂停"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "It is against the law to lie about your age to purchase, possess, or acquire alcohol, and in addition to other penalties your driver's license may be suspended. See Section 9: Other Restrictions, Violations and Penalties.",
+        "zh": "谎报年龄以购买、持有或获取酒精违法，除其他处罚外，你的驾照还可能被暂停。见第9节：其他限制、违法与处罚。"
+      },
+      "source": {
+        "section": "Section 9: Other Restrictions, Violations and Penalties",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-121",
+      "topic": "alcohol",
+      "q": {
+        "en": "It is illegal to use a hand-held cell phone, including texting, while driving in Maryland. For drivers under 18, the rule is stricter. What is it?",
+        "zh": "在马里兰州驾驶时使用手持手机（包括发短信）违法。对18岁以下驾驶员，规则更严。是怎样的？"
+      },
+      "options": {
+        "en": [
+          "They may not use a cell phone while driving at all, even hands-free — the only exception is a 911 emergency call",
+          "They may text at red lights",
+          "They may use a phone only on highways",
+          "They may use hands-free freely"
+        ],
+        "zh": [
+          "他们在驾驶时完全不能使用手机，即使是免提也不行——唯一例外是拨打911紧急电话",
+          "他们可以在红灯时发短信",
+          "他们只能在高速公路上使用手机",
+          "他们可以自由使用免提"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Drivers under 18 may not use a cell phone while driving, even hands-free; the only exception is a 911 emergency call. Adults may not use a hand-held phone, including texting, while driving. See Section 6: Dangerous Driving Behaviors.",
+        "zh": "18岁以下驾驶员在驾驶时不能使用手机，即使免提也不行；唯一例外是拨打911紧急电话。成年人驾驶时不能使用手持手机，包括发短信。见第6节：危险驾驶行为。"
+      },
+      "source": {
+        "section": "Section 6: Dangerous Driving Behaviors",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-122",
+      "topic": "alcohol",
+      "q": {
+        "en": "Which set of behaviors are all examples of aggressive driving given in the manual?",
+        "zh": "以下哪组行为都是手册列出的攻击性驾驶例子？"
+      },
+      "options": {
+        "en": [
+          "Speeding, tailgating, ignoring traffic signals, unsafe lane changes, not yielding the right-of-way, and unsafe or illegal passing",
+          "Signaling early, yielding, and allowing extra travel time",
+          "Resting when tired and designating a sober driver",
+          "Checking mirrors, buckling up, and obeying speed limits"
+        ],
+        "zh": [
+          "超速、跟车过近、无视交通信号、不安全变道、不让行路权、不安全或非法超车",
+          "提前打灯、让行、预留额外出行时间",
+          "疲劳时休息、指定清醒驾驶员",
+          "查看后视镜、系安全带、遵守限速"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Examples of aggressive driving include speeding, tailgating, ignoring traffic signals and devices, making unsafe lane changes, not yielding the right-of-way, and unsafe or illegal passing. See Section 6: Dangerous Driving Behaviors.",
+        "zh": "攻击性驾驶的例子包括超速、跟车过近、无视交通信号和装置、不安全变道、不让行路权、不安全或非法超车。见第6节：危险驾驶行为。"
+      },
+      "source": {
+        "section": "Section 6: Dangerous Driving Behaviors",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-123",
+      "topic": "licensing",
+      "q": {
+        "en": "Maryland's staged system for first-time drivers is called the Rookie Driver / Graduated Licensing System. What is the correct order of its stages?",
+        "zh": "马里兰州针对首次驾驶员的分级制度称为新手驾驶员/分级驾照制度（GLS）。其阶段的正确顺序是什么？"
+      },
+      "options": {
+        "en": [
+          "Learner's Instructional Permit, then Provisional License, then Driver's License",
+          "Driver's License, then Provisional License",
+          "Learner's Permit, then Driver's License, then Provisional License",
+          "Provisional License, then Learner's Permit, then Driver's License"
+        ],
+        "zh": [
+          "学习许可证（Learner's Instructional Permit），然后临时驾照（Provisional License），然后正式驾照（Driver's License）",
+          "正式驾照，然后临时驾照",
+          "学习许可证，然后正式驾照，然后临时驾照",
+          "临时驾照，然后学习许可证，然后正式驾照"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Under the Graduated Licensing System, a new driver starts with a Learner's Instructional Permit, then gets a Provisional License, and finally graduates to a Driver's License. See Section 2: Licensing Requirements and Process.",
+        "zh": "在分级驾照制度下，新驾驶员先取得学习许可证，然后取得临时驾照，最后升级为正式驾照。见第2节：驾照要求与流程。"
+      },
+      "source": {
+        "section": "Section 2: Licensing Requirements and Process",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-124",
+      "topic": "licensing",
+      "q": {
+        "en": "What is the minimum age to apply for a Type 1 Learner's Instructional Permit in Maryland (for applicants under 25)?",
+        "zh": "在马里兰州申请1类学习许可证的最低年龄是多少（25岁以下申请人）？"
+      },
+      "options": {
+        "en": [
+          "15 years old",
+          "16 years old",
+          "16 years and 6 months old",
+          "15 years and 9 months old"
+        ],
+        "zh": [
+          "15岁",
+          "16岁",
+          "16岁6个月",
+          "15岁9个月"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "Applicants younger than 25 must be at least 15 years and 9 months old to get a learner's permit. See Section 2: Licensing Requirements and Process.",
+        "zh": "25岁以下申请人必须至少15岁9个月才能取得学习许可证。见第2节：驾照要求与流程。"
+      },
+      "source": {
+        "section": "Section 2: Licensing Requirements and Process",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-125",
+      "topic": "licensing",
+      "q": {
+        "en": "How long is a Type 1 Learner's Instructional Permit valid, and what tests are needed to get it?",
+        "zh": "1类学习许可证的有效期是多久，取得它需要通过哪些考试？"
+      },
+      "options": {
+        "en": [
+          "Up to 2 years; a vision screening and a knowledge test",
+          "5 years; no tests",
+          "Up to 180 days; a skills test only",
+          "6 months; knowledge test only"
+        ],
+        "zh": [
+          "最长2年；视力筛查和笔试",
+          "5年；无需考试",
+          "最长180天；只需路考",
+          "6个月；只需笔试"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "A Type 1 Learner's Instructional Permit lasts up to 2 years, and you must pass a vision screening and a knowledge test to get it. See Section 2: Licensing Requirements and Process.",
+        "zh": "1类学习许可证最长有效2年，取得它必须通过视力筛查和笔试。见第2节：驾照要求与流程。"
+      },
+      "source": {
+        "section": "Section 2: Licensing Requirements and Process",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-126",
+      "topic": "licensing",
+      "q": {
+        "en": "A licensed driver wants a different class of license and applies for a Type 2 Learner's Instructional Permit. Which facts are correct?",
+        "zh": "一名已有驾照的驾驶员想取得不同类别的驾照，申请2类学习许可证。哪些说法正确？"
+      },
+      "options": {
+        "en": [
+          "No minimum age; valid 45 days",
+          "Minimum age 16 years 6 months; valid up to 180 days; the driving test may be taken after holding it at least 14 days",
+          "Minimum age 18; valid 9 months",
+          "Minimum age 15 years 9 months; valid 2 years"
+        ],
+        "zh": [
+          "无最低年龄；有效45天",
+          "最低年龄16岁6个月；有效最长180天；持有至少14天后可参加路考",
+          "最低年龄18岁；有效9个月",
+          "最低年龄15岁9个月；有效2年"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "A Type 2 Learner's Instructional Permit requires you to be at least 16 years and 6 months old, lasts up to 180 days, and you can take the driving test for a full license once you have held it at least 14 days. See Section 2: Licensing Requirements and Process.",
+        "zh": "2类学习许可证要求至少16岁6个月，有效最长180天，持有至少14天后可参加正式驾照路考。见第2节：驾照要求与流程。"
+      },
+      "source": {
+        "section": "Section 2: Licensing Requirements and Process",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-127",
+      "topic": "licensing",
+      "q": {
+        "en": "A 17-year-old permit holder under 25 is preparing for a Provisional License. How many supervised practice hours are required, and how many must fall in the sunset-to-sunrise window?",
+        "zh": "一名17岁的许可证持有者（25岁以下）正准备考临时驾照。需要多少监督练习小时，其中多少必须在日落到日出时段？"
+      },
+      "options": {
+        "en": [
+          "60 hours total, at least 10 during the period from 30 minutes before sunset to 30 minutes after sunrise",
+          "30 hours total, 5 at night",
+          "14 hours total, 3 at night",
+          "60 hours total, none at night"
+        ],
+        "zh": [
+          "总共60小时，其中至少10小时在日落前30分钟到日出后30分钟的时段内",
+          "总共30小时，夜间5小时",
+          "总共14小时，夜间3小时",
+          "总共60小时，夜间无要求"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Applicants under 25 must practice at least 60 hours with a supervising driver, with at least 10 hours during the period beginning 30 minutes before sunset and ending 30 minutes after sunrise, and record them in a Practice and Skills Log. See Section 2: Licensing Requirements and Process.",
+        "zh": "25岁以下申请人必须在监督驾驶员陪同下练习至少60小时，其中至少10小时在日落前30分钟开始到日出后30分钟结束的时段内，并记录在练习与技能日志中。见第2节：驾照要求与流程。"
+      },
+      "source": {
+        "section": "Section 2: Licensing Requirements and Process",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-128",
+      "topic": "licensing",
+      "q": {
+        "en": "A 30-year-old first-time applicant holds a learner's permit. How many practice hours and what minimum holding period apply before Provisional eligibility?",
+        "zh": "一名30岁的首次申请人持有学习许可证。在具备临时驾照资格前，需要多少练习小时和最短持有期？"
+      },
+      "options": {
+        "en": [
+          "14 practice hours and 9 months",
+          "No practice hours and no waiting period",
+          "At least 14 practice hours (at least 3 in the sunset-to-sunrise window) and the permit held at least 45 days",
+          "60 practice hours and 9 months"
+        ],
+        "zh": [
+          "14小时练习和9个月",
+          "无练习小时且无等待期",
+          "至少14小时练习（其中至少3小时在日落到日出时段），且许可证持有至少45天",
+          "60小时练习和9个月"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Applicants 25 and older must complete at least 14 practice hours with a supervising driver — at least 3 in the sunset/sunrise window — keep a Practice and Skills Log, and hold the permit at least 45 days. See Section 2: Licensing Requirements and Process.",
+        "zh": "25岁及以上申请人必须在监督驾驶员陪同下练习至少14小时——其中至少3小时在日出日落时段——保存练习与技能日志，并持有许可证至少45天。见第2节：驾照要求与流程。"
+      },
+      "source": {
+        "section": "Section 2: Licensing Requirements and Process",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-129",
+      "topic": "licensing",
+      "q": {
+        "en": "How long must a driver under 18 hold a learner's permit, without a violation, before becoming eligible for a Provisional License?",
+        "zh": "18岁以下驾驶员必须无违章地持有学习许可证多久，才具备临时驾照资格？"
+      },
+      "options": {
+        "en": [
+          "At least 9 months",
+          "18 months",
+          "3 months",
+          "45 days"
+        ],
+        "zh": [
+          "至少9个月",
+          "18个月",
+          "3个月",
+          "45天"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "If you are under 18, you must hold the permit for at least 9 months without a violation before being eligible for a Provisional License. Applicants 18 with a diploma or GED, or 19 to 24, need at least 3 months. See Section 2: Licensing Requirements and Process.",
+        "zh": "18岁以下必须无违章持有许可证至少9个月才具备临时驾照资格。18岁有高中文凭或GED者，或19至24岁者，需要至少3个月。见第2节：驾照要求与流程。"
+      },
+      "source": {
+        "section": "Section 2: Licensing Requirements and Process",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-130",
+      "topic": "licensing",
+      "q": {
+        "en": "To graduate to a full Driver's License, which set of requirements is correct?",
+        "zh": "升级为正式驾照，哪组要求正确？"
+      },
+      "options": {
+        "en": [
+          "Provisional held 45 days and 60 practice hours",
+          "Age 21 and a new knowledge test",
+          "Age 16, provisional held 6 months",
+          "At least 18 years old, Provisional License held at least 18 months, and no moving-violation convictions or PBJ within the past 18 months"
+        ],
+        "zh": [
+          "临时驾照持有45天并完成60小时练习",
+          "21岁并重考笔试",
+          "16岁，临时驾照持有6个月",
+          "至少18岁，临时驾照持有至少18个月，且过去18个月内无移动违章定罪或PBJ"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "For a Driver's License you must be at least 18, have held a Provisional License at least 18 months, and have no moving-violation convictions or probation before judgment within the past 18 months; the MVA then converts it automatically. See Section 2: Licensing Requirements and Process.",
+        "zh": "取得正式驾照必须至少18岁，持有临时驾照至少18个月，且过去18个月内无移动违章定罪或判决前缓刑；之后MVA会自动转换。见第2节：驾照要求与流程。"
+      },
+      "source": {
+        "section": "Section 2: Licensing Requirements and Process",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-131",
+      "topic": "licensing",
+      "q": {
+        "en": "What vision standards must an applicant meet to qualify for a Maryland driver's license?",
+        "zh": "申请人要取得马里兰州驾照，必须达到哪些视力标准？"
+      },
+      "options": {
+        "en": [
+          "20/20 in one eye only",
+          "Binocular vision, visual acuity of at least 20/40 in each eye, and a continuous field of vision of at least 140 degrees",
+          "20/70 in each eye and 110 degrees",
+          "No standard if glasses are owned"
+        ],
+        "zh": [
+          "仅一只眼20/20",
+          "双眼视觉，每只眼视力至少20/40，连续视野至少140度",
+          "每只眼20/70，110度",
+          "只要有眼镜就没有标准"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "To qualify, an applicant must have binocular vision, visual acuity of at least 20/40 in each eye, and a continuous field of vision of at least 140 degrees. See Section 1: Driving Tests Requirements.",
+        "zh": "申请人必须具备双眼视觉，每只眼视力至少20/40，连续视野至少140度。见第1节：驾驶考试要求。"
+      },
+      "source": {
+        "section": "Section 1: Driving Tests Requirements",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-132",
+      "topic": "licensing",
+      "q": {
+        "en": "How many questions are on the Maryland knowledge test, and how much time is allowed?",
+        "zh": "马里兰州笔试有多少道题，允许多少时间？"
+      },
+      "options": {
+        "en": [
+          "40 questions, 25 minutes",
+          "30 questions, unlimited time",
+          "50 questions, 60 minutes",
+          "25 questions, 20 minutes"
+        ],
+        "zh": [
+          "40道题，25分钟",
+          "30道题，不限时",
+          "50道题，60分钟",
+          "25道题，20分钟"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "The knowledge test has 25 questions and you have 20 minutes to take it. It checks motor vehicle laws, safe driving practices, and traffic signs. See Section 1: Driving Tests Requirements.",
+        "zh": "笔试共有25道题，时间为20分钟。内容包括机动车法律、安全驾驶规范和交通标志。见第1节：驾驶考试要求。"
+      },
+      "source": {
+        "section": "Section 1: Driving Tests Requirements",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-133",
+      "topic": "licensing",
+      "q": {
+        "en": "A Provisional License holder wants to drive alone at 2:00 a.m. Which of these is an allowed reason under the nighttime restriction?",
+        "zh": "一名临时驾照持有者想在凌晨2点独自驾驶。根据夜间限制，以下哪项是允许的理由？"
+      },
+      "options": {
+        "en": [
+          "Any reason, if headlights work",
+          "Driving to a movie that ends late",
+          "Driving to, from, or during a job — or to/from an organized volunteer program, an official school activity, or an athletic event or related training they participate in",
+          "Driving to visit a friend"
+        ],
+        "zh": [
+          "只要大灯好用，任何理由都行",
+          "开车去看一场结束很晚的电影",
+          "开车去上班、下班或工作期间——或往返有组织的志愿者项目、官方学校活动、或其参加的体育赛事或相关训练",
+          "开车去看朋友"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Unsupervised driving between midnight and 5:00 a.m. on a Provisional License is allowed only for work, an organized volunteer program, an official school activity, or an athletic event or related training the holder participates in. See Section 9: Other Restrictions, Violations and Penalties.",
+        "zh": "持临时驾照在午夜至凌晨5点独自驾驶仅允许出于工作、有组织的志愿者项目、官方学校活动，或其参加的体育赛事或相关训练。见第9节：其他限制、违法与处罚。"
+      },
+      "source": {
+        "section": "Section 9: Other Restrictions, Violations and Penalties",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-134",
+      "topic": "licensing",
+      "q": {
+        "en": "A 17-year-old with a Provisional License has held it for 60 days. A 16-year-old neighbor who is not a relative asks for a ride, with no supervising driver present. What does the passenger restriction say?",
+        "zh": "一名17岁的临时驾照持有者已持证60天。一名16岁的邻居（非亲属）在无监督驾驶员在场时请求搭车。乘客限制规定怎么说？"
+      },
+      "options": {
+        "en": [
+          "Allowed if the trip is short",
+          "Not allowed — for the first 151 days, an under-18 provisional holder may not drive unsupervised with passengers under 18 unless they are immediate family, or a qualified supervising driver is present",
+          "Allowed only during daylight",
+          "Allowed with parental permission by phone"
+        ],
+        "zh": [
+          "行程短就可以",
+          "不允许——在前151天内，18岁以下的临时驾照持有者不得在无监督情况下搭载18岁以下乘客，除非是直系亲属，或有合格监督驾驶员在场",
+          "只在白天允许",
+          "有父母电话许可就可以"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "For the first 151 days, a Provisional License holder under 18 may not drive unsupervised with passengers under 18 unless they are immediate family members; a non-family passenger under 18 requires a qualified supervising driver in the vehicle. See Section 9: Other Restrictions, Violations and Penalties.",
+        "zh": "在前151天内，18岁以下的临时驾照持有者不得在无监督情况下搭载18岁以下乘客，除非是直系亲属；搭载非亲属的18岁以下乘客时，车内须有合格监督驾驶员。见第9节：其他限制、违法与处罚。"
+      },
+      "source": {
+        "section": "Section 9: Other Restrictions, Violations and Penalties",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-135",
+      "topic": "licensing",
+      "q": {
+        "en": "Which people count as 'immediate family' for the provisional passenger restriction?",
+        "zh": "就临时驾照乘客限制而言，哪些人算“直系亲属”？"
+      },
+      "options": {
+        "en": [
+          "Any classmate",
+          "Only parents",
+          "A spouse, daughter, son, stepdaughter, stepson, sister, brother, stepsister, stepbrother, or any relative who lives at the holder's address",
+          "Only siblings"
+        ],
+        "zh": [
+          "任何同学",
+          "只有父母",
+          "配偶、女儿、儿子、继女、继子、姐姐、妹妹、哥哥、弟弟、继姐妹、继兄弟，或任何住在持有者住所的亲属",
+          "只有兄弟姐妹"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Immediate family members include a spouse, daughter, son, stepdaughter, stepson, sister, brother, stepsister, stepbrother, or any relative who lives at the license holder's address. See Section 9: Other Restrictions, Violations and Penalties.",
+        "zh": "直系亲属包括配偶、女儿、儿子、继女、继子、姐妹、兄弟、继姐妹、继兄弟，或任何住在驾照持有者住所的亲属。见第9节：其他限制、违法与处罚。"
+      },
+      "source": {
+        "section": "Section 9: Other Restrictions, Violations and Penalties",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-136",
+      "topic": "licensing",
+      "q": {
+        "en": "A learner's permit holder wants to make a hands-free call while driving. What does the wireless device restriction say?",
+        "zh": "一名学习许可证持有者想在驾驶时使用免提通话。无线设备限制规定怎么说？"
+      },
+      "options": {
+        "en": [
+          "Provisional License and Learner's Permit holders may not use any wireless communication device while driving, including hands-free — the only exception is a 911 emergency call",
+          "Only texting is banned",
+          "Hands-free calls are always allowed",
+          "Calls are allowed after 9 months"
+        ],
+        "zh": [
+          "临时驾照和学习许可证持有者在驾驶时不得使用任何无线通信设备，包括免提——唯一例外是拨打911紧急电话",
+          "只禁止发短信",
+          "免提通话始终允许",
+          "9个月后允许通话"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "If you have a Provisional License or a Learner's Permit, you may not use any wireless communication device, including a hands-free phone, while driving; the only exception is a 911 emergency call. See Section 9: Other Restrictions, Violations and Penalties.",
+        "zh": "如果你持有临时驾照或学习许可证，驾驶时不得使用任何无线通信设备，包括免提电话；唯一例外是拨打911紧急电话。见第9节：其他限制、违法与处罚。"
+      },
+      "source": {
+        "section": "Section 9: Other Restrictions, Violations and Penalties",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-137",
+      "topic": "licensing",
+      "q": {
+        "en": "Who qualifies as a supervising driver for a Maryland learner's permit holder?",
+        "zh": "谁有资格担任马里兰州学习许可证持有者的监督驾驶员？"
+      },
+      "options": {
+        "en": [
+          "Anyone with a license, sitting anywhere in the car",
+          "A parent only, regardless of experience",
+          "A driver at least 21 years old, licensed for at least three years in Maryland or another state for the same vehicle class, seated beside the learner (unless the vehicle is a motorcycle)",
+          "Any driver 18 or older with 1 year of experience"
+        ],
+        "zh": [
+          "任何有驾照的人，坐在车里任何位置",
+          "只有父母，不论经验",
+          "至少21岁、在马里兰州或另一州持有同类车辆驾照至少三年的驾驶员，坐在学员旁边（除非车辆是摩托车）",
+          "任何18岁以上、有1年经验的驾驶员"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "A supervising driver must be at least 21 years old, have been licensed at least three years in Maryland or another state to drive the same class of vehicle, and sit beside the learner unless the vehicle is a motorcycle. See Section 10: Other Important Information.",
+        "zh": "监督驾驶员必须至少21岁，在马里兰州或另一州持有同类车辆驾照至少三年，并坐在学员旁边，除非车辆是摩托车。见第10节：其他重要信息。"
+      },
+      "source": {
+        "section": "Section 10: Other Important Information",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-138",
+      "topic": "licensing",
+      "q": {
+        "en": "What is the difference between a license suspension and a revocation in Maryland?",
+        "zh": "马里兰州驾照暂停与吊销有什么区别？"
+      },
+      "options": {
+        "en": [
+          "A revocation lasts one day; a suspension is permanent",
+          "A suspension only applies to minors",
+          "A suspension is a temporary loss of driving privilege; a revocation is more severe — you may not drive until the MVA decides you can drive safely again, after a minimum waiting period, and the MVA can deny reinstatement",
+          "They are the same thing"
+        ],
+        "zh": [
+          "吊销持续一天；暂停是永久的",
+          "暂停只适用于未成年人",
+          "暂停是暂时失去驾驶特权；吊销更严重——在最短等待期后，直到MVA认定你能再次安全驾驶前不得驾驶，且MVA可以拒绝恢复",
+          "它们是一回事"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "A suspension temporarily removes the driving privilege, and a restricted license may sometimes be issued. A revocation is more severe: no driving until the MVA determines you can drive safely again, with a minimum waiting period before you may request reinstatement, which the MVA can deny. See Section 9: Other Restrictions, Violations and Penalties.",
+        "zh": "暂停是暂时取消驾驶特权，有时可发放受限驾照。吊销更严重：在最短等待期后，直到MVA认定你能再次安全驾驶前不得驾驶，且你可以申请恢复，但MVA可以拒绝。见第9节：其他限制、违法与处罚。"
+      },
+      "source": {
+        "section": "Section 9: Other Restrictions, Violations and Penalties",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-139",
+      "topic": "licensing",
+      "q": {
+        "en": "A 16-year-old with a Provisional License is convicted of a second moving violation. What penalty does the manual state?",
+        "zh": "一名16岁的临时驾照持有者第二次因移动违章被定罪。手册规定的处罚是什么？"
+      },
+      "options": {
+        "en": [
+          "A 30-day suspension of the license, followed by a 90-day restriction limiting driving to employment and educational purposes only",
+          "Revocation and all tests again",
+          "A warning letter only",
+          "A driver improvement program only"
+        ],
+        "zh": [
+          "驾照暂停30天，随后是90天仅限就业和教育目的的驾驶限制",
+          "吊销并重考全部考试",
+          "仅警告信",
+          "仅参加驾驶员改进课程"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "For minors with a Provisional License: a first offense requires a driver improvement program; a second brings a 30-day suspension followed by a 90-day employment-and-education-only restriction; a third brings a 180-day suspension plus program and restriction; a fourth or more brings revocation. See Section 9: Other Restrictions, Violations and Penalties.",
+        "zh": "未成年人持临时驾照：第一次违法须参加驾驶员改进课程；第二次为暂停30天，随后90天仅限就业和教育目的驾驶；第三次为暂停180天并参加课程和受限制；第四次或以上为吊销。见第9节：其他限制、违法与处罚。"
+      },
+      "source": {
+        "section": "Section 9: Other Restrictions, Violations and Penalties",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-140",
+      "topic": "licensing",
+      "q": {
+        "en": "An adult (18+) with a Provisional License is convicted of a third moving violation. What penalty applies?",
+        "zh": "一名18岁以上的临时驾照持有者第三次因移动违章被定罪。适用什么处罚？"
+      },
+      "options": {
+        "en": [
+          "Immediate permanent cancellation in all cases",
+          "Up to a 180-day suspension or revocation of the license, in addition to court penalties, and a new 18-month conviction-free period must begin",
+          "Nothing beyond the court fine",
+          "A 30-day suspension only"
+        ],
+        "zh": [
+          "所有情况下立即永久取消",
+          "驾照暂停最长180天或吊销（在法院处罚之外），且必须开始新的18个月无定罪期",
+          "除法院罚款外无其他处罚",
+          "仅暂停30天"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "For adults with a Provisional License: first offense — driver improvement program; second — 30-day suspension; third or more — up to a 180-day suspension or revocation, in addition to court penalties, and after each conviction a new 18-month conviction-free period begins. See Section 9: Other Restrictions, Violations and Penalties.",
+        "zh": "成年人持临时驾照：第一次违法参加驾驶员改进课程；第二次暂停30天；第三次或以上暂停最长180天或吊销（在法院处罚之外），且每次定罪后都必须开始新的18个月无定罪期。见第9节：其他限制、违法与处罚。"
+      },
+      "source": {
+        "section": "Section 9: Other Restrictions, Violations and Penalties",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-141",
+      "topic": "licensing",
+      "q": {
+        "en": "What insurance must a Maryland-registered vehicle carry, and what must the driver have while driving?",
+        "zh": "在马里兰州注册的车辆必须投保什么，驾驶时驾驶员必须携带什么？"
+      },
+      "options": {
+        "en": [
+          "Insurance is optional if you drive carefully",
+          "Insurance from a company licensed in Maryland for personal injury and property damage liability in amounts required by law, and the driver must always carry a valid insurance identification card (electronic format is allowed)",
+          "Only property damage insurance, with no card needed",
+          "No insurance is required for older cars"
+        ],
+        "zh": [
+          "小心驾驶则保险可选",
+          "由在马里兰州获许可的公司承保的人身伤害和财产损失责任险，金额符合法律要求，且驾驶员必须始终携带有效的保险识别卡（可为电子格式）",
+          "只需财产损失险，无需携带卡",
+          "老车无需保险"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "All Maryland-registered vehicles must be insured by a Maryland-licensed company for personal injury and property damage liability in amounts required by law, and you must always carry a valid insurance ID card, which may be electronic. Driving without insurance can bring a fine of up to $2,500 per vehicle per year. See Section 10: Other Important Information.",
+        "zh": "所有在马里兰州注册的车辆必须由在该州获许可的公司承保人身伤害和财产损失责任险，金额符合法律要求，且必须始终携带有效的保险识别卡，可为电子格式。无保险驾驶每年每车可被罚款最高2500美元。见第10节：其他重要信息。"
+      },
+      "source": {
+        "section": "Section 10: Other Important Information",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-142",
+      "topic": "licensing",
+      "q": {
+        "en": "Which of these is a medical condition the manual says must be reported to the MVA?",
+        "zh": "以下哪项是手册要求必须向MVA报告的医疗状况？"
+      },
+      "options": {
+        "en": [
+          "A broken finger that healed last year",
+          "Seasonal allergies",
+          "Wearing glasses",
+          "Epilepsy or seizures — along with conditions such as stroke, sleep apnea or narcolepsy, fainting or blackouts, and diabetes with a recent low-blood-sugar episode requiring help"
+        ],
+        "zh": [
+          "去年已愈合的骨折手指",
+          "季节性过敏",
+          "佩戴眼镜",
+          "癫痫或发作——以及中风、睡眠呼吸暂停或嗜睡症、晕厥或昏厥、近期发生过需要他人帮助的低血糖发作的糖尿病等状况"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "Reportable conditions include epilepsy or seizures, stroke, sleep apnea or narcolepsy, dizzy spells, fainting or blackouts, traumatic brain injury history, and diabetes that has caused a low blood sugar episode requiring another person's assistance in the past 6 months. See Section 10: Other Important Information; Section 1: Driving Tests Requirements.",
+        "zh": "须报告的状况包括癫痫或发作、中风、睡眠呼吸暂停或嗜睡症、头晕、晕厥或昏厥、创伤性脑损伤史，以及过去6个月内发生过需要他人帮助的低血糖发作的糖尿病。见第10节：其他重要信息；第1节：驾驶考试要求。"
+      },
+      "source": {
+        "section": "Section 10: Other Important Information",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-143",
+      "topic": "licensing",
+      "q": {
+        "en": "While driving, what is prohibited regarding headsets, earphones, and earplugs?",
+        "zh": "驾驶时，关于耳机和耳塞有什么禁止规定？"
+      },
+      "options": {
+        "en": [
+          "One earphone is also banned in all cases",
+          "You may not drive with earplugs, headsets, or earphones in both ears; hearing aid devices are allowed",
+          "They are banned only on highways",
+          "Any use of hearing aids"
+        ],
+        "zh": [
+          "所有情况下单耳耳机也被禁止",
+          "不得在驾驶时双耳都戴耳塞、耳机；助听器是允许的",
+          "只在高速公路上禁止",
+          "使用任何助听器"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "You may not drive with earplugs, headsets, or earphones in both ears. Hearing aid devices are allowed. See Section 10: Other Important Information.",
+        "zh": "驾驶时不得双耳都戴耳塞或耳机。助听器是允许的。见第10节：其他重要信息。"
+      },
+      "source": {
+        "section": "Section 10: Other Important Information",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-144",
+      "topic": "licensing",
+      "q": {
+        "en": "A parent co-signed a minor's license application. How can that co-signer later cancel the minor's license?",
+        "zh": "一位家长为未成年人的驾照申请共同签名。该共同签名人之后如何取消未成年人的驾照？"
+      },
+      "options": {
+        "en": [
+          "Co-signers can never cancel a license",
+          "By submitting a written request to the MVA's Administrative Adjudication Division; the license stays canceled until the minor turns 18 unless a co-signer signs a new application",
+          "By calling the police",
+          "By taking the license card away at home"
+        ],
+        "zh": [
+          "共同签名人永远不能取消驾照",
+          "向MVA行政裁决处提交书面请求；驾照保持取消状态，直到未成年人满18岁，除非共同签名人签署新的申请",
+          "打电话给警察",
+          "在家把驾照卡拿走"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "The co-signer may cancel a minor's license by submitting a written request to the MVA's Administrative Adjudication Division. See Section 2: Licensing Requirements and Process.",
+        "zh": "共同签名人可向MVA行政裁决处提交书面请求，取消未成年人的驾照。见第2节：驾照要求与流程。"
+      },
+      "source": {
+        "section": "Section 2: Licensing Requirements and Process",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    },
+    {
+      "id": "md-145",
+      "topic": "licensing",
+      "q": {
+        "en": "A driver holds a license from another country that is not in English and wants a Maryland license. Besides the standard tests and a 3-hour safety program, what is required for the foreign license?",
+        "zh": "一名驾驶员持有非英文的外国驾照，想取得马里兰州驾照。除标准考试和3小时安全课程外，对外国驾照有什么要求？"
+      },
+      "options": {
+        "en": [
+          "A translation by any friend",
+          "Nothing else",
+          "An International License, or an English translation prepared by an MVA-approved provider or court translator, or the embassy of the country of origin, with the translator's typed name, telephone number, and signature",
+          "The license must be surrendered permanently"
+        ],
+        "zh": [
+          "任何朋友的翻译即可",
+          "没有其他要求",
+          "一份国际驾照，或由MVA认可的提供者或法庭翻译、或原籍国大使馆出具的英文翻译，并附翻译者的打印姓名、电话和签名",
+          "必须永久上交该驾照"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Out-of-country applicants must pass vision screening, the knowledge test, and the driving skills test, and complete a 3-hour MVA-approved roadway safety program. A non-English license also needs an International License or a qualifying English translation. See Section 2: Licensing Requirements and Process.",
+        "zh": "外国驾照申请人必须通过视力筛查、笔试和路考，并完成3小时MVA认可的道路安全课程。非英文驾照还需要国际驾照或合格的英文翻译。见第2节：驾照要求与流程。"
+      },
+      "source": {
+        "section": "Section 2: Licensing Requirements and Process",
+        "url": "https://mva.maryland.gov/media/148"
+      },
+      "sign": null
+    }
+  ]
+}

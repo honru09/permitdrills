@@ -1,0 +1,4210 @@
+{
+ "state": "new-jersey",
+ "exam": {
+  "questions": 50,
+  "passCorrect": 40,
+  "passPercent": null,
+  "timeMinutes": null,
+  "handbook": {
+   "title": "New Jersey Driver Manual",
+   "edition": "2026 printing (MVC web listing: Revised 09/25)",
+   "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+   "chineseUrl": "https://www.nj.gov/mvc/pdf/license/chinesemanual.pdf"
+  },
+  "currentAsOf": "October 2026"
+ },
+ "questions": [
+  {
+   "id": "nj-001",
+   "topic": "signs",
+   "q": {
+    "en": "You reach an intersection marked by a red octagonal sign with white lettering. What must you do?",
+    "zh": "你来到一个路口，路口设有红色八角形、白色字样的标志。你必须怎么做？"
+   },
+   "options": {
+    "en": [
+     "Stop only when other traffic is approaching",
+     "Treat it as a yield sign and roll through slowly",
+     "Come to a complete stop before the intersection or crosswalk and stay stopped until it is safe and legal to proceed",
+     "Slow down and proceed if no officer is present"
+    ],
+    "zh": [
+     "只有当有其他车辆驶近时才需要停车",
+     "把它当作让行标志，缓慢滑行通过",
+     "在路口或人行横道前完全停稳，待安全且合法时再继续行驶",
+     "减速慢行，如果没有警察在场就可以通过"
+    ]
+   },
+   "answer": 2,
+   "explanation": {
+    "en": "An octagonal red sign is a STOP sign. It requires a full stop before the intersection or crosswalk, not a rolling slow-down.",
+    "zh": "红色八角形标志是停车标志（STOP）。它要求在路口或人行横道前完全停稳，而不是缓慢滑行通过。"
+   },
+   "source": {
+    "section": "Chapter 11, Appendix: Driver Safety — Regulatory Signs",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": "stop"
+  },
+  {
+   "id": "nj-002",
+   "topic": "signs",
+   "q": {
+    "en": "A white inverted triangle with a red border and red lettering faces you at an intersection. What does this sign require?",
+    "zh": "路口处有一个白色倒三角形、红色边框和红色字样的标志面向你。这个标志要求你怎么做？"
+   },
+   "options": {
+    "en": [
+     "Come to a complete stop in all cases, even when the road is empty",
+     "Speed up to merge before cross traffic arrives",
+     "Stop only for pedestrians, never for vehicles",
+     "Slow down and give the right-of-way to traffic on the intersecting road, stopping if necessary"
+    ],
+    "zh": [
+     "在任何情况下都必须完全停车，即使道路上没有车辆",
+     "加速汇入，赶在横向车流到达之前通过",
+     "只为行人停车，从不为车辆停车",
+     "减速并让交叉道路上的交通先行，必要时停车"
+    ]
+   },
+   "answer": 3,
+   "explanation": {
+    "en": "That shape and coloring is the YIELD sign. You slow down, give the right-of-way to traffic on the intersecting roadway, and stop when conditions require it.",
+    "zh": "这种形状和颜色是让行标志（YIELD）。你应减速，让交叉道路上的交通先行，并在情况需要时停车。"
+   },
+   "source": {
+    "section": "Chapter 11, Appendix: Driver Safety — Regulatory Signs",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": "yield"
+  },
+  {
+   "id": "nj-003",
+   "topic": "signs",
+   "q": {
+    "en": "At the entrance to a street you see a white square sign with a red circle and a white horizontal band across the middle of the circle. What does it mean?",
+    "zh": "在一条街道的入口处，你看到一个方形白底标志，上面有一个红色圆圈，圆圈中间有一条白色横带。它是什么意思？"
+   },
+   "options": {
+    "en": [
+     "Do not enter this street or ramp from this direction",
+     "Private driveway — residents only after 6 p.m.",
+     "Parking is prohibited beyond this point",
+     "One-way traffic begins after the next intersection"
+    ],
+    "zh": [
+     "禁止从这个方向驶入这条街道或匝道",
+     "私人车道——晚上6点后仅限住户使用",
+     "此点之后禁止停车",
+     "单行道从下一个路口开始"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "en": "That design is the DO NOT ENTER sign. Entering past it would put you against the flow of traffic, so you must not enter from that direction.",
+    "zh": "这种图案是禁止驶入标志（DO NOT ENTER）。从此处驶入会逆向面对车流，因此禁止从这个方向驶入。"
+   },
+   "source": {
+    "section": "Chapter 11, Appendix: Driver Safety — Regulatory Signs",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": "do-not-enter"
+  },
+  {
+   "id": "nj-004",
+   "topic": "signs",
+   "q": {
+    "en": "While driving at night you pass a red-and-white WRONG WAY sign. What is happening and what should you do?",
+    "zh": "夜间驾驶时，你经过一个红白相间的“WRONG WAY”（逆行）标志。发生了什么？你应该怎么做？"
+   },
+   "options": {
+    "en": [
+     "The sign only applies to trucks, so continue at normal speed",
+     "You are traveling against traffic; slow down, pull over safely, and turn around when it is safe",
+     "The sign is meant for drivers on the cross street, so keep going",
+     "You are on a detour route and should speed up to clear it"
+    ],
+    "zh": [
+     "这个标志只适用于卡车，保持正常速度即可",
+     "你正在逆行；应减速、安全靠边停下，并在安全时掉头",
+     "这个标志是给横向街道上的司机看的，继续行驶即可",
+     "你正行驶在绕行路线上，应加速通过"
+    ]
+   },
+   "answer": 1,
+   "explanation": {
+    "en": "A WRONG WAY sign warns that you are moving against the flow of traffic. Slow down, get off the traveled way safely, and turn around when safe.",
+    "zh": "“WRONG WAY”标志警告你正在逆向行驶。应减速，安全地驶离行车道，并在安全时掉头。"
+   },
+   "source": {
+    "section": "Chapter 11, Appendix: Driver Safety — Sign Chart",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": "wrong-way"
+  },
+  {
+   "id": "nj-005",
+   "topic": "signs",
+   "q": {
+    "en": "A ONE WAY sign is posted on the street you are about to enter. What does it tell you?",
+    "zh": "你即将驶入的街道上设有“ONE WAY”（单行道）标志。它告诉你什么？"
+   },
+   "options": {
+    "en": [
+     "The street is reserved for buses during rush hour",
+     "Parking is allowed on one side of the street only",
+     "Traffic on this street moves in one direction only",
+     "Only one vehicle may use the street at a time"
+    ],
+    "zh": [
+     "这条街道在高峰时段只供公交车使用",
+     "这条街道只允许在一侧停车",
+     "这条街道上的车流只朝一个方向行驶",
+     "这条街道一次只能有一辆车通行"
+    ]
+   },
+   "answer": 2,
+   "explanation": {
+    "en": "A ONE WAY sign means all traffic on that street travels in a single direction. You must drive with that flow, never against it.",
+    "zh": "“ONE WAY”标志表示该街道上的所有车流只朝单一方向行驶。你必须顺着车流方向行驶，绝不能逆行。"
+   },
+   "source": {
+    "section": "Chapter 11, Appendix: Driver Safety — Sign Chart",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": "one-way"
+  },
+  {
+   "id": "nj-006",
+   "topic": "signs",
+   "q": {
+    "en": "Speed limit signs in New Jersey are white vertical rectangles. What does the number on such a sign state?",
+    "zh": "新泽西州的限速标志是白色竖长方形。这种标志上的数字表示什么？"
+   },
+   "options": {
+    "en": [
+     "The minimum speed every vehicle must maintain",
+     "The speed every driver must hold exactly, in all weather",
+     "A suggested speed that carries no legal penalty",
+     "The maximum legal speed under ideal conditions"
+    ],
+    "zh": [
+     "每辆车必须保持的最低速度",
+     "所有天气条件下司机都必须精确保持的速度",
+     "一个建议速度，超速不会有任何法律处罚",
+     "理想条件下的最高法定速度"
+    ]
+   },
+   "answer": 3,
+   "explanation": {
+    "en": "White vertical rectangles are used for regulation signs such as speed limits. The posted number is the maximum legal speed, and conditions may still require driving slower.",
+    "zh": "白色竖长方形用于限速等管制类标志。标志上的数字是最高法定速度，而且路况不佳时仍需以更低速度行驶。"
+   },
+   "source": {
+    "section": "Chapter 11, Appendix: Driver Safety — Sign Colors and Shapes",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": "speed-limit"
+  },
+  {
+   "id": "nj-007",
+   "topic": "signs",
+   "q": {
+    "en": "A sign at an intersection shows a left-turn arrow inside a red circle with a diagonal slash. What is prohibited?",
+    "zh": "路口的一个标志显示左转箭头位于红色圆圈内，并有一条斜杠穿过。禁止什么？"
+   },
+   "options": {
+    "en": [
+     "Making a left turn at this intersection",
+     "Turning left only during rush hour",
+     "Turning left from the right lane only",
+     "Making a U-turn at this intersection"
+    ],
+    "zh": [
+     "在这个路口左转",
+     "只在高峰时段左转",
+     "只禁止从右侧车道左转",
+     "在这个路口掉头"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "en": "A turn arrow under a red prohibitory circle and slash means that turn is not allowed. Here, left turns are prohibited at this intersection.",
+    "zh": "红色禁止圆圈和斜杠下的转弯箭头表示该转弯不被允许。此处禁止在这个路口左转。"
+   },
+   "source": {
+    "section": "Chapter 11, Appendix: Driver Safety — Sign Chart",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": "no-left-turn"
+  },
+  {
+   "id": "nj-008",
+   "topic": "signs",
+   "q": {
+    "en": "You want to reverse direction on a two-way street, but a NO U-TURN sign is posted. What must you do?",
+    "zh": "你想在一条双向街道上掉头，但路边设有“禁止掉头”（NO U-TURN）标志。你必须怎么做？"
+   },
+   "options": {
+    "en": [
+     "Make the U-turn at night when enforcement is unlikely",
+     "Do not make a U-turn here; continue and turn around legally elsewhere",
+     "Make the U-turn quickly if no traffic is visible",
+     "Make the U-turn only from the left lane"
+    ],
+    "zh": [
+     "在夜间执法可能性低时掉头",
+     "不要在此处掉头；继续行驶，在其他合法地点掉头",
+     "如果看不到车流，可以快速掉头",
+     "只能从左侧车道掉头"
+    ]
+   },
+   "answer": 1,
+   "explanation": {
+    "en": "A NO U-TURN sign prohibits reversing direction with a U-turn at that location. Continue to a place where the turn is legal.",
+    "zh": "“禁止掉头”标志禁止在该地点掉头。应继续行驶，到允许掉头的地点再掉头。"
+   },
+   "source": {
+    "section": "Chapter 11, Appendix: Driver Safety — Sign Chart",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": "no-u-turn"
+  },
+  {
+   "id": "nj-009",
+   "topic": "signs",
+   "q": {
+    "en": "A NO PARKING ANY TIME sign is posted at the curb where you planned to leave your car for an hour. What applies?",
+    "zh": "你原计划停车一小时的路边设有“任何时间禁止停车”（NO PARKING ANY TIME）标志。应如何处理？"
+   },
+   "options": {
+    "en": [
+     "Parking is allowed if you leave your hazard lights on",
+     "The sign applies only to commercial vehicles",
+     "Parking is prohibited at all times at that curb; find a legal space instead",
+     "Parking is allowed for up to one hour despite the sign"
+    ],
+    "zh": [
+     "打开危险警告灯就可以停车",
+     "该标志只适用于商用车辆",
+     "该路边任何时间都禁止停车；应另找合法车位",
+     "尽管有标志，仍可停车长达一小时"
+    ]
+   },
+   "answer": 2,
+   "explanation": {
+    "en": "NO PARKING ANY TIME prohibits parking at that location around the clock. Hazard lights do not create an exception.",
+    "zh": "“任何时间禁止停车”表示该地点全天禁止停车。打开危险警告灯也不能构成例外。"
+   },
+   "source": {
+    "section": "Chapter 11, Appendix: Driver Safety — Sign Chart",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": "no-parking"
+  },
+  {
+   "id": "nj-010",
+   "topic": "signs",
+   "q": {
+    "en": "A yellow-green pedestrian crossing warning sign is posted ahead of a crosswalk near a park. What should you do?",
+    "zh": "公园附近的人行横道前设有黄绿色行人过街警告标志。你应该怎么做？"
+   },
+   "options": {
+    "en": [
+     "Maintain speed, because pedestrians must wait for a gap",
+     "Sound the horn continuously until you pass the crosswalk",
+     "Change lanes to pass any vehicle that slows down",
+     "Slow down, watch for pedestrians, and be ready to stop for anyone in the crosswalk"
+    ],
+    "zh": [
+     "保持速度，因为行人必须等到有空隙才能过街",
+     "持续鸣笛直到通过人行横道",
+     "变道超越任何减速的车辆",
+     "减速，注意行人，并准备为横道内的任何行人停车"
+    ]
+   },
+   "answer": 3,
+   "explanation": {
+    "en": "Pedestrian crossing warning signs use an optional yellow-green or standard yellow color of special importance in New Jersey. Drivers must share the road with pedestrians and yield to them in the crosswalk.",
+    "zh": "行人过街警告标志使用黄绿色或标准黄色，在新泽西州具有特别重要的提示意义。司机必须与行人共享道路，并为人行横道内的行人让行。"
+   },
+   "source": {
+    "section": "Chapter 11, Appendix: Driver Safety — Sign Colors and Shapes",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": "pedestrian-crossing"
+  },
+  {
+   "id": "nj-011",
+   "topic": "signs",
+   "q": {
+    "en": "School signs in New Jersey are yellow and five-sided (pentagon-shaped). What does this shape warn you about?",
+    "zh": "新泽西州的学校标志是黄色的五边形（五角形）。这种形状警告你什么？"
+   },
+   "options": {
+    "en": [
+     "A school zone or school crossing is ahead; slow down and watch for children",
+     "A school bus maintenance depot is nearby",
+     "School buses are prohibited from this road",
+     "A five-way intersection is ahead"
+    ],
+    "zh": [
+     "前方是学校区域或学校过街处；减速并注意儿童",
+     "附近有校车维修站",
+     "这条道路禁止校车通行",
+     "前方是五岔路口"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "en": "The yellow pentagon shape is reserved for school signs. It warns of a school zone or crossing where children may be present and extra care is required.",
+    "zh": "黄色五边形专门用于学校标志。它警告前方有学校区域或过街处，可能有儿童出现，需要格外小心。"
+   },
+   "source": {
+    "section": "Chapter 11, Appendix: Driver Safety — Sign Colors and Shapes",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": "school-crossing"
+  },
+  {
+   "id": "nj-012",
+   "topic": "signs",
+   "q": {
+    "en": "At a railroad crossing you see a white X-shaped sign with black lettering (a crossbuck). How must you treat it?",
+    "zh": "在铁路道口，你看到一个白底黑字的X形标志（十字架标志）。你应如何对待它？"
+   },
+   "options": {
+    "en": [
+     "As a sign that trains must slow down for cars",
+     "The same as a yield sign — always yield the right-of-way to trains",
+     "As a stop sign only when a bell is ringing",
+     "As an information sign that requires no action"
+    ],
+    "zh": [
+     "表示火车必须为汽车减速的标志",
+     "与让行标志相同——始终为火车让行",
+     "只有铃声响起时才当作停车标志",
+     "只是一个信息标志，无需采取任何行动"
+    ]
+   },
+   "answer": 1,
+   "explanation": {
+    "en": "The crossbuck has the same meaning as a yield sign. Trains cannot swerve, so motorists must always yield the right-of-way to them.",
+    "zh": "十字架标志与让行标志含义相同。火车无法避让，因此司机必须始终为火车让行。"
+   },
+   "source": {
+    "section": "Chapter 11, Appendix: Driver Safety — Regulatory Signs",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": "railroad-crossing"
+  },
+  {
+   "id": "nj-013",
+   "topic": "signs",
+   "q": {
+    "en": "A round yellow sign appears well before a set of tracks. What is it telling you?",
+    "zh": "在一组铁轨之前较远处出现一个圆形黄色标志。它在告诉你什么？"
+   },
+   "options": {
+    "en": [
+     "The road ends at the tracks and you must turn around",
+     "Trains cross here only at night",
+     "A railroad crossing is ahead; be prepared to stop if a train is coming",
+     "A train station parking lot is ahead"
+    ],
+    "zh": [
+     "道路在铁轨处终止，必须掉头",
+     "火车只在夜间通过这里",
+     "前方有铁路道口；如有火车驶来，准备停车",
+     "前方是火车站停车场"
+    ]
+   },
+   "answer": 2,
+   "explanation": {
+    "en": "A round yellow sign is the railroad crossing advance warning sign. It alerts you early so you can look, listen, and be ready to stop.",
+    "zh": "圆形黄色标志是铁路道口预告警告标志。它提前提醒你注意观察、倾听，并准备停车。"
+   },
+   "source": {
+    "section": "Chapter 11, Appendix: Driver Safety — Sign Colors and Shapes",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": "railroad-ahead"
+  },
+  {
+   "id": "nj-014",
+   "topic": "signs",
+   "q": {
+    "en": "A yellow diamond sign shows an arrow bending to the right. What should you do as you approach?",
+    "zh": "一个黄色菱形标志上显示向右弯曲的箭头。接近时你应该怎么做？"
+   },
+   "options": {
+    "en": [
+     "Speed up slightly to hold the vehicle steady through the curve",
+     "Brake hard only after you are halfway through the curve",
+     "Move to the left lane to widen your turning radius",
+     "Slow down before the curve and avoid drifting into another lane"
+    ],
+    "zh": [
+     "稍微加速，以便在弯道中保持车辆稳定",
+     "只在弯道过半后才用力刹车",
+     "移到左侧车道以增大转弯半径",
+     "在进入弯道前减速，避免漂移到其他车道"
+    ]
+   },
+   "answer": 3,
+   "explanation": {
+    "en": "Yellow diamond warning signs with a bending arrow warn of a curve ahead. The safe approach is to reduce speed before entering the curve and stay in your lane.",
+    "zh": "带有弯曲箭头的黄色菱形警告标志提示前方有弯道。安全的做法是在进入弯道前减速，并保持在本车道内。"
+   },
+   "source": {
+    "section": "Chapter 11, Appendix: Driver Safety — Warning Signs",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": "curve-ahead"
+  },
+  {
+   "id": "nj-015",
+   "topic": "signs",
+   "q": {
+    "en": "A warning sign shows an arrow making an abrupt, hairpin-like change of direction. What does it indicate?",
+    "zh": "一个警告标志显示箭头突然急剧改变方向，呈发夹弯形状。它表示什么？"
+   },
+   "options": {
+    "en": [
+     "A sharp turn ahead; reduce speed considerably before reaching it",
+     "A recommended shortcut for local traffic",
+     "The start of a passing zone",
+     "A lane reserved for turning vehicles only"
+    ],
+    "zh": [
+     "前方有急转弯；在到达之前大幅减速",
+     "为本地交通推荐的捷径",
+     "超车区的起点",
+     "只供转弯车辆使用的车道"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "en": "That sign warns of a sharp turn ahead. Slow down well in advance, because a sharp turn taken too fast can push a vehicle out of its lane.",
+    "zh": "该标志警告前方有急转弯。应提前大幅减速，因为急转弯速度过快会使车辆冲出本车道。"
+   },
+   "source": {
+    "section": "Chapter 11, Appendix: Driver Safety — Sign Chart",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": "sharp-turn"
+  },
+  {
+   "id": "nj-016",
+   "topic": "signs",
+   "q": {
+    "en": "A yellow diamond sign shows a car with wavy skid lines behind it. In wet weather, what does this sign call for?",
+    "zh": "一个黄色菱形标志显示一辆汽车，后面有波浪状的打滑线。在潮湿天气中，这个标志要求你怎么做？"
+   },
+   "options": {
+    "en": [
+     "Drive on the shoulder where the surface is rougher",
+     "Reduce speed and avoid sudden steering, braking, or acceleration because the road may be slippery when wet",
+     "Increase speed to get through the slippery stretch quickly",
+     "Use cruise control to keep a constant speed"
+    ],
+    "zh": [
+     "在路肩上行驶，因为那里路面更粗糙",
+     "减速并避免突然转向、刹车或加速，因为路面湿滑",
+     "加速以便快速通过湿滑路段",
+     "使用巡航控制保持恒定速度"
+    ]
+   },
+   "answer": 1,
+   "explanation": {
+    "en": "This is the Slippery When Wet warning. Wet surfaces lengthen stopping distances and quick maneuvers can start a skid, so slow down and drive smoothly.",
+    "zh": "这是“路面湿滑”警告标志。潮湿路面会延长停车距离，快速操作可能导致打滑，因此应减速并平稳驾驶。"
+   },
+   "source": {
+    "section": "Chapter 11, Appendix: Driver Safety — Sign Chart",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": "slippery"
+  },
+  {
+   "id": "nj-017",
+   "topic": "signs",
+   "q": {
+    "en": "On a highway entrance you see a MERGE warning sign. What does traffic flow require of you?",
+    "zh": "在高速公路入口处，你看到“汇流”（MERGE）警告标志。车流要求你怎么做？"
+   },
+   "options": {
+    "en": [
+     "Force your way in, because entering traffic always has the right-of-way",
+     "Honk and flash your lights so main-road traffic makes room",
+     "Adjust your speed and position so you can join the flow of traffic safely, yielding to traffic already on the main road",
+     "Stop at the end of the ramp and wait for a large gap, however long it takes"
+    ],
+    "zh": [
+     "强行汇入，因为汇入的交通始终有优先权",
+     "鸣笛并闪灯，让主路交通为你让路",
+     "调整速度和位置，以便安全汇入车流，并让主路上已有的交通先行",
+     "在匝道末端停车等待大空隙，无论等多久"
+    ]
+   },
+   "answer": 2,
+   "explanation": {
+    "en": "The merge sign warns that traffic is joining the roadway. Entering drivers speed up in the acceleration lane and yield to traffic already traveling on the main road.",
+    "zh": "汇流标志警告有车流汇入道路。汇入的司机应在加速车道提速，并让主路上已经行驶的交通先行。"
+   },
+   "source": {
+    "section": "Chapter 11, Appendix: Driver Safety — Sign Chart",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": "merge"
+  },
+  {
+   "id": "nj-018",
+   "topic": "signs",
+   "q": {
+    "en": "A TWO-LANE (TWO-WAY) TRAFFIC warning sign appears as a divided road ends. What changes for you?",
+    "zh": "当分隔道路结束时，出现“双向交通”警告标志。对你来说有什么变化？"
+   },
+   "options": {
+    "en": [
+     "Both lanes ahead are reserved for your direction only",
+     "Passing becomes allowed everywhere without restriction",
+     "You must move to the left lane immediately",
+     "Oncoming traffic will now share your roadway, so keep to the right and expect vehicles in the opposing lane"
+    ],
+    "zh": [
+     "前方两条车道都只供你的方向使用",
+     "到处都可以无限制超车",
+     "你必须立即移到左侧车道",
+     "对向车流将与你共用道路，因此靠右行驶并预料对向车道有车辆"
+    ]
+   },
+   "answer": 3,
+   "explanation": {
+    "en": "The sign warns that two-way traffic lies ahead. Once the divided section ends, oncoming vehicles use the lane beside you, so keep right and stay alert.",
+    "zh": "该标志警告前方是双向交通。分隔路段结束后，对向车辆将使用你旁边的车道，因此要靠右行驶并保持警觉。"
+   },
+   "source": {
+    "section": "Chapter 11, Appendix: Driver Safety — Sign Chart",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": "two-way-traffic"
+  },
+  {
+   "id": "nj-019",
+   "topic": "signs",
+   "q": {
+    "en": "A DIVIDED HIGHWAY warning sign is posted before a median begins. What does it mean?",
+    "zh": "在中央分隔带开始之前设有“分隔道路”（DIVIDED HIGHWAY）警告标志。它是什么意思？"
+   },
+   "options": {
+    "en": [
+     "The road ahead is divided by a median or barrier, and traffic in each direction is separated",
+     "The road ahead narrows to a single lane for both directions",
+     "Drivers must divide into groups based on vehicle size",
+     "The highway is closed ahead and traffic must exit"
+    ],
+    "zh": [
+     "前方道路由中央分隔带或护栏分隔，两个方向的车流被分开",
+     "前方道路收窄为两个方向共用的一条车道",
+     "司机必须按车辆大小分组行驶",
+     "前方高速公路关闭，车辆必须驶离"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "en": "This warning sign tells you the roadway ahead is split by a median or barrier. Stay on your side of the divide and watch for the correct openings.",
+    "zh": "这个警告标志告诉你前方道路被中央分隔带或护栏分开。应留在分隔带自己一侧，并注意正确的开口位置。"
+   },
+   "source": {
+    "section": "Chapter 11, Appendix: Driver Safety — Sign Chart",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": "divided-highway"
+  },
+  {
+   "id": "nj-020",
+   "topic": "signs",
+   "q": {
+    "en": "A SIGNAL AHEAD warning sign, showing a small traffic light symbol, is posted on a fast rural road. What should you expect?",
+    "zh": "在一条快速乡村道路上设有“SIGNAL AHEAD”（前方信号灯）警告标志，上面有小交通灯图案。你应该预料到什么？"
+   },
+   "options": {
+    "en": [
+     "A police officer is directing traffic by hand ahead",
+     "A traffic signal is ahead; be prepared to stop",
+     "A railroad signal is ahead and a train is coming",
+     "Traffic signals have been removed from this road"
+    ],
+    "zh": [
+     "前方有警察在手动指挥交通",
+     "前方有交通信号灯；准备停车",
+     "前方有铁路信号，火车即将驶来",
+     "这条道路的交通信号灯已被拆除"
+    ]
+   },
+   "answer": 1,
+   "explanation": {
+    "en": "The Signal Ahead warning gives advance notice of a traffic signal, often where drivers traveling at speed might not expect one. Be ready to stop.",
+    "zh": "“前方信号灯”警告提前告知有交通信号灯，通常出现在高速行驶的司机意想不到的地方。应准备停车。"
+   },
+   "source": {
+    "section": "Chapter 11, Appendix: Driver Safety — Sign Chart",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": "signal-ahead"
+  },
+  {
+   "id": "nj-021",
+   "topic": "signs",
+   "q": {
+    "en": "A STOP SIGN AHEAD warning sign is posted before an intersection you cannot yet see. Why is it there?",
+    "zh": "在一个你还看不到的路口之前，设有“STOP SIGN AHEAD”（前方停车标志）警告标志。它为什么设在那里？"
+   },
+   "options": {
+    "en": [
+     "To advise that stopping is optional at the next intersection",
+     "To mark the location of a permanent police checkpoint",
+     "To warn you that a stop sign is coming so you can slow down and prepare to stop",
+     "To tell you the stop sign was stolen and replaced by this warning"
+    ],
+    "zh": [
+     "提示下一个路口停车是可选的",
+     "标记一个固定警察检查站的位置",
+     "警告你前方有停车标志，以便你减速并准备停车",
+     "告诉你停车标志被盗，已用这个警告标志代替"
+    ]
+   },
+   "answer": 2,
+   "explanation": {
+    "en": "Stop Sign Ahead is an advance warning. It gives you time to reduce speed so the required stop at the intersection can be made smoothly and safely.",
+    "zh": "“前方停车标志”是提前警告。它给你时间减速，以便在路口需要停车时能够平稳安全地停下。"
+   },
+   "source": {
+    "section": "Chapter 11, Appendix: Driver Safety — Sign Chart",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": "stop-ahead"
+  },
+  {
+   "id": "nj-022",
+   "topic": "signs",
+   "q": {
+    "en": "A yellow diamond sign with a leaping deer silhouette is posted along a wooded road. What is the hazard?",
+    "zh": "林间道路旁设有黄色菱形标志，上面有一只跳跃的鹿的剪影。危险是什么？"
+   },
+   "options": {
+    "en": [
+     "A deer hunting area where drivers must stop and register",
+     "A wildlife refuge entrance where feeding animals is allowed",
+     "Livestock fencing that crosses the roadway at grade",
+     "Deer may cross the road here; slow down and scan both sides of the road"
+    ],
+    "zh": [
+     "一个猎鹿区，司机必须停车登记",
+     "一个野生动物保护区入口，允许喂食动物",
+     "与路面同高度横跨道路的牲畜围栏",
+     "鹿可能在这里过路；减速并扫视道路两侧"
+    ]
+   },
+   "answer": 3,
+   "explanation": {
+    "en": "This is a deer crossing warning sign, one of the hazards shown on yellow diamond warning signs. Slow down and be ready for an animal to dart into the road.",
+    "zh": "这是鹿过路警告标志，属于黄色菱形警告标志所示的危险之一。应减速，并准备应对动物突然冲上道路。"
+   },
+   "source": {
+    "section": "Chapter 11, Appendix: Driver Safety — Warning Signs",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": "deer-crossing"
+  },
+  {
+   "id": "nj-023",
+   "topic": "signs",
+   "q": {
+    "en": "The signs ahead turn orange and diamond-shaped, warning of lane shifts and workers. What else changes in this area in New Jersey?",
+    "zh": "前方的标志变成橙色菱形，警告有车道偏移和施工人员。在新泽西州，这个区域还有什么变化？"
+   },
+   "options": {
+    "en": [
+     "All traffic fines are doubled in the work zone, and you should slow down, follow directions, and watch for workers and machinery",
+     "Speed limits are suspended until the work zone ends",
+     "Only commercial vehicles must obey the posted signs",
+     "Drivers may use any lane, including closed lanes, if traffic is slow"
+    ],
+    "zh": [
+     "施工区内所有交通罚款翻倍，你应减速、遵循指示，并注意施工人员和机械",
+     "在施工区结束之前，限速规定暂停适用",
+     "只有商用车辆必须遵守所设标志",
+     "如果交通缓慢，司机可以使用任何车道，包括已封闭的车道"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "en": "Orange diamond signs mark road work — lane closings, shifts, flaggers, and detours. New Jersey doubles all traffic fines in work zones.",
+    "zh": "橙色菱形标志表示道路施工——车道封闭、偏移、旗手指挥和绕行。新泽西州在施工区将所有交通罚款翻倍。"
+   },
+   "source": {
+    "section": "Chapter 11, Appendix: Driver Safety — Road Work Signs",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": "construction"
+  },
+  {
+   "id": "nj-024",
+   "topic": "signs",
+   "q": {
+    "en": "A BICYCLES PRESENT warning sign and a painted bike lane appear on a city street. What must you remember?",
+    "zh": "城市街道上出现“注意自行车”（BICYCLES PRESENT）警告标志和一条划线自行车道。你必须记住什么？"
+   },
+   "options": {
+    "en": [
+     "Motorists may drive in the bike lane whenever traffic is heavy",
+     "Bicyclists may be using this road and lane; check blind spots for them before turning, parking, or opening a door",
+     "Bicycles are prohibited wherever the warning sign is posted",
+     "The bike lane may be used as an extra parking lane"
+    ],
+    "zh": [
+     "交通繁忙时，机动车可以在自行车道内行驶",
+     "骑自行车的人可能使用这条路和这条车道；转弯、停车或开车门前要检查盲区是否有他们",
+     "设有该警告标志的地方禁止自行车通行",
+     "自行车道可以用作额外的停车道"
+    ]
+   },
+   "answer": 1,
+   "explanation": {
+    "en": "Bicycle warning signs and bike lanes tell motorists that riders share this road. Look for bicyclists in your blind spots before turning or opening a door.",
+    "zh": "自行车警告标志和自行车道提醒司机，骑行者与机动车共用这条路。转弯或开车门前，要查看盲区是否有骑自行车的人。"
+   },
+   "source": {
+    "section": "Chapter 11, Appendix: Driver Safety — Sign Chart",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": "bicycle"
+  },
+  {
+   "id": "nj-025",
+   "topic": "signs",
+   "q": {
+    "en": "A LANE REDUCTION AHEAD warning sign shows two lanes narrowing into one. What should drivers in the ending lane do?",
+    "zh": "“车道减少”警告标志显示两条车道收窄为一条。即将结束的车道上的司机应该怎么做？"
+   },
+   "options": {
+    "en": [
+     "Stop in the ending lane and wait for instructions",
+     "Cross onto the shoulder and continue there",
+     "Prepare to merge safely into the continuing lane before their lane ends",
+     "Race to the very end and force their way in"
+    ],
+    "zh": [
+     "在结束的车道内停车等待指示",
+     "驶上路肩并在那里继续行驶",
+     "在车道结束之前准备安全并入继续通行的车道",
+     "冲到车道尽头强行挤入"
+    ]
+   },
+   "answer": 2,
+   "explanation": {
+    "en": "Lane Reduction Ahead warns that a lane is ending. Drivers should adjust speed and merge into the through lane safely before the lane disappears.",
+    "zh": "“车道减少”警告提示一条车道即将结束。司机应调整速度，在车道消失之前安全并入直行车道。"
+   },
+   "source": {
+    "section": "Chapter 11, Appendix: Driver Safety — Sign Chart",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": "lane-ends"
+  },
+  {
+   "id": "nj-026",
+   "topic": "signs",
+   "q": {
+    "en": "A roundabout warning sign appears ahead. What kind of intersection will you meet?",
+    "zh": "前方出现环岛警告标志。你将遇到什么样的路口？"
+   },
+   "options": {
+    "en": [
+     "A four-way stop where traffic may circle in either direction",
+     "A traffic circle where the vehicle on the right always stops",
+     "An intersection where left turns are made across the center island",
+     "A one-way circular intersection where traffic flows around a center island and vehicles enter and exit through right turns"
+    ],
+    "zh": [
+     "一个四向停车路口，车流可以朝任一方向环绕",
+     "一个环形路口，右侧车辆必须始终停车",
+     "一个路口，左转需要穿过中央岛",
+     "一个单向环形路口，车流绕中央岛单向流动，车辆通过右转驶入和驶出"
+    ]
+   },
+   "answer": 3,
+   "explanation": {
+    "en": "A roundabout is a one-way circular intersection built around a center island. Because traffic enters and exits only through right turns, severe crashes are substantially reduced.",
+    "zh": "环岛是一个围绕中央岛修建的单向环形路口。由于车流只能通过右转驶入和驶出，严重事故大幅减少。"
+   },
+   "source": {
+    "section": "Chapter 11, Appendix: Driver Safety — Roundabouts",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": "roundabout-ahead"
+  },
+  {
+   "id": "nj-027",
+   "topic": "rules",
+   "q": {
+    "en": "No speed limit sign is posted on a street running through a school zone in New Jersey. What is the speed limit?",
+    "zh": "新泽西州一条穿过学校区域的街道上没有张贴限速标志。限速是多少？"
+   },
+   "options": {
+    "en": [
+     "25 mph",
+     "35 mph",
+     "50 mph",
+     "15 mph"
+    ],
+    "zh": [
+     "25英里/小时",
+     "35英里/小时",
+     "50英里/小时",
+     "15英里/小时"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "en": "Unless otherwise posted, the New Jersey speed limit is 25 mph in school zones, business districts, and residential districts.",
+    "zh": "除非另有标志，新泽西州在学校区域、商业区和住宅区的限速为25英里/小时。"
+   },
+   "source": {
+    "section": "Chapter 4, Safe Driving Rules and Regulations — Speed Control",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-028",
+   "topic": "rules",
+   "q": {
+    "en": "You are driving on an unposted road in a suburban residential district in New Jersey. What speed limit applies?",
+    "zh": "你行驶在新泽西州郊区住宅区一条没有限速标志的道路上。适用的限速是多少？"
+   },
+   "options": {
+    "en": [
+     "45 mph",
+     "35 mph",
+     "25 mph",
+     "50 mph"
+    ],
+    "zh": [
+     "45英里/小时",
+     "35英里/小时",
+     "25英里/小时",
+     "50英里/小时"
+    ]
+   },
+   "answer": 1,
+   "explanation": {
+    "en": "Suburban business and residential districts have an unposted limit of 35 mph in New Jersey, higher than the 25 mph limit in regular business or residential districts.",
+    "zh": "新泽西州郊区商业区和住宅区在无标志时的限速为35英里/小时，高于普通商业区或住宅区的25英里/小时。"
+   },
+   "source": {
+    "section": "Chapter 4, Safe Driving Rules and Regulations — Speed Control",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-029",
+   "topic": "rules",
+   "q": {
+    "en": "On a rural New Jersey roadway with no posted speed limit, what is the legal maximum?",
+    "zh": "在新泽西州一条没有张贴限速的乡村道路上，法定最高速度是多少？"
+   },
+   "options": {
+    "en": [
+     "35 mph",
+     "65 mph",
+     "50 mph",
+     "55 mph"
+    ],
+    "zh": [
+     "35英里/小时",
+     "65英里/小时",
+     "50英里/小时",
+     "55英里/小时"
+    ]
+   },
+   "answer": 2,
+   "explanation": {
+    "en": "Non-posted rural roadways carry a 50 mph limit in New Jersey unless a different limit is posted.",
+    "zh": "新泽西州没有张贴限速的乡村道路限速为50英里/小时，除非另有标志规定其他限速。"
+   },
+   "source": {
+    "section": "Chapter 4, Safe Driving Rules and Regulations — Speed Control",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-030",
+   "topic": "rules",
+   "q": {
+    "en": "In a zone posted at 65 mph, a driver exceeds the limit by 12 mph. How are the fines treated in New Jersey?",
+    "zh": "在限速65英里/小时的区域内，一名司机超速12英里/小时。在新泽西州，罚款如何处理？"
+   },
+   "options": {
+    "en": [
+     "Fines stay the same until the excess reaches 20 mph",
+     "Only a warning is issued for a first offense in a 65 mph zone",
+     "The fine is doubled only for commercial vehicles",
+     "Fines are doubled for exceeding the 65 mph limit by 10 mph or more"
+    ],
+    "zh": [
+     "超速未达20英里/小时之前，罚款不变",
+     "在65英里/小时区域内，初犯只发警告",
+     "罚款翻倍只适用于商用车辆",
+     "超过65英里/小时限速10英里/小时或以上，罚款翻倍"
+    ]
+   },
+   "answer": 3,
+   "explanation": {
+    "en": "New Jersey doubles fines for exceeding the 65 mph limit by 10 mph or more, and for most other moving violations committed in a 65 mph zone.",
+    "zh": "新泽西州规定，超过65英里/小时限速10英里/小时或以上，罚款翻倍；在65英里/小时区域内的大多数其他行驶违章也适用罚款翻倍。"
+   },
+   "source": {
+    "section": "Chapter 4, Safe Driving Rules and Regulations — Speed Control",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-031",
+   "topic": "rules",
+   "q": {
+    "en": "The posted limit is 50 mph, but fog has cut visibility sharply. What does New Jersey's basic speed rule require?",
+    "zh": "张贴的限速是50英里/小时，但大雾使能见度大幅下降。新泽西州的基本速度规则要求什么？"
+   },
+   "options": {
+    "en": [
+     "Slow down — never drive faster than weather, road, and traffic conditions safely allow, regardless of the posted limit",
+     "Keep to 50 mph so you do not block traffic behind you",
+     "Drive at 50 mph but turn on your hazard lights",
+     "Pull onto the shoulder and wait exactly one hour"
+    ],
+    "zh": [
+     "减速——无论张贴限速如何，绝不能超过天气、道路和交通状况所能安全允许的速度",
+     "保持50英里/小时，以免阻挡后方交通",
+     "以50英里/小时行驶，但打开危险警告灯",
+     "停到路肩上，正好等一个小时"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "en": "A posted limit is a maximum for good conditions, not a guarantee. New Jersey law requires slowing for limited visibility, slippery roads, curves, hills, and similar hazards.",
+    "zh": "张贴的限速是良好条件下的最高速度，而不是保证。新泽西州法律要求在能见度有限、路面湿滑、弯道、坡道等危险情况下减速。"
+   },
+   "source": {
+    "section": "Chapter 4, Safe Driving Rules and Regulations — Speed Control",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-032",
+   "topic": "rules",
+   "q": {
+    "en": "Both yellow center lines on your two-lane road are solid. What do these markings mean?",
+    "zh": "你行驶的双车道道路上，两条黄色中心线都是实线。这些标线是什么意思？"
+   },
+   "options": {
+    "en": [
+     "The lines only restrict trucks from passing",
+     "No passing is allowed from either direction",
+     "Passing is allowed if the road ahead looks empty",
+     "Passing is allowed only during daylight hours"
+    ],
+    "zh": [
+     "这些线只限制卡车超车",
+     "两个方向都不允许超车",
+     "如果前方道路看起来没车，就可以超车",
+     "只在白天允许超车"
+    ]
+   },
+   "answer": 1,
+   "explanation": {
+    "en": "When both center lines are solid, passing is not allowed. All passing must also be completed before center lines become solid again.",
+    "zh": "当两条中心线都是实线时，禁止超车。而且所有超车必须在中心线变回实线之前完成。"
+   },
+   "source": {
+    "section": "Chapter 4, Safe Driving Rules and Regulations — Passing",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-033",
+   "topic": "rules",
+   "q": {
+    "en": "The center line is dashed on the far side but solid on your side. May you pass the vehicle ahead?",
+    "zh": "中心线在对面一侧是虚线，但在你这一侧是实线。你可以超越前车吗？"
+   },
+   "options": {
+    "en": [
+     "Yes — if you use your left turn signal first",
+     "Yes — but only on a straight section of road",
+     "No — passing is allowed only on the side with the broken (dashed) line",
+     "Yes — a dashed line anywhere on the road permits passing"
+    ],
+    "zh": [
+     "可以——只要先打左转向灯",
+     "可以——但只能在直道上",
+     "不可以——只允许在虚线一侧超车",
+     "可以——道路上任何位置有虚线都允许超车"
+    ]
+   },
+   "answer": 2,
+   "explanation": {
+    "en": "With one solid and one broken center line, passing is permitted only for traffic on the broken-line side. The solid line on your side prohibits passing.",
+    "zh": "当中心线一侧实线、一侧虚线时，只允许虚线一侧的交通超车。你这一侧的实线禁止超车。"
+   },
+   "source": {
+    "section": "Chapter 4, Safe Driving Rules and Regulations — Passing",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-034",
+   "topic": "rules",
+   "q": {
+    "en": "When is passing on the right legal in New Jersey?",
+    "zh": "在新泽西州，什么时候从右侧超车是合法的？"
+   },
+   "options": {
+    "en": [
+     "Whenever the vehicle ahead is traveling below the speed limit",
+     "On any two-lane road, as long as the shoulder is paved",
+     "Only when the driver ahead waves you past",
+     "On a road with more than one lane going the same direction with traffic in two or more continuous lines, or when the driver ahead is making a left turn and there is room to pass"
+    ],
+    "zh": [
+     "只要前车速度低于限速，随时都可以",
+     "在任何双车道道路上，只要路肩是铺装路面",
+     "只有当前车向你挥手示意时",
+     "在同方向有多条车道且车流呈两条或以上连续车道行驶的道路上，或当前车正在左转且有空间通过时"
+    ]
+   },
+   "answer": 3,
+   "explanation": {
+    "en": "Passing on the right is limited to multi-lane same-direction roads with continuous lines of traffic, or passing a left-turning vehicle where there is room. It is never a general right.",
+    "zh": "右侧超车只限于同方向多车道且车流连续的道路，或在有空间时超越正在左转的车辆。它不是一项普遍权利。"
+   },
+   "source": {
+    "section": "Chapter 4, Safe Driving Rules and Regulations — Passing",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-035",
+   "topic": "rules",
+   "q": {
+    "en": "Traffic ahead is slow, and the paved right shoulder is empty. May you pass the line of cars on the shoulder?",
+    "zh": "前方交通缓慢，右侧铺装路肩空着。你可以在路肩上超越这一列车吗？"
+   },
+   "options": {
+    "en": [
+     "No — passing on the right shoulder of the road is against the law",
+     "Yes — the shoulder counts as an extra lane when traffic is slow",
+     "Yes — if you keep your speed under 25 mph on the shoulder",
+     "Yes — but only for a distance of one block"
+    ],
+    "zh": [
+     "不可以——在道路右侧路肩上超车是违法的",
+     "可以——交通缓慢时，路肩算作一条额外车道",
+     "可以——只要路肩上速度保持在25英里/小时以下",
+     "可以——但距离不能超过一个街区"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "en": "New Jersey law expressly prohibits passing on the right shoulder. A shoulder is for emergencies and stopped vehicles, not for overtaking.",
+    "zh": "新泽西州法律明确禁止在右侧路肩上超车。路肩用于紧急情况和停驶车辆，而不是用于超车。"
+   },
+   "source": {
+    "section": "Chapter 4, Safe Driving Rules and Regulations — Passing",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-036",
+   "topic": "rules",
+   "q": {
+    "en": "You are driving on a multi-lane New Jersey road and not passing anyone. Which lane should you normally use?",
+    "zh": "你行驶在新泽西州一条多车道道路上，并没有在超车。通常你应该使用哪条车道？"
+   },
+   "options": {
+    "en": [
+     "Any lane, because lane choice has no legal rules in New Jersey",
+     "The lane nearest the right-hand edge or curb, except when overtaking or preparing for a left turn",
+     "The left lane, because it is the fastest",
+     "The center lane at all times, regardless of traffic"
+    ],
+    "zh": [
+     "任何车道都可以，因为新泽西州对车道选择没有法律规定",
+     "最靠近道路右侧边缘或路缘的车道，超车或准备左转时除外",
+     "左侧车道，因为它最快",
+     "无论交通状况如何，始终使用中间车道"
+    ]
+   },
+   "answer": 1,
+   "explanation": {
+    "en": "New Jersey's keep-right rule puts normal driving in the rightmost available lane. Left lanes are for overtaking and for preparing a left turn.",
+    "zh": "新泽西州的靠右行驶规则要求正常行驶使用最右侧可用车道。左侧车道用于超车和准备左转。"
+   },
+   "source": {
+    "section": "Chapter 4, Safe Driving Rules and Regulations — Keeping to the Right",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-037",
+   "topic": "rules",
+   "q": {
+    "en": "Two cars reach a four-way stop at the same moment. Which driver yields?",
+    "zh": "两辆车同时到达一个四向停车路口。哪位司机应让行？"
+   },
+   "options": {
+    "en": [
+     "The driver in the smaller vehicle yields to the larger one",
+     "Neither yields; the first to accelerate goes first",
+     "The driver on the left yields to the motorist on the right, and both yield to any vehicle already stopped at the intersection",
+     "The driver on the right yields to the driver on the left"
+    ],
+    "zh": [
+     "较小车辆的司机让较大车辆先行",
+     "双方都不必让行；先加速者先走",
+     "左侧司机让右侧司机先行，且双方都要让已经在路口停稳的车辆先行",
+     "右侧司机让左侧司机先行"
+    ]
+   },
+   "answer": 2,
+   "explanation": {
+    "en": "At a multi-way stop, simultaneous arrivals are settled by yielding to the right, and a vehicle already stopped at the intersection has priority.",
+    "zh": "在多向停车路口，同时到达时按“让右”处理，已经在路口停稳的车辆享有优先权。"
+   },
+   "source": {
+    "section": "Chapter 4, Safe Driving Rules and Regulations — Intersections",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-038",
+   "topic": "rules",
+   "q": {
+    "en": "You stop at a stop sign where a crosswalk crosses your path. How close to the crosswalk must your stop be?",
+    "zh": "你在一个有人行横道穿过的停车标志前停车。你的停车位置必须离人行横道多近？"
+   },
+   "options": {
+    "en": [
+     "Within 25 feet of the crosswalk is close enough",
+     "You may stop past the crosswalk if no pedestrians are visible",
+     "Distance does not matter as long as you stop somewhere before the intersection",
+     "You must come to a complete stop within 5 feet of the nearest crosswalk or stop line"
+    ],
+    "zh": [
+     "在人行横道25英尺以内就足够了",
+     "如果看不到行人，可以停在人行横道之后",
+     "只要在路口前的某个位置停下，距离无所谓",
+     "必须在距离最近的人行横道或停车线5英尺以内完全停稳"
+    ]
+   },
+   "answer": 3,
+   "explanation": {
+    "en": "At a stop sign, the complete stop must be made within 5 feet of the nearest crosswalk or stop line, and you may enter only after yielding to pedestrians and to traffic that is an immediate hazard.",
+    "zh": "在停车标志前，必须在距离最近的人行横道或停车线5英尺以内完全停稳，并且只有在让行人以及构成即时危险的交通先行后才能驶入。"
+   },
+   "source": {
+    "section": "Chapter 4, Safe Driving Rules and Regulations — Intersections",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-039",
+   "topic": "rules",
+   "q": {
+    "en": "You approach an intersection where two roads join with no signals or signs at all. What governs right-of-way?",
+    "zh": "你接近一个两条道路交汇、没有任何信号或标志的路口。优先权由什么决定？"
+   },
+   "options": {
+    "en": [
+     "Reduce speed and be ready to stop; as a rule, the vehicle on the left yields to the vehicle on the right",
+     "The vehicle traveling fastest has the right-of-way",
+     "Traffic on the narrower road always goes first",
+     "Right-of-way belongs to whoever honks first"
+    ],
+    "zh": [
+     "减速并准备停车；一般规则是左侧车辆让右侧车辆先行",
+     "速度最快的车辆有优先权",
+     "较窄道路上的交通始终先行",
+     "谁先鸣笛谁有优先权"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "en": "That is an uncontrolled intersection. Slow down, be ready to stop, and apply the left-yields-to-right rule; vehicles coming from a private road or driveway must yield to all main-road traffic.",
+    "zh": "这是一个无控制路口。应减速并准备停车，适用“左让右”规则；从私人道路或车道驶出的车辆必须让主路上的所有交通先行。"
+   },
+   "source": {
+    "section": "Chapter 4, Safe Driving Rules and Regulations — Intersections",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-040",
+   "topic": "rules",
+   "q": {
+    "en": "A storm knocks out power and the traffic signal ahead is completely dark, with no officer directing traffic. How do you treat it?",
+    "zh": "暴风雨导致停电，前方的交通信号灯完全熄灭，也没有警察指挥交通。你应如何对待它？"
+   },
+   "options": {
+    "en": [
+     "Turn around and find another route, because crossing is illegal",
+     "Treat it as a four-way stop",
+     "Proceed through at normal speed with extra caution",
+     "Treat it as a green light for the larger road"
+    ],
+    "zh": [
+     "掉头另找路线，因为通过是违法的",
+     "把它当作四向停车标志对待",
+     "以正常速度小心通过",
+     "把它当作较大道路方向的绿灯"
+    ]
+   },
+   "answer": 1,
+   "explanation": {
+    "en": "An unlit signal caused by a power failure or malfunction is observed as a four-way stop: stop, look both ways, and yield before proceeding when safe.",
+    "zh": "因停电或故障而熄灭的信号灯应按四向停车处理：停车、左右观察、让行，并在安全时再通过。"
+   },
+   "source": {
+    "section": "Chapter 4, Safe Driving Rules and Regulations — Intersections",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-041",
+   "topic": "rules",
+   "q": {
+    "en": "The light is red and you want to turn right. No sign prohibits it. What does New Jersey law allow?",
+    "zh": "信号灯是红灯，你想右转。没有标志禁止。你该怎么做才符合新泽西州法律？"
+   },
+   "options": {
+    "en": [
+     "Turn right on red only between midnight and 5 a.m.",
+     "Wait for a green light; right turns on red are never allowed in New Jersey",
+     "Turn right on red only after coming to a full stop and yielding to all oncoming traffic and pedestrians",
+     "Turn right on red without stopping if the way looks clear"
+    ],
+    "zh": [
+     "只能在午夜至凌晨5点之间红灯右转",
+     "等绿灯；新泽西州从不允许红灯右转",
+     "只有在完全停稳并让所有对向交通和行人先行后，才能红灯右转",
+     "如果看起来没车，可以不停直接红灯右转"
+    ]
+   },
+   "answer": 2,
+   "explanation": {
+    "en": "New Jersey authorizes a right turn on red after a full stop and a yield to traffic and pedestrians, unless a No Turn on Red sign is posted. Watch for hard-to-see bicycles and mopeds that may have the green.",
+    "zh": "新泽西州允许在完全停稳并让交通和行人先行后红灯右转，除非设有“禁止红灯转弯”标志。要注意可能持有绿灯、难以看见的自行车和轻便摩托车。"
+   },
+   "source": {
+    "section": "Chapter 4, Safe Driving Rules and Regulations — Turning Regulations",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-042",
+   "topic": "rules",
+   "q": {
+    "en": "You are turning left at a green light with no left-turn arrow. What must you do?",
+    "zh": "你在没有左转箭头的绿灯下左转。你必须怎么做？"
+   },
+   "options": {
+    "en": [
+     "Turn immediately, because your green light gives you priority over everyone",
+     "Yield only to trucks and buses, not to passenger cars",
+     "Swing into the oncoming lane early to claim the turn",
+     "Yield to oncoming traffic and stop for pedestrians in the crosswalk before turning"
+    ],
+    "zh": [
+     "立即转弯，因为你的绿灯让你对所有人都有优先权",
+     "只让卡车和公交车，不必让小汽车",
+     "提前驶入对向车道以抢占转弯位置",
+     "在转弯前让对向交通先行，并为横道内的行人停车"
+    ]
+   },
+   "answer": 3,
+   "explanation": {
+    "en": "A left turn at a plain green light is permissive, not protected: yield to oncoming traffic and stop for pedestrians within the crosswalk.",
+    "zh": "普通绿灯下的左转是许可式的，而非受保护的：让对向交通先行，并为横道内的行人停车。"
+   },
+   "source": {
+    "section": "Chapter 4, Safe Driving Rules and Regulations — Turning Regulations",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-043",
+   "topic": "rules",
+   "q": {
+    "en": "The light ahead turns yellow just as you approach, and you are still far enough away to stop safely. What must you do?",
+    "zh": "你接近路口时，前方信号灯刚变为黄灯，而你的距离还足够安全停车。你必须怎么做？"
+   },
+   "options": {
+    "en": [
+     "Stop before entering the intersection",
+     "Accelerate to clear the intersection before the red",
+     "Continue at the same speed, because yellow means go",
+     "Stop only if a police officer is watching"
+    ],
+    "zh": [
+     "在进入路口之前停车",
+     "加速，在红灯前冲过路口",
+     "保持速度继续行驶，因为黄灯表示通行",
+     "只有警察在看时才停车"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "en": "When a yellow light follows green, a motorist must stop before the intersection unless the vehicle is too close to stop safely. If you can stop safely, you must stop.",
+    "zh": "绿灯之后的黄灯要求司机在路口前停车，除非车辆离路口太近无法安全停下。如果你能安全停车，就必须停车。"
+   },
+   "source": {
+    "section": "Chapter 4, Safe Driving Rules and Regulations — Stopping Regulations",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-044",
+   "topic": "rules",
+   "q": {
+    "en": "A person using a white cane is standing at the curb of an intersection. What does New Jersey law require of you?",
+    "zh": "一个使用白色手杖的人站在路口的路缘边。新泽西州法律要求你怎么做？"
+   },
+   "options": {
+    "en": [
+     "Proceed normally; cane users must wait for a signal cycle",
+     "Stop for the blind pedestrian, who may be using a white or metallic cane or a guide dog",
+     "Slow to 15 mph and pass behind the pedestrian",
+     "Honk once so the pedestrian knows you are passing"
+    ],
+    "zh": [
+     "正常行驶；使用手杖者必须等待信号周期",
+     "为盲人行人停车；他们可能使用白色或金属手杖或导盲犬",
+     "减速到15英里/小时，从行人身后通过",
+     "鸣笛一次，让行人知道你要通过"
+    ]
+   },
+   "answer": 1,
+   "explanation": {
+    "en": "Motorists must stop for a blind pedestrian using a white or metallic walking cane, a trained guide dog, or accompanied by a guide-dog instructor.",
+    "zh": "司机必须为使用白色或金属手杖、训练有素的导盲犬的盲人行人停车，跟随导盲犬训练员时也是如此。"
+   },
+   "source": {
+    "section": "Chapter 4, Safe Driving Rules and Regulations — Stopping Regulations",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-045",
+   "topic": "rules",
+   "q": {
+    "en": "Flashing red lights and ringing bells start at a railroad crossing as you approach. How far from the crossing must you stop?",
+    "zh": "你接近铁路道口时，红灯开始闪烁、铃声响起。你必须在离道口多远处停车？"
+   },
+   "options": {
+    "en": [
+     "At least 50 feet from the crossing",
+     "Right at the gate, as close as possible",
+     "At least 15 feet from the crossing",
+     "At least 5 feet from the nearest rail"
+    ],
+    "zh": [
+     "距道口至少50英尺",
+     "就在栏杆处，越近越好",
+     "距道口至少15英尺",
+     "距最近的铁轨至少5英尺"
+    ]
+   },
+   "answer": 2,
+   "explanation": {
+    "en": "When lights flash, bells ring, or gates descend, stop at least 15 feet from the crossing and wait until the gates rise, the bells stop, and the lights go out before crossing.",
+    "zh": "当红灯闪烁、铃声响起或栏杆下降时，应在距道口至少15英尺处停车，等栏杆升起、铃声停止、红灯熄灭后才能通过。"
+   },
+   "source": {
+    "section": "Chapter 4, Safe Driving Rules and Regulations — Stop at Railroad Crossings",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-046",
+   "topic": "rules",
+   "q": {
+    "en": "Traffic is backed up across a railroad crossing, and your car would have to stop on the tracks. What must you do?",
+    "zh": "交通堵塞延伸到铁路道口上，你的车将被迫停在铁轨上。你必须怎么做？"
+   },
+   "options": {
+    "en": [
+     "Pull onto the tracks; stopping there briefly is allowed in heavy traffic",
+     "Stop on the tracks but keep the engine revving to move quickly",
+     "Cross halfway and wait for the light ahead to change",
+     "Wait before the crossing until there is room to get completely across without stopping on the tracks"
+    ],
+    "zh": [
+     "驶上铁轨；交通繁忙时短暂停留是允许的",
+     "停在铁轨上但保持发动机转速以便快速移动",
+     "驶过一半，等待前方信号灯变化",
+     "在道口前等待，直到有空间能完全通过而不在铁轨上停车"
+    ]
+   },
+   "answer": 3,
+   "explanation": {
+    "en": "Never stop a vehicle on railroad tracks. Cross only when there is room on the other side to clear the tracks completely.",
+    "zh": "绝不能把车停在铁轨上。只有当另一侧有空间能完全通过铁轨时才能过道口。"
+   },
+   "source": {
+    "section": "Chapter 4, Safe Driving Rules and Regulations — Stop at Railroad Crossings",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-047",
+   "topic": "rules",
+   "q": {
+    "en": "You are entering a parkway using an acceleration lane. What is the correct procedure?",
+    "zh": "你正使用加速车道驶入一条公园大道。正确的程序是什么？"
+   },
+   "options": {
+    "en": [
+     "Speed up to the flow of traffic in the acceleration lane, yield to traffic already on the main road, and enter the right-hand lane when safe",
+     "Stop at the end of the acceleration lane and wait to be waved in",
+     "Enter the main road slowly; traffic there must yield to you",
+     "Merge directly into the left lane at low speed"
+    ],
+    "zh": [
+     "在加速车道内提速至与车流一致，让主路上已有的交通先行，并在安全时驶入右侧车道",
+     "在加速车道末端停车，等待别人招手让你进入",
+     "缓慢驶入主路；那里的交通必须让你",
+     "以低速直接并入左侧车道"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "en": "Acceleration lanes exist so entering traffic can match the flow before merging. Yield to main-road traffic and avoid coming to a complete stop in the acceleration lane.",
+    "zh": "加速车道的作用是让汇入交通在并入前与车流速度匹配。应让主路交通先行，并避免在加速车道内完全停车。"
+   },
+   "source": {
+    "section": "Chapter 4, Safe Driving Rules and Regulations — Entering Highways, Parkways, and Turnpikes",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-048",
+   "topic": "rules",
+   "q": {
+    "en": "You realize you have just passed your exit on the New Jersey Turnpike. What should you do?",
+    "zh": "你意识到自己刚刚错过了新泽西收费公路的出口。你应该怎么做？"
+   },
+   "options": {
+    "en": [
+     "Stop in the right lane and wait for a gap to reverse",
+     "Continue to the next exit; never back up on an exit ramp or deceleration lane",
+     "Back up carefully on the shoulder to reach the exit",
+     "Make a U-turn across the median if no traffic is near"
+    ],
+    "zh": [
+     "停在右侧车道，等待空隙再倒车",
+     "继续行驶到下一个出口；绝不能在出口匝道或减速车道上倒车",
+     "小心地在路肩上倒车回到出口",
+     "如果附近没车，可以穿过中央分隔带掉头"
+    ]
+   },
+   "answer": 1,
+   "explanation": {
+    "en": "A missed exit is handled by going on to the next one. Backing up on an exit ramp or deceleration lane is prohibited and extremely dangerous.",
+    "zh": "错过出口应继续到下一个出口。在出口匝道或减速车道上倒车是被禁止的，而且极其危险。"
+   },
+   "source": {
+    "section": "Chapter 4, Safe Driving Rules and Regulations — Leaving Highways, Parkways, and Turnpikes",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-049",
+   "topic": "rules",
+   "q": {
+    "en": "On a weave lane, where the same lane serves as both an entrance and an exit, who yields to whom?",
+    "zh": "在编织车道（同一车道既是入口又是出口）上，谁应该让谁？"
+   },
+   "options": {
+    "en": [
+     "Both drivers proceed; no yielding is required in a weave lane",
+     "The larger vehicle always has the right-of-way",
+     "The motorist entering from the entrance ramp yields to the motorist leaving the expressway",
+     "The motorist leaving the expressway yields to entering traffic"
+    ],
+    "zh": [
+     "双方都不必让行；编织车道不需要让行",
+     "较大的车辆始终有优先权",
+     "从入口匝道汇入的司机让正在驶离快速路的司机先行",
+     "驶离快速路的司机让汇入交通先行"
+    ]
+   },
+   "answer": 2,
+   "explanation": {
+    "en": "In a weave lane, entering traffic must yield the right-of-way to the motorist who is leaving the expressway through the same lane.",
+    "zh": "在编织车道内，汇入交通必须让通过同一车道驶离快速路的司机先行。"
+   },
+   "source": {
+    "section": "Chapter 4, Safe Driving Rules and Regulations — Entering Highways, Parkways, and Turnpikes",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-050",
+   "topic": "rules",
+   "q": {
+    "en": "Which of these conditions legally requires you to have your headlights on in New Jersey?",
+    "zh": "以下哪种情况在新泽西州法律上要求你打开车头灯？"
+   },
+   "options": {
+    "en": [
+     "Only between midnight and sunrise",
+     "Only when driving outside city limits",
+     "Whenever the vehicle is moving, even at noon on a clear day",
+     "When your windshield wipers are in use during rain, snow, or ice"
+    ],
+    "zh": [
+     "只在午夜至日出之间",
+     "只在市区以外驾驶时",
+     "只要车辆在行驶，即使是晴天中午",
+     "在雨、雪或冰中使用挡风玻璃雨刷时"
+    ]
+   },
+   "answer": 3,
+   "explanation": {
+    "en": "Headlights are required from one-half hour after sunset to one-half hour before sunrise, when visibility is 500 feet or less, and whenever wipers are in use. Parking lights cannot legally substitute for headlights.",
+    "zh": "车头灯必须在日落后半小时至日出前半小时使用，能见度在500英尺或以下时也要使用，使用雨刷时同样必须开灯。停车灯不能合法替代车头灯。"
+   },
+   "source": {
+    "section": "Chapter 4, Safe Driving Rules and Regulations — Using Headlights",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-051",
+   "topic": "rules",
+   "q": {
+    "en": "You parallel park on a city street in New Jersey. How close to the curb must your tires be to park legally?",
+    "zh": "你在新泽西州一条城市街道上平行停车。轮胎离路缘多近才算合法停车？"
+   },
+   "options": {
+    "en": [
+     "No more than 6 inches from the curb",
+     "No more than 12 inches from the curb",
+     "No more than 24 inches from the curb",
+     "Any distance is fine if the parking brake is set"
+    ],
+    "zh": [
+     "距路缘不超过6英寸",
+     "距路缘不超过12英寸",
+     "距路缘不超过24英寸",
+     "只要拉了驻车制动，任何距离都可以"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "en": "It is illegal in New Jersey to park more than 6 inches from the curb. The same 6-inch standard finishes a proper parallel-parking maneuver.",
+    "zh": "在新泽西州，停车时距路缘超过6英寸是违法的。完成规范的平行停车时也适用同样的6英寸标准。"
+   },
+   "source": {
+    "section": "Chapter 4, Safe Driving Rules and Regulations — Parking Regulations",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-052",
+   "topic": "rules",
+   "q": {
+    "en": "How close to a fire hydrant may you legally park in New Jersey?",
+    "zh": "在新泽西州，你可以合法地停在离消防栓多近的地方？"
+   },
+   "options": {
+    "en": [
+     "Parking beside a hydrant is allowed if you stay in the car",
+     "No closer than 10 feet",
+     "No closer than 5 feet",
+     "No closer than 25 feet"
+    ],
+    "zh": [
+     "如果人留在车里，可以停在消防栓旁",
+     "不得近于10英尺",
+     "不得近于5英尺",
+     "不得近于25英尺"
+    ]
+   },
+   "answer": 1,
+   "explanation": {
+    "en": "The do-not-park list bars stopping or parking within 10 feet of a fire hydrant, so fire crews always have room to work.",
+    "zh": "禁止停车清单规定，不得在消防栓10英尺以内停车或停留，以便消防人员始终有操作空间。"
+   },
+   "source": {
+    "section": "Chapter 4, Safe Driving Rules and Regulations — Parking Regulations",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-053",
+   "topic": "rules",
+   "q": {
+    "en": "You need to stop briefly near an intersection crosswalk to drop off a passenger. What distance rule applies?",
+    "zh": "你需要在路口人行横道附近短暂停车让乘客下车。适用什么距离规则？"
+   },
+   "options": {
+    "en": [
+     "You may stop 10 feet from the crosswalk with hazard lights on",
+     "There is no distance rule for crosswalks in New Jersey",
+     "You may not stop or park within 25 feet of a crosswalk at an intersection",
+     "You may stop within the crosswalk if the stop is under one minute"
+    ],
+    "zh": [
+     "打开危险警告灯可以停在距横道10英尺处",
+     "新泽西州对人行横道没有距离规定",
+     "不得在路口人行横道25英尺以内停车或停留",
+     "如果停留不到一分钟，可以停在人行横道内"
+    ]
+   },
+   "answer": 2,
+   "explanation": {
+    "en": "New Jersey prohibits stopping or parking within 25 feet of a crosswalk at an intersection (alleys excepted), keeping sight lines open for pedestrians and drivers.",
+    "zh": "新泽西州禁止在路口人行横道25英尺以内停车或停留（小巷除外），以保持行人和司机的视线畅通。"
+   },
+   "source": {
+    "section": "Chapter 4, Safe Driving Rules and Regulations — Parking Regulations",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-054",
+   "topic": "rules",
+   "q": {
+    "en": "Your navigation app suggests cutting through a gas station parking lot to skip a red light. What does New Jersey law say about this?",
+    "zh": "你的导航应用建议穿过加油站停车场来绕过红灯。新泽西州法律对此有何规定？"
+   },
+   "options": {
+    "en": [
+     "It is legal as long as you drive slowly through the lot",
+     "It is legal if the business is closed",
+     "It is a violation only if a pedestrian is present",
+     "Driving on public or private property to avoid a traffic sign or signal is a motor vehicle violation"
+    ],
+    "zh": [
+     "只要在停车场内缓慢行驶就是合法的",
+     "如果商家已关门就是合法的",
+     "只有当有行人在场时才算违章",
+     "在公共或私人财产上行驶以绕过交通标志或信号是机动车违章"
+    ]
+   },
+   "answer": 3,
+   "explanation": {
+    "en": "Using public or private property as a shortcut around a traffic control device is itself a violation in New Jersey, worth 2 points on the point chart.",
+    "zh": "把公共或私人财产当作绕过交通控制设施的捷径，在新泽西州本身就是违章行为，在记分表中记2分。"
+   },
+   "source": {
+    "section": "Chapter 4, Safe Driving Rules and Regulations — Intersections",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-055",
+   "topic": "safety",
+   "q": {
+    "en": "A police officer sees the driver and front-seat passenger of a car riding unbelted, with no other violation. What can happen under New Jersey's seat belt law?",
+    "zh": "一名警察看到一辆车的司机和前排乘客没有系安全带，也没有其他违章。根据新泽西州安全带法，会发生什么？"
+   },
+   "options": {
+    "en": [
+     "The officer may stop the vehicle for the seat belt violation alone, because it is a primary offense",
+     "Nothing — seat belt violations can never be the reason for a stop",
+     "The officer may only mail a warning to the registered owner",
+     "Only the passenger can be cited, never the driver"
+    ],
+    "zh": [
+     "警察可以仅凭安全带违章就拦停该车，因为这是主要违章（primary offense）",
+     "什么也不会发生——安全带违章永远不能成为拦停的理由",
+     "警察只能向登记车主邮寄警告",
+     "只能处罚乘客，永远不能处罚司机"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "en": "Failure of a driver, front-seat passenger, or child under 18 to wear a seat belt is a primary offense in New Jersey, so an officer can stop a motorist solely for it. The driver is responsible for all passengers under 18.",
+    "zh": "在新泽西州，司机、前排乘客或18岁以下儿童未系安全带属于主要违章，警察可以仅凭这一点拦停车辆。司机对所有18岁以下乘客负责。"
+   },
+   "source": {
+    "section": "Chapter 3, Driver Responsibility — Buckle Up: New Jersey's Seat Belt Law",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-056",
+   "topic": "safety",
+   "q": {
+    "en": "A 6-year-old who is 52 inches tall rides in your car in New Jersey. Where and how must the child ride?",
+    "zh": "一个6岁、身高52英寸的孩子乘坐你的车在新泽西州行驶。孩子必须坐在哪里、以什么方式乘坐？"
+   },
+   "options": {
+    "en": [
+     "On an adult's lap in the rear seat",
+     "In a rear seat, in a federally approved forward-facing restraint with a five-point harness or a federally approved booster seat",
+     "In the front seat with the regular seat belt, because the child is over 5",
+     "In a rear seat with only a lap belt"
+    ],
+    "zh": [
+     "在后座坐在成人腿上",
+     "在后座，使用联邦批准的带五点式安全带的面朝前儿童约束装置，或联邦批准的增高坐垫",
+     "在前座系普通安全带，因为孩子已超过5岁",
+     "在后座只系腰带式安全带"
+    ]
+   },
+   "answer": 1,
+   "explanation": {
+    "en": "Children under age 8 who are less than 57 inches tall must ride in a rear seat in a federally approved forward-facing five-point-harness restraint or a booster seat. All children under 8 must be seated in a rear seat.",
+    "zh": "8岁以下且身高不足57英寸的儿童必须坐在后座，使用联邦批准的带五点式安全带的面朝前约束装置或增高坐垫。所有8岁以下儿童都必须坐在后座。"
+   },
+   "source": {
+    "section": "Chapter 3, Driver Responsibility — Child Passenger Safety Law",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-057",
+   "topic": "safety",
+   "q": {
+    "en": "Your 18-month-old weighs 26 pounds. Which restraint does New Jersey law require?",
+    "zh": "你的孩子18个月大，体重26磅。新泽西州法律要求使用哪种约束装置？"
+   },
+   "options": {
+    "en": [
+     "A booster seat with the vehicle's shoulder belt",
+     "No restraint is required under age 2",
+     "A federally approved rear-facing child restraint with a five-point harness",
+     "A forward-facing seat, because the child is over 1 year old"
+    ],
+    "zh": [
+     "带车辆肩带的增高坐垫",
+     "2岁以下不需要约束装置",
+     "联邦批准的带五点式安全带的面朝后儿童约束装置",
+     "面朝前的座椅，因为孩子已超过1岁"
+    ]
+   },
+   "answer": 2,
+   "explanation": {
+    "en": "Children under age 2 who weigh less than 30 pounds must ride in a rear-facing restraint equipped with a five-point harness.",
+    "zh": "2岁以下且体重不足30磅的儿童必须乘坐带五点式安全带的面朝后约束装置。"
+   },
+   "source": {
+    "section": "Chapter 3, Driver Responsibility — Child Passenger Safety Law",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-058",
+   "topic": "safety",
+   "q": {
+    "en": "How do air bags work together with seat belts in a frontal crash?",
+    "zh": "在正面碰撞中，安全气囊如何与安全带配合工作？"
+   },
+   "options": {
+    "en": [
+     "Air bags make seat belts unnecessary for front-seat adults",
+     "Air bags protect children best when they sit in the front seat",
+     "Air bags inflate slowly, at about 20 mph, to cushion the driver",
+     "Air bags are designed to supplement seat belts, not replace them; children 12 and younger are safest belted in the back seat"
+    ],
+    "zh": [
+     "安全气囊使前排成人不需要系安全带",
+     "儿童坐在前座时，安全气囊对他们的保护最好",
+     "安全气囊以约20英里/小时的速度缓慢充气，为司机提供缓冲",
+     "安全气囊旨在辅助安全带，而不是取代它；12岁及以下儿童系好安全带坐在后座最安全"
+    ]
+   },
+   "answer": 3,
+   "explanation": {
+    "en": "Air bags supplement lap and shoulder belts in frontal crashes and can inflate at up to 200 mph. That force is why children belong belted in the back seat, away from a deploying passenger air bag.",
+    "zh": "安全气囊在正面碰撞中辅助腰带和肩带，充气速度可达200英里/小时。正因如此，儿童应系好安全带坐在后座，远离展开的乘客侧气囊。"
+   },
+   "source": {
+    "section": "Chapter 3, Driver Responsibility — Air Bags",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-059",
+   "topic": "safety",
+   "q": {
+    "en": "According to the manual's stopping-distance table, about how far does a car travel in total before stopping from 60 mph under daytime conditions?",
+    "zh": "根据手册的停车距离表，在白天条件下，汽车从60英里/小时到完全停下，总共大约行驶多远？"
+   },
+   "options": {
+    "en": [
+     "About 343 feet (66 feet of reaction distance plus 277 feet of braking distance)",
+     "About 167 feet",
+     "About 102 feet",
+     "About 530 feet"
+    ],
+    "zh": [
+     "约343英尺（反应距离66英尺加制动距离277英尺）",
+     "约167英尺",
+     "约102英尺",
+     "约530英尺"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "en": "The table combines a 66-foot reaction distance with a 277-foot braking distance at 60 mph, for a total stopping distance of 343 feet. Speed stretches both parts, which is why higher speed needs much more room to stop.",
+    "zh": "该表将60英里/小时时66英尺的反应距离与277英尺的制动距离相加，总停车距离为343英尺。速度会同时拉长这两部分，因此速度越高，需要的停车空间越大。"
+   },
+   "source": {
+    "section": "Chapter 3, Driver Responsibility — Stopping Distances",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-060",
+   "topic": "safety",
+   "q": {
+    "en": "Which of the following does NOT affect how long it takes a vehicle to stop?",
+    "zh": "以下哪一项不会影响车辆停车所需的时间？"
+   },
+   "options": {
+    "en": [
+     "The weight of the vehicle",
+     "The color of the vehicle",
+     "The condition and type of the tires",
+     "The weather and visibility conditions"
+    ],
+    "zh": [
+     "车辆的重量",
+     "车辆的颜色",
+     "轮胎的状况和类型",
+     "天气和能见度状况"
+    ]
+   },
+   "answer": 1,
+   "explanation": {
+    "en": "Stopping distance depends on reaction time, weather and visibility, vehicle weight, brake condition, tire condition and type, roadway condition, and speed. Vehicle color plays no part in it.",
+    "zh": "停车距离取决于反应时间、天气和能见度、车辆重量、制动状况、轮胎状况和类型、路面状况以及速度。车辆颜色与之无关。"
+   },
+   "source": {
+    "section": "Chapter 3, Driver Responsibility — Stopping Distances",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-061",
+   "topic": "safety",
+   "q": {
+    "en": "How does the three-seconds-plus rule help you judge following distance?",
+    "zh": "“三秒以上规则”如何帮助你判断跟车距离？"
+   },
+   "options": {
+    "en": [
+     "Keep exactly three car lengths at every speed",
+     "Count three seconds before braking at every stop sign",
+     "Pick a fixed object ahead; when the vehicle in front passes it, count — if you need at least three seconds to reach it, you have room for a sudden stop",
+     "Count to three each time you check your mirrors"
+    ],
+    "zh": [
+     "在任何速度下都保持正好三个车身长度",
+     "在每个停车标志前刹车前先数三秒",
+     "选定前方一个固定物体；当前车经过它时开始计数——如果你需要至少三秒才到达该物体，说明你有足够的突然停车空间",
+     "每次看后视镜时数到三"
+    ]
+   },
+   "answer": 2,
+   "explanation": {
+    "en": "The three-seconds-plus rule works at any speed in good conditions: at least three seconds between the vehicle ahead passing a fixed object and your vehicle reaching it. In bad weather the interval should grow to four or more seconds.",
+    "zh": "“三秒以上规则”在良好条件下适用于任何速度：前车经过固定物体后，你的车至少需要三秒才到达它。天气恶劣时，间隔应增加到四秒或以上。"
+   },
+   "source": {
+    "section": "Chapter 5, Defensive Driving — Following Distances",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-062",
+   "topic": "safety",
+   "q": {
+    "en": "Rain has made the road wet and traffic is moving at highway speed. How should your following interval change?",
+    "zh": "雨水使路面潮湿，交通以高速公路速度行驶。你的跟车间隔应如何变化？"
+   },
+   "options": {
+    "en": [
+     "Keep it at one second so you can see the vehicle ahead clearly",
+     "Close the gap so spray from other vehicles does not blind you",
+     "Following distance does not need to change on wet roads",
+     "Increase it to four or more seconds, because wet roads demand more response time"
+    ],
+    "zh": [
+     "保持一秒，以便清楚看到前车",
+     "缩小距离，以免其他车辆溅起的水花挡住视线",
+     "潮湿路面上不需要改变跟车距离",
+     "增加到四秒或以上，因为潮湿路面需要更多反应时间"
+    ]
+   },
+   "answer": 3,
+   "explanation": {
+    "en": "Poor conditions require more following distance. The three-second interval used in good weather should be increased to four or more seconds in bad weather, and to about six seconds on snow-covered roads.",
+    "zh": "路况不佳时需要更大的跟车距离。好天气使用的三秒间隔在恶劣天气应增加到四秒或以上，在积雪路面应达到约六秒。"
+   },
+   "source": {
+    "section": "Chapter 5, Defensive Driving — Following Distances",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-063",
+   "topic": "safety",
+   "q": {
+    "en": "Using the one-car-length rule of thumb, how much space should you keep ahead at 50 mph in good conditions?",
+    "zh": "使用“一个车身长度”经验法则，在良好条件下以50英里/小时行驶时，前方应保持多少空间？"
+   },
+   "options": {
+    "en": [
+     "About five car lengths — one car length (about 20 feet) for each 10 mph of speed",
+     "About two car lengths at any speed",
+     "About ten car lengths regardless of speed",
+     "One car length total is enough at 50 mph"
+    ],
+    "zh": [
+     "约五个车身长度——每10英里/小时的速度保持一个车身长度（约20英尺）",
+     "任何速度下约两个车身长度",
+     "无论速度如何，约十个车身长度",
+     "50英里/小时时一个车身长度就足够了"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "en": "The rule of thumb is one car length (about 20 feet) for each 10 mph, so 50 mph calls for about five car lengths in ideal conditions — and more when conditions worsen.",
+    "zh": "经验法则是每10英里/小时的速度保持一个车身长度（约20英尺），因此50英里/小时在理想条件下需要约五个车身长度，路况变差时还需要更多。"
+   },
+   "source": {
+    "section": "Chapter 5, Defensive Driving — Following Distances",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-064",
+   "topic": "safety",
+   "q": {
+    "en": "State law requires you to signal before turning. How far in advance must the signal be given?",
+    "zh": "州法律要求你在转弯前打信号。必须提前多远打信号？"
+   },
+   "options": {
+    "en": [
+     "Only when other traffic is behind you",
+     "At least 100 feet before the turn",
+     "At least 25 feet before the turn",
+     "At the moment you begin turning"
+    ],
+    "zh": [
+     "只有当后方有其他交通时",
+     "转弯前至少100英尺",
+     "转弯前至少25英尺",
+     "在开始转弯的那一刻"
+    ]
+   },
+   "answer": 1,
+   "explanation": {
+    "en": "A motorist must put on the turn signal at least 100 feet before turning, changing lanes, stopping, or slowing down, and cancel it after the maneuver so other drivers are not misled.",
+    "zh": "司机必须在转弯、变道、停车或减速前至少100英尺打信号，并在操作完成后取消信号，以免误导其他司机。"
+   },
+   "source": {
+    "section": "Chapter 3, Driver Responsibility — Driving Signals",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-065",
+   "topic": "safety",
+   "q": {
+    "en": "Your turn signals have stopped working. What is the correct hand signal for a left turn?",
+    "zh": "你的转向灯坏了。左转的正确手势信号是什么？"
+   },
+   "options": {
+    "en": [
+     "Left hand and arm pointed downward, palm facing rear",
+     "Left hand waving in a circle",
+     "Left hand and arm extended straight out",
+     "Left hand and arm pointed upward"
+    ],
+    "zh": [
+     "左手和左臂向下指，手掌朝后",
+     "左手画圈挥动",
+     "左手和左臂水平伸直",
+     "左手和左臂向上指"
+    ]
+   },
+   "answer": 2,
+   "explanation": {
+    "en": "The standard hand signals are: left turn — arm straight out; right turn — arm upward; stop or slowing — arm downward with the palm facing to the rear. Use hand signals until broken turn signals are repaired.",
+    "zh": "标准手势信号是：左转——手臂水平伸直；右转——手臂向上；停车或减速——手臂向下、手掌朝后。转向灯修好之前应使用手势信号。"
+   },
+   "source": {
+    "section": "Chapter 3, Driver Responsibility — Driving Signals",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-066",
+   "topic": "safety",
+   "q": {
+    "en": "A driver ahead extends the left arm downward with the palm facing backward. What is that driver signaling?",
+    "zh": "前方司机将左臂向下伸出，手掌朝后。该司机在示意什么？"
+   },
+   "options": {
+    "en": [
+     "A left turn",
+     "A right turn",
+     "Permission for you to pass",
+     "Stopping or slowing down"
+    ],
+    "zh": [
+     "左转",
+     "右转",
+     "允许你超车",
+     "停车或减速"
+    ]
+   },
+   "answer": 3,
+   "explanation": {
+    "en": "Hand and arm downward with the palm facing to the rear is the hand signal for stopping or slowing down. An upward arm means a right turn and a straight-out arm means a left turn.",
+    "zh": "手臂向下、手掌朝后是停车或减速的手势信号。手臂向上表示右转，手臂水平伸直表示左转。"
+   },
+   "source": {
+    "section": "Chapter 3, Driver Responsibility — Driving Signals",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-067",
+   "topic": "safety",
+   "q": {
+    "en": "At about what speed can a vehicle begin to hydroplane on a wet road?",
+    "zh": "在潮湿路面上，车辆大约在什么速度开始发生水滑（打滑漂浮）？"
+   },
+   "options": {
+    "en": [
+     "About 35 mph",
+     "About 15 mph",
+     "Only above 70 mph",
+     "Hydroplaning only happens on icy roads"
+    ],
+    "zh": [
+     "约35英里/小时",
+     "约15英里/小时",
+     "只在70英里/小时以上",
+     "水滑只发生在结冰路面上"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "en": "Tires can begin to ride up on a film of water at about 35 mph, and after 55 mph they may leave the road surface entirely, making braking and turning nearly impossible. Slowing down and avoiding worn tires reduce the risk.",
+    "zh": "轮胎在约35英里/小时时就可能开始在水膜上漂浮，超过55英里/小时后可能完全离开路面，使刹车和转向几乎不可能。减速并避免使用磨损轮胎可降低风险。"
+   },
+   "source": {
+    "section": "Chapter 5, Defensive Driving — Road Conditions",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-068",
+   "topic": "safety",
+   "q": {
+    "en": "Your car's rear end starts to slide to the right on a wet curve. What is the correct response?",
+    "zh": "你的车在潮湿的弯道上车尾开始向右滑动。正确的应对是什么？"
+   },
+   "options": {
+    "en": [
+     "Turn the wheel away from the skid as fast as possible",
+     "Take your foot off the gas and turn the steering wheel to the right — in the direction the rear is skidding — without oversteering",
+     "Brake hard and turn the wheel sharply to the left",
+     "Accelerate to pull the car out of the slide"
+    ],
+    "zh": [
+     "尽快将方向盘打向滑动的反方向",
+     "松开油门，将方向盘向右转——即车尾滑动的方向——但不要过度转向",
+     "用力刹车并将方向盘急打向左",
+     "加速把车拉出滑动"
+    ]
+   },
+   "answer": 1,
+   "explanation": {
+    "en": "In a skid, ease off the gas and steer in the direction the rear of the vehicle is sliding, looking where you want to go. Turning away from the skid or braking hard can cause a spin.",
+    "zh": "打滑时，松开油门，向车尾滑动的方向打方向盘，并看向你想去的方向。向滑动反方向打方向或用力刹车可能导致车辆旋转。"
+   },
+   "source": {
+    "section": "Chapter 5, Defensive Driving — Reacting to Driving Problems",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-069",
+   "topic": "safety",
+   "q": {
+    "en": "Your right wheels drop off the pavement onto the shoulder. What should you do?",
+    "zh": "你的右侧车轮驶离路面落到路肩上。你应该怎么做？"
+   },
+   "options": {
+    "en": [
+     "Accelerate so the wheels can climb back onto the road",
+     "Brake hard while steering back onto the pavement",
+     "Stay on the shoulder, ease off the gas, and after slowing to 25 mph or less, turn back onto the road with a quarter turn of the wheel",
+     "Jerk the wheel left immediately to get back on the pavement"
+    ],
+    "zh": [
+     "加速，让车轮爬回路面",
+     "一边用力刹车一边打方向回到路面",
+     "留在路肩上，松开油门，减速到25英里/小时或以下后，用四分之一圈方向盘转回路面",
+     "立即猛打方向盘向左，回到路面"
+    ]
+   },
+   "answer": 2,
+   "explanation": {
+    "en": "Panicked steering back onto the pavement can throw the vehicle across the road. Ease off the gas on the shoulder, slow to 25 mph or less, then turn back with a one-quarter turn of the steering wheel.",
+    "zh": "慌乱地猛打方向回路面可能使车辆冲过道路。应在路肩上松开油门，减速到25英里/小时或以下，然后用四分之一圈方向盘转回路面。"
+   },
+   "source": {
+    "section": "Chapter 5, Defensive Driving — Reacting to Driving Problems",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-070",
+   "topic": "safety",
+   "q": {
+    "en": "Your brakes suddenly fail while driving. What is the first response the manual recommends?",
+    "zh": "驾驶中刹车突然失灵。手册推荐的第一反应是什么？"
+   },
+   "options": {
+    "en": [
+     "Turn off the ignition immediately",
+     "Steer into the nearest fixed object to stop the car",
+     "Jump out of the vehicle if speed is low",
+     "Shift to a lower gear and pump the brake pedal fast and hard several times to build up pressure"
+    ],
+    "zh": [
+     "立即关闭点火开关",
+     "撞向最近的固定物体以停车",
+     "如果速度低就跳出车辆",
+     "换到低挡，并快速有力地反复踩刹车踏板以建立压力"
+    ]
+   },
+   "answer": 3,
+   "explanation": {
+    "en": "With conventional brakes, shifting to a lower gear and pumping the pedal fast and hard may build enough pressure to stop. If that fails, use the parking brake while holding its release, and look for a safe place off the roadway.",
+    "zh": "对于传统刹车，换到低挡并快速有力地反复踩踏板，可能建立足够压力停下车。如果无效，使用驻车制动（同时握住释放装置），并寻找路外的安全地点。"
+   },
+   "source": {
+    "section": "Chapter 5, Defensive Driving — Vehicle Failure",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-071",
+   "topic": "safety",
+   "q": {
+    "en": "You hear a loud bang and the car pulls to one side — a tire blowout. What should you do?",
+    "zh": "你听到一声巨响，车向一侧偏——轮胎爆胎了。你应该怎么做？"
+   },
+   "options": {
+    "en": [
+     "Hold the steering wheel firmly, keep the vehicle straight, take your foot off the gas, and coast to a stop off the roadway without using the brakes",
+     "Brake as hard as possible to stop quickly",
+     "Accelerate to regain control, then change the tire in your lane",
+     "Turn sharply toward the side of the good tires"
+    ],
+    "zh": [
+     "握紧方向盘，保持车辆直行，松开油门，不使用刹车，滑行到路外安全处停下",
+     "尽可能用力刹车以快速停车",
+     "加速以重新获得控制，然后在本车道内换轮胎",
+     "急转向轮胎完好的一侧"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "en": "In a blowout, a firm grip and a straight path matter most. Let the vehicle slow on its own — braking can throw it out of control — and pull off the roadway to stop.",
+    "zh": "爆胎时，最重要的是握紧方向盘并保持直线行驶。让车辆自行减速——刹车可能使车辆失控——然后驶离路面停下。"
+   },
+   "source": {
+    "section": "Chapter 5, Defensive Driving — Vehicle Failure",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-072",
+   "topic": "safety",
+   "q": {
+    "en": "Your gas pedal sticks and the car keeps accelerating. What is the correct sequence?",
+    "zh": "油门踏板卡住，车辆持续加速。正确的顺序是什么？"
+   },
+   "options": {
+    "en": [
+     "Shift into reverse to cancel the acceleration",
+     "Keep your eyes on the road, shift to neutral, steer to a safe area off the roadway, then turn the engine off and call for help",
+     "Turn the engine off first, then steer with the power steering gone",
+     "Pull the pedal up with your hand while driving at speed"
+    ],
+    "zh": [
+     "换到倒挡以抵消加速",
+     "眼睛注视道路，换到空挡，驶向路外安全区域，然后关闭发动机并打电话求助",
+     "先关闭发动机，然后在没有助力转向的情况下转向",
+     "在高速行驶时用手把踏板拉起来"
+    ]
+   },
+   "answer": 1,
+   "explanation": {
+    "en": "Shifting to neutral disconnects the engine's power from the wheels while you keep steering control. Steer off the road first, then shut the engine off once you are in a safe area.",
+    "zh": "换到空挡可以在保持转向控制的同时切断发动机对车轮的动力。先驶离道路，到达安全区域后再关闭发动机。"
+   },
+   "source": {
+    "section": "Chapter 5, Defensive Driving — Vehicle Failure",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-073",
+   "topic": "safety",
+   "q": {
+    "en": "Your windshield wipers stop suddenly during heavy rain. What should you do?",
+    "zh": "大雨中你的挡风玻璃雨刷突然停了。你应该怎么做？"
+   },
+   "options": {
+    "en": [
+     "Lean out of the window to see around the windshield",
+     "Keep driving at the same speed using the lane lines in your mirrors",
+     "Slow down, pull to a safe area off the roadway, and turn on the emergency flashers",
+     "Speed up so rain blows off the windshield"
+    ],
+    "zh": [
+     "把头探出车窗绕过挡风玻璃看路",
+     "使用后视镜中的车道线保持原速行驶",
+     "减速，停到路外安全区域，并打开危险警告灯",
+     "加速，让雨水被风吹离挡风玻璃"
+    ]
+   },
+   "answer": 2,
+   "explanation": {
+    "en": "Without working wipers you cannot see well enough to drive in rain or snow. Slow down, get off the roadway to a safe area, switch on the emergency flashers, and call for help if needed.",
+    "zh": "雨刷不工作时，你在雨雪中无法获得足够视野。应减速，驶离路面到安全区域，打开危险警告灯，必要时打电话求助。"
+   },
+   "source": {
+    "section": "Chapter 5, Defensive Driving — Vehicle Failure",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-074",
+   "topic": "safety",
+   "q": {
+    "en": "You are in a crash with $700 of property damage and no police report is filed. What report must you make, and by when?",
+    "zh": "你发生了一起造成700美元财产损失的事故，且没有警察报告。你必须提交什么报告？期限是多久？"
+   },
+   "options": {
+    "en": [
+     "No report is ever required when damage is under $1,000",
+     "Report to the MVC in person within 90 days",
+     "Only the other driver has to file a report",
+     "Send a written report to the MVC within 10 days, and notify your insurance company at once"
+    ],
+    "zh": [
+     "损失低于1,000美元时永远不需要报告",
+     "在90天内亲自到MVC报告",
+     "只有对方司机需要提交报告",
+     "在10天内向MVC提交书面报告，并立即通知你的保险公司"
+    ]
+   },
+   "answer": 3,
+   "explanation": {
+    "en": "When property damage is more than $500 or anyone is injured, a motorist must send a written report to the MVC within 10 days if no police report is filed, and notify the insurance company right away.",
+    "zh": "当财产损失超过500美元或有人受伤，且没有警察报告时，司机必须在10天内向MVC提交书面报告，并立即通知保险公司。"
+   },
+   "source": {
+    "section": "Chapter 5, Defensive Driving — Crashes",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-075",
+   "topic": "safety",
+   "q": {
+    "en": "Snow is forecast overnight. What does New Jersey law require before you drive the next morning?",
+    "zh": "预报夜间有雪。根据新泽西州法律，第二天早上开车前必须做什么？"
+   },
+   "options": {
+    "en": [
+     "Remove accumulated snow and ice from the whole vehicle — hood, trunk, roof, and windshield — before driving",
+     "Clear only a small peephole in the windshield",
+     "Nothing; snow will blow off as you drive",
+     "Remove snow only if you will drive on a highway"
+    ],
+    "zh": [
+     "开车前清除全车积雪和冰——引擎盖、后备箱、车顶和挡风玻璃",
+     "只在挡风玻璃上清出一个小孔即可",
+     "什么都不用做；雪会在行驶中被吹掉",
+     "只有上高速公路时才需要除雪"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "en": "State law requires removing accumulated ice and snow from the exposed surfaces of the vehicle — hood, trunk, roof, and windshield — before driving. Violating it costs a fine of $25 to $75 even if nothing flies off.",
+    "zh": "州法律要求开车前清除车辆外露表面的积雪和冰——引擎盖、后备箱、车顶和挡风玻璃。违反者即使没有任何雪冰脱落，也会被罚款25至75美元。"
+   },
+   "source": {
+    "section": "Chapter 3, Driver Responsibility — Car Condition",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-076",
+   "topic": "safety",
+   "q": {
+    "en": "You are waiting in your parked car with the engine running in New Jersey. What is the legal idling limit?",
+    "zh": "你在新泽西州停着车、发动机运转着等待。法定怠速时限是多少？"
+   },
+   "options": {
+    "en": [
+     "Thirty minutes in cold weather",
+     "Three minutes or less",
+     "Ten minutes or less",
+     "There is no idling limit in New Jersey"
+    ],
+    "zh": [
+     "寒冷天气时三十分钟",
+     "三分钟或更短",
+     "十分钟或更短",
+     "新泽西州没有怠速限制"
+    ]
+   },
+   "answer": 1,
+   "explanation": {
+    "en": "New Jersey law restricts vehicle idling to three minutes or less, with limited exceptions such as being stuck in traffic. Vehicle and property owners face fines of $250 to $1,000 for each violation.",
+    "zh": "新泽西州法律将车辆怠速限制在三分钟或以内，只有少数例外，例如堵车。违反者每次可被罚款250至1,000美元。"
+   },
+   "source": {
+    "section": "Chapter 3, Driver Responsibility — Idling Your Vehicle",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-077",
+   "topic": "safety",
+   "q": {
+    "en": "Your vehicle has an anti-lock braking system (ABS). How should you brake in an emergency stop?",
+    "zh": "你的车辆配备了防抱死制动系统（ABS）。紧急停车时应如何刹车？"
+   },
+   "options": {
+    "en": [
+     "Alternate between the brake and the gas pedal",
+     "Use the parking brake instead of the pedal",
+     "Apply steady, firm pressure to the pedal — do not pump the brakes or jerk the steering wheel",
+     "Pump the pedal rapidly, as with conventional brakes"
+    ],
+    "zh": [
+     "在刹车和油门之间交替",
+     "用驻车制动代替脚踏刹车",
+     "对踏板施加稳定而有力的压力——不要反复踩踏刹车，也不要猛打方向盘",
+     "像传统刹车一样快速反复踩踏板"
+    ]
+   },
+   "answer": 2,
+   "explanation": {
+    "en": "With ABS, maximum steady pressure on the pedal preserves steering control because the system prevents wheel lock-up automatically. Pumping the pedal or violently jerking the wheel can cause a loss of control, even at speeds as low as 35 mph.",
+    "zh": "使用ABS时，对踏板施加最大的稳定压力可以保持转向控制，因为系统会自动防止车轮抱死。反复踩踏板或猛打方向盘可能导致失控，即使速度只有35英里/小时。"
+   },
+   "source": {
+    "section": "Chapter 3, Driver Responsibility — Car Condition",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-078",
+   "topic": "safety",
+   "q": {
+    "en": "How much tread must a tire have for a vehicle to be driven safely and legally in New Jersey?",
+    "zh": "在新泽西州，轮胎必须有多少胎纹深度才能安全合法地行驶？"
+   },
+   "options": {
+    "en": [
+     "At least 1/4 inch of tread",
+     "Tread depth is not regulated; only air pressure matters",
+     "Any visible tread pattern, however shallow, is enough",
+     "At least 1/16 inch of tread — about the edge of a penny"
+    ],
+    "zh": [
+     "至少1/4英寸胎纹",
+     "胎纹深度不受规定；只有气压重要",
+     "只要能看到任何胎纹图案，无论多浅都足够",
+     "至少1/16英寸胎纹——约一美分硬币边缘的厚度"
+    ]
+   },
+   "answer": 3,
+   "explanation": {
+    "en": "A vehicle should not be driven on tires with less than 1/16 inch of tread. Tires must also match — radials should not be mixed with other tire types.",
+    "zh": "轮胎胎纹少于1/16英寸的车辆不应行驶。轮胎还必须匹配——子午线轮胎不应与其他类型轮胎混用。"
+   },
+   "source": {
+    "section": "Chapter 3, Driver Responsibility — Car Condition",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-079",
+   "topic": "safety",
+   "q": {
+    "en": "What is the core rule for safe speed when driving at night?",
+    "zh": "夜间驾驶时，安全速度的核心规则是什么？"
+   },
+   "options": {
+    "en": [
+     "Drive within the range of your headlights — always be able to stop within the distance you can see ahead",
+     "Drive 10 mph faster than daytime speed because roads are emptier",
+     "Follow the vehicle ahead closely and match its speed exactly",
+     "Use high beams at all times so speed never has to change"
+    ],
+    "zh": [
+     "在车头灯照射范围内行驶——始终能在你看得见的前方距离内停下",
+     "因为道路更空，比白天快10英里/小时",
+     "紧跟前车并精确匹配其速度",
+     "始终使用远光灯，这样速度就永远不用改变"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "en": "Vision is reduced at night, so slow down and drive within the headlights' range: the vehicle must be able to stop inside the distance visible ahead, considering speed, reaction distance, and braking distance.",
+    "zh": "夜间视野受限，因此应减速并在车头灯范围内行驶：综合考虑速度、反应距离和制动距离，车辆必须能在前方可见距离内停下。"
+   },
+   "source": {
+    "section": "Chapter 5, Defensive Driving — Night Driving",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-080",
+   "topic": "sharing",
+   "q": {
+    "en": "You are behind a school bus on a two-lane road when its red lights begin flashing. How far away must you stop?",
+    "zh": "你在一辆校车后面行驶在双车道道路上，校车的红灯开始闪烁。你必须在多远处停车？"
+   },
+   "options": {
+    "en": [
+     "You may pass slowly on the left if no children are visible",
+     "At least 25 feet from the bus",
+     "At least 10 feet from the bus",
+     "Immediately behind the bus, as close as traffic allows"
+    ],
+    "zh": [
+     "如果看不到儿童，可以从左侧缓慢超越",
+     "距校车至少25英尺",
+     "距校车至少10英尺",
+     "紧贴校车后方，在交通允许的最近处"
+    ]
+   },
+   "answer": 1,
+   "explanation": {
+    "en": "On a two-lane road, a multi-lane highway separated only by lines, or a privately maintained road, motorists must stop at least 25 feet from a school bus with flashing red lights, and proceed only after the signals are turned off.",
+    "zh": "在双车道道路、仅以标线分隔的多车道公路或私人维护道路上，司机必须在距红灯闪烁的校车至少25英尺处停车，并且只有在信号关闭后才能继续行驶。"
+   },
+   "source": {
+    "section": "Chapter 4, Safe Driving Rules and Regulations — Stop for School Buses",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-081",
+   "topic": "sharing",
+   "q": {
+    "en": "A school bus stops on the opposite side of a dual-lane highway divided by a raised median. What must you do?",
+    "zh": "一辆校车停在有凸起中央分隔带的双向公路的对面。你必须怎么做？"
+   },
+   "options": {
+    "en": [
+     "Maintain your speed; buses on the other side never affect you",
+     "Stop only if children are crossing the median",
+     "Slow down to 10 mph — you do not have to stop on the other side of a safety island or raised median",
+     "Stop at least 25 feet away, the same as on a two-lane road"
+    ],
+    "zh": [
+     "保持速度；对面的校车永远不会影响你",
+     "只有当儿童正在穿越分隔带时才停车",
+     "减速到10英里/小时——在安全岛或凸起分隔带的另一侧不需要停车",
+     "与双车道道路一样，在至少25英尺外停车"
+    ]
+   },
+   "answer": 2,
+   "explanation": {
+    "en": "Divided-highway traffic on the far side of a safety island or raised median slows to 10 mph for a stopped school bus instead of stopping, while traffic on the bus's side must stop at least 25 feet away.",
+    "zh": "在安全岛或凸起分隔带远侧的分隔公路交通，遇到停下的校车应减速到10英里/小时而不是停车；而校车同侧的交通必须在至少25英尺外停车。"
+   },
+   "source": {
+    "section": "Chapter 4, Safe Driving Rules and Regulations — Stop for School Buses",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-082",
+   "topic": "sharing",
+   "q": {
+    "en": "A school bus is stopped directly in front of a school, loading children. From either direction, how may you pass it?",
+    "zh": "一辆校车停在学校正前方接送儿童。你从任一方向可以如何通过它？"
+   },
+   "options": {
+    "en": [
+     "You may never pass a bus stopped at a school",
+     "You may pass at the normal speed limit",
+     "You may pass at up to 25 mph if the bus lights are yellow",
+     "You may pass at a speed of no more than 10 mph"
+    ],
+    "zh": [
+     "永远不能通过停在学校的校车",
+     "你可以以正常限速通过",
+     "如果校车灯是黄色的，可以以最高25英里/小时通过",
+     "你可以以不超过10英里/小时的速度通过"
+    ]
+   },
+   "answer": 3,
+   "explanation": {
+    "en": "When a school bus has stopped directly in front of a school to pick up or discharge children, motorists may pass from either direction at no more than 10 mph.",
+    "zh": "当校车停在学校正前方接送儿童时，司机可以从任一方向以不超过10英里/小时的速度通过。"
+   },
+   "source": {
+    "section": "Chapter 4, Safe Driving Rules and Regulations — Stop for School Buses",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-083",
+   "topic": "sharing",
+   "q": {
+    "en": "A frozen dessert truck is flashing red lights with its stop arm out. What is the correct way to pass it?",
+    "zh": "一辆冷冻甜品车红灯闪烁并伸出停车臂。正确通过它的方法是什么？"
+   },
+   "options": {
+    "en": [
+     "Yield to anyone crossing to or from the truck, stop, then drive past at no more than 15 mph",
+     "Pass at normal speed while honking to warn children",
+     "Stop and wait until the truck itself drives away",
+     "Pass on the shoulder at 25 mph"
+    ],
+    "zh": [
+     "让任何往返于卡车的行人先行，停车，然后以不超过15英里/小时的速度驶过",
+     "一边鸣笛警告儿童一边以正常速度通过",
+     "停车等待，直到卡车自己开走",
+     "以25英里/小时在路肩上通过"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "en": "For a dessert truck showing flashing red lights and a stop arm, motorists must yield to people crossing, stop, and then pass at no more than 15 mph. On the far side of a dual highway's island or median, no stop is required.",
+    "zh": "对于红灯闪烁并伸出停车臂的甜品车，司机必须让过街者先行，停车，然后以不超过15英里/小时的速度通过。在双向公路安全岛或分隔带的远侧，则不需要停车。"
+   },
+   "source": {
+    "section": "Chapter 4, Safe Driving Rules and Regulations — Stop for Frozen Dessert Trucks",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-084",
+   "topic": "sharing",
+   "q": {
+    "en": "An ambulance with sirens sounding and lights flashing approaches from behind. What must you do, and what distance rule follows?",
+    "zh": "一辆救护车鸣着警报、闪着灯从后方驶近。你必须怎么做？之后有什么距离规则？"
+   },
+   "options": {
+    "en": [
+     "Follow it closely to benefit from the cleared traffic",
+     "Steer to the extreme right of the roadway, stop, wait for it to pass, and keep at least 300 feet behind the signaling emergency vehicle",
+     "Speed up to stay ahead of it until you find an exit",
+     "Stop in your lane immediately, wherever you are"
+    ],
+    "zh": [
+     "紧跟其后，借用被清空的交通",
+     "靠到道路最右侧，停车，等待它通过，并与发出信号的应急车辆保持至少300英尺距离",
+     "加速保持在它前面，直到找到出口",
+     "无论在哪里，立即在本车道内停车"
+    ]
+   },
+   "answer": 1,
+   "explanation": {
+    "en": "New Jersey law requires yielding to emergency vehicles using sirens and flashing lights by pulling to the extreme right and stopping. Afterward, keep at least 300 feet behind a signaling emergency vehicle, and never park within 200 feet of a fire vehicle in service.",
+    "zh": "新泽西州法律要求为使用警报和闪灯的应急车辆让行：靠到最右侧并停车。之后，与发出信号的应急车辆保持至少300英尺距离，且绝不能在执勤消防车200英尺内停车。"
+   },
+   "source": {
+    "section": "Chapter 4, Safe Driving Rules and Regulations — Pull Over and Stop for Emergency Vehicles",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-085",
+   "topic": "sharing",
+   "q": {
+    "en": "A tow truck with flashing amber lights is working on the right shoulder ahead. Under New Jersey's Move Over law, what must you do?",
+    "zh": "一辆拖车闪着琥珀色灯在前方右侧路肩上作业。根据新泽西州“Move Over”（避让）法，你必须怎么做？"
+   },
+   "options": {
+    "en": [
+     "Stop completely in your lane next to the tow truck",
+     "Move onto the shoulder behind the tow truck",
+     "Change into a lane that is not adjacent to the tow truck if safety and traffic permit; if that is impossible, slow to a reasonable speed below the posted limit and be prepared to stop",
+     "Maintain your lane and speed; the law covers only police vehicles"
+    ],
+    "zh": [
+     "在拖车旁边的车道内完全停车",
+     "移到拖车后面的路肩上",
+     "在安全且交通允许时，变道到不与拖车相邻的车道；如果无法变道，减速到张贴限速以下的合理速度，并准备停车",
+     "保持车道和速度；该法只适用于警车"
+    ]
+   },
+   "answer": 2,
+   "explanation": {
+    "en": "The Move Over law covers stationary emergency vehicles, tow trucks, highway maintenance and service vehicles with flashing lights — and any disabled vehicle using hazard lights, flares, or triangles. Move over a lane if you safely can; otherwise slow below the posted limit.",
+    "zh": "“避让法”适用于闪灯的静止应急车辆、拖车、公路养护和服务车辆——以及任何使用危险灯、照明弹或三角警示牌的故障车辆。能安全变道就变道；否则减速到张贴限速以下。"
+   },
+   "source": {
+    "section": "Chapter 4, Safe Driving Rules and Regulations — Move Over Law",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-086",
+   "topic": "sharing",
+   "q": {
+    "en": "What fine range applies to a violation of New Jersey's Move Over law?",
+    "zh": "违反新泽西州“Move Over”（避让）法的罚款范围是多少？"
+   },
+   "options": {
+    "en": [
+     "A flat $50 fine",
+     "Not less than $1,000",
+     "Only a written warning; the law has no fine",
+     "Not less than $100 and not more than $500"
+    ],
+    "zh": [
+     "固定50美元罚款",
+     "不少于1,000美元",
+     "只有书面警告；该法没有罚款",
+     "不少于100美元，不多于500美元"
+    ]
+   },
+   "answer": 3,
+   "explanation": {
+    "en": "Motorists who violate the Move Over law face a fine of not less than $100 and not more than $500, and motorists convicted of three or more offenses may also receive motor vehicle points.",
+    "zh": "违反“避让法”的司机面临不少于100美元、不多于500美元的罚款，被定罪三次或以上的司机还可能被记分。"
+   },
+   "source": {
+    "section": "Chapter 4, Safe Driving Rules and Regulations — Move Over Law",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-087",
+   "topic": "sharing",
+   "q": {
+    "en": "A pedestrian is halfway across a marked crosswalk in your direction of travel. When may you proceed?",
+    "zh": "一个行人正在你行驶方向的人行横道上走到一半。你什么时候可以继续行驶？"
+   },
+   "options": {
+    "en": [
+     "Only after you have stopped and remained stopped until the pedestrian has safely cleared your lane and the adjacent lane in your direction",
+     "As soon as the pedestrian passes the front of your car",
+     "Immediately if the pedestrian signal changes to Don't Walk",
+     "After honking once to claim your turn"
+    ],
+    "zh": [
+     "只有在你停车并保持停车，直到行人安全离开你的车道和你方向的相邻车道之后",
+     "行人一经过你的车头就可以",
+     "如果行人信号变为“Don't Walk”（禁止通行），可以立即行驶",
+     "鸣笛一次以示意轮到你之后"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "en": "For a pedestrian in a crosswalk, a motorist must come to a complete stop — not merely slow down — and remain stopped until the pedestrian has cleared the driver's lane and the adjacent same-direction lane, even if the signal changes mid-crossing.",
+    "zh": "对于人行横道内的行人，司机必须完全停车——而不只是减速——并保持停车，直到行人离开司机车道和同方向相邻车道，即使信号在过街途中变化也是如此。"
+   },
+   "source": {
+    "section": "Chapter 4, Safe Driving Rules and Regulations — Pedestrians in a Crosswalk",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-088",
+   "topic": "sharing",
+   "q": {
+    "en": "The car ahead of you stops at a crosswalk where you cannot see any pedestrian. What must you do?",
+    "zh": "你前面的车在一个人行横道前停下，而你看不到任何行人。你必须怎么做？"
+   },
+   "options": {
+    "en": [
+     "Honk so the stopped driver moves forward",
+     "Stop as well — never pass another vehicle that has stopped for a pedestrian at a crosswalk",
+     "Pass the stopped car carefully on the left",
+     "Pass on the right if there is room on the shoulder"
+    ],
+    "zh": [
+     "鸣笛让停下的司机前进",
+     "也停车——绝不能超越在人行横道为行人停下的车辆",
+     "小心地从左侧超越停下的车",
+     "如果路肩有空间，从右侧通过"
+    ]
+   },
+   "answer": 1,
+   "explanation": {
+    "en": "A stopped vehicle at a crosswalk may be hiding a pedestrian from your view. New Jersey law prohibits passing a vehicle stopped for a pedestrian at a crosswalk, and also prohibits blocking or parking in a crosswalk.",
+    "zh": "在人行横道停下的车辆可能遮挡了行人，使你看不见。新泽西州法律禁止超越在人行横道为行人停下的车辆，也禁止阻塞人行横道或在其中停车。"
+   },
+   "source": {
+    "section": "Chapter 4, Safe Driving Rules and Regulations — Pedestrians in a Crosswalk",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-089",
+   "topic": "sharing",
+   "q": {
+    "en": "You are overtaking a bicyclist on a single-lane road under New Jersey's Safe Passing Law. How much space must you allow?",
+    "zh": "根据新泽西州《安全超车法》，你在一单车道道路上超越一名骑自行车者。你必须留出多少空间？"
+   },
+   "options": {
+    "en": [
+     "Whatever space remains in the lane is acceptable",
+     "A full 10 feet in all cases",
+     "At least 4 feet of space when passing",
+     "At least 1 foot of space"
+    ],
+    "zh": [
+     "车道内剩下的任何空间都可以",
+     "所有情况下都要整整10英尺",
+     "通过时至少留出4英尺空间",
+     "至少1英尺空间"
+    ]
+   },
+   "answer": 2,
+   "explanation": {
+    "en": "The Safe Passing Law requires due caution when passing vulnerable road users: move over a lane when possible, or allow at least 4 feet on a single-lane road. Bicyclists, skateboarders, inline skaters, and pedestrians all count as vulnerable road users.",
+    "zh": "《安全超车法》要求在超越弱势道路使用者时保持应有的谨慎：可能时变道一条车道，或在单车道道路上至少留出4英尺。骑自行车者、滑板者、轮滑者和行人都属于弱势道路使用者。"
+   },
+   "source": {
+    "section": "Chapter 8, Sharing the Road with Others — Safe Passing Law",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-090",
+   "topic": "sharing",
+   "q": {
+    "en": "A narrow road makes it impossible to give a pedestrian the required passing space. What does the Safe Passing Law require instead?",
+    "zh": "一条狭窄的道路使你无法给行人留出规定的通过空间。《安全超车法》对此有什么替代要求？"
+   },
+   "options": {
+    "en": [
+     "Pass at the normal speed but as close to the center line as possible",
+     "Sound the horn and pass without slowing",
+     "Drive onto the sidewalk briefly to get around",
+     "Slow to 25 mph and be prepared to stop until you can pass safely"
+    ],
+    "zh": [
+     "以正常速度通过，但尽量靠近中心线",
+     "鸣笛并不减速通过",
+     "短暂驶上人行道绕过去",
+     "减速到25英里/小时并准备停车，直到能够安全通过"
+    ]
+   },
+   "answer": 3,
+   "explanation": {
+    "en": "If 4 feet of space is not possible, the Safe Passing Law requires slowing to 25 mph and being prepared to stop until a safe pass can be made. Causing bodily injury in a violation brings a $500 fine and 2 points.",
+    "zh": "如果无法留出4英尺空间，《安全超车法》要求减速到25英里/小时并准备停车，直到能够安全通过。违章造成人身伤害将被罚款500美元并记2分。"
+   },
+   "source": {
+    "section": "Chapter 8, Sharing the Road with Others — Safe Passing Law",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-091",
+   "topic": "sharing",
+   "q": {
+    "en": "A transit bus that picked up passengers at the curb is signaling to pull back into traffic. What does state law require of you?",
+    "zh": "一辆在路边接载乘客的公交车正打信号准备重新汇入车流。州法律要求你怎么做？"
+   },
+   "options": {
+    "en": [
+     "Yield the right-of-way to the bus as it re-enters the flow of traffic",
+     "Speed up to pass before the bus moves",
+     "Yield only if the bus is a school bus",
+     "Nothing; buses must always wait for a clear road"
+    ],
+    "zh": [
+     "公交车重新汇入车流时，为它让行",
+     "在公交车移动之前加速超过它",
+     "只有校车才需要让行",
+     "什么都不用做；公交车必须始终等待道路清空"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "en": "All non-emergency vehicles must yield to buses re-entering traffic after picking up or dropping off passengers. Once the bus is back in the normal flow, its lane changes no longer carry that special yield.",
+    "zh": "所有非应急车辆都必须为接送乘客后重新汇入交通的公交车让行。一旦公交车回到正常车流中，它的变道就不再享有这种特殊让行。"
+   },
+   "source": {
+    "section": "Chapter 8, Sharing the Road with Others — Yielding to School and Commercial Buses",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-092",
+   "topic": "sharing",
+   "q": {
+    "en": "You are driving beside a large truck and cannot see its driver in the truck's side mirror. What does that tell you?",
+    "zh": "你在一辆大卡车旁行驶，在卡车的侧后视镜中看不到它的司机。这说明什么？"
+   },
+   "options": {
+    "en": [
+     "It is safe to stay there because trucks have extra mirrors",
+     "You are in the truck's no-zone (blind spot), where the truck driver cannot see your vehicle",
+     "The truck driver has left the cab",
+     "You have the right-of-way because the truck is larger"
+    ],
+    "zh": [
+     "停留在那里是安全的，因为卡车有额外的后视镜",
+     "你正处于卡车的盲区（no-zone），卡车司机看不到你的车辆",
+     "卡车司机已经离开驾驶室",
+     "因为卡车更大，你有优先权"
+    ]
+   },
+   "answer": 1,
+   "explanation": {
+    "en": "If a truck or bus driver cannot see your vehicle in the rearview or side-view mirrors, you are in a no-zone. Avoid lingering beside, directly behind, or close in front of large vehicles.",
+    "zh": "如果卡车或公交车司机在后视镜或侧视镜中看不到你的车辆，你就处于盲区。应避免在大车辆旁边、紧后方或紧前方停留。"
+   },
+   "source": {
+    "section": "Chapter 8, Sharing the Road with Others — Trucks, Tractor-Trailers, and Buses",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-093",
+   "topic": "sharing",
+   "q": {
+    "en": "How much longer can a large truck or bus take to stop in bad weather, compared with dry conditions?",
+    "zh": "在恶劣天气中，大型卡车或公交车比干燥条件下需要多长停车时间？"
+   },
+   "options": {
+    "en": [
+     "No longer than a passenger car",
+     "About 5 percent longer",
+     "As much as 25 percent longer",
+     "Exactly twice as long"
+    ],
+    "zh": [
+     "与小汽车一样长",
+     "约多5%",
+     "多达25%",
+     "正好两倍"
+    ]
+   },
+   "answer": 2,
+   "explanation": {
+    "en": "Large vehicles already need more room to stop and maneuver, and in bad weather a truck, tractor-trailer, or bus can take as much as 25 percent longer to stop. Keep a sizeable space cushion around them.",
+    "zh": "大型车辆本身就需要更多停车和操作空间，在恶劣天气中，卡车、拖挂车或公交车停车所需时间可多出25%。应在它们周围保持充足的空间缓冲。"
+   },
+   "source": {
+    "section": "Chapter 8, Sharing the Road with Others — Trucks, Tractor-Trailers, and Buses",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-094",
+   "topic": "sharing",
+   "q": {
+    "en": "How much distance may a freight train need to stop when traveling at 55 mph?",
+    "zh": "一列货运火车以55英里/小时行驶时，可能需要多长距离才能停下？"
+   },
+   "options": {
+    "en": [
+     "About 500 feet",
+     "About the length of two football fields",
+     "Trains can stop almost as quickly as trucks",
+     "A mile or more"
+    ],
+    "zh": [
+     "约500英尺",
+     "约两个橄榄球场的长度",
+     "火车几乎能和卡车一样快停下",
+     "一英里或更长"
+    ]
+   },
+   "answer": 3,
+   "explanation": {
+    "en": "Trains cannot stop quickly: a freight train at 55 mph can take a mile or more to stop. Trains always have the right-of-way at crossings, and the train you see is closer and faster than it appears.",
+    "zh": "火车无法快速停下：55英里/小时的货运火车需要一英里或更长距离才能停下。火车在道口始终有优先权，而且你看到的火车比看起来更近、更快。"
+   },
+   "source": {
+    "section": "Chapter 8, Sharing the Road with Others — Trains",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-095",
+   "topic": "sharing",
+   "q": {
+    "en": "Within what distance of a railroad crossing are you prohibited from passing another vehicle?",
+    "zh": "在铁路道口多远距离以内禁止超越其他车辆？"
+   },
+   "options": {
+    "en": [
+     "Within 100 feet of the crossing",
+     "Within 25 feet of the crossing",
+     "Passing is allowed right up to the crossing gate",
+     "Within 300 feet of the crossing"
+    ],
+    "zh": [
+     "道口100英尺以内",
+     "道口25英尺以内",
+     "一直到道口栏杆处都允许超车",
+     "道口300英尺以内"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "en": "Do not pass other vehicles within 100 feet of a railroad crossing. Drivers of manual-transmission vehicles should also avoid shifting gears while crossing the tracks.",
+    "zh": "不要在铁路道口100英尺以内超越其他车辆。手动挡车辆的司机还应避免在过铁轨时换挡。"
+   },
+   "source": {
+    "section": "Chapter 8, Sharing the Road with Others — Trains",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-096",
+   "topic": "sharing",
+   "q": {
+    "en": "You approach a person riding a horse along a public roadway. At what speed must you pass?",
+    "zh": "你接近一个沿公共道路骑马的人。你必须以什么速度通过？"
+   },
+   "options": {
+    "en": [
+     "You must stop and wait until the rider leaves the road",
+     "Reduce speed to 25 mph or less and proceed with caution",
+     "The posted speed limit is fine if you honk first",
+     "No more than 40 mph"
+    ],
+    "zh": [
+     "你必须停车等待，直到骑马者离开道路",
+     "减速到25英里/小时或以下，并谨慎通过",
+     "只要先鸣笛，按张贴限速通过即可",
+     "不超过40英里/小时"
+    ]
+   },
+   "answer": 1,
+   "explanation": {
+    "en": "Horseback riders and horse-drawn vehicles have the same rights and responsibilities as motor vehicle drivers. When approaching or passing them, reduce speed to 25 mph or less and proceed with caution.",
+    "zh": "骑马者和马车与机动车司机享有同样的权利和义务。接近或超越他们时，应减速到25英里/小时或以下并谨慎通过。"
+   },
+   "source": {
+    "section": "Chapter 8, Sharing the Road with Others — Animals: Horseback Riders and Horse-Drawn Vehicles",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-097",
+   "topic": "alcohol",
+   "q": {
+    "en": "In New Jersey, a driver age 21 or older is illegally under the influence when the blood alcohol concentration (BAC) reaches what level?",
+    "zh": "在新泽西州，21岁或以上司机的血液酒精浓度（BAC）达到什么水平即属违法酒驾？"
+   },
+   "options": {
+    "en": [
+     "0.10 percent or higher",
+     "Any detectable amount, starting at 0.01 percent",
+     "0.08 percent or higher",
+     "0.05 percent or higher"
+    ],
+    "zh": [
+     "0.10%或以上",
+     "任何可检测到的量，从0.01%开始",
+     "0.08%或以上",
+     "0.05%或以上"
+    ]
+   },
+   "answer": 2,
+   "explanation": {
+    "en": "For adults, New Jersey sets the illegal BAC at 0.08 percent or higher. The stricter 0.01 percent standard applies to drivers under 21.",
+    "zh": "对于成年人，新泽西州将违法BAC定为0.08%或以上。更严格的0.01%标准适用于21岁以下的司机。"
+   },
+   "source": {
+    "section": "Chapter 6, Drinking, Drugs, and Health — How Much is Too Much",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-098",
+   "topic": "alcohol",
+   "q": {
+    "en": "A 19-year-old driver is stopped with a BAC of 0.02 percent. What is the legal situation in New Jersey?",
+    "zh": "一名19岁司机被拦停，BAC为0.02%。在新泽西州，这是什么法律情况？"
+   },
+   "options": {
+    "en": [
+     "Legal — the 0.08 percent limit applies to every driver",
+     "Illegal only if the driver also committed a moving violation",
+     "Legal, because the driver is over 18",
+     "Illegal — for drivers under 21, it is against the law to drive with a BAC of 0.01 percent or higher"
+    ],
+    "zh": [
+     "合法——0.08%的限制适用于每位司机",
+     "只有当司机同时有行驶违章时才违法",
+     "合法，因为司机已超过18岁",
+     "违法——对于21岁以下司机，BAC达到0.01%或以上驾驶即属违法"
+    ]
+   },
+   "answer": 3,
+   "explanation": {
+    "en": "New Jersey applies a near-zero standard to young drivers: under 21, driving with a BAC of 0.01 percent or more is illegal and brings penalties on top of any other DUI/DWI penalties.",
+    "zh": "新泽西州对年轻司机适用近乎零容忍的标准：21岁以下，BAC达到0.01%或以上驾驶即属违法，并会在其他酒驾处罚之外另行受罚。"
+   },
+   "source": {
+    "section": "Chapter 6, Drinking, Drugs, and Health — How Much is Too Much",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-099",
+   "topic": "alcohol",
+   "q": {
+    "en": "How does crash risk change when a driver reaches a BAC of 0.10 percent?",
+    "zh": "当司机的BAC达到0.10%时，事故风险如何变化？"
+   },
+   "options": {
+    "en": [
+     "The risk of causing a crash is about six times as great",
+     "The risk stays about the same as at 0.05 percent",
+     "The risk is about twice as great",
+     "The risk is lower because the driver becomes more cautious"
+    ],
+    "zh": [
+     "引发事故的风险约为平时的六倍",
+     "风险与0.05%时大致相同",
+     "风险约为平时的两倍",
+     "风险更低，因为司机会变得更谨慎"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "en": "Risk climbs steeply with BAC: slightly above 0.05 percent the risk doubles, at 0.10 percent it is six times as great, and at 0.15 percent it is 25 times as great.",
+    "zh": "风险随BAC陡峭上升：略高于0.05%时风险翻倍，0.10%时是六倍，0.15%时是25倍。"
+   },
+   "source": {
+    "section": "Chapter 6, Drinking, Drugs, and Health — How Much is Too Much",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-100",
+   "topic": "alcohol",
+   "q": {
+    "en": "Which set of drinks contains about the same amount of alcohol — roughly half an ounce per drink?",
+    "zh": "以下哪一组饮品所含酒精量大致相同——每杯约半盎司？"
+   },
+   "options": {
+    "en": [
+     "Wine contains no alcohol that counts toward BAC",
+     "1.5 ounces of 86-proof liquor, a 12-ounce beer, and a 5-ounce glass of wine",
+     "A double shot of liquor, a pint of beer, and a full bottle of wine",
+     "Only drinks of the same type contain equal alcohol"
+    ],
+    "zh": [
+     "葡萄酒不含计入BAC的酒精",
+     "1.5盎司86标准酒精度烈酒、一瓶12盎司啤酒和一杯5盎司葡萄酒",
+     "双份烈酒、一品脱啤酒和一整瓶葡萄酒",
+     "只有同类型的饮品酒精含量才相等"
+    ]
+   },
+   "answer": 1,
+   "explanation": {
+    "en": "It is not what you drink but how many drinks you have: 1.5 ounces of 86-proof liquor, 12 ounces of beer, and 5 ounces of wine each contain about a half ounce of alcohol. Most people arrested for drinking and driving had been drinking beer.",
+    "zh": "关键不在于你喝什么，而在于你喝了多少：1.5盎司86标准酒精度烈酒、12盎司啤酒和5盎司葡萄酒各含约半盎司酒精。大多数因酒驾被捕的人喝的是啤酒。"
+   },
+   "source": {
+    "section": "Chapter 6, Drinking, Drugs, and Health — Effects of Alcohol",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-101",
+   "topic": "alcohol",
+   "q": {
+    "en": "A driver who has been drinking feels fine after coffee and a large meal. What actually makes that driver sober?",
+    "zh": "一个喝过酒的司机在喝了咖啡、吃了一顿大餐后感觉良好。什么才能真正让该司机清醒？"
+   },
+   "options": {
+    "en": [
+     "A large meal, because food absorbs the alcohol completely",
+     "Fresh air and exercise for a few minutes",
+     "Only time — the body removes alcohol slowly, and no quick method works",
+     "Coffee, because caffeine cancels out alcohol"
+    ],
+    "zh": [
+     "大餐，因为食物能完全吸收酒精",
+     "几分钟的新鲜空气和运动",
+     "只有时间——身体清除酒精的速度很慢，没有任何快速方法有效",
+     "咖啡，因为咖啡因能抵消酒精"
+    ]
+   },
+   "answer": 2,
+   "explanation": {
+    "en": "About 90 percent of alcohol is oxidized by the liver and the rest leaves through breath, urine, and sweat — all slowly. Food can slow absorption but cannot prevent a high BAC or make a driver sober; only time can.",
+    "zh": "约90%的酒精由肝脏氧化，其余通过呼吸、尿液和汗液排出——全都非常缓慢。食物可以减缓吸收，但不能防止高BAC，也不能让司机清醒；只有时间可以。"
+   },
+   "source": {
+    "section": "Chapter 6, Drinking, Drugs, and Health — Effects of Alcohol",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-102",
+   "topic": "alcohol",
+   "q": {
+    "en": "Which factors determine a person's blood alcohol concentration?",
+    "zh": "哪些因素决定一个人的血液酒精浓度？"
+   },
+   "options": {
+    "en": [
+     "Only the type of beverage consumed",
+     "The drinker's age and the color of the drink",
+     "Whether the drinks were consumed indoors or outdoors",
+     "Quantity of alcohol consumed, body weight, how quickly the drinks are consumed, and food eaten"
+    ],
+    "zh": [
+     "只有所喝饮品的类型",
+     "饮酒者的年龄和饮品的颜色",
+     "饮酒是在室内还是室外",
+     "饮酒量、体重、饮酒速度以及所吃的食物"
+    ]
+   },
+   "answer": 3,
+   "explanation": {
+    "en": "BAC is determined by four factors: how much alcohol was consumed, the person's body weight, how quickly the drinks were consumed, and what food was eaten.",
+    "zh": "BAC由四个因素决定：饮酒量、体重、饮酒速度以及所吃的食物。"
+   },
+   "source": {
+    "section": "Chapter 6, Drinking, Drugs, and Health — How Much is Too Much",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-103",
+   "topic": "alcohol",
+   "q": {
+    "en": "What does New Jersey's implied consent law mean for drivers?",
+    "zh": "新泽西州的“默示同意法”对司机意味着什么？"
+   },
+   "options": {
+    "en": [
+     "By using New Jersey roadways, motorists have agreed to submit to a breath test after an arrest for an intoxicated-driving offense",
+     "Drivers consent in advance to any search of their vehicle at any time",
+     "Drivers agree to install an interlock device when they buy a car",
+     "Consent is implied only for commercial drivers"
+    ],
+    "zh": [
+     "使用新泽西州道路的司机，已同意在因酒驾被逮捕后接受呼气测试",
+     "司机预先同意在任何时间搜查其车辆",
+     "司机同意在购车时安装点火联锁装置",
+     "默示同意只适用于商用司机"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "en": "Implied consent means the agreement is built into driving on New Jersey roads: after an arrest for an intoxicated-driving offense, the motorist is expected to take a breath test given by law enforcement or hospital staff.",
+    "zh": "默示同意意味着同意已经包含在新泽西州道路驾驶之中：因酒驾被捕后，司机应接受执法人员或医院工作人员进行的呼气测试。"
+   },
+   "source": {
+    "section": "Chapter 7, Driver Privileges and Penalties — Breath Test",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-104",
+   "topic": "alcohol",
+   "q": {
+    "en": "A driver arrested for DUI refuses to take a breath test. What can happen in New Jersey?",
+    "zh": "一名因酒驾被捕的司机拒绝呼气测试。在新泽西州会发生什么？"
+   },
+   "options": {
+    "en": [
+     "The arrest is automatically dismissed",
+     "Refusal is itself illegal — the driver can be detained and taken to a hospital for a blood draw, and faces a $1,000-per-year surcharge for three years, plus possible license loss, fines, and interlock installation",
+     "Nothing — refusal is a protected right with no penalties",
+     "Only a $50 fine, paid at the scene"
+    ],
+    "zh": [
+     "逮捕自动撤销",
+     "拒绝本身即属违法——司机可被拘留并送往医院抽血，并面临每年1,000美元、为期三年的附加费，以及可能的吊销驾照、罚款和安装联锁装置",
+     "什么也不会发生——拒绝是受保护的权利，没有处罚",
+     "只有50美元罚款，当场缴纳"
+    ]
+   },
+   "answer": 1,
+   "explanation": {
+    "en": "Refusing a breath test in New Jersey is illegal. Consequences include detention and a hospital blood draw, a violation surcharge of $1,000 per year for three years, and — depending on past offenses — loss of driving privileges, IDRC referral, fines, and an ignition interlock requirement.",
+    "zh": "在新泽西州拒绝呼气测试是违法的。后果包括被拘留并送医院抽血、每年1,000美元为期三年的违章附加费，并视以往记录可能吊销驾驶资格、转介IDRC、罚款和要求安装点火联锁装置。"
+   },
+   "source": {
+    "section": "Chapter 7, Driver Privileges and Penalties — Breath Test",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-105",
+   "topic": "alcohol",
+   "q": {
+    "en": "How does an ignition interlock device work?",
+    "zh": "点火联锁装置如何工作？"
+   },
+   "options": {
+    "en": [
+     "It reports the driver's location to the MVC every hour",
+     "It disables the radio and phone until the trip ends",
+     "It has a built-in breathalyzer and prevents the vehicle from starting if the driver's BAC exceeds 0.05 percent",
+     "It limits the vehicle to 25 mph after a DUI conviction"
+    ],
+    "zh": [
+     "它每小时向MVC报告司机的位置",
+     "它在行程结束前禁用收音机和电话",
+     "它内置呼气酒精测试仪，如果司机BAC超过0.05%，车辆无法启动",
+     "它在酒驾定罪后将车辆限速在25英里/小时"
+    ]
+   },
+   "answer": 2,
+   "explanation": {
+    "en": "An ignition interlock is wired into the vehicle with its own breathalyzer. If the motorist's BAC exceeds 0.05 percent, the vehicle will not start.",
+    "zh": "点火联锁装置接入车辆并自带呼气测试仪。如果司机的BAC超过0.05%，车辆将无法启动。"
+   },
+   "source": {
+    "section": "Chapter 7, Driver Privileges and Penalties — Ignition Interlock Device",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-106",
+   "topic": "alcohol",
+   "q": {
+    "en": "For a first DUI offense with a BAC of 0.08 percent but less than 0.10 percent, how long must an ignition interlock be installed?",
+    "zh": "对于初犯酒驾、BAC为0.08%但低于0.10%的情况，点火联锁装置必须安装多久？"
+   },
+   "options": {
+    "en": [
+     "Two to four years from the date of restoration",
+     "It is never required for a first offense",
+     "Exactly five years",
+     "Three months from the date driving privileges are restored"
+    ],
+    "zh": [
+     "自恢复之日起两到四年",
+     "初犯从不需要安装",
+     "正好五年",
+     "自驾驶资格恢复之日起三个月"
+    ]
+   },
+   "answer": 3,
+   "explanation": {
+    "en": "Interlock periods scale with BAC: a first offense at 0.08 to under 0.10 percent means 3 months from restoration; 0.10 to under 0.15 means 7 months to 1 year; 0.15 or higher adds a period during suspension plus 12 to 15 months after restoration.",
+    "zh": "联锁期限随BAC增加：初犯0.08%至低于0.10%为恢复后3个月；0.10%至低于0.15%为7个月到1年；0.15%或以上还要加上吊销期间以及恢复后的12到15个月。"
+   },
+   "source": {
+    "section": "Chapter 7, Driver Privileges and Penalties — Ignition Interlock Device",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-107",
+   "topic": "alcohol",
+   "q": {
+    "en": "Law enforcement officers are trained to spot drinking drivers. Which set lists telltale signs they watch for?",
+    "zh": "执法人员受过识别酒驾司机的训练。他们观察的典型迹象是哪一组？"
+   },
+   "options": {
+    "en": [
+     "Speeding, weaving, unusually slow driving, jerking motion, and quick stops",
+     "Using turn signals too early and parking perfectly",
+     "Driving a new car and wearing a seat belt",
+     "Singing along to the radio with the windows down"
+    ],
+    "zh": [
+     "超速、蛇形行驶、异常缓慢驾驶、顿挫动作和急停",
+     "过早打转向灯和完美停车",
+     "驾驶新车并系安全带",
+     "开着车窗跟着收音机唱歌"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "en": "Officers watch for speeding, weaving within the lane, overly cautious slow driving, a jerking stop-and-go motion, and sudden quick stops at signs or lights — all classic signs of an intoxicated driver.",
+    "zh": "警察观察超速、车道内蛇形行驶、过度谨慎的缓慢驾驶、顿挫式走走停停，以及在标志或信号灯前突然急停——这些都是酒驾司机的典型迹象。"
+   },
+   "source": {
+    "section": "Chapter 6, Drinking, Drugs, and Health — Drinking and Driving",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-108",
+   "topic": "alcohol",
+   "q": {
+    "en": "After alcohol, which drug is most often found in drivers involved in crashes, and what is one of its effects on driving?",
+    "zh": "除酒精外，在涉事司机体内最常发现的药物是什么？它对驾驶的一个影响是什么？"
+   },
+   "options": {
+    "en": [
+     "Marijuana has no measurable effect on driving skills",
+     "Marijuana — it can cause loss of tracking ability, poor distance judgment, and reduced vigilance",
+     "Caffeine — it causes drivers to fall asleep at the wheel",
+     "Vitamin supplements — they blur distance judgment"
+    ],
+    "zh": [
+     "大麻对驾驶技能没有可测量的影响",
+     "大麻——它可导致循迹能力丧失、距离判断变差和警觉性降低",
+     "咖啡因——它使司机在驾驶时睡着",
+     "维生素补充剂——它们使距离判断模糊"
+    ]
+   },
+   "answer": 1,
+   "explanation": {
+    "en": "After alcohol, marijuana is the drug most often found with drivers involved in crashes. It affects tracking ability, distance judgment, vigilance, and divided attention — all core driving skills.",
+    "zh": "除酒精外，大麻是在事故涉事司机中最常发现的药物。它影响循迹能力、距离判断、警觉性和注意力分配——这些都是核心驾驶技能。"
+   },
+   "source": {
+    "section": "Chapter 6, Drinking, Drugs, and Health — Drugs and Driving",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-109",
+   "topic": "alcohol",
+   "q": {
+    "en": "A prescription bottle is labeled \"may cause drowsiness or dizziness.\" What should you do before driving?",
+    "zh": "一个处方药瓶上标注“可能引起嗜睡或头晕”。开车前你应该怎么做？"
+   },
+   "options": {
+    "en": [
+     "Take it with coffee to stay alert",
+     "Drive only on familiar roads while using it",
+     "Do not take the drug before driving; ask a professional how it may affect your driving",
+     "Take half the dose and drive slowly"
+    ],
+    "zh": [
+     "配咖啡服用以保持清醒",
+     "服用时只在熟悉的道路上驾驶",
+     "开车前不要服用该药；咨询专业人士它可能如何影响你的驾驶",
+     "服用一半剂量并缓慢驾驶"
+    ]
+   },
+   "answer": 2,
+   "explanation": {
+    "en": "Drugs labeled as causing drowsiness or dizziness should not be taken before driving. Cold pills, tranquilizers, and some prescription drugs can impair basic driving skills, and alcohol must never be mixed with any drug or medication.",
+    "zh": "标注会引起嗜睡或头晕的药物不应在开车前服用。感冒药、镇静剂和一些处方药会损害基本驾驶技能，酒精绝不能与任何药物混合。"
+   },
+   "source": {
+    "section": "Chapter 6, Drinking, Drugs, and Health — Drugs and Driving",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-110",
+   "topic": "alcohol",
+   "q": {
+    "en": "You are hosting a party where alcohol is served, and a guest who drank too much insists on driving home. What is your responsibility as a host?",
+    "zh": "你举办了一个提供酒精的聚会，一位喝多了的客人坚持要开车回家。作为主人，你的责任是什么？"
+   },
+   "options": {
+    "en": [
+     "Serve the guest one last drink to delay the departure",
+     "Let the guest drive, because hosts are never responsible",
+     "Take the guest's keys and return them after one hour regardless of condition",
+     "Do not let the guest drive — arrange other transportation, suggest a nap or an overnight stay, and as a last resort notify the police; a host can face a lawsuit if the guest crashes"
+    ],
+    "zh": [
+     "再给客人一杯酒以拖延出发",
+     "让客人开车，因为主人永远不需要负责",
+     "收走客人的钥匙，一小时后无论状态如何都归还",
+     "不要让客人开车——安排其他交通，建议小睡或留宿，最后手段是通知警察；如果客人发生事故，主人可能面临诉讼"
+    ]
+   },
+   "answer": 3,
+   "explanation": {
+    "en": "A good host offers alcohol-free drinks and food, stops serving alcohol well before the party ends, and never lets an impaired guest drive. Hosts may become involved in a lawsuit if a guest crashes after leaving the party.",
+    "zh": "好的主人应提供无酒精饮料和食物，在聚会结束前早早停止供应酒精，绝不让醉酒的客人开车。如果客人在离开聚会后发生事故，主人可能被卷入诉讼。"
+   },
+   "source": {
+    "section": "Chapter 6, Drinking, Drugs, and Health — Good Hosts and the Drinking Driver",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-111",
+   "topic": "alcohol",
+   "q": {
+    "en": "What penalties apply to an underage first DUI offense with a BAC of 0.01 percent to less than 0.08 percent?",
+    "zh": "对于BAC为0.01%至低于0.08%的未成年酒驾初犯，适用什么处罚？"
+   },
+   "options": {
+    "en": [
+     "A 30- to 90-day suspension of driving privilege, 15 to 30 days of community service, and participation in an IDRC or alcohol education and highway safety program",
+     "Only a verbal warning from the officer",
+     "A $50 fine with no suspension",
+     "Immediate permanent loss of the license"
+    ],
+    "zh": [
+     "吊销驾驶资格30至90天、15至30天社区服务，并参加IDRC或酒精教育与公路安全计划",
+     "只有警察的口头警告",
+     "50美元罚款，不吊销驾照",
+     "立即永久吊销驾照"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "en": "An underage first offense in the 0.01 to under 0.08 percent range brings a 30- to 90-day suspension, 15 to 30 days of community service, and required participation in an Intoxicated Driver Resource Center or alcohol education program.",
+    "zh": "未成年人在0.01%至低于0.08%范围内的初犯，将被吊销驾驶资格30至90天、社区服务15至30天，并必须参加酒驾资源中心（IDRC）或酒精教育计划。"
+   },
+   "source": {
+    "section": "Chapter 7, Driver Privileges and Penalties — DUI: Underage Offense",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-112",
+   "topic": "licensing",
+   "q": {
+    "en": "How many questions are on the New Jersey MVC knowledge test for a basic license?",
+    "zh": "新泽西州MVC基础驾照笔试有多少道题？"
+   },
+   "options": {
+    "en": [
+     "100 questions",
+     "50 questions, plus a survey question about organ donation",
+     "25 questions",
+     "40 questions"
+    ],
+    "zh": [
+     "100道题",
+     "50道题，另加一道关于器官捐赠的调查问题",
+     "25道题",
+     "40道题"
+    ]
+   },
+   "answer": 1,
+   "explanation": {
+    "en": "The knowledge test consists of 50 questions, plus a survey question about organ donation that is not part of the scored test.",
+    "zh": "笔试共50道题，另有一道关于器官捐赠的调查问题，不计入考试成绩。"
+   },
+   "source": {
+    "section": "Chapter 2, New Jersey Driver Testing — Knowledge Test",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-113",
+   "topic": "licensing",
+   "q": {
+    "en": "What score do you need to pass the New Jersey knowledge test?",
+    "zh": "通过新泽西州笔试需要什么分数？"
+   },
+   "options": {
+    "en": [
+     "90 percent — 45 of 50 correct",
+     "Any score, as long as the vision test is passed",
+     "80 percent — 40 of the 50 questions answered correctly",
+     "70 percent — 35 of 50 correct"
+    ],
+    "zh": [
+     "90%——50道题中答对45道",
+     "任何分数都可以，只要通过视力测试",
+     "80%——50道题中答对40道",
+     "70%——50道题中答对35道"
+    ]
+   },
+   "answer": 2,
+   "explanation": {
+    "en": "Passing requires 80 percent, which is 40 correct answers out of the 50 questions on the test.",
+    "zh": "通过标准是80%，即50道题中答对40道。"
+   },
+   "source": {
+    "section": "Chapter 2, New Jersey Driver Testing — Test Requirements",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-114",
+   "topic": "licensing",
+   "q": {
+    "en": "What is the minimum vision standard for a basic New Jersey license applicant?",
+    "zh": "新泽西州基础驾照申请人的最低视力标准是什么？"
+   },
+   "options": {
+    "en": [
+     "20/20 vision in both eyes",
+     "20/100 vision without lenses",
+     "There is no vision screening for a basic license",
+     "20/50 vision with or without corrective lenses"
+    ],
+    "zh": [
+     "双眼视力20/20",
+     "不戴镜片时视力20/100",
+     "基础驾照没有视力筛查",
+     "戴或不戴矫正镜片时视力达到20/50"
+    ]
+   },
+   "answer": 3,
+   "explanation": {
+    "en": "Basic license applicants need 20/50 vision with or without corrective lenses. An applicant with sight in one eye only must meet the 20/50 standard in that eye and provide physician documentation.",
+    "zh": "基础驾照申请人需要戴或不戴矫正镜片达到20/50视力。只有一只眼睛有视力的申请人，该眼必须达到20/50标准并提供医生证明。"
+   },
+   "source": {
+    "section": "Chapter 2, New Jersey Driver Testing — Test Requirements",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-115",
+   "topic": "licensing",
+   "q": {
+    "en": "What must a Standard New Jersey license applicant present for 6-Point ID Verification?",
+    "zh": "申请新泽西州标准驾照时，6分身份验证要求申请人出示什么？"
+   },
+   "options": {
+    "en": [
+     "At least one primary document, at least one secondary document, documents totaling six points of ID, and proof of a New Jersey residential address",
+     "Any six documents of the applicant's choice",
+     "Only a birth certificate and a Social Security card",
+     "Six photographs and a utility bill"
+    ],
+    "zh": [
+     "至少一份主要文件、至少一份次要文件、合计六分的身份文件，以及新泽西州居住地址证明",
+     "申请人自选的任意六份文件",
+     "只有出生证明和社会安全卡",
+     "六张照片和一份水电费账单"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "en": "The 6-Point system requires at least one primary and one secondary document, six points in total, plus proof of New Jersey residency — with no more than two 1-point documents allowed.",
+    "zh": "6分系统要求至少一份主要文件和一份次要文件、总计六分，外加新泽西州居住证明——且1分文件最多只能使用两份。"
+   },
+   "source": {
+    "section": "Chapter 1, The New Jersey Driver License System — Identity Verification",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-116",
+   "topic": "licensing",
+   "q": {
+    "en": "How does REAL ID verification differ from the Standard license requirements?",
+    "zh": "REAL ID验证与标准驾照要求有何不同？"
+   },
+   "options": {
+    "en": [
+     "It only requires proof of age",
+     "It follows a 2+1+6 model: two proofs of New Jersey residential address, one proof of full Social Security number, and six points of ID",
+     "It requires no documents at all",
+     "It requires twelve points of ID"
+    ],
+    "zh": [
+     "它只需要年龄证明",
+     "它遵循2+1+6模式：两份新泽西州居住地址证明、一份完整的社会安全号码证明和六分身份文件",
+     "它完全不需要文件",
+     "它需要十二分身份文件"
+    ]
+   },
+   "answer": 1,
+   "explanation": {
+    "en": "REAL ID applicants must satisfy the 2+1+6 model — two proofs of residential address, one proof of full Social Security number, and six points of identification, including documents verifying authorized presence in the United States.",
+    "zh": "REAL ID申请人必须满足2+1+6模式——两份居住地址证明、一份完整的社会安全号码证明和六分身份文件，包括证明在美国合法居留的文件。"
+   },
+   "source": {
+    "section": "Chapter 1, The New Jersey Driver License System — Identity Verification",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-117",
+   "topic": "licensing",
+   "q": {
+    "en": "Under the GDL Early Bird Road (Option A), at what age can a New Jersey resident get a Special Learner Permit?",
+    "zh": "根据GDL“早鸟路线”（选项A），新泽西州居民几岁可以获得特殊学习许可证（Special Learner Permit）？"
+   },
+   "options": {
+    "en": [
+     "At least 17 years old",
+     "At least 18 years old",
+     "At least 16 years old",
+     "At least 15 years old"
+    ],
+    "zh": [
+     "至少17岁",
+     "至少18岁",
+     "至少16岁",
+     "至少15岁"
+    ]
+   },
+   "answer": 2,
+   "explanation": {
+    "en": "The Early Bird Road starts at 16 with a Special Learner Permit, which requires signed parent or guardian consent and enrollment in an approved behind-the-wheel driver training course.",
+    "zh": "“早鸟路线”从16岁开始获得特殊学习许可证，需要父母或监护人签署同意书，并报名参加经批准的实际驾驶培训课程。"
+   },
+   "source": {
+    "section": "Chapter 1, The New Jersey Driver License System — Graduated Driver License (GDL): The Early Bird Road",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-118",
+   "topic": "licensing",
+   "q": {
+    "en": "What does the approved behind-the-wheel course for a Special Learner Permit involve, and who purchases the permit?",
+    "zh": "特殊学习许可证的经批准的实际驾驶课程包括什么？由谁购买许可证？"
+   },
+   "options": {
+    "en": [
+     "Two hours of classroom study; the student purchases the permit online",
+     "Twenty hours of practice with a parent; the parent purchases the permit",
+     "A weekend seminar; the school district purchases the permit",
+     "Six full hours of behind-the-wheel instruction in a dual-controlled vehicle; the approved instructor must purchase the permit"
+    ],
+    "zh": [
+     "两个小时的课堂学习；学生在线购买许可证",
+     "与父母进行二十小时练习；由父母购买许可证",
+     "一个周末研讨会；由学区购买许可证",
+     "在双控制车辆中进行六个完整小时的实际驾驶教学；由经批准的教练购买许可证"
+    ]
+   },
+   "answer": 3,
+   "explanation": {
+    "en": "An approved course is six full hours of behind-the-wheel instruction in a dual-controlled vehicle, not counting time spent at the MVC. The instructor purchases the permit, and the MVC validates it only after the course is completed.",
+    "zh": "经批准的课程是在双控制车辆中进行六个完整小时的实际驾驶教学，不包括在MVC花费的时间。许可证由教练购买，MVC只在课程完成后才予以验证。"
+   },
+   "source": {
+    "section": "Chapter 1, The New Jersey Driver License System — Special Learner Permits for New Jersey Residents",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-119",
+   "topic": "licensing",
+   "q": {
+    "en": "Under the GDL Young Adult Road (Option B), what is the minimum age for an Examination Permit?",
+    "zh": "根据GDL“青年路线”（选项B），考试许可证（Examination Permit）的最低年龄是多少？"
+   },
+   "options": {
+    "en": [
+     "At least 17 years old",
+     "At least 16 years old",
+     "At least 18 years old",
+     "At least 21 years old"
+    ],
+    "zh": [
+     "至少17岁",
+     "至少16岁",
+     "至少18岁",
+     "至少21岁"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "en": "The Examination Permit on the Young Adult Road is available at 17, with parent or guardian consent required for applicants under 18. Unlike the Special Learner Permit, it does not require enrollment in a training course or an instructor.",
+    "zh": "“青年路线”的考试许可证在17岁时可以获得，18岁以下申请人需要父母或监护人同意。与特殊学习许可证不同，它不需要报名培训课程，也不需要教练。"
+   },
+   "source": {
+    "section": "Chapter 1, The New Jersey Driver License System — Graduated Driver License (GDL): The Young Adult Road",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-120",
+   "topic": "licensing",
+   "q": {
+    "en": "On the GDL Adult Road (Option C, age 21 and over), how long must supervised practice last before the probationary license?",
+    "zh": "在GDL“成人路线”（选项C，21岁及以上）中，获得试用驾照前，监督练习必须持续多久？"
+   },
+   "options": {
+    "en": [
+     "No practice period is required at any age",
+     "At least three months of supervised practice driving",
+     "At least six months, plus 50 logged hours",
+     "At least one year of supervised practice"
+    ],
+    "zh": [
+     "任何年龄都不需要练习期",
+     "至少三个月的监督驾驶练习",
+     "至少六个月，外加记录50小时",
+     "至少一年的监督练习"
+    ]
+   },
+   "answer": 1,
+   "explanation": {
+    "en": "Adult Road applicants practice under supervision for at least three months before the probationary license. The six-month practice period and 50-hour requirement apply to the under-21 GDL routes.",
+    "zh": "成人路线申请人在获得试用驾照前，至少进行三个月的监督练习。六个月练习期和50小时要求适用于21岁以下的GDL路线。"
+   },
+   "source": {
+    "section": "Chapter 1, The New Jersey Driver License System — Graduated Driver License (GDL): The Adult Road",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-121",
+   "topic": "licensing",
+   "q": {
+    "en": "A 17-year-old Examination Permit holder is completing supervised practice. What practice-time requirements apply?",
+    "zh": "一名17岁的考试许可证持有人正在完成监督练习。适用哪些练习时间要求？"
+   },
+   "options": {
+    "en": [
+     "At least 20 hours, all during daylight",
+     "One month of practice with any licensed passenger",
+     "At least six months of supervised driving, including a minimum of 50 practice hours with at least 10 hours during darkness",
+     "At least three months with no set number of hours"
+    ],
+    "zh": [
+     "至少20小时，全部在白天",
+     "与任何持证乘客练习一个月",
+     "至少六个月的监督驾驶，包括至少50小时练习，其中至少10小时在黑暗中进行",
+     "至少三个月，没有规定的小时数"
+    ]
+   },
+   "answer": 2,
+   "explanation": {
+    "en": "Under-21 GDL permit holders must practice at least six months and log a minimum of 50 practice hours, including 10 hours during darkness, certified on the Certification of Supervised Driving form presented at licensure.",
+    "zh": "21岁以下的GDL许可证持有人必须练习至少六个月，并记录至少50小时，其中包括10小时夜间练习，并在领证时出示监督驾驶证明表予以证明。"
+   },
+   "source": {
+    "section": "Chapter 1, The New Jersey Driver License System — Graduated Driver License (GDL)",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-122",
+   "topic": "licensing",
+   "q": {
+    "en": "What must a probationary license holder complete before getting a Basic Driver License, and at what minimum age?",
+    "zh": "试用驾照持有人在获得基础驾照（Basic Driver License）前必须完成什么？最低年龄是多少？"
+   },
+   "options": {
+    "en": [
+     "Six months of unsupervised driving, at age 17",
+     "A second road test at age 21",
+     "Nothing further; the probationary license converts automatically at 17",
+     "At least one year of unsupervised driving observing probationary restrictions, and be at least 18 years old"
+    ],
+    "zh": [
+     "六个月的无监督驾驶，17岁时",
+     "21岁时进行第二次路考",
+     "无需其他步骤；试用驾照在17岁时自动转换",
+     "至少一年遵守试用期限制的无监督驾驶，且至少年满18岁"
+    ]
+   },
+   "answer": 3,
+   "explanation": {
+    "en": "The final GDL step requires at least one year of unsupervised driving under probationary restrictions, and the driver must be at least 18 to receive the unrestricted basic license — and must visit an MVC Licensing Center to upgrade after the 12 months.",
+    "zh": "GDL的最后一步要求至少一年遵守试用期限制的无监督驾驶，且司机必须至少18岁才能获得无限制的基础驾照——并在12个月后前往MVC许可中心办理升级。"
+   },
+   "source": {
+    "section": "Chapter 1, The New Jersey Driver License System — Graduated Driver License (GDL)",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-123",
+   "topic": "licensing",
+   "q": {
+    "en": "During which hours may a GDL permit holder or probationary driver under 21 NOT drive in New Jersey?",
+    "zh": "新泽西州21岁以下的GDL许可证持有人或试用司机在哪些时段不得驾驶？"
+   },
+   "options": {
+    "en": [
+     "Between 11:01 p.m. and 5:00 a.m.",
+     "Between midnight and 6:00 a.m.",
+     "Between 9:00 p.m. and 6:00 a.m.",
+     "There are no restricted hours under the GDL"
+    ],
+    "zh": [
+     "晚上11:01至凌晨5:00之间",
+     "午夜至凌晨6:00之间",
+     "晚上9:00至凌晨6:00之间",
+     "GDL没有限制时段"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "en": "The GDL hours restriction prohibits driving between 11:01 p.m. and 5:00 a.m. for under-21 permit and probationary drivers, with documented exemptions only for employment or religious needs.",
+    "zh": "GDL时段限制禁止21岁以下的许可证和试用司机在晚上11:01至凌晨5:00之间驾驶，只有出于就业或宗教需要并有文件证明时才能豁免。"
+   },
+   "source": {
+    "section": "Chapter 1, The New Jersey Driver License System — Permit and Probationary License Restrictions",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-124",
+   "topic": "licensing",
+   "q": {
+    "en": "Who may ride as passengers with a probationary license holder under 21?",
+    "zh": "21岁以下的试用驾照持有人可以搭载哪些乘客？"
+   },
+   "options": {
+    "en": [
+     "Only passengers over the age of 25",
+     "Dependents of the license holder and one additional passenger, unless a parent or guardian is also in the vehicle",
+     "An unlimited number of friends",
+     "No passengers at all during the first year"
+    ],
+    "zh": [
+     "只有25岁以上的乘客",
+     "驾照持有人的受抚养人，外加一名额外乘客，除非父母或监护人也在车内",
+     "不限数量的朋友",
+     "第一年完全不能搭载乘客"
+    ]
+   },
+   "answer": 1,
+   "explanation": {
+    "en": "Probationary passenger limits allow the holder's dependents plus one additional passenger; the one-extra-passenger limit is lifted when a parent or guardian accompanies the driver. Everyone in the vehicle must wear a seat belt.",
+    "zh": "试用期乘客限制允许持有人的受抚养人外加一名额外乘客；当父母或监护人陪同时，这一额外乘客限制取消。车内所有人都必须系安全带。"
+   },
+   "source": {
+    "section": "Chapter 1, The New Jersey Driver License System — Probationary Driver License Restrictions",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-125",
+   "topic": "licensing",
+   "q": {
+    "en": "What decals must a GDL driver under 21 display, and where?",
+    "zh": "21岁以下的GDL司机必须展示什么贴标？贴在哪里？"
+   },
+   "options": {
+    "en": [
+     "A student-driver sign on the roof of the vehicle",
+     "Decals are optional and only recommended",
+     "Two visible red reflective decals — one on the top-left corner of the front license plate and one on the top-left corner of the rear plate",
+     "One blue decal on the rear windshield"
+    ],
+    "zh": [
+     "车顶上的学员司机标志",
+     "贴标是可选的，仅作推荐",
+     "两个醒目的红色反光贴标——一个贴在前车牌左上角，一个贴在后车牌左上角",
+     "一个贴在后挡风玻璃上的蓝色贴标"
+    ]
+   },
+   "answer": 2,
+   "explanation": {
+    "en": "Under-21 permit and probationary drivers must display two red reflective decals provided through the MVC, placed on the top-left corners of both license plates of any vehicle they operate. A pair costs $4.",
+    "zh": "21岁以下的许可证和试用司机必须展示两个通过MVC提供的红色反光贴标，贴在其驾驶的任何车辆的两个车牌左上角。一对价格为4美元。"
+   },
+   "source": {
+    "section": "Chapter 1, The New Jersey Driver License System — GDL Decal",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-126",
+   "topic": "licensing",
+   "q": {
+    "en": "Who qualifies as the adult supervising driver for a permit holder?",
+    "zh": "谁有资格担任许可证持有人的成年监督司机？"
+   },
+   "options": {
+    "en": [
+     "Any passenger over 18 with a license from any state",
+     "A parent, regardless of age or license status",
+     "Any licensed driver sitting anywhere in the vehicle",
+     "A driver in the front seat who is at least 21 years old, holds a valid New Jersey driver license, and has at least three years of driving experience"
+    ],
+    "zh": [
+     "任何18岁以上、持有任何州驾照的乘客",
+     "父母，无论年龄或驾照状态如何",
+     "坐在车内任何位置的持证司机",
+     "坐在前排、至少21岁、持有有效的新泽西州驾照且至少有三年驾驶经验的司机"
+    ]
+   },
+   "answer": 3,
+   "explanation": {
+    "en": "The supervising driver must sit in the front seat and meet all three tests: age 21 or older, a valid New Jersey license, and a minimum of three years of driving experience.",
+    "zh": "监督司机必须坐在前排，并满足全部三个条件：21岁或以上、持有有效的新泽西州驾照、至少三年驾驶经验。"
+   },
+   "source": {
+    "section": "Chapter 1, The New Jersey Driver License System — Permit Restrictions",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-127",
+   "topic": "licensing",
+   "q": {
+    "en": "May a GDL permit holder use a hands-free cell phone while driving?",
+    "zh": "GDL许可证持有人可以在驾驶时使用免提手机吗？"
+   },
+   "options": {
+    "en": [
+     "No — GDL holders may not use hand-held or hands-free cell phones or any other electronic devices while driving",
+     "Yes — hands-free devices are allowed for all drivers",
+     "Yes — but only for calls, not for navigation",
+     "Yes — after the first six months of practice"
+    ],
+    "zh": [
+     "不可以——GDL持有人在驾驶时不得使用手持或免提手机或任何其他电子设备",
+     "可以——所有司机都可以使用免提设备",
+     "可以——但只能打电话，不能导航",
+     "可以——在练习的前六个月之后"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "en": "The GDL electronics ban is total for permit and probationary drivers: no hand-held devices and no hands-free devices either, even though hands-free use is permitted for fully licensed drivers.",
+    "zh": "GDL对电子设备的禁令对许可证和试用司机是全面的：手持设备和免提设备都不允许，即使完全持证司机可以使用免提设备。"
+   },
+   "source": {
+    "section": "Chapter 1, The New Jersey Driver License System — Permit and Probationary License Restrictions",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-128",
+   "topic": "licensing",
+   "q": {
+    "en": "You move to a new address within New Jersey. How quickly must you report the change to the MVC?",
+    "zh": "你在新泽西州内搬到新地址。必须多快向MVC报告变更？"
+   },
+   "options": {
+    "en": [
+     "Only when the license is renewed",
+     "Within one week after moving",
+     "Within two weeks after moving",
+     "Within 60 days after moving"
+    ],
+    "zh": [
+     "只在驾照续期时",
+     "搬家后一周内",
+     "搬家后两周内",
+     "搬家后60天内"
+    ]
+   },
+   "answer": 1,
+   "explanation": {
+    "en": "An address change must be reported to the MVC within one week after moving, including moves out of New Jersey. By contrast, a legal name change must be reported within two weeks.",
+    "zh": "地址变更必须在搬家后一周内向MVC报告，包括搬出新泽西州的情况。相比之下，法定姓名变更必须在两周内报告。"
+   },
+   "source": {
+    "section": "Chapter 1, The New Jersey Driver License System — Laws Governing Driver Licenses",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-129",
+   "topic": "licensing",
+   "q": {
+    "en": "You move to New Jersey holding a valid license from another state. What must you do?",
+    "zh": "你持有其他州的有效驾照搬到新泽西州。你必须怎么做？"
+   },
+   "options": {
+    "en": [
+     "Keep both licenses; New Jersey allows holding two licenses",
+     "Apply within one year; there is no earlier deadline",
+     "Apply for a New Jersey license within 60 days (30 days for a CDL) or before your current license expires, whichever is sooner, and surrender the out-of-state license",
+     "Wait until your out-of-state license expires, then apply"
+    ],
+    "zh": [
+     "保留两本驾照；新泽西州允许持有两本驾照",
+     "在一年内申请；没有更早的期限",
+     "在60天内（CDL为30天）或在现驾照到期之前（以较早者为准）申请新泽西州驾照，并交出外州驾照",
+     "等外州驾照到期后再申请"
+    ]
+   },
+   "answer": 2,
+   "explanation": {
+    "en": "New residents must apply within 60 days — 30 days for commercial licenses — or before the old license expires, whichever comes first, and the out-of-state license is surrendered when the New Jersey license is issued.",
+    "zh": "新居民必须在60天内——商用驾照为30天——或在旧驾照到期之前（以较早者为准）申请，并在领取新泽西州驾照时交出外州驾照。"
+   },
+   "source": {
+    "section": "Chapter 1, The New Jersey Driver License System — Laws Governing Driver Licenses",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-130",
+   "topic": "licensing",
+   "q": {
+    "en": "How long is a New Jersey driver license valid, and how do under-21 licenses differ in appearance?",
+    "zh": "新泽西州驾照的有效期是多久？21岁以下驾照在外观上有何不同？"
+   },
+   "options": {
+    "en": [
+     "Licenses are valid for eight years, with no format difference",
+     "Licenses are valid for two years, and under-21 licenses are red",
+     "Licenses are valid for five years, and under-21 licenses are horizontal like all others",
+     "Licenses are valid for four years, and motorists under 21 receive a distinctive vertical-format license"
+    ],
+    "zh": [
+     "驾照有效期为八年，格式没有区别",
+     "驾照有效期为两年，21岁以下驾照是红色的",
+     "驾照有效期为五年，21岁以下驾照与其他驾照一样是横版的",
+     "驾照有效期为四年，21岁以下司机获得独特的竖版格式驾照"
+    ]
+   },
+   "answer": 3,
+   "explanation": {
+    "en": "New Jersey licenses and IDs are valid for four years. Drivers under 21 are issued a vertical-format card so their age group is obvious at a glance, and a temporary license valid for 30 days is issued while the card is mailed.",
+    "zh": "新泽西州驾照和身份证有效期为四年。21岁以下司机获得竖版卡片，以便一眼看出其年龄组；在卡片邮寄期间会发一张有效期30天的临时驾照。"
+   },
+   "source": {
+    "section": "Chapter 1, The New Jersey Driver License System — Types of New Jersey Licenses",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  },
+  {
+   "id": "nj-131",
+   "topic": "licensing",
+   "q": {
+    "en": "What penalty applies for violating GDL restrictions, such as the passenger or hours limits?",
+    "zh": "违反GDL限制（例如乘客或时段限制）会受到什么处罚？"
+   },
+   "options": {
+    "en": [
+     "A fine of $100 or suspension of the motorist's driving privilege",
+     "Only a verbal warning for the first three violations",
+     "A fine of $500 and immediate loss of the permit",
+     "Community service of 100 hours"
+    ],
+    "zh": [
+     "罚款100美元或暂停司机的驾驶资格",
+     "前三次违章只有口头警告",
+     "罚款500美元并立即吊销许可证",
+     "100小时社区服务"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "en": "GDL restrictions must be strictly followed: failure to adhere to them may result in a $100 fine or suspension of the motorist's driving privilege.",
+    "zh": "GDL限制必须严格遵守：不遵守者可能被罚款100美元或暂停驾驶资格。"
+   },
+   "source": {
+    "section": "Chapter 1, The New Jersey Driver License System — Graduated Driver License (GDL)",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+   },
+   "sign": null
+  }
+ ]
+}

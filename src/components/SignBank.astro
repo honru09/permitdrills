@@ -1,0 +1,9 @@
+---
+import Sign from './Sign.astro';
+import { SIGN_IDS } from '../lib/signs';
+---
+<div id="pd-signbank" hidden aria-hidden="true">
+  {SIGN_IDS.map((id) => (
+    <span data-signbank={id}><Sign id={id} size={110} /></span>
+  ))}
+</div>

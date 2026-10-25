@@ -1,0 +1,54 @@
+---
+import Base from '../../../layouts/Base.astro';
+import Sign from '../../../components/Sign.astro';
+import { STATES, TOPICS, getBank } from '../../../lib/site';
+
+export function getStaticPaths() {
+  const paths = [];
+  for (const slug of Object.keys(STATES)) {
+    for (const topic of Object.keys(TOPICS)) {
+      paths.push({ params: { state: slug, topic } });
+    }
+  }
+  return paths;
+}
+const { state, topic } = Astro.params;
+const meta = STATES[state];
+const t = TOPICS[topic];
+const bank = getBank(state);
+const qs = (bank?.questions ?? []).filter((q) => q.topic === topic);
+const letters = ['A', 'B', 'C', 'D', 'E'];
+---
+<Base
+  title={`${meta.nameZh}驾照笔试 · ${t.zh} ${t.en}`}
+  description={`${meta.nameZh}驾照笔试「${t.zh}」专题：${qs.length} 道原创练习题，含答案、中文讲解与官方手册出处。${t.en} practice questions with answers and explanations.`}
+>
+  <p class="small muted"><a href={`/${state}/`}>← {meta.nameZh} {meta.nameEn}</a> · 专题学习页</p>
+  <h1 style="font-size:30px">{t.icon} {meta.nameZh} · {t.zh}</h1>
+  <p class="lede">{t.en} — 共 {qs.length} 道题。每题附答案、讲解和手册出处；想自测的话去 <a href={`/${state}/practice/`}>练习模式</a>，想按官方格式考一次去 <a href={`/${state}/exam/`}>模拟考试</a>。</p>
+  <div class="card">
+    {qs.map((q, i) => (
+      <article style={i > 0 ? 'border-top:1px solid var(--line);padding-top:16px;margin-top:16px' : ''}>
+        <p style="font-weight:650;margin:0 0 6px">{i + 1}. {q.q.zh}</p>
+        <p class="small muted" style="margin:0 0 8px">{q.q.en}</p>
+        {q.sign && <div class="signbox"><Sign id={q.sign} size={104} /></div>}
+        <ol style="margin:0 0 8px;padding-left:22px">
+          {q.options.zh.map((o, oi) => (
+            <li style={oi === q.answer ? 'font-weight:700' : ''}>
+              {o} <span class="muted small">/ {q.options.en[oi]}</span>
+              {oi === q.answer && <span class="chip" style="margin-left:6px">正确答案</span>}
+            </li>
+          ))}
+        </ol>
+        <p style="margin:0 0 4px">{q.explanation.zh}</p>
+        <p class="small muted" style="margin:0 0 6px">{q.explanation.en}</p>
+        <p class="src">出处 Source：{q.source.section} · <a href={q.source.url} target="_blank" rel="noopener">官方手册 Official handbook</a></p>
+      </article>
+    ))}
+    {qs.length === 0 && <p class="muted">本专题题目整理中。</p>}
+  </div>
+  <p style="margin-top:16px">
+    <a class="btn amber" href={`/${state}/practice/`}>用练习模式做这个专题</a>
+    <a class="btn ghost" href={`/${state}/`}>回{meta.nameZh}主页</a>
+  </p>
+</Base>

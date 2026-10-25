@@ -1,0 +1,4466 @@
+{
+  "state": "massachusetts",
+  "exam": {
+    "questions": 25,
+    "passCorrect": 18,
+    "passPercent": null,
+    "timeMinutes": 25,
+    "handbook": {
+      "title": "Massachusetts Driver's Manual",
+      "edition": "Revised April 2026",
+      "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+      "chineseUrl": "https://www.mass.gov/lists/drivers-manuals"
+    },
+    "currentAsOf": "October 2026"
+  },
+  "questions": [
+    {
+      "id": "ma-001",
+      "topic": "signs",
+      "q": {
+        "en": "You reach the red octagon sign shown. What must you do?",
+        "zh": "你来到图中所示的红色八角形标志前。你必须怎么做？"
+      },
+      "options": {
+        "en": [
+          "Come to a complete stop before the crosswalk or stop line, then yield and go carefully",
+          "Slow down and go if the way looks clear",
+          "Stop only if another vehicle is waiting",
+          "Sound your horn and proceed slowly"
+        ],
+        "zh": [
+          "完全停稳在人行横道或停车线之前，然后让行再小心通过",
+          "减速，没车就可以通过",
+          "只有其他车辆在等待时才停车",
+          "鸣笛后缓慢通过"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "A STOP sign requires a complete halt for every vehicle; slowing down is not enough.",
+        "zh": "停车标志要求每辆车完全停稳；只是减速是不够的。"
+      },
+      "source": {
+        "section": "Chapter 4 — Traffic Signs: Stop and Yield Signs",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": "stop"
+    },
+    {
+      "id": "ma-002",
+      "topic": "signs",
+      "q": {
+        "en": "A STOP sign has a small plaque underneath reading 4-WAY. What does that change?",
+        "zh": "停车标志下有一块写着 4-WAY 的小牌。这改变了什么？"
+      },
+      "options": {
+        "en": [
+          "Only the first driver must stop",
+          "Traffic from all directions must stop; the first vehicle to stop goes first",
+          "You may roll through if you arrived first",
+          "The speed limit becomes 4 mph"
+        ],
+        "zh": [
+          "只有第一辆车必须停车",
+          "各个方向的车辆都必须停车；先停稳的车辆先走",
+          "先到就可以慢行通过",
+          "限速变为 4 英里/小时"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "With a 4-WAY or ALL WAY plaque, all traffic approaching the intersection must stop.",
+        "zh": "有 4-WAY 或 ALL WAY 牌时，各个方向驶来的车辆都必须停车。"
+      },
+      "source": {
+        "section": "Chapter 4 — Traffic Signs: Stop and Yield Signs",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": "stop"
+    },
+    {
+      "id": "ma-003",
+      "topic": "signs",
+      "q": {
+        "en": "What does the triangular yield sign shown require you to do?",
+        "zh": "图中所示的三角形让行标志要求你怎么做？"
+      },
+      "options": {
+        "en": [
+          "Stop in all cases, even with no traffic near",
+          "Speed up to merge before others",
+          "Slow down, be ready to stop, and let vehicles, bicyclists, and pedestrians go first",
+          "Treat it as a guide sign with no action needed"
+        ],
+        "zh": [
+          "任何情况下都要停车，哪怕附近没有车辆",
+          "加速，在别人之前汇入",
+          "减速并做好停车准备，让车辆、骑行者和行人先行",
+          "把它当作指路标志，无需任何动作"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "At a yield sign you slow down and stop completely if traffic conditions require it.",
+        "zh": "在让行标志前要减速；交通情况需要时必须完全停稳。"
+      },
+      "source": {
+        "section": "Chapter 4 — Traffic Signs: Stop and Yield Signs",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": "yield"
+    },
+    {
+      "id": "ma-004",
+      "topic": "signs",
+      "q": {
+        "en": "The sign shown is a red square with a white horizontal bar and the words DO NOT ENTER. What does it mean?",
+        "zh": "图中所示标志是红底、白横杠并写着 DO NOT ENTER（禁止驶入）。它是什么意思？"
+      },
+      "options": {
+        "en": [
+          "Trucks may not enter, but cars may",
+          "Parking is not allowed on this street",
+          "The road ahead is closed to pedestrians only",
+          "You must not drive into this roadway from this direction"
+        ],
+        "zh": [
+          "卡车不得驶入，但小汽车可以",
+          "这条街禁止停车",
+          "前方道路仅对行人封闭",
+          "你不得从这个方向驶入这条道路"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "This regulatory sign bars vehicles from entering the roadway in the direction facing the sign.",
+        "zh": "这个禁令标志禁止车辆朝标志所面对的方向驶入道路。"
+      },
+      "source": {
+        "section": "Chapter 4 — Traffic Signs",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": "do-not-enter"
+    },
+    {
+      "id": "ma-005",
+      "topic": "signs",
+      "q": {
+        "en": "You turn onto a street and immediately see the WRONG WAY sign shown. What should you do?",
+        "zh": "你刚拐上一条街就看到图中所示的 WRONG WAY（逆行）标志。你应该怎么做？"
+      },
+      "options": {
+        "en": [
+          "Keep driving carefully until the next intersection",
+          "Flash your headlights and continue slowly",
+          "Move into the left lane and proceed",
+          "Stop, pull over, and turn around when it is safe — you are going against traffic"
+        ],
+        "zh": [
+          "小心驾驶到下一个路口",
+          "闪烁大灯后缓慢继续",
+          "驶入左侧车道继续行驶",
+          "停车靠边，在安全时掉头——你正在逆行"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "A WRONG WAY sign warns that you are traveling against the flow of traffic.",
+        "zh": "WRONG WAY 标志警告你正在逆着车流方向行驶。"
+      },
+      "source": {
+        "section": "Chapter 4 — Traffic Signs",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": "wrong-way"
+    },
+    {
+      "id": "ma-006",
+      "topic": "signs",
+      "q": {
+        "en": "What does the ONE WAY sign shown tell you?",
+        "zh": "图中所示的 ONE WAY（单行道）标志告诉你什么？"
+      },
+      "options": {
+        "en": [
+          "You may park on only one side of the street",
+          "Traffic on this street moves in one direction only, the direction of the arrow",
+          "Only one vehicle may use the street at a time",
+          "The street has only one lane for parking"
+        ],
+        "zh": [
+          "这条街只能在一侧停车",
+          "这条街的车流只能按箭头方向单向行驶",
+          "这条街一次只能有一辆车通行",
+          "这条街只有一条停车道"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "A one-way sign means all traffic moves only in the direction the arrow points.",
+        "zh": "单行道标志表示所有车辆只能按箭头所指方向行驶。"
+      },
+      "source": {
+        "section": "Chapter 4 — Traffic Signs",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": "one-way"
+    },
+    {
+      "id": "ma-007",
+      "topic": "signs",
+      "q": {
+        "en": "The sign shown reads SPEED LIMIT 25. How should you treat that number?",
+        "zh": "图中所示标志写着 SPEED LIMIT 25（限速 25）。你应如何理解这个数字？"
+      },
+      "options": {
+        "en": [
+          "As the minimum speed in all conditions",
+          "As the speed you must maintain exactly",
+          "As the fastest you may go under ideal conditions — slower when conditions are poor",
+          "As a suggestion that applies only at night"
+        ],
+        "zh": [
+          "任何情况下的最低速度",
+          "必须始终保持的精确速度",
+          "理想条件下的最高速度——路况差时要更慢",
+          "仅在夜间适用的建议"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Posted limits assume ideal conditions; poor conditions require a slower speed.",
+        "zh": "标示限速以理想条件为前提；路况差时必须放慢。"
+      },
+      "source": {
+        "section": "Chapter 4 — Traffic Signs",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": "speed-limit"
+    },
+    {
+      "id": "ma-008",
+      "topic": "signs",
+      "q": {
+        "en": "A sign shows a left-turn arrow inside a red circle with a diagonal slash. What is prohibited?",
+        "zh": "一个标志上，左转箭头位于红色圆圈内并带斜杠。禁止的是什么？"
+      },
+      "options": {
+        "en": [
+          "Turning left",
+          "Turning right",
+          "Parking on the left side",
+          "Left turns only during rush hour"
+        ],
+        "zh": [
+          "左转",
+          "右转",
+          "在左侧停车",
+          "仅高峰时段左转"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "A red circle with a diagonal slash over a symbol means that action is prohibited.",
+        "zh": "红圈加斜杠覆盖在符号上，表示禁止该动作。"
+      },
+      "source": {
+        "section": "Chapter 4 — Traffic Signs",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": "no-left-turn"
+    },
+    {
+      "id": "ma-009",
+      "topic": "signs",
+      "q": {
+        "en": "You see the NO U-TURN sign shown at an intersection. What applies?",
+        "zh": "你在路口看到图中所示的禁止掉头标志。哪项正确？"
+      },
+      "options": {
+        "en": [
+          "U-turns are allowed only at night",
+          "You may not make a U-turn here",
+          "You may U-turn if no police officer is present",
+          "Three-point turns are also banned everywhere in the state"
+        ],
+        "zh": [
+          "仅夜间可以掉头",
+          "此处不得掉头",
+          "没有警察在场就可以掉头",
+          "全州范围内也禁止三点掉头"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Where a NO U-TURN sign is posted, a U-turn is not allowed.",
+        "zh": "设有禁止掉头标志的地方不得掉头。"
+      },
+      "source": {
+        "section": "Chapter 4 — Traffic Signs",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": "no-u-turn"
+    },
+    {
+      "id": "ma-010",
+      "topic": "signs",
+      "q": {
+        "en": "A NO PARKING sign lists hours underneath. What does it mean for those hours?",
+        "zh": "一个禁止停车标志下方标有时间段。在该时间段内意味着什么？"
+      },
+      "options": {
+        "en": [
+          "Parking is allowed for 15 minutes",
+          "Only residents may park",
+          "You may not park in that zone during the posted hours",
+          "You may stop but never load passengers"
+        ],
+        "zh": [
+          "可以停 15 分钟",
+          "只有居民可以停车",
+          "在标示时段内不得在该区域停车",
+          "可以停车但绝不能载客"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Parking is barred in a zone posted with a NO PARKING sign during the hours shown.",
+        "zh": "在标示时段内，设有禁止停车标志的区域不得停车。"
+      },
+      "source": {
+        "section": "Chapter 4 — Traffic Signs",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": "no-parking"
+    },
+    {
+      "id": "ma-011",
+      "topic": "signs",
+      "q": {
+        "en": "The yellow diamond sign shown pictures a person walking. What is it warning you about?",
+        "zh": "图中所示黄色菱形标志上画着一个行人。它在警告什么？"
+      },
+      "options": {
+        "en": [
+          "A bus stop is ahead",
+          "A sidewalk ends ahead",
+          "Jogging is prohibited ahead",
+          "Pedestrians may be crossing ahead — be ready to yield or stop"
+        ],
+        "zh": [
+          "前方有公交车站",
+          "前方人行道结束",
+          "前方禁止慢跑",
+          "前方可能有行人过街——做好让行或停车准备"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "This warning sign marks an area where pedestrians cross; drivers must yield to pedestrians in a crosswalk.",
+        "zh": "这个警告标志标示行人过街区域；驾驶员必须给人行横道内的行人让行。"
+      },
+      "source": {
+        "section": "Chapter 4 — Traffic Signs",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": "pedestrian-crossing"
+    },
+    {
+      "id": "ma-012",
+      "topic": "signs",
+      "q": {
+        "en": "You see the school crossing sign shown, with an arrow pointing down at a crosswalk. What should you expect?",
+        "zh": "你看到图中所示的学校过街标志，箭头向下指向人行横道。你应预期什么？"
+      },
+      "options": {
+        "en": [
+          "Children crossing at the marked crosswalk — slow down and watch carefully",
+          "A school bus stop with no children",
+          "A playground with no road access",
+          "A 40 mph school speed limit"
+        ],
+        "zh": [
+          "有儿童在标示的人行横道过街——减速并仔细观察",
+          "没有学生的校车站",
+          "没有道路出入口的操场",
+          "学校限速 40 英里/小时"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "School crossing signs warn that children cross at the crosswalk the arrow indicates.",
+        "zh": "学校过街标志警告：箭头所指的人行横道有儿童过街。"
+      },
+      "source": {
+        "section": "Chapter 4 — Traffic Signs",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": "school-crossing"
+    },
+    {
+      "id": "ma-013",
+      "topic": "signs",
+      "q": {
+        "en": "At the tracks themselves you see a white X-shaped sign with the words RAILROAD CROSSING. What is this sign called and what does it mark?",
+        "zh": "在铁轨处你看到一个白色 X 形、写着 RAILROAD CROSSING 的标志。它叫什么、标示什么？"
+      },
+      "options": {
+        "en": [
+          "A yield sign; it marks a merge point",
+          "A crossbuck; it marks the point where the tracks cross the road",
+          "A crosswalk sign; it marks where trains stop",
+          "A guide sign; it marks the nearest station"
+        ],
+        "zh": [
+          "让行标志；标示汇合点",
+          "十字架标（crossbuck）；标示铁轨与道路的交叉点",
+          "人行横道标志；标示火车停靠点",
+          "指路标志；标示最近的车站"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "The white crossbuck marks the crossing point; a number below it shows how many tracks cross if there is more than one.",
+        "zh": "白色十字架标标示交叉点；若有多条铁轨，下方会标明铁轨数量。"
+      },
+      "source": {
+        "section": "Chapter 4 — Traffic Signs: Railroad Crossings",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": "railroad-crossing"
+    },
+    {
+      "id": "ma-014",
+      "topic": "signs",
+      "q": {
+        "en": "You pass a round yellow warning sign with a black X and the letter R on each side. What lies ahead?",
+        "zh": "你经过一个圆形黄色警告标志，上面有黑色 X 且两侧各有一个字母 R。前方有什么？"
+      },
+      "options": {
+        "en": [
+          "A rest area",
+          "A road-rail junction in a rural area",
+          "A railroad crossing — slow down and be ready to stop",
+          "A rotary that requires a right turn"
+        ],
+        "zh": [
+          "休息区",
+          "乡村地区的道路铁路交汇口",
+          "铁路道口——减速并做好停车准备",
+          "必须右转的环岛"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "A round sign is the advance warning for a railroad crossing.",
+        "zh": "圆形标志是铁路道口的预告警告标志。"
+      },
+      "source": {
+        "section": "Chapter 4 — Traffic Signs: Railroad Crossings",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": "railroad-ahead"
+    },
+    {
+      "id": "ma-015",
+      "topic": "signs",
+      "q": {
+        "en": "The sign shown has an arrow bending to the right. What is ahead and what should you do?",
+        "zh": "图中所示标志上的箭头向右弯曲。前方是什么情况，你应怎么做？"
+      },
+      "options": {
+        "en": [
+          "The road curves right — slow down before the curve",
+          "A right turn is required at the next street",
+          "Traffic must merge right immediately",
+          "The right lane ends at a curve"
+        ],
+        "zh": [
+          "道路向右弯曲——入弯前减速",
+          "下一条街必须右转",
+          "车辆必须立即向右汇合",
+          "右侧车道在弯道处结束"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "A curve warning means the road layout is changing ahead; slow down and obey the sign.",
+        "zh": "弯道警告表示前方道路走向有变化；要减速并遵守标志。"
+      },
+      "source": {
+        "section": "Chapter 4 — Traffic Signs",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": "curve-ahead"
+    },
+    {
+      "id": "ma-016",
+      "topic": "signs",
+      "q": {
+        "en": "A warning sign shows an arrow making a sharp hairpin-style turn. How is this different from a regular curve sign?",
+        "zh": "一个警告标志上的箭头呈现急发夹式转弯。它与普通弯道标志有何不同？"
+      },
+      "options": {
+        "en": [
+          "It means the turn is optional",
+          "It marks a turn so sharp you must slow down much more than for a gentle curve",
+          "It applies only to trucks",
+          "It means the road is closed to through traffic"
+        ],
+        "zh": [
+          "它表示可以不转弯",
+          "它表示转弯很急，必须比缓弯减速更多",
+          "它仅适用于卡车",
+          "它表示道路禁止直行车辆通行"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "A sharp-turn warning calls for a much lower speed than a gentle curve.",
+        "zh": "急转弯警告要求比缓弯低得多的速度。"
+      },
+      "source": {
+        "section": "Chapter 4 — Traffic Signs",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": "sharp-turn"
+    },
+    {
+      "id": "ma-017",
+      "topic": "signs",
+      "q": {
+        "en": "The sign shown pictures a car with squiggly lines behind its tires. What does it warn?",
+        "zh": "图中所示标志画着一辆车，轮胎后有波浪线。它警告什么？"
+      },
+      "options": {
+        "en": [
+          "A car wash is nearby",
+          "Tire chains are sold ahead",
+          "The road is slippery when wet — slow down and keep extra space",
+          "The shoulder is soft dirt"
+        ],
+        "zh": [
+          "附近有洗车店",
+          "前方有售防滑链",
+          "路面湿滑——减速并拉大车距",
+          "路肩是松软泥土"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "This sign warns the road can be slippery when wet.",
+        "zh": "这个标志警告路面湿时容易打滑。"
+      },
+      "source": {
+        "section": "Chapter 4 — Traffic Signs",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": "slippery"
+    },
+    {
+      "id": "ma-018",
+      "topic": "signs",
+      "q": {
+        "en": "You see the merge sign shown on a highway entrance area. What is happening ahead?",
+        "zh": "你在高速公路入口附近看到图中所示的汇合标志。前方是什么情况？"
+      },
+      "options": {
+        "en": [
+          "Your lane is ending at a toll booth",
+          "Two roads cross at a traffic light",
+          "A divided highway begins",
+          "Traffic from another lane or ramp is joining — adjust speed and space to merge safely"
+        ],
+        "zh": [
+          "你的车道将在收费站结束",
+          "两条道路在红绿灯处相交",
+          "分隔式公路开始",
+          "其他车道或匝道的车流正在汇入——调整速度和车距以安全汇合"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "A merge sign warns that lanes are coming together; drivers must blend in safely.",
+        "zh": "汇合标志警告车道正在合并；驾驶员必须安全汇入。"
+      },
+      "source": {
+        "section": "Chapter 4 — Traffic Signs",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": "merge"
+    },
+    {
+      "id": "ma-019",
+      "topic": "signs",
+      "q": {
+        "en": "After a divided stretch, you see the two-way traffic sign shown (two arrows pointing opposite directions). What changes?",
+        "zh": "经过一段分隔道路后，你看到图中所示的双向交通标志（两个箭头方向相反）。有什么变化？"
+      },
+      "options": {
+        "en": [
+          "You must now share the roadway with oncoming traffic",
+          "Passing becomes allowed everywhere",
+          "The road becomes one-way in both directions at different hours",
+          "Trucks must use the left lane"
+        ],
+        "zh": [
+          "你现在要与对向车流共用道路",
+          "到处都允许超车",
+          "道路在不同时段双向单行",
+          "卡车必须走左侧车道"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "The sign warns that the road ahead carries traffic in both directions.",
+        "zh": "该标志警告前方道路为双向行驶。"
+      },
+      "source": {
+        "section": "Chapter 4 — Traffic Signs",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": "two-way-traffic"
+    },
+    {
+      "id": "ma-020",
+      "topic": "signs",
+      "q": {
+        "en": "The sign shown has two arrows separated by a median strip. What does it announce?",
+        "zh": "图中所示标志有两个被中央分隔带隔开的箭头。它预告什么？"
+      },
+      "options": {
+        "en": [
+          "A road with two toll lanes begins",
+          "A divided highway begins — opposing traffic will be separated by a median",
+          "Two one-way streets merge into one",
+          "A highway rest area with two entrances"
+        ],
+        "zh": [
+          "一条有两条收费车道的道路开始",
+          "分隔式公路开始——对向车流将被中央带隔开",
+          "两条单行道合为一条",
+          "有两个入口的高速公路休息区"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "This warning sign tells you the road ahead becomes a divided highway.",
+        "zh": "这个警告标志告诉你前方道路将变为分隔式公路。"
+      },
+      "source": {
+        "section": "Chapter 4 — Traffic Signs",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": "divided-highway"
+    },
+    {
+      "id": "ma-021",
+      "topic": "signs",
+      "q": {
+        "en": "The sign shown pictures a traffic light. What should you be prepared for?",
+        "zh": "图中所示标志画着一个红绿灯。你应做好什么准备？"
+      },
+      "options": {
+        "en": [
+          "A railroad signal that is out of service",
+          "A signal to change lanes",
+          "A traffic signal ahead — be ready to stop if it is red",
+          "A school zone with no signal"
+        ],
+        "zh": [
+          "一个停用的铁路信号",
+          "变道信号",
+          "前方有交通信号灯——若是红灯要做好停车准备",
+          "没有信号灯的学校区域"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "A traffic-signal-ahead warning means a signal is coming up and you may need to stop.",
+        "zh": "前方信号灯警告表示前面有信号灯，可能需要停车。"
+      },
+      "source": {
+        "section": "Chapter 4 — Traffic Signs",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": "signal-ahead"
+    },
+    {
+      "id": "ma-022",
+      "topic": "signs",
+      "q": {
+        "en": "You see a warning sign with the word STOP and an upward arrow. What is it telling you?",
+        "zh": "你看到一个写着 STOP 并带向上箭头的警告标志。它在告诉你什么？"
+      },
+      "options": {
+        "en": [
+          "A stop sign is ahead — be ready to come to a complete stop",
+          "Stop only if you are turning",
+          "Restrooms are available ahead",
+          "A vehicle inspection stop is ahead"
+        ],
+        "zh": [
+          "前方有停车标志——做好完全停稳的准备",
+          "仅在转弯时才需停车",
+          "前方有洗手间",
+          "前方有车辆检查站"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "A stop-ahead sign warns that a STOP sign is coming so you can slow down in time.",
+        "zh": "前方停车预告标志提醒前面有停车标志，以便你及时减速。"
+      },
+      "source": {
+        "section": "Chapter 4 — Traffic Signs",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": "stop-ahead"
+    },
+    {
+      "id": "ma-023",
+      "topic": "signs",
+      "q": {
+        "en": "The sign shown pictures a leaping deer. Where is this warning most relevant and what should you do?",
+        "zh": "图中所示标志画着一只跳跃的鹿。这个警告在何时最需注意，你应怎么做？"
+      },
+      "options": {
+        "en": [
+          "Near zoos only; honk as you pass",
+          "At hunting areas; speed up to clear the area",
+          "Near farms; watch only for cattle",
+          "In areas where deer cross the road — slow down and scan both sides, especially at dawn and dusk"
+        ],
+        "zh": [
+          "仅在动物园附近；经过时鸣笛",
+          "在狩猎区；加速通过",
+          "在农场附近；只注意牛",
+          "在鹿穿越道路的区域——减速并扫视两侧，尤其在黎明和黄昏"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "A deer crossing sign warns that animals may enter the roadway; slow down and stay alert.",
+        "zh": "鹿穿越标志警告动物可能进入道路；要减速并保持警惕。"
+      },
+      "source": {
+        "section": "Chapter 4 — Traffic Signs",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": "deer-crossing"
+    },
+    {
+      "id": "ma-024",
+      "topic": "signs",
+      "q": {
+        "en": "You approach a work area marked by orange signs and devices. What is the first thing you must do?",
+        "zh": "你接近一个由橙色标志和设施标示的施工区。你必须做的第一件事是什么？"
+      },
+      "options": {
+        "en": [
+          "Speed up to clear the zone quickly",
+          "Turn on high beams",
+          "Slow down and look for guidance on how to travel through the area",
+          "Change lanes without signaling to avoid workers"
+        ],
+        "zh": [
+          "加速快速通过施工区",
+          "打开远光灯",
+          "减速并寻找如何通过该区域的指引",
+          "不打信号变道以避开工人"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Orange means construction or maintenance warning; the first action in a work zone is to slow down.",
+        "zh": "橙色表示施工或养护警告；进入施工区的第一个动作是减速。"
+      },
+      "source": {
+        "section": "Chapter 4 — Traffic Signs",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": "construction"
+    },
+    {
+      "id": "ma-025",
+      "topic": "signs",
+      "q": {
+        "en": "A fluorescent yellow-green sign shows a bicycle symbol. What does the color and symbol together signal?",
+        "zh": "一个荧光黄绿色标志上有自行车符号。颜色与符号合起来表示什么？"
+      },
+      "options": {
+        "en": [
+          "A bicycle shop is nearby",
+          "Bicycles are prohibited here",
+          "A bicycle race is in progress",
+          "A bicycle-related warning — watch for bicyclists, for example at a crossing or shared roadway"
+        ],
+        "zh": [
+          "附近有自行车店",
+          "此处禁止自行车",
+          "正在进行自行车比赛",
+          "与自行车相关的警告——注意骑行者，如在过街处或共用道路"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "Fluorescent yellow-green is used for school, bicycle, and pedestrian warnings.",
+        "zh": "荧光黄绿色用于学校、自行车和行人相关的警告。"
+      },
+      "source": {
+        "section": "Chapter 4 — Traffic Signs",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": "bicycle"
+    },
+    {
+      "id": "ma-026",
+      "topic": "signs",
+      "q": {
+        "en": "The sign shown indicates the right lane ends. What must traffic in that lane do?",
+        "zh": "图中所示标志表示右侧车道结束。该车道的车辆必须怎么做？"
+      },
+      "options": {
+        "en": [
+          "Merge safely into the continuing lane, yielding as needed",
+          "Stop until waved through",
+          "Turn right at the next corner only",
+          "Move onto the shoulder and keep driving"
+        ],
+        "zh": [
+          "安全汇入继续延伸的车道，必要时让行",
+          "停车直到有人挥手放行",
+          "只能在下一个路口右转",
+          "驶上路肩继续行驶"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "When a lane ends (the road narrows), drivers in the ending lane merge into the remaining lane.",
+        "zh": "车道结束（道路变窄）时，该车道的驾驶员要汇入剩余车道。"
+      },
+      "source": {
+        "section": "Chapter 4 — Traffic Signs",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": "lane-ends"
+    },
+    {
+      "id": "ma-027",
+      "topic": "signs",
+      "q": {
+        "en": "The sign shown has arrows moving in a circle. What is ahead, and how do you enter it?",
+        "zh": "图中所示标志的箭头呈环形运动。前方是什么，你应如何驶入？"
+      },
+      "options": {
+        "en": [
+          "A rotary detour; enter at full speed",
+          "A circular intersection — slow down, yield to traffic already circulating and to pedestrians, then enter",
+          "A U-turn area; enter from the left lane only",
+          "A parking circle; no yielding is required"
+        ],
+        "zh": [
+          "环岛绕行道；全速驶入",
+          "环形路口——减速，让已在环内行驶的车辆和行人先行，然后驶入",
+          "掉头区；只能从左侧车道驶入",
+          "停车圆环；无需让行"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Circular intersections are entered after yielding to vehicles already in the circle and to pedestrians.",
+        "zh": "驶入环形路口前，要让已在环内的车辆和行人先行。"
+      },
+      "source": {
+        "section": "Chapter 4 — Traffic Signs",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": "roundabout-ahead"
+    },
+    {
+      "id": "ma-028",
+      "topic": "signs",
+      "q": {
+        "en": "On Massachusetts signs, what does the color orange generally indicate?",
+        "zh": "在马萨诸塞州的标志中，橙色一般表示什么？"
+      },
+      "options": {
+        "en": [
+          "Motorist services such as gas and food",
+          "Recreation or historic sites",
+          "Construction or maintenance warning",
+          "Electronic toll collection"
+        ],
+        "zh": [
+          "加油、餐饮等驾车者服务",
+          "娱乐或历史景点",
+          "施工或养护警告",
+          "电子收费"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Orange is the color for construction and maintenance warnings.",
+        "zh": "橙色是施工和养护警告的颜色。"
+      },
+      "source": {
+        "section": "Chapter 4 — Traffic Signs",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-029",
+      "topic": "signs",
+      "q": {
+        "en": "A brown sign and a blue sign give different kinds of information. Which pairing is correct?",
+        "zh": "棕色标志和蓝色标志提供不同种类的信息。哪一组配对正确？"
+      },
+      "options": {
+        "en": [
+          "Brown = recreational, historic, or scenic sites; blue = motorist services like gas, food, and lodging",
+          "Brown = regulation; blue = warning",
+          "Brown = toll roads; blue = school zones",
+          "Brown = direction; blue = stop or prohibition"
+        ],
+        "zh": [
+          "棕色＝娱乐、历史或风景景点；蓝色＝加油、餐饮、住宿等驾车者服务",
+          "棕色＝禁令；蓝色＝警告",
+          "棕色＝收费道路；蓝色＝学校区域",
+          "棕色＝方向；蓝色＝停车或禁止"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Blue signs list motorist services; brown signs point to recreational, historic, or scenic sites.",
+        "zh": "蓝色标志列出驾车者服务；棕色标志指向娱乐、历史或风景点。"
+      },
+      "source": {
+        "section": "Chapter 4 — Traffic Signs",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-030",
+      "topic": "rules",
+      "q": {
+        "en": "It is raining hard on a highway posted at 50 mph, and 40 mph already feels too fast for conditions. What does the fundamental speed law require?",
+        "zh": "在限速 50 英里/小时的高速公路上雨下得很大，40 英里/小时对当前路况都已太快。基本速度法要求什么？"
+      },
+      "options": {
+        "en": [
+          "Keep at 50 mph because that is the posted limit",
+          "Slow down — your speed must fit traffic, road, and weather conditions even if the limit is higher",
+          "Drive 40 mph exactly, since another driver suggested it",
+          "Turn on hazard lights and keep the posted speed"
+        ],
+        "zh": [
+          "保持 50 英里/小时，因为那是标示限速",
+          "减速——即使限速更高，你的速度也必须适应交通、道路和天气条件",
+          "正好开 40 英里/小时，因为别人这样建议",
+          "打开双闪并保持标示限速"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "You must never travel faster than is safe for conditions, regardless of the posted limit.",
+        "zh": "无论标示限速多少，都不得开得比路况安全所允许的更快。"
+      },
+      "source": {
+        "section": "Chapter 4 — Speed Limits",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-031",
+      "topic": "rules",
+      "q": {
+        "en": "No speed limit is posted on a road through a thickly settled district in a town that has NOT adopted a 25 mph local limit. Above what speed would your driving be unreasonable and improper?",
+        "zh": "在未采用 25 英里/小时地方限速的城镇，一条穿过人口稠密区的道路没有限速标志。超过多少速度会被视为不合理、不适当？"
+      },
+      "options": {
+        "en": [
+          "20 mph",
+          "25 mph",
+          "30 mph",
+          "40 mph"
+        ],
+        "zh": [
+          "20 英里/小时",
+          "25 英里/小时",
+          "30 英里/小时",
+          "40 英里/小时"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Unless posted otherwise, over 30 mph in a thickly settled or business district is unreasonable.",
+        "zh": "除非另有标示，在人口稠密区或商业区超过 30 英里/小时即属不合理。"
+      },
+      "source": {
+        "section": "Chapter 4 — Speed Limits",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-032",
+      "topic": "rules",
+      "q": {
+        "en": "Some Massachusetts communities set their thickly settled speed limit at 25 mph unless posted otherwise. How do you know when you enter one?",
+        "zh": "马萨诸塞州一些社区将人口稠密区限速定为 25 英里/小时（除非另有标示）。你如何知道自己进入了这样的社区？"
+      },
+      "options": {
+        "en": [
+          "A text message is sent to your phone",
+          "The road surface changes color",
+          "Only local residents are told",
+          "Signs are posted at all entrances to the city or town"
+        ],
+        "zh": [
+          "你的手机会收到短信",
+          "路面颜色会改变",
+          "只有当地居民会被告知",
+          "城镇所有入口处都设有标志"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "Communities using the 25 mph thickly settled limit post signs at every entrance.",
+        "zh": "采用 25 英里/小时人口稠密区限速的社区在每个入口都设有标志。"
+      },
+      "source": {
+        "section": "Chapter 4 — Speed Limits",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-033",
+      "topic": "rules",
+      "q": {
+        "en": "What counts as a 'thickly settled district' in Massachusetts?",
+        "zh": "在马萨诸塞州，什么才算“人口稠密区”？"
+      },
+      "options": {
+        "en": [
+          "An area where buildings are less than 200 feet apart for a distance of one-quarter mile or more",
+          "Any area with a traffic light",
+          "Any street with parked cars on both sides",
+          "An area inside a city border"
+        ],
+        "zh": [
+          "建筑物间距小于 200 英尺且连续达四分之一英里或以上的区域",
+          "任何有红绿灯的区域",
+          "两侧都有停车的任何街道",
+          "市界以内的区域"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "A thickly settled district has buildings under 200 feet apart for at least a quarter mile.",
+        "zh": "人口稠密区指建筑间距小于 200 英尺、连续达四分之一英里以上的区域。"
+      },
+      "source": {
+        "section": "Chapter 4 — Speed Limits",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-034",
+      "topic": "rules",
+      "q": {
+        "en": "What is the speed limit in a Massachusetts school zone?",
+        "zh": "马萨诸塞州学校区域的限速是多少？"
+      },
+      "options": {
+        "en": [
+          "15 mph",
+          "20 mph",
+          "25 mph",
+          "30 mph"
+        ],
+        "zh": [
+          "15 英里/小时",
+          "20 英里/小时",
+          "25 英里/小时",
+          "30 英里/小时"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Roads near schools carry a 20 mph limit in a school zone.",
+        "zh": "学校附近道路在学校区域内限速 20 英里/小时。"
+      },
+      "source": {
+        "section": "Chapter 4 — Speed Limits",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-035",
+      "topic": "rules",
+      "q": {
+        "en": "Outside a thickly settled or business district, and with nothing posted, above what speed is driving on a highway considered unreasonable?",
+        "zh": "在人口稠密区或商业区之外、且没有任何标志的高速公路上，超过多少速度会被视为不合理？"
+      },
+      "options": {
+        "en": [
+          "40 mph",
+          "45 mph",
+          "50 mph",
+          "55 mph"
+        ],
+        "zh": [
+          "40 英里/小时",
+          "45 英里/小时",
+          "50 英里/小时",
+          "55 英里/小时"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "The unposted benchmarks are 40 mph off-highway and 50 mph on a highway outside thickly settled districts.",
+        "zh": "无标志时的基准是：非高速公路 40 英里/小时，人口稠密区外的高速公路 50 英里/小时。"
+      },
+      "source": {
+        "section": "Chapter 4 — Speed Limits",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-036",
+      "topic": "rules",
+      "q": {
+        "en": "What is the minimum speed on the Massachusetts Turnpike?",
+        "zh": "马萨诸塞收费公路（Massachusetts Turnpike）的最低限速是多少？"
+      },
+      "options": {
+        "en": [
+          "40 mph",
+          "20 mph",
+          "30 mph",
+          "45 mph"
+        ],
+        "zh": [
+          "40 英里/小时",
+          "20 英里/小时",
+          "30 英里/小时",
+          "45 英里/小时"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "The Turnpike minimum is 40 mph; Boston Harbor tunnels have a 20 mph minimum.",
+        "zh": "收费公路最低限速为 40 英里/小时；波士顿海港隧道最低为 20 英里/小时。"
+      },
+      "source": {
+        "section": "Chapter 4 — Speed Limits",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-037",
+      "topic": "rules",
+      "q": {
+        "en": "Limited-access highways in Massachusetts, such as interstate routes, generally carry speed limits in what range?",
+        "zh": "马萨诸塞州的有限出入高速公路（如州际公路）通常限速范围是多少？"
+      },
+      "options": {
+        "en": [
+          "35 to 45 mph",
+          "50 to 65 mph",
+          "45 to 55 mph",
+          "65 to 75 mph"
+        ],
+        "zh": [
+          "35 至 45 英里/小时",
+          "50 至 65 英里/小时",
+          "45 至 55 英里/小时",
+          "65 至 75 英里/小时"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Limited-access highways run 50 to 65 mph; smaller highways are 55 mph or lower.",
+        "zh": "有限出入高速公路为 50 至 65 英里/小时；较小的公路为 55 英里/小时或更低。"
+      },
+      "source": {
+        "section": "Chapter 4 — Speed Limits",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": "speed-limit"
+    },
+    {
+      "id": "ma-038",
+      "topic": "rules",
+      "q": {
+        "en": "You stop at a steady red light and want to turn right. When may you go?",
+        "zh": "你在 steady red（持续红灯）前停下想右转。什么时候可以走？"
+      },
+      "options": {
+        "en": [
+          "Immediately, if you honk first",
+          "Only when the light turns green",
+          "After a complete stop, yielding to pedestrians and other vehicles — and never if a NO TURN ON RED sign is posted",
+          "After slowing to 5 mph and looking once"
+        ],
+        "zh": [
+          "先鸣笛就可以立即走",
+          "只能等绿灯亮起",
+          "完全停稳后，让行人和其它车辆先行——且有 NO TURN ON RED 标志时绝不能转",
+          "减速到 5 英里/小时看一眼就可以"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Right on red is allowed after stopping and yielding, unless a NO TURN ON RED sign prohibits it.",
+        "zh": "停稳并让行后可以红灯右转，但有 NO TURN ON RED 标志时禁止。"
+      },
+      "source": {
+        "section": "Chapter 4 — Traffic Signals",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-039",
+      "topic": "rules",
+      "q": {
+        "en": "When is a left turn on a red light allowed in Massachusetts?",
+        "zh": "在马萨诸塞州，什么时候允许红灯左转？"
+      },
+      "options": {
+        "en": [
+          "From any street onto a one-way street",
+          "Never — left on red is always illegal",
+          "Only when a police officer waves you through a red light at night",
+          "Only from a one-way street onto another one-way street, after stopping and yielding"
+        ],
+        "zh": [
+          "从任何街道转入单行道都可以",
+          "绝不允许——红灯左转一律违法",
+          "仅当警察在夜间挥手示意通过红灯时",
+          "仅当从一条单行道转入另一条单行道时，停稳并让行后可以"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "Left on red is allowed only one-way onto one-way, after a stop and yield.",
+        "zh": "只有从单行道转入单行道时，才可在停稳让行后红灯左转。"
+      },
+      "source": {
+        "section": "Chapter 4 — Traffic Signals",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-040",
+      "topic": "rules",
+      "q": {
+        "en": "The traffic light ahead is flashing red. How must you treat it?",
+        "zh": "前方交通灯在闪烁红灯。你应如何对待？"
+      },
+      "options": {
+        "en": [
+          "The same as a STOP sign: come to a complete stop, obey right-of-way rules, and go when safe",
+          "Like a yield sign — slow down only",
+          "Like a green light after one look",
+          "Stop only if cross traffic is present"
+        ],
+        "zh": [
+          "与停车标志相同：完全停稳，遵守路权规则，安全时再走",
+          "像让行标志一样——只需减速",
+          "看一眼就当绿灯",
+          "只有横向有车时才停车"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "A flashing red circle means the same as a STOP sign.",
+        "zh": "闪烁红灯与停车标志含义相同。"
+      },
+      "source": {
+        "section": "Chapter 4 — Traffic Signals",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-041",
+      "topic": "rules",
+      "q": {
+        "en": "You approach a steady yellow light and can stop safely before the intersection. What must you do?",
+        "zh": "你接近持续黄灯，且能在路口前安全停下。你必须怎么做？"
+      },
+      "options": {
+        "en": [
+          "Speed up to beat the red",
+          "Proceed because yellow means go faster",
+          "Stop only if a pedestrian is crossing",
+          "Stop — the signal is changing from green to red"
+        ],
+        "zh": [
+          "加速抢在红灯前通过",
+          "继续行驶，因为黄灯表示加速",
+          "只有行人在过街时才停车",
+          "停车——信号正在由绿变红"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "Steady yellow means the light is about to turn red; stop if you can do so safely.",
+        "zh": "持续黄灯表示即将变红灯；能安全停下时必须停车。"
+      },
+      "source": {
+        "section": "Chapter 4 — Traffic Signals",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-042",
+      "topic": "rules",
+      "q": {
+        "en": "All the traffic signals at an intersection are dark and not functioning. How do you proceed?",
+        "zh": "路口所有信号灯都熄灭、不工作。你应如何通行？"
+      },
+      "options": {
+        "en": [
+          "As if it were a green light for your direction",
+          "As a yield for side streets only",
+          "As though there is a stop sign in all directions — stop and go when safe",
+          "Drive through slowly without stopping"
+        ],
+        "zh": [
+          "当作你方向是绿灯",
+          "仅对支路是让行",
+          "当作各个方向都有停车标志——停车，安全时再走",
+          "不停车缓慢通过"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Blacked-out signals are treated like an all-way stop.",
+        "zh": "信号灯熄灭时按全向停车处理。"
+      },
+      "source": {
+        "section": "Chapter 4 — Traffic Signals",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-043",
+      "topic": "rules",
+      "q": {
+        "en": "On a steady green light you want to turn left. What must you do first?",
+        "zh": "在持续绿灯时你想左转。你必须先做什么？"
+      },
+      "options": {
+        "en": [
+          "Yield to oncoming traffic, and watch for pedestrians and bicyclists",
+          "Turn quickly before oncoming traffic moves",
+          "Sound your horn and turn",
+          "Wait for a green arrow in all cases"
+        ],
+        "zh": [
+          "让对向车辆先行，并注意行人和骑行者",
+          "在对向车辆动起来之前快速转弯",
+          "鸣笛后转弯",
+          "任何情况下都要等绿色箭头"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "A left turn on a steady green requires yielding to oncoming traffic.",
+        "zh": "持续绿灯左转必须让对向车辆先行。"
+      },
+      "source": {
+        "section": "Chapter 4 — Traffic Signals",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-044",
+      "topic": "rules",
+      "q": {
+        "en": "A broken white line separates lanes beside you. What does it allow?",
+        "zh": "你旁边车道之间是白色虚线。它允许什么？"
+      },
+      "options": {
+        "en": [
+          "Passing in the opposite direction",
+          "Lane changes in the same direction after you signal and check it is safe",
+          "Parking in the lane",
+          "Crossing only for trucks"
+        ],
+        "zh": [
+          "在对向超车",
+          "打信号并确认安全后，在同向车道间变道",
+          "在车道内停车",
+          "仅卡车可以跨越"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Broken white lines separate same-direction lanes and may be crossed to change lanes when safe.",
+        "zh": "白色虚线分隔同向车道，安全时可跨越变道。"
+      },
+      "source": {
+        "section": "Chapter 4 — Pavement Markings",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-045",
+      "topic": "rules",
+      "q": {
+        "en": "Both lines of a double yellow center line are solid. What is prohibited, and what is still allowed?",
+        "zh": "中央双黄线都是实线。禁止什么，仍允许什么？"
+      },
+      "options": {
+        "en": [
+          "All crossing is banned, including turns",
+          "Passing is allowed but turns are banned",
+          "Crossing to pass another vehicle is banned; crossing for a left turn is allowed when safe",
+          "Nothing changes — the lines are only guides"
+        ],
+        "zh": [
+          "禁止一切跨越，包括转弯",
+          "允许超车但禁止转弯",
+          "禁止跨越超车；安全时可跨越左转",
+          "没有任何变化——线条只是参考"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Double solid yellow lines bar passing, but a left turn across them is permitted when safe.",
+        "zh": "双黄实线禁止超车，但安全时可以跨越左转。"
+      },
+      "source": {
+        "section": "Chapter 4 — Pavement Markings",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-046",
+      "topic": "rules",
+      "q": {
+        "en": "A center line pair has a solid yellow line on your side and a broken yellow line on the far side. May you cross to pass?",
+        "zh": "中央线组中你这一侧是黄实线、另一侧是黄虚线。你可以跨越超车吗？"
+      },
+      "options": {
+        "en": [
+          "Yes, whenever traffic is light",
+          "Yes, because one side is broken",
+          "Passing is allowed for both sides at night",
+          "Only the traffic on the broken-line side may cross to pass; your side may not"
+        ],
+        "zh": [
+          "只要车少就可以",
+          "可以，因为有一侧是虚线",
+          "夜间两侧都可以超车",
+          "只有虚线一侧的车辆可以跨越超车；你这一侧不可以"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "With solid-plus-broken yellow, passing is allowed only from the broken-line side.",
+        "zh": "黄实线加黄虚线时，只有虚线一侧可以超车。"
+      },
+      "source": {
+        "section": "Chapter 4 — Pavement Markings",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-047",
+      "topic": "rules",
+      "q": {
+        "en": "What does a white diamond painted on a lane tell you?",
+        "zh": "车道上画着白色菱形表示什么？"
+      },
+      "options": {
+        "en": [
+          "The lane has a special restriction, such as HOV only or bus only",
+          "The lane is ending",
+          "The lane is for parking",
+          "The lane is a bicycle lane"
+        ],
+        "zh": [
+          "该车道有特殊限制，如仅限高载客车辆或仅限公交",
+          "车道即将结束",
+          "该车道用于停车",
+          "该车道是自行车道"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "A white diamond marks a restricted lane such as a high-occupancy-vehicle or bus lane.",
+        "zh": "白色菱形标示限制车道，如高载客车辆专用或公交专用。"
+      },
+      "source": {
+        "section": "Chapter 4 — Pavement Markings",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-048",
+      "topic": "rules",
+      "q": {
+        "en": "Two cars reach a four-way stop at exactly the same moment. Who goes first?",
+        "zh": "两辆车同时到达四向停车路口。谁先走？"
+      },
+      "options": {
+        "en": [
+          "The larger vehicle",
+          "The driver on the right — yield to the vehicle stopped to your right",
+          "The driver on the left",
+          "The driver who honks first"
+        ],
+        "zh": [
+          "较大的车辆",
+          "右侧的驾驶员——你要让已在你右侧停稳的车辆先行",
+          "左侧的驾驶员",
+          "先鸣笛的驾驶员"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "At a four-way stop, vehicles go in the order they stopped; if simultaneous, yield to your right.",
+        "zh": "四向停车时按停稳顺序通行；同时到达则让右侧车辆先行。"
+      },
+      "source": {
+        "section": "Chapter 4 — Right-of-Way Rules",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-049",
+      "topic": "rules",
+      "q": {
+        "en": "At an intersection with no signs or signals, a car approaches from your right. What must you do?",
+        "zh": "在一个没有标志或信号的路口，一辆车从你右侧驶来。你必须怎么做？"
+      },
+      "options": {
+        "en": [
+          "Speed up to clear first",
+          "Turn on high beams and proceed",
+          "Yield the right-of-way to the vehicle coming from your right",
+          "The other driver always yields to you"
+        ],
+        "zh": [
+          "加速先通过",
+          "打开远光灯后继续",
+          "给从你右侧驶来的车辆让行",
+          "对方永远要让你"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "At an uncontrolled intersection you yield to a vehicle that has entered, or is coming, from your right.",
+        "zh": "在无控制路口，要让已从你右侧驶入或正从右侧驶来的车辆先行。"
+      },
+      "source": {
+        "section": "Chapter 4 — Right-of-Way Rules",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-050",
+      "topic": "rules",
+      "q": {
+        "en": "You are pulling out of a driveway onto a paved street. What must you do before entering?",
+        "zh": "你正从车道驶入一条铺装街道。进入之前必须怎么做？"
+      },
+      "options": {
+        "en": [
+          "Honk and pull out slowly",
+          "Yield only to vehicles, not pedestrians",
+          "Enter quickly so traffic can adjust",
+          "Stop, then yield to pedestrians, bicyclists, and vehicles on the road you are entering"
+        ],
+        "zh": [
+          "鸣笛后缓慢驶出",
+          "只让车辆，不让行人",
+          "快速驶入让其它车辆适应",
+          "先停车，然后让行人、骑行者和你要进入道路上的车辆先行"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "Entering a paved road from a driveway, private road, or unpaved road requires a stop and yielding.",
+        "zh": "从车道、私人道路或未铺装道路进入铺装道路时必须停车并让行。"
+      },
+      "source": {
+        "section": "Chapter 4 — Right-of-Way Rules",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-051",
+      "topic": "rules",
+      "q": {
+        "en": "Traffic in a Massachusetts rotary travels which way, and who yields at the entrance?",
+        "zh": "马萨诸塞州环岛（rotary）内的车流朝哪个方向行驶，入口处谁让行？"
+      },
+      "options": {
+        "en": [
+          "Clockwise; drivers inside yield to entering traffic",
+          "Counterclockwise; entering drivers yield to vehicles already in the rotary and to pedestrians",
+          "Counterclockwise; no one yields",
+          "Clockwise; pedestrians yield to all cars"
+        ],
+        "zh": [
+          "顺时针；环内驾驶员让进入的车辆",
+          "逆时针；进入的驾驶员让已在环内的车辆和行人先行",
+          "逆时针；谁都不让",
+          "顺时针；行人让所有车辆"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Rotary traffic moves counterclockwise, and yield signs at entrances require yielding to traffic already inside.",
+        "zh": "环岛车流逆时针行驶，入口让行标志要求让已在环内的车辆先行。"
+      },
+      "source": {
+        "section": "Chapter 4 — Right-of-Way Rules",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-052",
+      "topic": "rules",
+      "q": {
+        "en": "How far in advance must you signal a turn on an ordinary street, and on a highway?",
+        "zh": "在普通街道和高速公路上，分别要提前多远打转弯信号？"
+      },
+      "options": {
+        "en": [
+          "50 feet on streets; 200 feet on highways",
+          "Signal only as you begin the turn",
+          "100 feet on streets; 500 feet on highways",
+          "200 feet everywhere"
+        ],
+        "zh": [
+          "街道 50 英尺；高速 200 英尺",
+          "开始转弯时才打",
+          "街道 100 英尺；高速 500 英尺",
+          "任何地方都是 200 英尺"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Signal at least 100 feet before a turn, and at least 500 feet before a turn on a highway.",
+        "zh": "转弯前至少提前 100 英尺打信号；高速公路上至少 500 英尺。"
+      },
+      "source": {
+        "section": "Chapter 4 — Lanes, Intersections, and Turns",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-053",
+      "topic": "rules",
+      "q": {
+        "en": "You want to make a U-turn near the crest of a hill where neither you nor others can see 500 feet. What applies?",
+        "zh": "你想在山顶附近掉头，而你和他人都看不到 500 英尺外。这种情况如何处理？"
+      },
+      "options": {
+        "en": [
+          "Allowed if you signal early",
+          "Allowed at night with headlights on",
+          "Allowed only for small cars",
+          "Not allowed — never U-turn where visibility is under 500 feet, such as at a hill crest or near a curve"
+        ],
+        "zh": [
+          "提前打信号就可以",
+          "夜间开大灯就可以",
+          "仅小型车可以",
+          "不允许——在视距不足 500 英尺处（如山顶或弯道附近）绝不能掉头"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "U-turns are barred where drivers cannot see 500 feet, and only from the lane closest to the center line.",
+        "zh": "在视距不足 500 英尺的地方禁止掉头，且只能从最靠近中央线的车道掉头。"
+      },
+      "source": {
+        "section": "Chapter 4 — Lanes, Intersections, and Turns",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-054",
+      "topic": "rules",
+      "q": {
+        "en": "You miss your highway exit. What is the correct response?",
+        "zh": "你错过了高速公路出口。正确做法是什么？"
+      },
+      "options": {
+        "en": [
+          "Continue to the next exit and rejoin in the other direction from there",
+          "Stop in the breakdown lane and back up",
+          "Cross the median to the exit ramp",
+          "Slow down and wait for a gap to reverse"
+        ],
+        "zh": [
+          "继续到下一个出口，再从那里返回另一方向",
+          "在应急车道停车并倒车",
+          "穿过中央带去出口匝道",
+          "减速并等空隙倒车"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Never stop or back up on a highway after missing an exit; use the next exit.",
+        "zh": "错过出口后绝不能在高速公路上停车或倒车；走下一个出口。"
+      },
+      "source": {
+        "section": "Chapter 4 — Lanes, Intersections, and Turns",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-055",
+      "topic": "rules",
+      "q": {
+        "en": "To pass on a two-way road by crossing a broken yellow line, how much clear view ahead do you need, and when must you be back in your lane?",
+        "zh": "在双向道路上跨越黄虚线超车时，你需要多远的清晰视距，又必须在何时回到车道？"
+      },
+      "options": {
+        "en": [
+          "200 feet of view; return when convenient",
+          "400 feet of clear view; return before any oncoming vehicle comes within 200 feet",
+          "500 feet of view; return within 100 feet of oncoming traffic",
+          "100 feet of view; no set return distance"
+        ],
+        "zh": [
+          "200 英尺视距；方便时返回",
+          "400 英尺清晰视距；在对向车辆距你 200 英尺以内之前返回",
+          "500 英尺视距；在对向车辆 100 英尺内返回",
+          "100 英尺视距；没有规定返回距离"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Passing across a broken yellow line requires seeing at least 400 feet ahead and returning before oncoming traffic is within 200 feet.",
+        "zh": "跨黄虚线超车需至少 400 英尺清晰视距，并在对向车辆进入 200 英尺之前返回。"
+      },
+      "source": {
+        "section": "Chapter 4 — Rules for Passing",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-056",
+      "topic": "rules",
+      "q": {
+        "en": "Another driver is passing your vehicle. What must you do?",
+        "zh": "另一名驾驶员正在超越你的车辆。你必须怎么做？"
+      },
+      "options": {
+        "en": [
+          "Speed up so they can finish faster",
+          "Move left to block them",
+          "Slow down and stay to the right so they can pass safely — do not speed up",
+          "Flash your lights repeatedly"
+        ],
+        "zh": [
+          "加速让对方更快完成",
+          "向左移动挡住对方",
+          "减速并靠右，让对方安全通过——不要加速",
+          "反复闪灯"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "A driver being passed must slow down, stay right, and not speed up.",
+        "zh": "被超车时必须减速、靠右，并且不要加速。"
+      },
+      "source": {
+        "section": "Chapter 4 — Rules for Passing",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-057",
+      "topic": "rules",
+      "q": {
+        "en": "Passing on the right is allowed in which set of situations?",
+        "zh": "在哪些情况下允许右侧超车？"
+      },
+      "options": {
+        "en": [
+          "When the vehicle ahead is making or about to make a left turn, on a one-way street, or on a road with one-direction multi-lane traffic — if the road is clear and wide enough",
+          "Any time the left lane is busy",
+          "On the shoulder or breakdown lane when traffic is slow",
+          "Whenever the driver ahead signals you to pass"
+        ],
+        "zh": [
+          "当前车正在或即将左转时、在单行道上、或在单向多车道道路上——且道路畅通、足够宽",
+          "左侧车道繁忙时任何时候都可以",
+          "交通缓慢时走路肩或应急车道",
+          "只要前车驾驶员示意你超车"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Right-side passing is limited to those situations; the shoulder, breakdown lane, and sidewalk may never be used for passing.",
+        "zh": "右侧超车仅限于这些情况；绝不能用路肩、应急车道或人行道超车。"
+      },
+      "source": {
+        "section": "Chapter 4 — Rules for Passing",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-058",
+      "topic": "rules",
+      "q": {
+        "en": "Parking on a hill with no curb: which way should your front wheels point?",
+        "zh": "在没有路缘石的坡道上停车：前轮应朝向哪边？"
+      },
+      "options": {
+        "en": [
+          "Outward, toward the travel lane",
+          "Inward, toward the edge of the road",
+          "Straight ahead",
+          "It does not matter if the parking brake is set"
+        ],
+        "zh": [
+          "向外，朝向行车道",
+          "向内，朝向路边",
+          "笔直向前",
+          "拉了手刹就无所谓"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "With no curb, turn wheels inward toward the road edge; always set the parking brake on a hill.",
+        "zh": "没有路缘石时，前轮向内朝向路边；在坡道上务必拉手刹。"
+      },
+      "source": {
+        "section": "Chapter 4 — Parking",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-059",
+      "topic": "rules",
+      "q": {
+        "en": "How close to an intersection, and how close to a fire hydrant, may you legally park?",
+        "zh": "距路口多近、距消防栓多近停车是违法的界限？"
+      },
+      "options": {
+        "en": [
+          "Within 10 feet of an intersection; 20 feet of a hydrant",
+          "Within 30 feet of either",
+          "Within 20 feet of an intersection; 10 feet of a fire hydrant or fire lane",
+          "Parking near either is always allowed in residential areas"
+        ],
+        "zh": [
+          "距路口 10 英尺内；距消防栓 20 英尺",
+          "距两者 30 英尺内",
+          "距路口 20 英尺内；距消防栓或消防通道 10 英尺内",
+          "在住宅区附近两者都可以停"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Parking is barred within 20 feet of an intersection and within 10 feet of a hydrant or fire lane.",
+        "zh": "距路口 20 英尺内、距消防栓或消防通道 10 英尺内禁止停车。"
+      },
+      "source": {
+        "section": "Chapter 4 — Parking",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-060",
+      "topic": "safety",
+      "q": {
+        "en": "Massachusetts law requires a safety belt (or child restraint) for whom?",
+        "zh": "马萨诸塞州法律要求谁系安全带（或使用儿童约束装置）？"
+      },
+      "options": {
+        "en": [
+          "Only the driver",
+          "Only front-seat passengers",
+          "Only passengers under 16",
+          "Every person in a passenger vehicle, including vans and small trucks under 18,000 pounds"
+        ],
+        "zh": [
+          "只有驾驶员",
+          "只有前排乘客",
+          "只有 16 岁以下的乘客",
+          "乘用车辆内的每一个人，包括 18,000 磅以下的厢式车和小型卡车"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "Everyone riding in a passenger motor vehicle must be belted or in a child restraint.",
+        "zh": "乘用车辆内的所有人都必须系安全带或使用儿童约束装置。"
+      },
+      "source": {
+        "section": "Chapter 2 — Safety/Seat Belt Law",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-061",
+      "topic": "safety",
+      "q": {
+        "en": "Until when must a child ride in a federally approved child passenger restraint?",
+        "zh": "儿童必须使用经联邦批准的儿童乘员约束装置，直到什么时候？"
+      },
+      "options": {
+        "en": [
+          "Until at least 8 years old or at least 57 inches tall",
+          "Until age 5 or 40 inches tall",
+          "Until age 10 in all cases",
+          "Until the child can sit in the front seat"
+        ],
+        "zh": [
+          "到至少 8 岁或身高至少 57 英寸",
+          "到 5 岁或身高 40 英寸",
+          "任何情况下到 10 岁",
+          "到孩子能坐前排为止"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "A child restraint is required until the child is at least eight years old or at least fifty-seven inches tall.",
+        "zh": "儿童约束装置要用至孩子至少 8 岁或身高至少 57 英寸。"
+      },
+      "source": {
+        "section": "Chapter 2 — Safety/Seat Belt Law",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-062",
+      "topic": "safety",
+      "q": {
+        "en": "What is the fine for a driver who is not wearing a safety belt (when stopped for a traffic violation)?",
+        "zh": "驾驶员未系安全带会被罚多少（在因交通违规被拦下时）？"
+      },
+      "options": {
+        "en": [
+          "$10",
+          "$25",
+          "$50",
+          "$100"
+        ],
+        "zh": [
+          "10 美元",
+          "25 美元",
+          "50 美元",
+          "100 美元"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "The belt fine is $25; a passenger 16 or older who is unbelted can also be fined $25.",
+        "zh": "安全带罚款为 25 美元；16 岁以上未系安全带的乘客也可被罚 25 美元。"
+      },
+      "source": {
+        "section": "Chapter 2 — Safety/Seat Belt Law",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-063",
+      "topic": "safety",
+      "q": {
+        "en": "Where is the safest place for a child to ride, and what seat rule applies to rear-facing infant seats?",
+        "zh": "儿童乘车最安全的位置在哪里，后向婴儿座椅有什么规定？"
+      },
+      "options": {
+        "en": [
+          "Front seat; rear-facing seats are fine with an air bag",
+          "Any seat, as long as the belt is on",
+          "Back seat, middle if possible; never put a rear-facing seat in front of a passenger air bag",
+          "Behind the driver; air bags do not matter"
+        ],
+        "zh": [
+          "前排；有安全气囊也可以用后向座椅",
+          "任何座位，只要系安全带",
+          "后排，最好是中间；绝不能把后向座椅放在乘客安全气囊前方",
+          "驾驶员后方；气囊没有影响"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Children are safest in the back seat, and a rear-facing seat must never sit in front of an active passenger air bag.",
+        "zh": "儿童坐后排最安全，后向座椅绝不能放在启用的乘客安全气囊前方。"
+      },
+      "source": {
+        "section": "Chapter 2 — Safety/Seat Belt Law",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-064",
+      "topic": "safety",
+      "q": {
+        "en": "Using the three-second rule, you reach the marker the car ahead just passed after counting only 'one, two.' What does that tell you?",
+        "zh": "用三秒法则，你在数到“二”时就到达了前车刚经过的标记物。这说明什么？"
+      },
+      "options": {
+        "en": [
+          "You are too close — slow down until you have at least a three-second gap in good conditions",
+          "Your following distance is perfect",
+          "You should speed up to match traffic",
+          "The rule only applies on highways"
+        ],
+        "zh": [
+          "你跟得太近——在良好路况下减速，拉开至少三秒的间隔",
+          "跟车距离刚好",
+          "你应加速与车流一致",
+          "该法则只适用于高速公路"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Three seconds is the minimum following gap in good conditions; reaching the marker early means you are too close.",
+        "zh": "良好路况下三秒是最小跟车间隔；提前到达标记物说明跟得太近。"
+      },
+      "source": {
+        "section": "Chapter 2 — Safe Distances Around Your Car",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-065",
+      "topic": "safety",
+      "q": {
+        "en": "How much following distance should you keep behind a motorcycle, and behind heavy equipment such as a dump truck?",
+        "zh": "跟在摩托车后面、跟在自卸车等重型设备后面，应分别保持多少跟车距离？"
+      },
+      "options": {
+        "en": [
+          "2 seconds; 3 seconds",
+          "At least 4 seconds behind a motorcycle; at least 10 seconds behind heavy equipment",
+          "3 seconds for both",
+          "10 seconds for both"
+        ],
+        "zh": [
+          "2 秒；3 秒",
+          "摩托车后至少 4 秒；重型设备后至少 10 秒",
+          "两者都是 3 秒",
+          "两者都是 10 秒"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Use at least four seconds behind a motorcycle and at least ten seconds behind heavy equipment.",
+        "zh": "摩托车后至少 4 秒，重型设备后至少 10 秒。"
+      },
+      "source": {
+        "section": "Chapter 2 — Safe Distances Around Your Car",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-066",
+      "topic": "safety",
+      "q": {
+        "en": "A driver is tailgating you closely. What is the safest response?",
+        "zh": "一名驾驶员紧贴你车尾行驶。最安全的应对是什么？"
+      },
+      "options": {
+        "en": [
+          "Brake sharply to warn them",
+          "Speed up well above the limit to escape",
+          "Move to another lane or pull to the side of the road and let the tailgater pass",
+          "Slow to half the speed limit and block them"
+        ],
+        "zh": [
+          "急刹车警告对方",
+          "远超限速逃离",
+          "变道或靠边停下，让紧贴者先通过",
+          "减速到限速一半并挡住对方"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "If a tailgater is behind you, get out of their way and let them pass; tailgating itself is illegal.",
+        "zh": "被紧贴时要让开让对方通过；紧贴行驶本身是违法的。"
+      },
+      "source": {
+        "section": "Chapter 2 — Safe Distances Around Your Car",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-067",
+      "topic": "safety",
+      "q": {
+        "en": "When must you dim your high beams for other traffic?",
+        "zh": "你必须在什么时候为其它车辆将远光灯调为近光？"
+      },
+      "options": {
+        "en": [
+          "Within 300 feet of an oncoming vehicle; 100 feet behind a vehicle",
+          "Only when the other driver flashes at you",
+          "Never on divided highways",
+          "Within 500 feet of an oncoming vehicle, and within 200 feet of a vehicle traveling ahead of you"
+        ],
+        "zh": [
+          "对向车辆 300 英尺内；前车后 100 英尺",
+          "只有对方闪灯时",
+          "在分隔式公路上从不",
+          "对向车辆 500 英尺内，以及前方同向车辆 200 英尺内"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "Dim high beams within 500 feet of oncoming traffic and within 200 feet behind a vehicle ahead.",
+        "zh": "对向车辆 500 英尺内、前方车辆 200 英尺内必须调为近光。"
+      },
+      "source": {
+        "section": "Chapter 2 — Night Driving",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-068",
+      "topic": "safety",
+      "q": {
+        "en": "High beams normally let you see about how far ahead, compared with low beams?",
+        "zh": "远光灯通常能照多远，近光灯呢？"
+      },
+      "options": {
+        "en": [
+          "High ≈ 100 feet; low ≈ 350 feet",
+          "Both ≈ 500 feet",
+          "High ≈ 200 feet; low ≈ 50 feet",
+          "High ≈ 350 feet; low ≈ 100 feet"
+        ],
+        "zh": [
+          "远光约 100 英尺；近光约 350 英尺",
+          "两者都约 500 英尺",
+          "远光约 200 英尺；近光约 50 英尺",
+          "远光约 350 英尺；近光约 100 英尺"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "High beams show roughly 350 feet ahead and low beams roughly 100 feet.",
+        "zh": "远光约照亮前方 350 英尺，近光约 100 英尺。"
+      },
+      "source": {
+        "section": "Chapter 2 — Night Driving",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-069",
+      "topic": "safety",
+      "q": {
+        "en": "An oncoming driver will not dim their high beams and the glare is blinding you. What should you do?",
+        "zh": "对向驾驶员不调近光，眩光让你看不清。你应该怎么做？"
+      },
+      "options": {
+        "en": [
+          "Turn your own high beams on in return",
+          "Look to the lower right side of your lane and stay to the right",
+          "Close your eyes briefly and keep your speed",
+          "Look straight at their headlights to judge distance"
+        ],
+        "zh": [
+          "也打开自己的远光灯回击",
+          "看向你车道的右下方并靠右行驶",
+          "短暂闭眼并保持速度",
+          "直视对方大灯判断距离"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "When blinded by glare, look to the lower right side of your lane rather than at the headlights.",
+        "zh": "被眩光影响时，看向车道右下方，而不是直视大灯。"
+      },
+      "source": {
+        "section": "Chapter 2 — Night Driving",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-070",
+      "topic": "safety",
+      "q": {
+        "en": "In which of these situations must your headlights and taillights be on?",
+        "zh": "在下列哪种情况下必须打开大灯和尾灯？"
+      },
+      "options": {
+        "en": [
+          "Only on highways after midnight",
+          "Only in tunnels during the day",
+          "Whenever you use your windshield wipers, and from a half hour after sunset to a half hour before sunrise",
+          "Whenever passengers ask for them"
+        ],
+        "zh": [
+          "仅在午夜后的高速公路上",
+          "仅在白天的隧道里",
+          "使用雨刮器时，以及日落后半小时至日出前半小时",
+          "乘客要求时"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Headlights are required with wipers in use, at night as defined, when visibility is under 500 feet, and in tunnels; daytime running lights are not sufficient.",
+        "zh": "用雨刮时、规定的夜间时段、能见度不足 500 英尺时以及在隧道内都必须开灯；日间行车灯不够。"
+      },
+      "source": {
+        "section": "Chapter 2 — Using Your Horn, Headlights, and Emergency Signals",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-071",
+      "topic": "safety",
+      "q": {
+        "en": "Your car begins to hydroplane on a wet road. What is the correct reaction?",
+        "zh": "你的车在湿滑路面上开始水滑（hydroplane）。正确反应是什么？"
+      },
+      "options": {
+        "en": [
+          "Slowly ease off the gas pedal; never hit the brakes or turn suddenly",
+          "Brake hard and turn away from traffic",
+          "Accelerate to regain tire contact",
+          "Steer sharply toward the shoulder"
+        ],
+        "zh": [
+          "缓慢松开油门；绝不能猛踩刹车或急打方向",
+          "用力刹车并转向避开车流",
+          "加速以恢复轮胎抓地",
+          "急打方向冲向路肩"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "In a hydroplane, ease off the gas slowly; hard braking or sudden steering can cause a skid and loss of control.",
+        "zh": "发生水滑时要缓慢松油门；猛刹车或急打方向会导致打滑失控。"
+      },
+      "source": {
+        "section": "Chapter 2 — Driving in Rain or Fog / Winter Driving",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-072",
+      "topic": "safety",
+      "q": {
+        "en": "In fog, which headlight setting should you use and why?",
+        "zh": "雾天应使用哪种灯光，为什么？"
+      },
+      "options": {
+        "en": [
+          "High beams, to see farther",
+          "Low beams, to reduce glare",
+          "Parking lights only",
+          "Hazard lights while moving at full speed"
+        ],
+        "zh": [
+          "远光灯，能看得更远",
+          "近光灯，能减少眩光",
+          "仅驻车灯",
+          "全速行驶时开双闪"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Low beams reduce glare in fog; slow down and be able to stop within the distance you can see.",
+        "zh": "雾天用近光可减少眩光；要减速并确保能在可见距离内停下。"
+      },
+      "source": {
+        "section": "Chapter 2 — Driving in Rain or Fog / Winter Driving",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-073",
+      "topic": "safety",
+      "q": {
+        "en": "Which winter-driving fact about bridges is correct?",
+        "zh": "关于冬季驾驶中桥梁的哪项说法正确？"
+      },
+      "options": {
+        "en": [
+          "Bridges stay warmer than roads",
+          "Bridges are always sanded first, so they are safest",
+          "Bridges and overpasses freeze before the rest of the road because the ground does not insulate them",
+          "Bridge surfaces never ice over in Massachusetts"
+        ],
+        "zh": [
+          "桥面比路面更暖",
+          "桥梁总是先撒沙，所以最安全",
+          "桥梁和高架先于其它路面结冰，因为地面无法为其保温",
+          "马萨诸塞州的桥面从不结冰"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Bridges and highway overpasses freeze first and can be very slippery.",
+        "zh": "桥梁和高架最先结冰，可能非常滑。"
+      },
+      "source": {
+        "section": "Chapter 2 — Driving in Rain or Fog / Winter Driving",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-074",
+      "topic": "safety",
+      "q": {
+        "en": "Before driving after a snowstorm, what must you clear from your vehicle?",
+        "zh": "暴风雪后开车前，你必须清除车辆上的什么？"
+      },
+      "options": {
+        "en": [
+          "Only the windshield",
+          "Only the roof",
+          "Snow removal is optional if you drive slowly",
+          "All ice and snow — windows, wipers, headlights, brake lights, roof, hood, and trunk"
+        ],
+        "zh": [
+          "仅挡风玻璃",
+          "仅车顶",
+          "开慢点就可以不清除",
+          "所有冰雪——车窗、雨刮、大灯、刹车灯、车顶、引擎盖和行李箱"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "Failing to clear all snow and ice, including the roof, hood, and trunk, can be charged as negligent operation.",
+        "zh": "不清除包括车顶、引擎盖和行李箱在内的全部冰雪，可能被控疏忽驾驶。"
+      },
+      "source": {
+        "section": "Chapter 2 — Driving in Rain or Fog / Winter Driving",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-075",
+      "topic": "safety",
+      "q": {
+        "en": "Under the Massachusetts hands-free law, a driver age 18 or older may use a phone while driving only if…",
+        "zh": "根据马萨诸塞州免提法，18 岁及以上驾驶员在驾驶时使用手机，必须满足……"
+      },
+      "options": {
+        "en": [
+          "The device is in hands-free mode, not held or supported, and mounted on the windshield, dashboard, or center console",
+          "It is held in one hand below window level",
+          "A passenger holds it up for the driver",
+          "It is used only on highways"
+        ],
+        "zh": [
+          "设备处于免提模式、不被手持或托扶，并固定在挡风玻璃、仪表盘或中控台上",
+          "单手握持且低于车窗高度",
+          "由乘客替驾驶员举着",
+          "只在高速公路上使用"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Adult drivers may only use devices hands-free; holding or supporting the device is not permitted.",
+        "zh": "成年驾驶员只能免提使用设备；不得手持或托扶设备。"
+      },
+      "source": {
+        "section": "Chapter 2 — Distracted Driving Law / Hands-Free Mobile (Cell) Phone Use",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-076",
+      "topic": "safety",
+      "q": {
+        "en": "You are stopped at a red light. May you pick up your phone to read a text under the hands-free law?",
+        "zh": "你在红灯前停下。根据免提法，你可以拿起手机看短信吗？"
+      },
+      "options": {
+        "en": [
+          "Yes — a red light counts as parked",
+          "No — hand-held use is allowed only when the vehicle is stationary and not in a public travel lane, which a red light is not",
+          "Yes, if you keep one hand on the wheel",
+          "Yes, if the text is from family"
+        ],
+        "zh": [
+          "可以——红灯算作停车",
+          "不可以——只有车辆静止且不在公共行车道内时才可手持使用，红灯路口不算",
+          "可以，只要一只手握方向盘",
+          "可以，如果是家人发的短信"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Holding a device at a red light or stop sign is still prohibited; writing, sending, or reading messages while driving is barred.",
+        "zh": "在红灯或停车标志前手持设备仍然被禁止；驾驶时编写、发送或阅读信息也被禁止。"
+      },
+      "source": {
+        "section": "Chapter 2 — Distracted Driving Law / Hands-Free Mobile (Cell) Phone Use",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-077",
+      "topic": "safety",
+      "q": {
+        "en": "What are the penalties for a first, second, and third violation of the hands-free law?",
+        "zh": "违反免提法的第一次、第二次和第三次处罚分别是什么？"
+      },
+      "options": {
+        "en": [
+          "Warning; $50; $100",
+          "$25; $50; license suspension",
+          "$100 fine; $250 fine plus a distracted-driving education program; $500 fine plus an insurance surcharge and the program",
+          "$500 for every offense"
+        ],
+        "zh": [
+          "警告；50 美元；100 美元",
+          "25 美元；50 美元；吊销驾照",
+          "罚款 100 美元；罚款 250 美元并完成分心驾驶教育课程；罚款 500 美元并加保险附加费及完成课程",
+          "每次都是 500 美元"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "The fine ladder is $100, then $250 with the education program, then $500 with a surcharge and the program.",
+        "zh": "罚款阶梯为 100 美元，然后 250 美元加教育课程，然后 500 美元加附加费及课程。"
+      },
+      "source": {
+        "section": "Chapter 2 — Distracted Driving Law / Hands-Free Mobile (Cell) Phone Use",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-078",
+      "topic": "safety",
+      "q": {
+        "en": "Your rear wheels start sliding to the left in a skid. What do you do with the steering wheel and pedals?",
+        "zh": "打滑时你的后轮向左滑动。方向盘和踏板应如何操作？"
+      },
+      "options": {
+        "en": [
+          "Turn the wheel in the direction of the skid (left), ease off the gas, shift to neutral, and do not hit the brakes",
+          "Turn the wheel right and brake firmly",
+          "Turn the wheel left and accelerate",
+          "Hold the wheel straight and pump the brakes"
+        ],
+        "zh": [
+          "方向盘朝打滑方向（向左）打，松开油门，挂空挡，不要踩刹车",
+          "方向盘向右打并用力刹车",
+          "方向盘向左打并加速",
+          "保持方向盘笔直并点刹"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "In a skid: foot off the gas, neutral, no braking, steer into the skid.",
+        "zh": "打滑时：松油门、挂空挡、不刹车、朝打滑方向打方向。"
+      },
+      "source": {
+        "section": "Chapter 5 — Driving Emergencies",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-079",
+      "topic": "safety",
+      "q": {
+        "en": "Your brakes fail and your car does NOT have antilock brakes. What is the first technique to try?",
+        "zh": "你的刹车失灵且车辆没有防抱死刹车。应首先尝试什么方法？"
+      },
+      "options": {
+        "en": [
+          "Turn off the engine immediately",
+          "Pump the brake pedal several times rapidly to build up brake fluid pressure",
+          "Shift into reverse",
+          "Open the door and drag your foot"
+        ],
+        "zh": [
+          "立即熄火",
+          "快速多次踩刹车踏板以建立制动液压力",
+          "挂入倒挡",
+          "开门用脚拖地"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Without ABS, pump the pedal rapidly to build pressure; with ABS, never pump — then downshift and use the parking brake gently.",
+        "zh": "没有 ABS 时要快速点踩踏板建立压力；有 ABS 时绝不能点踩——然后降挡并轻拉手刹。"
+      },
+      "source": {
+        "section": "Chapter 5 — Driving Emergencies",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-080",
+      "topic": "safety",
+      "q": {
+        "en": "Your gas pedal sticks while you are driving. What should you do?",
+        "zh": "行驶中油门踏板卡住。你应该怎么做？"
+      },
+      "options": {
+        "en": [
+          "Reach down and pull it up with your hand while steering",
+          "Turn the wheel sharply to scrub speed",
+          "Put the car in neutral, press the brake to slow down, try to free the pedal with your foot, keep your eyes on the road, and pull over when safe",
+          "Shift into park"
+        ],
+        "zh": [
+          "一边开方向一边伸手把踏板拉起来",
+          "急打方向来减速",
+          "挂空挡，踩刹车减速，用脚尝试松开踏板，眼睛看路，安全时靠边停车",
+          "挂入驻车挡"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "A stuck pedal calls for neutral, braking, freeing the pedal with your foot, and stopping off the road.",
+        "zh": "油门卡住时应挂空挡、刹车、用脚松开踏板，并在路边停下。"
+      },
+      "source": {
+        "section": "Chapter 5 — Driving Emergencies",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-081",
+      "topic": "safety",
+      "q": {
+        "en": "A vehicle is coming straight at you in your own lane. What is the recommended response?",
+        "zh": "一辆车在你的车道内正对着你驶来。推荐的应对是什么？"
+      },
+      "options": {
+        "en": [
+          "Move into their lane to pass",
+          "Stop in your lane and flash your lights",
+          "Speed up and swerve left at the last moment",
+          "Slow down, pull to the right, and sound your horn to alert the other driver"
+        ],
+        "zh": [
+          "驶入对方车道绕过",
+          "停在自己车道内闪灯",
+          "加速并在最后一刻向左猛打方向",
+          "减速，靠右，并鸣笛提醒对方驾驶员"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "For a head-on threat: slow down, pull right, and sound the horn.",
+        "zh": "面对迎面来车：减速、靠右、鸣笛。"
+      },
+      "source": {
+        "section": "Chapter 5 — Driving Emergencies",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-082",
+      "topic": "safety",
+      "q": {
+        "en": "Your vehicle stalls on railroad tracks and a train is coming. What must everyone do?",
+        "zh": "你的车辆在铁轨上抛锚且火车正在驶来。所有人必须怎么做？"
+      },
+      "options": {
+        "en": [
+          "Get out immediately, move far from the tracks, run at a 45-degree angle away from the tracks toward the direction the train is coming from, and call 911",
+          "Stay in the car and keep trying to start it",
+          "Push the car off while the train approaches",
+          "Stand beside the car and wave at the train"
+        ],
+        "zh": [
+          "立即下车，远离铁轨，朝火车驶来的方向沿与铁轨成 45 度角的方向跑开，并拨打 911",
+          "留在车里继续尝试发动",
+          "趁火车接近时推车",
+          "站在车旁向火车挥手"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "With a train coming, abandon the vehicle at once and escape at a 45-degree angle toward the train's direction to avoid wreckage.",
+        "zh": "火车驶来时要立即弃车，朝火车驶来方向沿 45 度角逃离，以避开残骸。"
+      },
+      "source": {
+        "section": "Chapter 5 — Driving Emergencies",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-083",
+      "topic": "safety",
+      "q": {
+        "en": "After a crash with no injuries, what does the Driver Removal Law require, and what information must drivers exchange?",
+        "zh": "发生无人受伤的事故后，驾驶员移车法（Driver Removal Law）要求什么，驾驶员必须交换哪些信息？"
+      },
+      "options": {
+        "en": [
+          "Leave cars in the travel lanes; exchange only phone numbers",
+          "Move vehicles out of travel lanes to a safe location; exchange name, address, license number, registration, and insurance information",
+          "Call a tow truck before moving anything; exchange nothing",
+          "Drive away if damage looks minor"
+        ],
+        "zh": [
+          "把车留在行车道内；只交换电话号码",
+          "把车辆移出行车道到安全地点；交换姓名、地址、驾照号码、车辆登记和保险信息",
+          "在移动任何东西前先叫拖车；不交换任何信息",
+          "损坏看起来轻微就可以开走"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Uninjured crashes: move out of travel lanes and exchange full identification, registration, and insurance details.",
+        "zh": "无人受伤的事故：移出行车道，并交换完整的身份、登记和保险信息。"
+      },
+      "source": {
+        "section": "Chapter 5 — Traffic Crashes",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-084",
+      "topic": "safety",
+      "q": {
+        "en": "By when, and for which crashes, must you file a written crash report with the RMV?",
+        "zh": "你必须在多久内、针对哪些事故向 RMV 提交书面事故报告？"
+      },
+      "options": {
+        "en": [
+          "Within 30 days, for any crash",
+          "Only crashes over $5,000 need a report, within a year",
+          "Within five days, for any crash causing injury or death or $1,000 or more in property damage",
+          "Reporting to your insurer is enough"
+        ],
+        "zh": [
+          "30 天内，任何事故",
+          "只有超过 5,000 美元的事故才需要，一年内",
+          "五天内，任何造成伤亡或财产损失达 1,000 美元及以上的事故",
+          "向保险公司报备就足够了"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Report injury, death, or $1,000-plus damage crashes to the RMV in writing within five days; telling only your insurer is not enough.",
+        "zh": "造成伤亡或损失达 1,000 美元以上的事故要在五天内书面报告 RMV；只告诉保险公司不够。"
+      },
+      "source": {
+        "section": "Chapter 5 — Traffic Crashes",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-085",
+      "topic": "safety",
+      "q": {
+        "en": "A quick tire check with a penny shows the top of Lincoln's head in the tread groove. What does that mean?",
+        "zh": "用一分硬币快速检查轮胎时，花纹沟里能看到林肯头像的顶部。这意味着什么？"
+      },
+      "options": {
+        "en": [
+          "The tread is at or below the 2/32-inch minimum — the tires are worn out",
+          "The tires have plenty of tread",
+          "The tires are overinflated",
+          "The penny test only works on snow tires"
+        ],
+        "zh": [
+          "花纹已达到或低于 2/32 英寸的最低标准——轮胎已经磨光",
+          "轮胎花纹还很深",
+          "轮胎充气过量",
+          "硬币测试只适用于雪地胎"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Visible top of Lincoln's head means tread depth is about 2/32 inch, the legal minimum; driving on worn tires is dangerous and illegal.",
+        "zh": "能看到林肯头像顶部说明花纹深度约为 2/32 英寸，即法定最低值；用磨光的轮胎行驶既危险又违法。"
+      },
+      "source": {
+        "section": "Chapter 2 — Checking Your Vehicle's Condition",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-086",
+      "topic": "sharing",
+      "q": {
+        "en": "A school bus ahead has its red lights flashing and its stop sign extended. You are traveling in the opposite direction on an undivided road. What must you do?",
+        "zh": "前方校车红灯闪烁且停车牌已展开。你在无分隔道路上从对向驶来。你必须怎么做？"
+      },
+      "options": {
+        "en": [
+          "Pass slowly on the left",
+          "Stop only if children are visible in the road",
+          "Honk and proceed at 10 mph",
+          "Stop, and remain stopped until the lights stop flashing or the stop sign folds back"
+        ],
+        "zh": [
+          "从左侧缓慢超越",
+          "只有看到路上有儿童才停车",
+          "鸣笛并以 10 英里/小时通过",
+          "停车，并保持停车直至红灯停止闪烁或停车牌收回"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "The duty to stop for a school bus applies from either side of the road.",
+        "zh": "无论从道路哪一侧驶来，都必须为校车停车。"
+      },
+      "source": {
+        "section": "Chapter 4 — Road Respect / Sharing the Road",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-087",
+      "topic": "sharing",
+      "q": {
+        "en": "What is the ONLY exception to stopping for a school bus with flashing red lights?",
+        "zh": "为红灯闪烁的校车停车义务，唯一的例外是什么？"
+      },
+      "options": {
+        "en": [
+          "When you are late for work",
+          "When the bus is empty",
+          "When the bus is on the other side of a divided highway with a barrier between the travel directions",
+          "When a police officer is nearby"
+        ],
+        "zh": [
+          "上班迟到时",
+          "校车是空车时",
+          "校车位于有隔离带的分隔式公路另一侧时",
+          "附近有警察时"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Only a barrier-divided highway between you and the bus removes the duty to stop.",
+        "zh": "只有你与校车之间有带隔离带的分隔式公路时，才免除停车义务。"
+      },
+      "source": {
+        "section": "Chapter 4 — Road Respect / Sharing the Road",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-088",
+      "topic": "sharing",
+      "q": {
+        "en": "What can a first violation of the school bus stopping law cost you?",
+        "zh": "首次违反校车停车法会有什么后果？"
+      },
+      "options": {
+        "en": [
+          "A warning only",
+          "A $25 fine",
+          "Six months in jail in all cases",
+          "A $250 fine and a possible license suspension"
+        ],
+        "zh": [
+          "仅警告",
+          "罚款 25 美元",
+          "任何情况下监禁六个月",
+          "罚款 250 美元并可能吊销驾照"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "A first school-bus violation can bring a $250 fine and a license suspension.",
+        "zh": "首次违反校车停车规定可被罚 250 美元并吊销驾照。"
+      },
+      "source": {
+        "section": "Chapter 4 — Road Respect / Sharing the Road",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-089",
+      "topic": "sharing",
+      "q": {
+        "en": "You are passing a person riding a bicycle. How much space must you leave, and may you cross the center line to get it?",
+        "zh": "你正在超越一名骑行者。必须留出多少距离，可以为此跨越中心线吗？"
+      },
+      "options": {
+        "en": [
+          "At least 4 feet; if safe, you may use part of the next lane and cross the center line, while obeying the speed limit",
+          "At least 2 feet; never cross the center line",
+          "As much as fits in your own lane; space is optional",
+          "At least 6 feet; you must exceed the speed limit to pass quickly"
+        ],
+        "zh": [
+          "至少 4 英尺；安全时可使用相邻车道的一部分并跨越中心线，同时遵守限速",
+          "至少 2 英尺；绝不能跨越中心线",
+          "自己车道内能留多少算多少；距离可选",
+          "至少 6 英尺；必须超速快速通过"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Passing a vulnerable road user requires at least four feet, and crossing the center line is allowed if safe.",
+        "zh": "超越弱势道路使用者至少要留 4 英尺，安全时可以跨越中心线。"
+      },
+      "source": {
+        "section": "Chapter 2 — Vulnerable Road Users Law",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-090",
+      "topic": "sharing",
+      "q": {
+        "en": "Which of these people count as 'vulnerable road users' under Massachusetts law?",
+        "zh": "根据马萨诸塞州法律，下列哪些人属于“弱势道路使用者”？"
+      },
+      "options": {
+        "en": [
+          "Only pedestrians",
+          "Pedestrians, bicyclists, roadside workers, wheelchair users, and people on scooters or skateboards, among others",
+          "Only children under 12",
+          "Only people in marked crosswalks"
+        ],
+        "zh": [
+          "只有行人",
+          "包括行人、骑行者、道路作业人员、轮椅使用者以及滑板车或滑板使用者等",
+          "只有 12 岁以下儿童",
+          "只有在人行横道标记内的人"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "The law's list is broad: pedestrians, workers, bicyclists, mobility-device users, scooter and skateboard users, and more.",
+        "zh": "该法名单很广：行人、作业人员、骑行者、行动辅助设备使用者、滑板车和滑板使用者等。"
+      },
+      "source": {
+        "section": "Chapter 2 — Vulnerable Road Users Law",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-091",
+      "topic": "sharing",
+      "q": {
+        "en": "A pedestrian with a white cane is crossing the street ahead. What does the White Cane Law require?",
+        "zh": "一名手持白手杖的行人正在前方过街。白手杖法要求什么？"
+      },
+      "options": {
+        "en": [
+          "Slow down and steer around them",
+          "Honk once so they know you are there",
+          "Come to a complete stop, remain stopped until the person has safely crossed, and do not honk or wave them on",
+          "Pass the stopped car beside you to get through faster"
+        ],
+        "zh": [
+          "减速并绕开对方",
+          "鸣笛一次让对方知道你在那里",
+          "完全停稳，保持停车直至对方安全过街，且不要鸣笛或挥手催促",
+          "超越旁边停着的车以便更快通过"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Drivers must stop completely for a blind pedestrian and stay stopped until the crossing is finished.",
+        "zh": "驾驶员必须为盲人行人完全停车，并保持停车直至其过街完成。"
+      },
+      "source": {
+        "section": "Chapter 2 — Pedestrians (White Cane Law)",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-092",
+      "topic": "sharing",
+      "q": {
+        "en": "Your car is beside a stopped vehicle at a crosswalk on a multi-lane road. What must you do before passing it?",
+        "zh": "在多车道道路的人行横道处，你旁边有一辆停着的车。超越它之前你必须怎么做？"
+      },
+      "options": {
+        "en": [
+          "Check for pedestrians first — never pass a vehicle stopped at a crosswalk without checking",
+          "Pass quickly before pedestrians appear",
+          "Honk and pass at normal speed",
+          "Pass on the shoulder"
+        ],
+        "zh": [
+          "先检查是否有行人——绝不能不查看就超越在人行横道停车的车辆",
+          "在行人出现前快速超越",
+          "鸣笛并以正常速度超越",
+          "从路肩超越"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "A vehicle stopped at a crosswalk may be hiding a pedestrian; never pass it without checking.",
+        "zh": "在人行横道停车的车辆可能挡住行人；不查看绝不能超越。"
+      },
+      "source": {
+        "section": "Chapter 4 — Road Respect / Sharing the Road",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-093",
+      "topic": "sharing",
+      "q": {
+        "en": "An ambulance with siren and flashing lights approaches from behind. What must you do?",
+        "zh": "一辆鸣笛并闪灯的救护车从后方驶来。你必须怎么做？"
+      },
+      "options": {
+        "en": [
+          "Speed up to stay ahead of it",
+          "Pull as close as possible to the right side of the road and stop until it has passed — slow rolling is not acceptable",
+          "Stop immediately wherever you are, even in the middle of an intersection",
+          "Pull to the left to open the right lane"
+        ],
+        "zh": [
+          "加速保持在它前面",
+          "尽量靠道路右侧并停车，直至其通过——缓慢滚动不行",
+          "立即在原地停车，哪怕在路口中央",
+          "靠左以让出右侧车道"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Yield to a moving emergency vehicle by pulling right and stopping fully; if in an intersection, drive through first, then pull over.",
+        "zh": "为移动中的应急车辆让行要靠右并完全停车；在路口内时先驶出路口再靠边。"
+      },
+      "source": {
+        "section": "Chapter 5 — Moving / Stationary Emergency Vehicles",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-094",
+      "topic": "sharing",
+      "q": {
+        "en": "How close may you follow behind a fire truck that is responding to an alarm?",
+        "zh": "你可以跟在一辆正在响应警报的消防车后面多近？"
+      },
+      "options": {
+        "en": [
+          "Within 100 feet",
+          "Within 200 feet",
+          "No closer than 300 feet",
+          "Following distance does not apply to emergency vehicles"
+        ],
+        "zh": [
+          "100 英尺以内",
+          "200 英尺以内",
+          "不得近于 300 英尺",
+          "跟车距离不适用于应急车辆"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Following within 300 feet of an emergency vehicle responding to an alarm is illegal.",
+        "zh": "跟在响应警报的应急车辆后 300 英尺以内是违法的。"
+      },
+      "source": {
+        "section": "Chapter 5 — Moving / Stationary Emergency Vehicles",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-095",
+      "topic": "sharing",
+      "q": {
+        "en": "On a four-lane highway (two lanes each way), a tow truck with flashing lights is stopped on the right shoulder. Under the Move Over law, what must you do?",
+        "zh": "在四车道高速公路（每向两车道）上，一辆闪灯的拖车停在右侧路肩。根据让路法（Move Over），你必须怎么做？"
+      },
+      "options": {
+        "en": [
+          "Nothing — the law covers only police cars",
+          "Stop completely in your lane",
+          "Speed up to pass the scene quickly",
+          "Move over to a lane not next to the stopped vehicle if safe, and in any case slow to a reasonable and safe speed with caution"
+        ],
+        "zh": [
+          "什么都不用做——该法只适用于警车",
+          "在自己车道内完全停车",
+          "加速快速通过现场",
+          "安全时换到不与停着的车辆相邻的车道，且无论如何要谨慎地减至合理安全的速度"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "The Move Over law covers emergency, highway, and recovery vehicles; move over a lane when possible, otherwise slow down.",
+        "zh": "让路法适用于应急、公路养护和救援车辆；能换道时换道，否则减速。"
+      },
+      "source": {
+        "section": "Chapter 5 — Moving / Stationary Emergency Vehicles",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": "construction"
+    },
+    {
+      "id": "ma-096",
+      "topic": "sharing",
+      "q": {
+        "en": "If you cannot see a truck's rearview mirrors while following it, what does that mean?",
+        "zh": "跟在大卡车后时若你看不到它的后视镜，这意味着什么？"
+      },
+      "options": {
+        "en": [
+          "You are in the truck's blind spot and following too closely — you are losing the safety cushion you need",
+          "The truck driver can see you clearly",
+          "Your headlights are off",
+          "The truck is about to turn"
+        ],
+        "zh": [
+          "你在卡车的盲区内且跟得太近——你正在失去需要的安全缓冲",
+          "卡车司机能清楚看到你",
+          "你的大灯没开",
+          "卡车即将转弯"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "If you cannot see a truck's mirrors, the truck driver cannot see you.",
+        "zh": "若你看不到卡车的后视镜，卡车司机也看不到你。"
+      },
+      "source": {
+        "section": "Chapter 4 — Road Respect / Sharing the Road",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-097",
+      "topic": "sharing",
+      "q": {
+        "en": "A fully loaded tractor-trailer may need how much stopping distance compared with a passenger car?",
+        "zh": "一辆满载的牵引挂车所需制动距离与乘用车相比如何？"
+      },
+      "options": {
+        "en": [
+          "About half as much",
+          "Up to twice as much, especially on wet or icy roads",
+          "About the same",
+          "Trucks always stop faster because of air brakes"
+        ],
+        "zh": [
+          "约一半",
+          "可达两倍，尤其在湿滑或结冰路面",
+          "大致相同",
+          "卡车因气刹总是停得更快"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Large trucks may need twice the stopping distance of a car; never cut in front of one and slow down.",
+        "zh": "大卡车制动距离可达小汽车的两倍；绝不能切到其前方然后减速。"
+      },
+      "source": {
+        "section": "Chapter 4 — Road Respect / Sharing the Road",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-098",
+      "topic": "sharing",
+      "q": {
+        "en": "You have just passed a bicyclist and want to make a right turn at the next driveway. What rule applies?",
+        "zh": "你刚超越一名骑行者，想在下一个车道入口右转。适用哪条规则？"
+      },
+      "options": {
+        "en": [
+          "Turn immediately; the bicyclist must stop for you",
+          "Honk so the bicyclist moves over",
+          "You may turn only when you are at a safe distance from the bicyclist and can turn at a reasonable, proper speed; never cut back right until safely past",
+          "Bicyclists always yield to turning cars"
+        ],
+        "zh": [
+          "立即转弯；骑行者必须为你停下",
+          "鸣笛让骑行者靠边",
+          "只有与骑行者保持安全距离、能以合理适当的速度转弯时才可转；未安全超越前绝不能切回右侧",
+          "骑行者永远让转弯车辆"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "After passing a bicycle you must not cut it off, and right turns in front of one require a safe distance and proper speed.",
+        "zh": "超越自行车后不得切断其路线，在骑行者前方右转需保持安全距离和适当速度。"
+      },
+      "source": {
+        "section": "Chapter 4 — Laws for Bicyclists and Motorists in the Presence of Bicyclists",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-099",
+      "topic": "sharing",
+      "q": {
+        "en": "You are about to open your car door while parked on a street with bicycle traffic. What is the safe method, and what is the fine for opening a door into an oncoming bicycle?",
+        "zh": "你停在有自行车通行的街道上准备开车门。安全方法是什么，将车门开向驶来的自行车会被罚多少？"
+      },
+      "options": {
+        "en": [
+          "Check mirrors and use your far hand to open the door (the 'Dutch Reach'); the fine can be up to $100",
+          "Open quickly with the near hand; no fine exists",
+          "Open the door only halfway; fine is $25",
+          "Passengers may open doors without checking; fine is $500"
+        ],
+        "zh": [
+          "看后视镜并用远侧手开门（“荷兰式伸手”）；罚款可达 100 美元",
+          "用近侧手快速开门；没有罚款",
+          "只开一半；罚款 25 美元",
+          "乘客开门无需查看；罚款 500 美元"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "The Dutch Reach forces you to turn and look; dooring a bicyclist can be fined up to $100.",
+        "zh": "荷兰式伸手法迫使你转身查看；开门撞向骑行者可被罚最高 100 美元。"
+      },
+      "source": {
+        "section": "Chapter 4 — Laws for Bicyclists and Motorists in the Presence of Bicyclists",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-100",
+      "topic": "sharing",
+      "q": {
+        "en": "At a red light there is a green bicycle box painted before the crosswalk, and it is empty. Where must you stop?",
+        "zh": "红灯时，人行横道前画有绿色的自行车候车区（bicycle box），且里面是空的。你必须停在哪里？"
+      },
+      "options": {
+        "en": [
+          "Inside the box, since it is empty",
+          "Behind the bicycle box, even when it is empty, and wait for the green light",
+          "On the crosswalk, past the box",
+          "Bicycle boxes are only suggestions for cars"
+        ],
+        "zh": [
+          "里面是空的，可以停在框内",
+          "停在自行车候车区之后，即使是空的，并等绿灯",
+          "停在人行横道上、越过候车区",
+          "自行车候车区对汽车只是建议"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Drivers must stop behind a bicycle box at a red light whether or not a bicyclist is in it.",
+        "zh": "红灯时无论候车区内有无骑行者，驾驶员都必须停在其后。"
+      },
+      "source": {
+        "section": "Chapter 4 — Pavement Markings: Bicycle Boxes",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-101",
+      "topic": "sharing",
+      "q": {
+        "en": "A trolley is stopped letting passengers off. How close may you drive to its passenger step?",
+        "zh": "一辆有轨电车正停着让乘客下车。你可以驶近其乘客踏板到什么距离？"
+      },
+      "options": {
+        "en": [
+          "No closer than 3 feet",
+          "You may pass within inches if you slow down",
+          "No closer than 8 feet while it is loading or unloading",
+          "Distance rules do not apply to trolleys"
+        ],
+        "zh": [
+          "不得近于 3 英尺",
+          "减速就可以贴着通过",
+          "上下客时不得近于 8 英尺",
+          "电车不适用距离规则"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "State law bars driving within eight feet of a trolley step while passengers are getting on or off.",
+        "zh": "州法禁止在电车上下客时驶入其踏板 8 英尺以内。"
+      },
+      "source": {
+        "section": "Chapter 4 — Road Respect / Sharing the Road",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-102",
+      "topic": "sharing",
+      "q": {
+        "en": "You are driving behind a funeral procession on a multi-lane highway. Which action is prohibited for non-participants?",
+        "zh": "你在多车道高速公路上跟在送葬车队后面。非车队成员被禁止做哪件事？"
+      },
+      "options": {
+        "en": [
+          "Driving with headlights on",
+          "Slowing down near the procession",
+          "Yielding to the procession at an intersection",
+          "Passing the procession on its right, unless the procession is in the far left lane"
+        ],
+        "zh": [
+          "打开大灯行驶",
+          "在车队附近减速",
+          "在路口给车队让行",
+          "从车队右侧超越，除非车队在最左侧车道"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "Non-participants may not cut between procession vehicles, join, or pass on the right unless the procession is in the far left lane.",
+        "zh": "非车队成员不得插入车队车辆之间、加入车队，或从右侧超越（除非车队在最左侧车道）。"
+      },
+      "source": {
+        "section": "Chapter 4 — Road Respect / Sharing the Road",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-103",
+      "topic": "sharing",
+      "q": {
+        "en": "A pedestrian is already in the crosswalk when the countdown timer reaches zero. Who has the right-of-way?",
+        "zh": "倒计时到零时，一名行人已经在人行横道内。谁有路权？"
+      },
+      "options": {
+        "en": [
+          "The pedestrian already in the crosswalk has the right-of-way",
+          "The turning driver",
+          "Whoever reaches the middle first",
+          "The pedestrian must run back to the curb"
+        ],
+        "zh": [
+          "已在人行横道内的行人拥有路权",
+          "转弯的驾驶员",
+          "谁先到中间谁先",
+          "行人必须跑回路边"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Pedestrians already in the crosswalk when the countdown ends keep the right-of-way, and drivers must yield to pedestrians in a crosswalk in their path.",
+        "zh": "倒计时结束时已在横道内的行人保持路权，驾驶员必须给其行进路线横道内的行人让行。"
+      },
+      "source": {
+        "section": "Chapter 4 — Rules for Pedestrians / Pedestrian Signals",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-104",
+      "topic": "alcohol",
+      "q": {
+        "en": "At what blood alcohol content is a driver operating above the legal limit in Massachusetts?",
+        "zh": "在马萨诸塞州，血液酒精浓度（BAC）达到多少即属超限驾驶？"
+      },
+      "options": {
+        "en": [
+          "0.05",
+          "0.10 or higher",
+          "Any detectable amount for all drivers",
+          "0.08 or higher"
+        ],
+        "zh": [
+          "0.05",
+          "0.10 或更高",
+          "所有驾驶员只要检出即算",
+          "0.08 或更高"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "A BAC of 0.08 or higher is above the legal limit for all drivers.",
+        "zh": "BAC 达 0.08 或更高对所有驾驶员都属超限。"
+      },
+      "source": {
+        "section": "Chapter 3 — Alcohol, Drugs, and Driving",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-105",
+      "topic": "alcohol",
+      "q": {
+        "en": "Massachusetts has a zero-tolerance rule for drivers under 21. Penalties can begin at what BAC?",
+        "zh": "马萨诸塞州对 21 岁以下驾驶员实行零容忍。BAC 达到多少就可能面临处罚？"
+      },
+      "options": {
+        "en": [
+          "0.08",
+          "0.05",
+          "0.02",
+          "0.00 only — any reading below 0.02 is ignored"
+        ],
+        "zh": [
+          "0.08",
+          "0.05",
+          "0.02",
+          "只有 0.00——低于 0.02 的读数一律忽略"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Drivers under 21 face penalties for a BAC as low as 0.02.",
+        "zh": "21 岁以下驾驶员 BAC 低至 0.02 就会面临处罚。"
+      },
+      "source": {
+        "section": "Chapter 3 — Alcohol, Drugs, and Driving",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-106",
+      "topic": "alcohol",
+      "q": {
+        "en": "What does the Implied Consent Law mean for a licensed Massachusetts driver?",
+        "zh": "默示同意法（Implied Consent Law）对持照的马萨诸塞州驾驶员意味着什么？"
+      },
+      "options": {
+        "en": [
+          "The driver agrees in advance to a breath or blood test in certain cases, such as after an arrest for suspected OUI",
+          "The driver consents to any search of the vehicle at any time",
+          "Police never need a reason to test any driver",
+          "Consent applies only to drivers under 21"
+        ],
+        "zh": [
+          "驾驶员预先同意在某些情况下（如因涉嫌酒驾被捕后）接受呼气或血液检测",
+          "驾驶员同意任何时候搜查其车辆",
+          "警察无需任何理由即可检测任何驾驶员",
+          "该同意仅适用于 21 岁以下驾驶员"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "By holding a license, a driver consents to a breathalyzer or blood test in the cases the law describes.",
+        "zh": "持有驾照即表示同意在法律所述情况下接受呼气或血液检测。"
+      },
+      "source": {
+        "section": "Chapter 3 — Alcohol, Drugs, and Driving",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-107",
+      "topic": "alcohol",
+      "q": {
+        "en": "After a stop, your BAC is over the limit — or you refuse the breath or blood test. What happens to your license on the spot?",
+        "zh": "被拦下后，你的 BAC 超限——或者你拒绝呼气或血液检测。你的驾照当场会怎样？"
+      },
+      "options": {
+        "en": [
+          "Nothing until a court hearing months later",
+          "The officer must take your license and you get a notice of suspension that is effective immediately",
+          "You keep the license but receive a warning letter",
+          "Only the registration is taken"
+        ],
+        "zh": [
+          "几个月后上法庭前什么都不会发生",
+          "警察必须收走你的驾照，你会收到立即生效的吊销通知",
+          "你保留驾照，只收到警告信",
+          "只收走车辆登记"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Over-limit BAC or a refusal means the officer takes the license and suspension starts immediately.",
+        "zh": "BAC 超限或拒绝检测，警察会收走驾照，吊销立即生效。"
+      },
+      "source": {
+        "section": "Chapter 3 — Alcohol, Drugs, and Driving",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-108",
+      "topic": "alcohol",
+      "q": {
+        "en": "A driver over 21 with no prior OUI offenses refuses a chemical test. How long is the license suspension for the refusal?",
+        "zh": "一名 21 岁以上、无酒驾前科的驾驶员拒绝化学检测。因拒绝检测吊销驾照多久？"
+      },
+      "options": {
+        "en": [
+          "30 days",
+          "90 days",
+          "180 days",
+          "Five years"
+        ],
+        "zh": [
+          "30 天",
+          "90 天",
+          "180 天",
+          "五年"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "For an adult with no prior OUI offense, refusal brings a 180-day suspension; priors raise it to three years, five years, then lifetime.",
+        "zh": "无前科的成年人拒绝检测吊销 180 天；有前科则依次升至三年、五年乃至终身。"
+      },
+      "source": {
+        "section": "Chapter 3 — License Suspension Periods for Failed / Refused Chemical Tests",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-109",
+      "topic": "alcohol",
+      "q": {
+        "en": "A driver over 21 fails a chemical test (BAC 0.08 or more) with no court result yet. What is the suspension from the failed test itself?",
+        "zh": "一名 21 岁以上驾驶员化学检测不合格（BAC 0.08 或以上），法院尚无结果。仅因检测不合格的吊销期是多久？"
+      },
+      "options": {
+        "en": [
+          "One year automatically",
+          "180 days plus another year",
+          "No suspension until conviction",
+          "30 days, or until the court case concludes, whichever is shorter"
+        ],
+        "zh": [
+          "自动一年",
+          "180 天再加一年",
+          "定罪前不吊销",
+          "30 天，或到法院案件结束为止，以较短者为准"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "For drivers over 21, a failed test suspends the license for 30 days or until the case ends, whichever is shorter.",
+        "zh": "21 岁以上者检测不合格吊销 30 天或至案件结束，以较短者为准。"
+      },
+      "source": {
+        "section": "Chapter 3 — License Suspension Periods for Failed / Refused Chemical Tests",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-110",
+      "topic": "alcohol",
+      "q": {
+        "en": "How long is the license suspension after a FIRST OUI conviction?",
+        "zh": "第一次酒驾（OUI）定罪后，驾照吊销多久？"
+      },
+      "options": {
+        "en": [
+          "One year",
+          "30 days",
+          "90 days",
+          "Two years"
+        ],
+        "zh": [
+          "一年",
+          "30 天",
+          "90 天",
+          "两年"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "A first OUI conviction carries a one-year suspension; later convictions bring two, eight, and ten years, then lifetime.",
+        "zh": "第一次酒驾定罪吊销一年；后续定罪依次为两年、八年、十年，然后终身。"
+      },
+      "source": {
+        "section": "Chapter 3 — Alcohol, Drugs, and Driving",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-111",
+      "topic": "alcohol",
+      "q": {
+        "en": "What fine range applies to a first OUI conviction?",
+        "zh": "第一次酒驾定罪的罚款范围是多少？"
+      },
+      "options": {
+        "en": [
+          "$100 to $500",
+          "$500 to $5,000, with up to two and a half years in prison",
+          "$5,000 to $10,000",
+          "No fine on a first offense"
+        ],
+        "zh": [
+          "100 至 500 美元",
+          "500 至 5,000 美元，并可判最高两年半监禁",
+          "5,000 至 10,000 美元",
+          "初犯不罚款"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "First-offense OUI: $500–$5,000 fine and up to 2½ years; a court may allow an alcohol education program to shorten the suspension.",
+        "zh": "初犯酒驾：罚款 500 至 5,000 美元并可判最高两年半；法院可允许以酒精教育课程缩短吊销期。"
+      },
+      "source": {
+        "section": "Chapter 3 — Alcohol, Drugs, and Driving",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-112",
+      "topic": "alcohol",
+      "q": {
+        "en": "Which drinks contain roughly the same amount of alcohol (about half an ounce)?",
+        "zh": "下列哪些饮品所含酒精量大致相同（约半盎司）？"
+      },
+      "options": {
+        "en": [
+          "A 12-ounce beer and two glasses of wine",
+          "Only hard liquor counts as alcohol",
+          "A 12-ounce beer, a 5-ounce glass of wine, and a 1.5-ounce serving of 80-proof liquor",
+          "Wine contains no alcohol that affects driving"
+        ],
+        "zh": [
+          "一杯 12 盎司啤酒和两杯葡萄酒",
+          "只有烈酒才算酒精",
+          "一杯 12 盎司啤酒、一杯 5 盎司葡萄酒和一份 1.5 盎司 80 度烈酒",
+          "葡萄酒不含影响驾驶的酒精"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Beer, wine, and liquor servings above each carry about the same alcohol; what matters is total alcohol over time.",
+        "zh": "上述啤酒、葡萄酒和烈酒的份量酒精含量大致相同；关键是一段时间内摄入的酒精总量。"
+      },
+      "source": {
+        "section": "Chapter 3 — Alcohol, Drugs, and Driving",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-113",
+      "topic": "alcohol",
+      "q": {
+        "en": "After drinking, which of these will actually lower your BAC?",
+        "zh": "饮酒后，下列哪种做法真能降低你的 BAC？"
+      },
+      "options": {
+        "en": [
+          "Drinking black coffee",
+          "Taking a cold shower",
+          "Exercising or eating a meal",
+          "Only time — nothing speeds up how fast alcohol leaves your body"
+        ],
+        "zh": [
+          "喝黑咖啡",
+          "洗冷水澡",
+          "运动或吃一顿饭",
+          "只有时间——没有任何办法能加快酒精排出身体的速度"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "Coffee, showers, exercise, and food may make you feel alert but do not change how quickly alcohol leaves the body.",
+        "zh": "咖啡、洗澡、运动和食物可能让你感觉清醒，但不会改变酒精排出的速度。"
+      },
+      "source": {
+        "section": "Chapter 3 — Alcohol, Drugs, and Driving",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-114",
+      "topic": "alcohol",
+      "q": {
+        "en": "How does alcohol affect a driver, according to the manual's facts on impairment?",
+        "zh": "根据手册关于损害的事实，酒精如何影响驾驶员？"
+      },
+      "options": {
+        "en": [
+          "It improves reaction time on short trips",
+          "It is a depressant: it slows reflexes, lengthens reaction time, distorts vision and judgment, and can make a driver overconfident",
+          "It affects only very drunk drivers",
+          "It only affects vision at night"
+        ],
+        "zh": [
+          "它在短途时能提高反应速度",
+          "它是抑制剂：减慢反射、延长反应时间、扭曲视觉和判断力，并可能让驾驶员过度自信",
+          "它只影响醉得很厉害的驾驶员",
+          "它只在夜间影响视觉"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Even small amounts of alcohol impair the vision, reaction time, coordination, and judgment driving requires.",
+        "zh": "即使少量酒精也会损害驾驶所需的视觉、反应时间、协调能力和判断力。"
+      },
+      "source": {
+        "section": "Chapter 3 — Alcohol, Drugs, and Driving",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-115",
+      "topic": "alcohol",
+      "q": {
+        "en": "A driver with two or more OUI offenses becomes eligible for a hardship license. What device is required?",
+        "zh": "有两次或以上酒驾记录的驾驶员获得困难驾照（hardship license）资格时，必须安装什么设备？"
+      },
+      "options": {
+        "en": [
+          "A speed governor set by the RMV",
+          "A dashboard camera",
+          "An Ignition Interlock Device, at the driver's expense, during the hardship period and for two years after reinstatement",
+          "Nothing extra is required"
+        ],
+        "zh": [
+          "由 RMV 设定的限速器",
+          "行车记录仪",
+          "点火联锁装置，费用自理，在困难驾照期间及恢复驾照后两年内使用",
+          "不需要任何额外设备"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Two or more OUI offenses trigger the Ignition Interlock requirement for hardship driving and reinstatement.",
+        "zh": "两次或以上酒驾会触发点火联锁要求，适用于困难驾驶和恢复驾照。"
+      },
+      "source": {
+        "section": "Chapter 3 — Alcohol, Drugs, and Driving",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-116",
+      "topic": "alcohol",
+      "q": {
+        "en": "A 19-year-old is carrying an unopened bottle of wine in the car, riding alone. What does Massachusetts law say?",
+        "zh": "一名 19 岁的人独自乘车，车里有一瓶未开封的葡萄酒。马萨诸塞州法律如何规定？"
+      },
+      "options": {
+        "en": [
+          "Unopened containers are always legal",
+          "Only drinking it in the car is illegal",
+          "Transporting is fine if the bottle is in the trunk in all cases",
+          "It is illegal for someone under 21 to possess, carry, or transport alcohol unless accompanied by a parent or guardian; the license can be suspended 90 days to one year"
+        ],
+        "zh": [
+          "未开封的容器永远合法",
+          "只有在车里喝才违法",
+          "任何情况下放在后备箱运输都可以",
+          "21 岁以下者持有、携带或运输酒精属违法，除非有父母或监护人陪同；驾照可被吊销 90 天至一年"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "Under-21 possession or transport of alcohol without a parent or guardian present risks a 90-day to one-year suspension.",
+        "zh": "21 岁以下者在无父母或监护人陪同时持有或运输酒精，可能被吊销 90 天至一年。"
+      },
+      "source": {
+        "section": "Chapter 3 — Alcohol, Drugs, and Driving",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-117",
+      "topic": "alcohol",
+      "q": {
+        "en": "A passenger in the back seat holds an open can of beer while you drive. Is that a problem under the Open Container Law?",
+        "zh": "你驾驶时，后排乘客拿着一罐打开的啤酒。根据开容器法（Open Container Law），这有问题吗？"
+      },
+      "options": {
+        "en": [
+          "Yes — you may not have an open alcoholic drink inside the vehicle even if someone else is holding it; the fine is $100 to $500",
+          "No — passengers may hold open containers",
+          "Only if the passenger is under 21",
+          "Only on highways"
+        ],
+        "zh": [
+          "有——车内不得有打开的酒精饮料，即使是别人拿着；罚款 100 至 500 美元",
+          "没有——乘客可以拿打开的容器",
+          "只有乘客未满 21 岁才有问题",
+          "只在高速公路上"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "An open container anywhere in the vehicle violates the law, whoever is holding it.",
+        "zh": "车内任何位置有打开的容器都违法，无论是谁拿着。"
+      },
+      "source": {
+        "section": "Chapter 3 — Alcohol, Drugs, and Driving",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-118",
+      "topic": "alcohol",
+      "q": {
+        "en": "Does Massachusetts OUI law cover marijuana and prescription medicines?",
+        "zh": "马萨诸塞州酒驾法是否涵盖大麻和处方药？"
+      },
+      "options": {
+        "en": [
+          "No — OUI is alcohol only",
+          "Yes — operating under the influence of marijuana is a criminal offense, and impairment by any substance, including prescription or over-the-counter drugs, is illegal",
+          "Only if the drugs are illegal to possess",
+          "Only marijuana edibles are covered"
+        ],
+        "zh": [
+          "不涵盖——OUI 只指酒精",
+          "涵盖——在大麻影响下驾驶是刑事犯罪，受任何物质（包括处方药或非处方药）损害而驾驶均属违法",
+          "只有非法持有的药物才涵盖",
+          "只涵盖大麻食品"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "The same OUI penalties apply to marijuana and other impairing drugs and medicines.",
+        "zh": "同样的 OUI 处罚适用于大麻及其它致损药物和药品。"
+      },
+      "source": {
+        "section": "Chapter 3 — Alcohol, Drugs, and Driving",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-119",
+      "topic": "alcohol",
+      "q": {
+        "en": "What happens if you mix alcohol with another drug before driving?",
+        "zh": "驾驶前把酒精与另一种药物混合使用会怎样？"
+      },
+      "options": {
+        "en": [
+          "The effects cancel out",
+          "Only the drug's label matters",
+          "Combining alcohol with other drugs dramatically increases the negative effects — a fatal mistake to mix with driving",
+          "It is legal if the drug was prescribed"
+        ],
+        "zh": [
+          "效果相互抵消",
+          "只需看药物标签",
+          "酒精与其它药物混合会大幅放大负面效果——与驾驶混合是致命错误",
+          "只要药物是处方开的就合法"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Mixing alcohol with other drugs multiplies impairment; never combine them with driving.",
+        "zh": "酒精与其它药物混合会倍增损害；绝不能与驾驶混合。"
+      },
+      "source": {
+        "section": "Chapter 3 — Alcohol, Drugs, and Driving",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-120",
+      "topic": "licensing",
+      "q": {
+        "en": "What is the minimum age to apply for a Class D learner's permit in Massachusetts?",
+        "zh": "在马萨诸塞州，申请 D 类学习驾照的最低年龄是多少？"
+      },
+      "options": {
+        "en": [
+          "16",
+          "15",
+          "15 and a half",
+          "17"
+        ],
+        "zh": [
+          "16 岁",
+          "15 岁",
+          "15 岁半",
+          "17 岁"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "You must be at least 16 to apply for a Class D or Class M learner's permit, and no one under 16 may drive in Massachusetts at all.",
+        "zh": "申请 D 类或 M 类学习驾照必须年满 16 岁，且未满 16 岁者根本不能在马萨诸塞州驾驶。"
+      },
+      "source": {
+        "section": "Chapter 1 — Obtaining Your License",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-121",
+      "topic": "licensing",
+      "q": {
+        "en": "How many questions are on the Class D learner's permit exam, how many must you answer correctly, and how much time do you get?",
+        "zh": "D 类学习驾照考试有多少道题、要答对多少、时间多久？"
+      },
+      "options": {
+        "en": [
+          "25 questions; 20 correct; 60 minutes",
+          "25 questions; 18 correct; 25 minutes",
+          "50 questions; 40 correct; 50 minutes",
+          "30 questions; 21 correct; 30 minutes"
+        ],
+        "zh": [
+          "25 道题；答对 20 道；60 分钟",
+          "25 道题；答对 18 道；25 分钟",
+          "50 道题；答对 40 道；50 分钟",
+          "30 道题；答对 21 道；30 分钟"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "The permit exam is 25 multiple-choice questions in 25 minutes, and 18 correct answers pass.",
+        "zh": "学习驾照考试为 25 道选择题、25 分钟，答对 18 道即通过。"
+      },
+      "source": {
+        "section": "Chapter 1 — Obtaining Your License",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-122",
+      "topic": "licensing",
+      "q": {
+        "en": "Which license class covers ordinary passenger vehicles such as cars, SUVs, and family vans?",
+        "zh": "哪一类驾照涵盖汽车、SUV 和家庭厢式车等普通乘用车辆？"
+      },
+      "options": {
+        "en": [
+          "Class A",
+          "Class B",
+          "Class D",
+          "Class C"
+        ],
+        "zh": [
+          "A 类",
+          "B 类",
+          "D 类",
+          "C 类"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Class D is the common passenger-vehicle license; A, B, and C are commercial classes and M is motorcycles.",
+        "zh": "D 类是普通乘用车驾照；A、B、C 是商用类，M 类是摩托车。"
+      },
+      "source": {
+        "section": "Chapter 1 — Obtaining Your License",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-123",
+      "topic": "licensing",
+      "q": {
+        "en": "A Class B license holder may operate which vehicles (with proper endorsements)?",
+        "zh": "B 类驾照持有人可以驾驶哪些车辆（在有适当签注时）？"
+      },
+      "options": {
+        "en": [
+          "Only motorcycles",
+          "Only vehicles under 10,000 pounds",
+          "Any combination with a towed unit over 10,000 pounds",
+          "Any single vehicle with a GVWR of 26,001 pounds or more, or such a vehicle towing up to 10,000 pounds GVWR — and all Class C and D vehicles"
+        ],
+        "zh": [
+          "只有摩托车",
+          "只有 10,000 磅以下的车辆",
+          "任何被牵引单元超过 10,000 磅的组合车辆",
+          "任何总重（GVWR）达 26,001 磅或以上的单一车辆，或牵引 GVWR 不超过 10,000 磅车辆的此类车辆——以及所有 C 类和 D 类车辆"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "Class B covers heavy single vehicles and includes Class C and D privileges; the heavy combination definition belongs to Class A.",
+        "zh": "B 类涵盖重型单一车辆并包括 C 类和 D 类权限；重型组合车辆属于 A 类。"
+      },
+      "source": {
+        "section": "Chapter 1 — Obtaining Your License",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-124",
+      "topic": "licensing",
+      "q": {
+        "en": "For how long is a Massachusetts driver's license valid, and when does it usually expire?",
+        "zh": "马萨诸塞州驾照有效期多长，通常何时到期？"
+      },
+      "options": {
+        "en": [
+          "A maximum of five years; typically on your birthday",
+          "Three years; on January 1",
+          "Ten years; on the issue date",
+          "Five years; on the date you moved to Massachusetts"
+        ],
+        "zh": [
+          "最长五年；通常在你的生日到期",
+          "三年；1 月 1 日",
+          "十年；在签发日",
+          "五年；在你迁入马萨诸塞州之日"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Licenses run a maximum of five years and typically expire on the holder's birthday; renewal is possible up to a year early.",
+        "zh": "驾照最长有效五年，通常在持有人生日到期；可提前至一年续期。"
+      },
+      "source": {
+        "section": "Chapter 1 — Obtaining Your License",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-125",
+      "topic": "licensing",
+      "q": {
+        "en": "You just became a Massachusetts resident and hold a valid license from another state. How long is your grace period to get a Massachusetts license?",
+        "zh": "你刚成为马萨诸塞州居民并持有其它州的有效驾照。换取马萨诸塞州驾照的宽限期是多久？"
+      },
+      "options": {
+        "en": [
+          "30 days",
+          "There is no grace period — you must obtain a Massachusetts license to keep driving",
+          "60 days",
+          "Six months"
+        ],
+        "zh": [
+          "30 天",
+          "没有宽限期——必须取得马萨诸塞州驾照才能继续驾驶",
+          "60 天",
+          "六个月"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "New residents must get a Massachusetts license with no grace period.",
+        "zh": "新居民必须取得马萨诸塞州驾照，没有宽限期。"
+      },
+      "source": {
+        "section": "Chapter 1 — Obtaining Your License",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-126",
+      "topic": "licensing",
+      "q": {
+        "en": "What vision standard must you meet for a full Class D license?",
+        "zh": "获得完整 D 类驾照必须达到什么视力标准？"
+      },
+      "options": {
+        "en": [
+          "20/20 in both eyes",
+          "20/70 in the better eye is enough for a full license",
+          "At least 20/40 corrected acuity in the better eye and at least 120 degrees of horizontal peripheral vision with both eyes",
+          "Only color vision is tested"
+        ],
+        "zh": [
+          "双眼 20/20",
+          "较好眼 20/70 就够拿完整驾照",
+          "较好眼矫正视力至少 20/40，双眼水平周边视野至少 120 度",
+          "只测色觉"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Corrected vision between 20/50 and 20/70 may qualify only for a daylight-only license.",
+        "zh": "矫正视力在 20/50 至 20/70 之间可能只符合仅限日间驾驶的驾照。"
+      },
+      "source": {
+        "section": "Chapter 1 — Obtaining Your License",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-127",
+      "topic": "licensing",
+      "q": {
+        "en": "If you pass the vision screening only because you wear glasses, what appears on your license?",
+        "zh": "若你只是因为戴眼镜才通过视力筛查，你的驾照上会出现什么？"
+      },
+      "options": {
+        "en": [
+          "A 'Corrective Lenses' restriction — code letter B — and you must wear your lenses when you drive",
+          "Nothing",
+          "A daylight-only restriction in all cases",
+          "A note that glasses are optional"
+        ],
+        "zh": [
+          "“矫正镜片”限制——代码字母 B——驾驶时必须佩戴镜片",
+          "什么都没有",
+          "任何情况下都是仅限日间限制",
+          "一条眼镜可选的备注"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Passing with lenses adds restriction B; restriction G is daylight only.",
+        "zh": "戴镜片通过会加上 B 限制；G 才是仅限日间。"
+      },
+      "source": {
+        "section": "Chapter 1 — Obtaining Your License",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-128",
+      "topic": "licensing",
+      "q": {
+        "en": "Who may supervise a Class D learner's permit holder while they practice?",
+        "zh": "D 类学习驾照持有人练习时，谁可以陪同监督？"
+      },
+      "options": {
+        "en": [
+          "Any licensed driver over 18",
+          "A licensed operator seated beside the permit holder who is at least 21 years old with at least one year of driving experience",
+          "A parent only, regardless of experience",
+          "The permit holder may practice alone after 30 days"
+        ],
+        "zh": [
+          "任何 18 岁以上的持照驾驶员",
+          "坐在学习者旁边的持照驾驶员，年满 21 岁且有至少一年驾驶经验",
+          "只能是父母，无论经验如何",
+          "持有 30 天后可独自练习"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "The supervisor must sit beside the learner, be at least 21, hold a valid license, and have at least a year of driving experience.",
+        "zh": "监督者必须坐在学习者旁边、年满 21 岁、持有效驾照且有至少一年驾驶经验。"
+      },
+      "source": {
+        "section": "Chapter 1 — Obtaining Your License",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-129",
+      "topic": "licensing",
+      "q": {
+        "en": "A permit holder who is under 18 wants to drive at 2 a.m. When is that allowed?",
+        "zh": "一名未满 18 岁的学习驾照持有人想在凌晨 2 点开车。什么时候允许？"
+      },
+      "options": {
+        "en": [
+          "Never",
+          "Whenever the regular supervisor is present",
+          "Only when accompanied by a parent or legal guardian who is a validly licensed operator with at least one year of driving experience",
+          "On weekends only"
+        ],
+        "zh": [
+          "绝不允许",
+          "只要通常的监督者在场",
+          "只有在有父母或法定监护人陪同时——对方须是持照且有至少一年驾驶经验的驾驶员",
+          "仅限周末"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "Under-18 permit holders may not drive between midnight and 5 a.m. without a parent or legal guardian meeting the license and experience conditions.",
+        "zh": "未满 18 岁的学习者在午夜至凌晨 5 点之间不得驾驶，除非有符合执照和经验条件的父母或监护人陪同。"
+      },
+      "source": {
+        "section": "Chapter 1 — Obtaining Your License",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-130",
+      "topic": "licensing",
+      "q": {
+        "en": "What must a 16-and-a-half to 18-year-old complete before taking the road test for a Junior Operator License?",
+        "zh": "16 岁半至 18 岁的人在参加初级驾驶员驾照（JOL）路考前必须完成什么？"
+      },
+      "options": {
+        "en": [
+          "Only the permit exam",
+          "100 hours of night driving only",
+          "A college driving course",
+          "Hold a permit at least six consecutive months, keep a clean record for six months, finish an approved driver education program, and complete 40 hours of supervised driving (30 with a skills development program)"
+        ],
+        "zh": [
+          "只有学习考试",
+          "仅 100 小时夜间驾驶",
+          "大学驾驶课程",
+          "持有学习驾照至少连续六个月、保持六个月良好记录、完成批准的驾驶教育课程，并完成 40 小时监督驾驶（参加技能提升课程则为 30 小时）"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "Driver education itself is 30 classroom hours, 12 behind-the-wheel hours, and 6 hours observing other students.",
+        "zh": "驾驶教育本身包括 30 小时课堂、12 小时实驾和 6 小时观摩其他学员。"
+      },
+      "source": {
+        "section": "Chapter 1 — Junior Operator License Law",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-131",
+      "topic": "licensing",
+      "q": {
+        "en": "During the first six months with a Junior Operator License, which passengers may ride with the junior operator without a qualifying adult beside them?",
+        "zh": "持有 JOL 的头六个月，在没有合格成年人坐在旁边的陪同时，哪些乘客可以乘坐初级驾驶员的车？"
+      },
+      "options": {
+        "en": [
+          "Any friends, if they are students",
+          "No passengers at all, including family",
+          "Coworkers under 18, for work trips only",
+          "Only the driver themselves or an immediate family member under 18 — other under-18 passengers require a licensed driver age 21+ with at least one year of experience seated beside the junior operator"
+        ],
+        "zh": [
+          "任何朋友，只要是学生",
+          "任何人都不能坐，包括家人",
+          "18 岁以下同事，仅限工作出行",
+          "只有驾驶员本人或 18 岁以下的直系亲属——其它 18 岁以下乘客需要有持照、21 岁以上且有至少一年经验的驾驶员坐在旁边陪同"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "The first-six-month passenger restriction bars under-18 passengers other than the driver or immediate family, unless the qualifying adult is beside the driver.",
+        "zh": "头六个月乘客限制禁止搭载驾驶员本人或直系亲属以外的 18 岁以下乘客，除非有合格成年人坐在旁边。"
+      },
+      "source": {
+        "section": "Chapter 1 — Junior Operator License Law",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-132",
+      "topic": "licensing",
+      "q": {
+        "en": "What are the suspension penalties for a Junior Operator who violates the passenger or night restriction?",
+        "zh": "初级驾驶员违反乘客或夜间限制的吊销处罚是什么？"
+      },
+      "options": {
+        "en": [
+          "A $25 fine only",
+          "60 days for a first offense, 180 days for a second, and one year for later offenses",
+          "30 days for every offense",
+          "No suspension until age 18"
+        ],
+        "zh": [
+          "仅罚款 25 美元",
+          "初犯 60 天，第二次 180 天，之后一年",
+          "每次都是 30 天",
+          "18 岁前不吊销"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Second and later offenses also require a Driver Attitudinal Retraining course.",
+        "zh": "第二次及以后的违例还须完成驾驶态度再培训课程。"
+      },
+      "source": {
+        "section": "Chapter 1 — Junior Operator License Law",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-133",
+      "topic": "licensing",
+      "q": {
+        "en": "A Junior Operator is caught speeding for the first time. What suspension follows?",
+        "zh": "初级驾驶员第一次超速被抓。会有什么吊销处罚？"
+      },
+      "options": {
+        "en": [
+          "30 days",
+          "One year",
+          "90 days",
+          "None — only a fine"
+        ],
+        "zh": [
+          "30 天",
+          "一年",
+          "90 天",
+          "没有——只有罚款"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "For a JOL holder, a first speeding offense brings a 90-day suspension; a later one brings a year. Drag racing brings one year, then three.",
+        "zh": "JOL 持有者第一次超速吊销 90 天，之后为一年；飙车为一年，然后三年。"
+      },
+      "source": {
+        "section": "Chapter 1 — Junior Operator License Law",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-134",
+      "topic": "licensing",
+      "q": {
+        "en": "For a Junior Operator, driving between 12:30 a.m. and 5:00 a.m. is allowed only when…",
+        "zh": "对初级驾驶员而言，在凌晨 12:30 至 5:00 之间驾驶，仅在……时允许"
+      },
+      "options": {
+        "en": [
+          "Accompanied by one of their parents or their legal guardian",
+          "They are driving to work",
+          "They have held the JOL for three months",
+          "They drive on highways only"
+        ],
+        "zh": [
+          "有父母之一或法定监护人陪同时",
+          "开车去上班时",
+          "持有 JOL 满三个月时",
+          "只在高速公路上驾驶时"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Breaking the JOL night rule without a parent or guardian can be charged as driving without a license, a criminal violation.",
+        "zh": "无父母或监护人陪同违反 JOL 夜间规定，可被控无证驾驶，属刑事违规。"
+      },
+      "source": {
+        "section": "Chapter 1 — Junior Operator License Law",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-135",
+      "topic": "licensing",
+      "q": {
+        "en": "What is a 'surchargeable event'?",
+        "zh": "什么是“附加费事件”（surchargeable event）？"
+      },
+      "options": {
+        "en": [
+          "Any trip through a toll plaza",
+          "A motor vehicle violation or an at-fault crash, which counts toward a possible license suspension and affects insurance",
+          "Only a parking ticket",
+          "A vehicle inspection failure"
+        ],
+        "zh": [
+          "任何经过收费站的行程",
+          "机动车违规或有过错事故，会计入可能的驾照吊销并影响保险",
+          "只有停车罚单",
+          "车辆年检不合格"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "Violations and at-fault crashes are surchargeable events; most out-of-state convictions count as if they happened in Massachusetts.",
+        "zh": "违规和有过错事故属于附加费事件；大多数外州定罪按发生在马萨诸塞州计算。"
+      },
+      "source": {
+        "section": "Chapter 3 — Surchargeable Events",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-136",
+      "topic": "licensing",
+      "q": {
+        "en": "A driver collects three surchargeable events within two years. What must they do, and by when?",
+        "zh": "一名驾驶员在两年内累积三个附加费事件。必须做什么、在多久内？"
+      },
+      "options": {
+        "en": [
+          "Nothing until five events",
+          "Retake the road test within a year",
+          "Complete the Massachusetts Driver Retraining Course within 90 days, or the license is suspended until it is completed",
+          "Pay a $500 fee within 20 days"
+        ],
+        "zh": [
+          "五个事件前什么都不用做",
+          "一年内重考路考",
+          "在 90 天内完成马萨诸塞州驾驶员再培训课程，否则驾照将被吊销直至完成",
+          "20 天内缴纳 500 美元"
+        ]
+      },
+      "answer": 2,
+      "explanation": {
+        "en": "The retraining course is eight hours, in two four-hour sessions, and it does not erase the offenses from the record.",
+        "zh": "再培训课程为八小时、分两次四小时完成，且不会抹除记录上的违例。"
+      },
+      "source": {
+        "section": "Chapter 3 — Surchargeable Events",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-137",
+      "topic": "licensing",
+      "q": {
+        "en": "How many surchargeable events within three years trigger an automatic 60-day license suspension?",
+        "zh": "三年内多少个附加费事件会触发自动吊销驾照 60 天？"
+      },
+      "options": {
+        "en": [
+          "Three",
+          "Five",
+          "Ten",
+          "Seven"
+        ],
+        "zh": [
+          "三个",
+          "五个",
+          "十个",
+          "七个"
+        ]
+      },
+      "answer": 3,
+      "explanation": {
+        "en": "Seven surchargeable events in three years means an automatic 60-day suspension.",
+        "zh": "三年内七个附加费事件即自动吊销 60 天。"
+      },
+      "source": {
+        "section": "Chapter 3 — Surchargeable Events",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-138",
+      "topic": "licensing",
+      "q": {
+        "en": "Three speeding violations within a 12-month period result in what?",
+        "zh": "12 个月内三次超速违规会导致什么？"
+      },
+      "options": {
+        "en": [
+          "An automatic 30-day license suspension",
+          "A warning letter",
+          "A $100 fine only",
+          "Mandatory community service"
+        ],
+        "zh": [
+          "自动吊销驾照 30 天",
+          "一封警告信",
+          "仅罚款 100 美元",
+          "强制社区服务"
+        ]
+      },
+      "answer": 0,
+      "explanation": {
+        "en": "Three speeding findings in a year suspend the license for 30 days.",
+        "zh": "一年内三次超速即吊销驾照 30 天。"
+      },
+      "source": {
+        "section": "Chapter 3 — Surchargeable Events",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    },
+    {
+      "id": "ma-139",
+      "topic": "licensing",
+      "q": {
+        "en": "You receive a citation for a civil motor vehicle infraction. Within how many days must you pay the fine or request a hearing, and which unpaid items can block license renewal?",
+        "zh": "你收到一张民事机动车违规传票。必须在多少天内缴纳罚款或申请听证，哪些未缴款项会阻止驾照续期？"
+      },
+      "options": {
+        "en": [
+          "90 days; nothing blocks renewal",
+          "20 days; unpaid parking fines, excise taxes, outstanding warrants, and unpaid toll violations can block renewal",
+          "10 days; only unpaid speeding fines block renewal",
+          "Civil citations never affect a license"
+        ],
+        "zh": [
+          "90 天； 没有任何事项能阻止续期",
+          "20 天；未缴停车罚款、消费税、未决逮捕令及未缴通行费都可阻止续期",
+          "10 天；只有未缴超速罚款阻止续期",
+          "民事传票从不影响驾照"
+        ]
+      },
+      "answer": 1,
+      "explanation": {
+        "en": "A civil citation gives you 20 days to pay or request a hearing; ignoring it means being found responsible, a late fee, and possible suspension.",
+        "zh": "民事传票给你 20 天缴纳或申请听证；置之不理会被判定有责、加收滞纳金并可能被吊销。"
+      },
+      "source": {
+        "section": "Chapter 3 — Civil Motor Vehicle Infractions / License Nonrenewal",
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+      },
+      "sign": null
+    }
+  ]
+}

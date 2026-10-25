@@ -1,0 +1,200 @@
+---
+const { title, description } = Astro.props;
+const fullTitle = title ? `${title} | PermitDrills 驾考刷题` : 'PermitDrills 驾考刷题 — 美国驾照笔试中文练习';
+const desc = description || '根据各州官方驾驶手册编写的原创练习题：中文讲解、中英题面一键切换、逐题标注手册出处。新泽西、马萨诸塞、华盛顿、夏威夷、马里兰五州上线。Original practice questions based on official state driver handbooks, in Chinese and English.';
+---
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={desc} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={desc} />
+    <meta property="og:type" content="website" />
+    <style is:global>
+      :root {
+        --navy: #0f2040;
+        --navy-2: #1a3468;
+        --amber: #ffb800;
+        --amber-soft: #fff3cf;
+        --paper: #f7f5f0;
+        --card: #ffffff;
+        --ink: #17233b;
+        --muted: #5b6a85;
+        --line: #e3ddcf;
+        --good: #1d7a3d;
+        --good-bg: #e5f4e9;
+        --bad: #b3261e;
+        --bad-bg: #fbe9e7;
+        --radius: 16px;
+        --shadow: 0 2px 10px rgba(15, 32, 64, 0.08);
+      }
+      * { box-sizing: border-box; }
+      html { -webkit-text-size-adjust: 100%; }
+      body {
+        margin: 0; background: var(--paper); color: var(--ink);
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB",
+          "Microsoft YaHei", "Noto Sans SC", Roboto, Arial, sans-serif;
+        line-height: 1.6; font-size: 16.5px;
+      }
+      a { color: var(--navy-2); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+      .wrap { max-width: 1020px; margin: 0 auto; padding: 0 18px; }
+      header.site {
+        background: var(--navy); color: #fff; position: sticky; top: 0; z-index: 20;
+        box-shadow: 0 2px 12px rgba(15,32,64,.25);
+      }
+      header.site .wrap { display: flex; align-items: center; gap: 14px; padding-top: 10px; padding-bottom: 10px; flex-wrap: wrap; }
+      .brand { display: flex; align-items: center; gap: 10px; color: #fff; text-decoration: none; }
+      .brand .mark {
+        width: 34px; height: 34px; background: var(--amber); border-radius: 8px; transform: rotate(45deg);
+        display: inline-flex; align-items: center; justify-content: center; flex: none;
+      }
+      .brand .mark span { transform: rotate(-45deg); font-weight: 800; color: var(--navy); font-size: 17px; }
+      .brand b { font-size: 19px; letter-spacing: .2px; }
+      .brand small { display: block; font-size: 11.5px; color: #c9d4ec; line-height: 1.2; }
+      nav.main { margin-left: auto; display: flex; gap: 4px; flex-wrap: wrap; }
+      nav.main a { color: #dbe4f7; text-decoration: none; padding: 7px 11px; border-radius: 9px; font-size: 15px; }
+      nav.main a:hover { background: rgba(255,255,255,.12); color: #fff; }
+      nav.main a.cta { background: var(--amber); color: var(--navy); font-weight: 700; }
+      main { padding: 26px 0 54px; }
+      h1 { font-size: clamp(26px, 5.4vw, 40px); line-height: 1.22; margin: 6px 0 12px; }
+      h2 { font-size: clamp(20px, 3.6vw, 26px); margin: 30px 0 12px; line-height: 1.3; }
+      h3 { font-size: 18px; margin: 20px 0 8px; }
+      .lede { font-size: 18px; color: var(--muted); max-width: 46em; }
+      .card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); padding: 20px; }
+      .grid { display: grid; gap: 14px; }
+      .grid.c2 { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+      .grid.c3 { grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); }
+      .btn {
+        display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 50px;
+        padding: 12px 20px; border-radius: 12px; border: 1px solid var(--navy); background: var(--navy);
+        color: #fff; font-weight: 700; font-size: 16.5px; text-decoration: none; cursor: pointer;
+      }
+      .btn.amber { background: var(--amber); border-color: #e0a400; color: var(--navy); }
+      .btn.ghost { background: #fff; color: var(--navy); }
+      .btn:active { transform: translateY(1px); }
+      .chip {
+        display: inline-block; background: var(--amber-soft); border: 1px solid #ecd28a; color: #6b5200;
+        border-radius: 999px; padding: 3px 11px; font-size: 13.5px; font-weight: 600;
+      }
+      .chip.gray { background: #eef1f6; border-color: #d4dbe7; color: var(--navy-2); }
+      .muted { color: var(--muted); }
+      .small { font-size: 14px; }
+      .statecard { display: block; text-decoration: none; color: inherit; transition: transform .08s ease; }
+      .statecard:hover { transform: translateY(-2px); }
+      .statecard h3 { margin-top: 0; font-size: 21px; }
+      .facts { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0; }
+      .src { font-size: 13.5px; color: var(--muted); }
+      .src a { color: var(--muted); }
+      footer.site { background: var(--navy); color: #c9d4ec; padding: 30px 0 40px; font-size: 13.5px; }
+      footer.site a { color: #e8edf9; }
+      footer.site .cols { display: grid; gap: 18px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+      footer.site h4 { color: #fff; margin: 0 0 8px; font-size: 15px; }
+      footer.site ul { list-style: none; margin: 0; padding: 0; }
+      footer.site li { margin: 5px 0; }
+      .disclaimer { border-top: 1px solid rgba(255,255,255,.18); margin-top: 22px; padding-top: 16px; }
+      /* quiz */
+      .quiz-toolbar { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-bottom: 14px; }
+      .seg { display: inline-flex; background: #eef1f6; border: 1px solid #d4dbe7; border-radius: 11px; overflow: hidden; }
+      .seg button { border: 0; background: transparent; padding: 9px 14px; font-size: 15px; cursor: pointer; color: var(--navy-2); font-weight: 600; }
+      .seg button.on { background: var(--navy); color: #fff; }
+      .qmeta { display: flex; justify-content: space-between; gap: 10px; color: var(--muted); font-size: 14px; margin-bottom: 8px; flex-wrap: wrap; }
+      .qtext { font-size: 20px; font-weight: 650; line-height: 1.45; margin: 4px 0 14px; }
+      .signbox { display: flex; justify-content: center; padding: 8px 0 14px; }
+      .opts { display: grid; gap: 10px; }
+      .opt {
+        text-align: left; width: 100%; min-height: 54px; padding: 13px 16px; border-radius: 12px; cursor: pointer;
+        border: 1.5px solid var(--line); background: #fff; font-size: 16.5px; color: var(--ink); display: flex; gap: 10px; align-items: flex-start;
+      }
+      .opt .k { font-weight: 800; color: var(--navy-2); flex: none; }
+      .opt:hover:not(:disabled) { border-color: var(--navy-2); }
+      .opt.picked { border-color: var(--navy); background: #eef2fa; }
+      .opt.right { border-color: var(--good); background: var(--good-bg); }
+      .opt.wrong { border-color: var(--bad); background: var(--bad-bg); }
+      .opt:disabled { cursor: default; opacity: .92; }
+      .explain { margin-top: 14px; border-radius: 12px; padding: 14px 16px; background: #f2f5fb; border: 1px solid #d8e0f0; }
+      .explain.bad { background: var(--bad-bg); border-color: #efc4c0; }
+      .explain.good { background: var(--good-bg); border-color: #bfe0cb; }
+      .bar { height: 10px; background: #e8e4d8; border-radius: 99px; overflow: hidden; }
+      .bar i { display: block; height: 100%; background: var(--amber); }
+      .timer { font-variant-numeric: tabular-nums; font-weight: 700; }
+      .scoreline { font-size: 21px; font-weight: 750; }
+      table.breakdown { width: 100%; border-collapse: collapse; font-size: 15px; }
+      table.breakdown td, table.breakdown th { padding: 8px 6px; border-bottom: 1px solid var(--line); text-align: left; }
+      .reviewq { border-top: 1px solid var(--line); padding: 14px 0; }
+      .premium { background: linear-gradient(135deg, var(--navy), var(--navy-2)); color: #fff; border: 0; }
+      .premium a, .premium .btn { color: var(--navy); }
+      .premium .muted { color: #c9d4ec; }
+      input.email { min-height: 50px; padding: 12px 14px; border-radius: 12px; border: 1.5px solid var(--line); font-size: 16.5px; width: 100%; }
+      @media (max-width: 640px) { .qtext { font-size: 18.5px; } main { padding-top: 18px; } }
+    </style>
+  </head>
+  <body>
+    <header class="site">
+      <div class="wrap">
+        <a class="brand" href="/">
+          <span class="mark"><span>P</span></span>
+          <span><b>PermitDrills</b><small>驾考刷题 · 中英双语练习</small></span>
+        </a>
+        <nav class="main">
+          <a href="/">选州</a>
+          <a href="/methodology/">出题方法</a>
+          <a href="/about/">关于</a>
+          <a class="cta" href="/premium/">Premium</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="wrap">
+        <slot />
+      </div>
+    </main>
+    <footer class="site">
+      <div class="wrap">
+        <div class="cols">
+          <div>
+            <h4>练习州 · States</h4>
+            <ul>
+              <li><a href="/new-jersey/">新泽西 New Jersey</a></li>
+              <li><a href="/massachusetts/">马萨诸塞 Massachusetts</a></li>
+              <li><a href="/washington/">华盛顿州 Washington</a></li>
+              <li><a href="/hawaii/">夏威夷 Hawaii</a></li>
+              <li><a href="/maryland/">马里兰 Maryland</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>官方手册 · Official handbooks</h4>
+            <ul>
+              <li><a href="https://www.nj.gov/mvc/about/manuals.htm" rel="noopener" target="_blank">NJ Driver Manual (MVC)</a></li>
+              <li><a href="https://www.mass.gov/lists/drivers-manuals" rel="noopener" target="_blank">MA Driver's Manual (RMV)</a></li>
+              <li><a href="https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides" rel="noopener" target="_blank">WA Driver Guide (DOL)</a></li>
+              <li><a href="https://hidot.hawaii.gov/highways/library/motor-vehicle-safety-office/" rel="noopener" target="_blank">HI Driver's Manual (HDOT)</a></li>
+              <li><a href="https://mva.maryland.gov/Pages/Maryland-Drivers-Manual.aspx" rel="noopener" target="_blank">MD Driver's Manual (MVA)</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>本站 · Site</h4>
+            <ul>
+              <li><a href="/methodology/">出题方法 Methodology</a></li>
+              <li><a href="/premium/">Premium（即将推出）</a></li>
+              <li><a href="/about/">关于 About</a></li>
+              <li><a href="/terms/">条款与声明 Terms</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="disclaimer">
+          <p>
+            PermitDrills 是一个私人运营的学习网站，与任何州政府、机动车管理局（DMV / MVC / RMV / DOL / MVA）或政府机构均无隶属、合作或背书关系。本站题目为根据各州官方驾驶手册自行编写的原创练习题，仅供学习使用；正式考试中不会出现与本站完全相同的题目。各州官方驾驶手册与州法律是考试内容的最终依据，请以官方手册为准。
+          </p>
+          <p>
+            PermitDrills is a privately owned study website. It is not owned, operated, affiliated with, or endorsed by any state Department of Motor Vehicles or any government agency. All questions are original practice questions written from the official state driver handbooks, for study purposes only. You will not get the same exact questions on the official examination. Your state's official driver handbook and motor vehicle laws are the final authority on all test material.
+          </p>
+          <p>© 2026 permitdrills.com — 本站原创题目、讲解、译文与插图版权所有。Original questions, explanations, translations and artwork © permitdrills.com.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

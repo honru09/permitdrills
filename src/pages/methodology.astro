@@ -1,0 +1,46 @@
+---
+import Base from '../layouts/Base.astro';
+import { allBanks, STATES } from '../lib/site';
+const banks = allBanks();
+---
+<Base title="出题方法 — 每一道题都能查到出处" description="PermitDrills 题库的生产方法：只从官方手册提取事实、原创出题、逐题记录出处与核验日期。How our question bank is built from official handbooks.">
+  <h1>出题方法 · Methodology</h1>
+  <p class="lede">我们的题库不是抄来的，也不是从考生回忆里攒来的。每一道题都走同一条流水线，出处就印在题目下面。</p>
+
+  <div class="card">
+    <h3 style="margin-top:0">四步流水线 · The pipeline</h3>
+    <ol>
+      <li><strong>只认官方源。</strong>每州只使用该州官方驾驶手册（当前版本）和官方公布的考试格式。手册的标题、版本、链接和查阅日期都记录在案。</li>
+      <li><strong>先抽事实，不碰原文。</strong>我们先把手册里的规则、数字、例外、标志含义、办事流程整理成"事实清单"——只有事实，没有手册的句子。题目只能从事实清单里长出来。</li>
+      <li><strong>原创出题，自己翻译。</strong>题干、场景、干扰项、讲解全部新写；英文先行，简体中文是我们对自家英文题的翻译——不是对手册的翻译。</li>
+      <li><strong>逐题对源核验。</strong>每道题发布前回到手册核对一遍，题下标注章节出处。州里换了新版手册，我们就重跑事实清单。</li>
+    </ol>
+    <p class="muted small" style="margin-bottom:0">
+      Facts only, never handbook prose: we extract the rules and figures from each state's official handbook into a fact sheet, write wholly original questions from those facts in English, translate our own questions into Simplified Chinese, and verify every question against the handbook before it ships — recording the handbook title, section and URL on the question itself.
+    </p>
+  </div>
+
+  <h2>各州题源 · Source per state</h2>
+  <div class="grid c2">
+    {banks.map(({ slug, bank }) => (
+      <div class="card">
+        <h3 style="margin-top:0">{STATES[slug].nameZh} {STATES[slug].nameEn}</h3>
+        <p class="small" style="margin:0 0 6px">
+          手册：<a href={bank.exam.handbook.url} target="_blank" rel="noopener">{bank.exam.handbook.title}（{bank.exam.handbook.edition}）</a>
+          {bank.exam.handbook.chineseUrl && <> · <a href={bank.exam.handbook.chineseUrl} target="_blank" rel="noopener">官方中文版</a></>}
+        </p>
+        <p class="small muted" style="margin:0">{bank.questions.length} 道题 · 数据截至 {bank.exam.currentAsOf} · 官方考试 {bank.exam.questions} 题{bank.exam.passCorrect != null ? `，答对 ${bank.exam.passCorrect} 题及格` : ''}</p>
+      </div>
+    ))}
+  </div>
+
+  <div class="card" style="margin-top:14px">
+    <h3 style="margin-top:0">我们不做的事 · What we never do</h3>
+    <ul style="margin-bottom:0">
+      <li>不收集、不购买、不使用任何"考生回忆"的考试内容。</li>
+      <li>不复制官方手册的文字、图片，也不照搬官方样题的题序和选项。</li>
+      <li>不声称本站题目会出现在正式考试中——它们是帮你学会手册的练习题。</li>
+      <li>不与任何政府机构冒充关联；最终依据永远是官方手册和州法律。</li>
+    </ul>
+  </div>
+</Base>

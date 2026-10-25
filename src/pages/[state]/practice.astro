@@ -1,0 +1,21 @@
+---
+import Base from '../../layouts/Base.astro';
+import SignBank from '../../components/SignBank.astro';
+import { STATES, TOPICS, getBank } from '../../lib/site';
+
+export function getStaticPaths() {
+  return Object.keys(STATES).map((slug) => ({ params: { state: slug } }));
+}
+const { state } = Astro.params;
+const meta = STATES[state];
+const bank = getBank(state);
+const payload = { mode: 'practice', slug: state, exam: bank?.exam, topics: TOPICS, questions: bank?.questions ?? [] };
+---
+<Base title={`${meta.nameZh}驾照笔试练习 ${meta.nameEn} Practice`} description={`${meta.nameZh}驾照笔试分专题练习：即时讲解、中英切换、逐题标注官方手册出处。`}>
+  <p class="small muted"><a href={`/${state}/`}>← {meta.nameZh} {meta.nameEn}</a> · 分专题练习 Practice</p>
+  <h1 style="font-size:30px">{meta.nameZh}笔试练习</h1>
+  <div id="quiz-root"></div>
+  <SignBank />
+  <script type="application/json" id="pd-bank" set:html={JSON.stringify(payload)}></script>
+  <script src="/quiz.js" defer></script>
+</Base>
