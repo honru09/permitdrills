@@ -31,7 +31,14 @@ const desc = description || '根据各州官方驾驶手册编写的原创练习
         --bad-bg: #fbe9e7;
         --radius: 16px;
         --shadow: 0 2px 10px rgba(15, 32, 64, 0.08);
+        --shadow-lg: 0 12px 32px rgba(15, 32, 64, 0.16);
+        --navy-3: #274b8f;
+        --amber-deep: #e0a400;
+        --ring: 0 0 0 3px rgba(255, 184, 0, 0.55);
+        --ease: cubic-bezier(0.2, 0.7, 0.3, 1);
+        --dur: 0.18s;
       }
+      :focus-visible { outline: 3px solid var(--amber); outline-offset: 2px; border-radius: 6px; }
       * { box-sizing: border-box; }
       html { -webkit-text-size-adjust: 100%; }
       body {
@@ -48,16 +55,14 @@ const desc = description || '根据各州官方驾驶手册编写的原创练习
       }
       header.site .wrap { display: flex; align-items: center; gap: 14px; padding-top: 10px; padding-bottom: 10px; flex-wrap: wrap; }
       .brand { display: flex; align-items: center; gap: 10px; color: #fff; text-decoration: none; }
-      .brand .mark {
-        width: 34px; height: 34px; background: var(--amber); border-radius: 8px; transform: rotate(45deg);
-        display: inline-flex; align-items: center; justify-content: center; flex: none;
-      }
-      .brand .mark span { transform: rotate(-45deg); font-weight: 800; color: var(--navy); font-size: 17px; }
+      .brand .mark { width: 38px; height: 38px; flex: none; filter: drop-shadow(0 2px 4px rgba(0,0,0,.3)); }
       .brand b { font-size: 19px; letter-spacing: .2px; }
       .brand small { display: block; font-size: 11.5px; color: #c9d4ec; line-height: 1.2; }
       nav.main { margin-left: auto; display: flex; gap: 4px; flex-wrap: wrap; }
-      nav.main a { color: #dbe4f7; text-decoration: none; padding: 7px 11px; border-radius: 9px; font-size: 15px; }
+      nav.main a { color: #dbe4f7; text-decoration: none; padding: 7px 11px; border-radius: 9px; font-size: 15px; transition: background var(--dur) var(--ease), color var(--dur) var(--ease); }
       nav.main a:hover { background: rgba(255,255,255,.12); color: #fff; }
+      nav.main a.cta { transition: transform var(--dur) var(--ease), box-shadow var(--dur) var(--ease); }
+      nav.main a.cta:hover { background: var(--amber); box-shadow: 0 4px 14px rgba(255,184,0,.4); transform: translateY(-1px); }
       nav.main a.cta { background: var(--amber); color: var(--navy); font-weight: 700; }
       main { padding: 26px 0 54px; }
       h1 { font-size: clamp(26px, 5.4vw, 40px); line-height: 1.22; margin: 6px 0 12px; }
@@ -72,10 +77,15 @@ const desc = description || '根据各州官方驾驶手册编写的原创练习
         display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 50px;
         padding: 12px 20px; border-radius: 12px; border: 1px solid var(--navy); background: var(--navy);
         color: #fff; font-weight: 700; font-size: 16.5px; text-decoration: none; cursor: pointer;
+        transition: transform var(--dur) var(--ease), box-shadow var(--dur) var(--ease), background var(--dur) var(--ease), filter var(--dur) var(--ease);
       }
-      .btn.amber { background: var(--amber); border-color: #e0a400; color: var(--navy); }
+      .btn:hover:not(:disabled) { transform: translateY(-1px); box-shadow: 0 6px 18px rgba(15,32,64,.22); filter: brightness(1.06); }
+      .btn.amber { background: var(--amber); border-color: var(--amber-deep); color: var(--navy); }
+      .btn.amber:hover:not(:disabled) { box-shadow: 0 6px 18px rgba(255,184,0,.45); }
       .btn.ghost { background: #fff; color: var(--navy); }
-      .btn:active { transform: translateY(1px); }
+      .btn.ghost:hover:not(:disabled) { background: #eef2fa; }
+      .btn:active:not(:disabled) { transform: translateY(1px) scale(0.99); box-shadow: none; }
+      .btn:disabled { opacity: .45; cursor: default; }
       .chip {
         display: inline-block; background: var(--amber-soft); border: 1px solid #ecd28a; color: #6b5200;
         border-radius: 999px; padding: 3px 11px; font-size: 13.5px; font-weight: 600;
@@ -83,8 +93,16 @@ const desc = description || '根据各州官方驾驶手册编写的原创练习
       .chip.gray { background: #eef1f6; border-color: #d4dbe7; color: var(--navy-2); }
       .muted { color: var(--muted); }
       .small { font-size: 14px; }
-      .statecard { display: block; text-decoration: none; color: inherit; transition: transform .08s ease; }
-      .statecard:hover { transform: translateY(-2px); }
+      .statecard {
+        display: block; text-decoration: none; color: inherit; position: relative; overflow: hidden;
+        transition: transform var(--dur) var(--ease), box-shadow var(--dur) var(--ease), border-color var(--dur) var(--ease);
+      }
+      .statecard::before {
+        content: ""; position: absolute; inset: 0 0 auto 0; height: 4px; background: var(--amber);
+        transform: scaleX(0); transform-origin: left; transition: transform .28s var(--ease);
+      }
+      .statecard:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); border-color: #d8c98f; }
+      .statecard:hover::before { transform: scaleX(1); }
       .statecard h3 { margin-top: 0; font-size: 21px; }
       .facts { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0; }
       .src { font-size: 13.5px; color: var(--muted); }
@@ -97,33 +115,95 @@ const desc = description || '根据各州官方驾驶手册编写的原创练习
       footer.site li { margin: 5px 0; }
       .disclaimer { border-top: 1px solid rgba(255,255,255,.18); margin-top: 22px; padding-top: 16px; }
       /* quiz */
+      @keyframes pd-in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+      @keyframes pd-pop { 0% { transform: scale(0.4); opacity: 0; } 60% { transform: scale(1.18); opacity: 1; } 100% { transform: scale(1); opacity: 1; } }
+      @keyframes pd-shake { 0%, 100% { transform: translateX(0); } 20% { transform: translateX(-6px); } 40% { transform: translateX(5px); } 60% { transform: translateX(-3px); } 80% { transform: translateX(2px); } }
+      @keyframes pd-pulse { 0% { box-shadow: 0 0 0 0 rgba(29,122,61,.35); } 100% { box-shadow: 0 0 0 12px rgba(29,122,61,0); } }
+      @keyframes pd-blink { 0%, 100% { opacity: 1; } 50% { opacity: .45; } }
+      .card.quiz { animation: pd-in .28s var(--ease); }
       .quiz-toolbar { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-bottom: 14px; }
-      .seg { display: inline-flex; background: #eef1f6; border: 1px solid #d4dbe7; border-radius: 11px; overflow: hidden; }
-      .seg button { border: 0; background: transparent; padding: 9px 14px; font-size: 15px; cursor: pointer; color: var(--navy-2); font-weight: 600; }
-      .seg button.on { background: var(--navy); color: #fff; }
+      .seg { display: inline-flex; background: #e7ecf4; border: 1px solid #ccd5e4; border-radius: 999px; padding: 3px; gap: 2px; }
+      .seg button {
+        border: 0; background: transparent; padding: 7px 16px; font-size: 15px; cursor: pointer; color: var(--navy-2);
+        font-weight: 700; border-radius: 999px; transition: background var(--dur) var(--ease), color var(--dur) var(--ease), box-shadow var(--dur) var(--ease);
+      }
+      .seg button:hover:not(.on) { background: rgba(255,255,255,.75); }
+      .seg button.on { background: var(--navy); color: #fff; box-shadow: 0 2px 8px rgba(15,32,64,.35); }
       .qmeta { display: flex; justify-content: space-between; gap: 10px; color: var(--muted); font-size: 14px; margin-bottom: 8px; flex-wrap: wrap; }
       .qtext { font-size: 20px; font-weight: 650; line-height: 1.45; margin: 4px 0 14px; }
-      .signbox { display: flex; justify-content: center; padding: 8px 0 14px; }
+      .signbox { display: flex; justify-content: center; padding: 6px 0 16px; }
+      .signbox > svg, .signbox > span > svg { filter: drop-shadow(0 3px 6px rgba(15,32,64,.18)); }
       .opts { display: grid; gap: 10px; }
       .opt {
-        text-align: left; width: 100%; min-height: 54px; padding: 13px 16px; border-radius: 12px; cursor: pointer;
-        border: 1.5px solid var(--line); background: #fff; font-size: 16.5px; color: var(--ink); display: flex; gap: 10px; align-items: flex-start;
+        position: relative; text-align: left; width: 100%; min-height: 56px; padding: 13px 44px 13px 14px; border-radius: 13px; cursor: pointer;
+        border: 1.5px solid var(--line); background: #fff; font-size: 16.5px; color: var(--ink); display: flex; gap: 12px; align-items: center;
+        transition: border-color var(--dur) var(--ease), background var(--dur) var(--ease), transform var(--dur) var(--ease), box-shadow var(--dur) var(--ease);
       }
-      .opt .k { font-weight: 800; color: var(--navy-2); flex: none; }
-      .opt:hover:not(:disabled) { border-color: var(--navy-2); }
-      .opt.picked { border-color: var(--navy); background: #eef2fa; }
-      .opt.right { border-color: var(--good); background: var(--good-bg); }
-      .opt.wrong { border-color: var(--bad); background: var(--bad-bg); }
-      .opt:disabled { cursor: default; opacity: .92; }
-      .explain { margin-top: 14px; border-radius: 12px; padding: 14px 16px; background: #f2f5fb; border: 1px solid #d8e0f0; }
-      .explain.bad { background: var(--bad-bg); border-color: #efc4c0; }
-      .explain.good { background: var(--good-bg); border-color: #bfe0cb; }
-      .bar { height: 10px; background: #e8e4d8; border-radius: 99px; overflow: hidden; }
-      .bar i { display: block; height: 100%; background: var(--amber); }
+      .opt .k {
+        font-weight: 800; color: var(--navy-2); flex: none; width: 31px; height: 31px; border-radius: 9px;
+        border: 1.5px solid #c6d0e2; display: inline-flex; align-items: center; justify-content: center; font-size: 15px;
+        transition: background var(--dur) var(--ease), color var(--dur) var(--ease), border-color var(--dur) var(--ease);
+      }
+      .opt:hover:not(:disabled) { border-color: var(--navy-3); transform: translateY(-1px); box-shadow: 0 4px 12px rgba(15,32,64,.10); }
+      .opt:hover:not(:disabled) .k { background: var(--navy); border-color: var(--navy); color: #fff; }
+      .opt.picked { border-color: var(--navy); background: #eef2fa; box-shadow: var(--ring); }
+      .opt.picked .k { background: var(--navy); border-color: var(--navy); color: #fff; }
+      .opt.right { border-color: var(--good); background: var(--good-bg); animation: pd-pulse .55s var(--ease); }
+      .opt.right .k { background: var(--good); border-color: var(--good); color: #fff; }
+      .opt.right::after {
+        content: "✓"; position: absolute; right: 13px; top: 50%; margin-top: -13px; width: 26px; height: 26px; border-radius: 50%;
+        background: var(--good); color: #fff; font-weight: 800; font-size: 15px; display: flex; align-items: center; justify-content: center;
+        animation: pd-pop .32s var(--ease);
+      }
+      .opt.wrong { border-color: var(--bad); background: var(--bad-bg); animation: pd-shake .45s var(--ease); }
+      .opt.wrong .k { background: var(--bad); border-color: var(--bad); color: #fff; }
+      .opt.wrong::after {
+        content: "✕"; position: absolute; right: 13px; top: 50%; margin-top: -13px; width: 26px; height: 26px; border-radius: 50%;
+        background: var(--bad); color: #fff; font-weight: 800; font-size: 13px; display: flex; align-items: center; justify-content: center;
+        animation: pd-pop .32s var(--ease);
+      }
+      .opt:disabled { cursor: default; }
+      .opt:disabled:not(.right):not(.wrong):not(.picked) { opacity: .55; }
+      .explain {
+        margin-top: 14px; border-radius: 12px; padding: 14px 16px 14px 18px; background: #f2f5fb;
+        border: 1px solid #d8e0f0; border-left: 5px solid var(--navy-3); animation: pd-in .3s var(--ease);
+      }
+      .explain.bad { background: var(--bad-bg); border-color: #efc4c0; border-left-color: var(--bad); }
+      .explain.good { background: var(--good-bg); border-color: #bfe0cb; border-left-color: var(--good); }
+      .bar { height: 10px; background: #e8e4d8; border-radius: 99px; overflow: hidden; box-shadow: inset 0 1px 3px rgba(15,32,64,.12); }
+      .bar i { display: block; height: 100%; background: linear-gradient(90deg, var(--amber-deep), var(--amber)); border-radius: 99px; transition: width .45s var(--ease); }
       .timer { font-variant-numeric: tabular-nums; font-weight: 700; }
+      .timer.warn { color: var(--bad); animation: pd-blink 1s infinite; }
       .scoreline { font-size: 21px; font-weight: 750; }
+      .navdot {
+        width: 38px; height: 38px; border-radius: 10px; border: 1.5px solid var(--line); background: #fff; cursor: pointer;
+        font-weight: 600; font-size: 14.5px; color: var(--ink); transition: all var(--dur) var(--ease);
+      }
+      .navdot:hover { border-color: var(--navy-3); transform: translateY(-1px); }
+      .navdot.done { background: #ffe9a8; border-color: #ecd28a; }
+      .navdot.cur { border-color: var(--navy); box-shadow: var(--ring); font-weight: 800; }
+      .scorering { position: relative; width: 118px; height: 118px; flex: none; }
+      .scorering svg { transform: rotate(-90deg); }
+      .scorering .fg { transition: stroke-dashoffset 1s var(--ease); }
+      .scorering .num {
+        position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center;
+        font-size: 27px; font-weight: 800; line-height: 1.1;
+      }
+      .scorering .num small { font-size: 12.5px; color: var(--muted); font-weight: 600; }
+      .verdict { animation: pd-pop .35s var(--ease); }
+      .roadline { height: 14px; border-radius: 99px; background: var(--navy); position: relative; overflow: hidden; margin: 20px 0 4px; }
+      .roadline::after {
+        content: ""; position: absolute; left: 0; right: 0; top: 50%; height: 2.5px; margin-top: -1.25px;
+        background: repeating-linear-gradient(90deg, var(--amber) 0 26px, transparent 26px 46px);
+      }
+      @media (prefers-reduced-motion: reduce) {
+        *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
+      }
       table.breakdown { width: 100%; border-collapse: collapse; font-size: 15px; }
       table.breakdown td, table.breakdown th { padding: 8px 6px; border-bottom: 1px solid var(--line); text-align: left; }
+      table.breakdown tbody tr, table.breakdown tr { transition: background var(--dur) var(--ease); }
+      table.breakdown tr:hover td { background: #faf8f1; }
+      .ansrow { background: var(--good-bg); border-radius: 8px; padding: 3px 9px; margin-left: -9px; box-shadow: inset 3px 0 0 var(--good); }
       .reviewq { border-top: 1px solid var(--line); padding: 14px 0; }
       .premium { background: linear-gradient(135deg, var(--navy), var(--navy-2)); color: #fff; border: 0; }
       .premium a, .premium .btn { color: var(--navy); }
@@ -136,7 +216,7 @@ const desc = description || '根据各州官方驾驶手册编写的原创练习
     <header class="site">
       <div class="wrap">
         <a class="brand" href="/">
-          <span class="mark"><span>P</span></span>
+          <img class="mark" src="/logo.svg" alt="PermitDrills" width="38" height="38" />
           <span><b>PermitDrills</b><small>驾考刷题 · 中英双语练习</small></span>
         </a>
         <nav class="main">

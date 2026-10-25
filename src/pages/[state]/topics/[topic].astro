@@ -34,7 +34,7 @@ const letters = ['A', 'B', 'C', 'D', 'E'];
         {q.sign && <div class="signbox"><Sign id={q.sign} size={104} /></div>}
         <ol style="margin:0 0 8px;padding-left:22px">
           {q.options.zh.map((o, oi) => (
-            <li style={oi === q.answer ? 'font-weight:700' : ''}>
+            <li class={oi === q.answer ? 'ansrow' : ''} style={oi === q.answer ? 'font-weight:700' : ''}>
               {o} <span class="muted small">/ {q.options.en[oi]}</span>
               {oi === q.answer && <span class="chip" style="margin-left:6px">正确答案</span>}
             </li>

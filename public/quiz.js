@@ -95,7 +95,7 @@
     html += '<div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px">' + chips + '</div>';
     if (progLines) html += '<p class="small muted">' + t('seenProgress') + '： ' + progLines + '</p>';
     if (!P.list.length) {
-      html += '<div class="card"><p>' + t('pickTopic') + '</p><button class="btn amber" id="pd-start">' + t('shuffleStart') + '（' + practicePool().length + '）</button></div>';
+      html += '<div class="card quiz"><p>' + t('pickTopic') + '</p><button class="btn amber" id="pd-start">' + t('shuffleStart') + '（' + practicePool().length + '）</button></div>';
       root.innerHTML = html; bindLangSeg();
       root.querySelectorAll('[data-topic]').forEach(function (b) { b.addEventListener('click', function () { P.topic = b.getAttribute('data-topic'); render(); }); });
       var st = document.getElementById('pd-start'); if (st) st.addEventListener('click', startPractice);
@@ -103,7 +103,7 @@
     }
     if (P.idx >= P.list.length) {
       var pct = P.list.length ? Math.round(100 * P.sessionRight / P.list.length) : 0;
-      html += '<div class="card"><p class="scoreline">' + t('score') + '：' + P.sessionRight + ' / ' + P.list.length + '（' + pct + '%）</p>' +
+      html += '<div class="card quiz"><p class="scoreline">' + t('score') + '：' + P.sessionRight + ' / ' + P.list.length + '（' + pct + '%）</p>' +
         '<p><button class="btn" id="pd-again">' + t('restart') + '</button> <a class="btn amber" href="../exam/">' + t('goExam') + '</a></p></div>';
       root.innerHTML = html; bindLangSeg();
       root.querySelectorAll('[data-topic]').forEach(function (b) { b.addEventListener('click', function () { P.topic = b.getAttribute('data-topic'); P.list = []; render(); }); });
@@ -111,7 +111,7 @@
       return;
     }
     var q = P.list[P.idx];
-    html += '<div class="card"><div class="qmeta"><span>' + t('question') + ' ' + (P.idx + 1) + ' ' + t('of') + ' ' + P.list.length + ' · ' + topicName(q.topic) + '</span><span>' + t('right') + ' ' + P.sessionRight + '</span></div>' +
+    html += '<div class="card quiz"><div class="qmeta"><span>' + t('question') + ' ' + (P.idx + 1) + ' ' + t('of') + ' ' + P.list.length + ' · ' + topicName(q.topic) + '</span><span>' + t('right') + ' ' + P.sessionRight + '</span></div>' +
       '<div class="bar" style="margin-bottom:14px"><i style="width:' + Math.round(100 * P.idx / P.list.length) + '%"></i></div>' +
       (q.sign ? '<div class="signbox" data-sign="' + q.sign + '"></div>' : '') +
       '<p class="qtext">' + esc(q.q[lang]) + '</p><div class="opts">' +
@@ -167,7 +167,7 @@
     E.timerId = setInterval(function () {
       E.left -= 1;
       var tm = document.getElementById('pd-timer');
-      if (tm) tm.textContent = fmtTime(E.left);
+      if (tm) { tm.textContent = fmtTime(E.left); tm.classList.toggle('warn', E.left <= 60); }
       if (E.left <= 0) { stopTimer(); submitExam(true); }
     }, 1000);
   }
@@ -187,7 +187,7 @@
         .replace('{pass}', passPart ? (lang === 'zh' ? '，' + passPart : ', ' + passPart) : '')
         .replace('{time}', ex.timeMinutes ? ex.timeMinutes + ' ' + t('min') : t('noTime'));
       root.innerHTML = '<div class="quiz-toolbar">' + langSeg() + '<strong>' + t('exam') + '</strong></div>' +
-        '<div class="card"><p>' + intro + '</p><button class="btn amber" id="pd-start">' + t('start') + '</button></div>';
+        '<div class="card quiz"><p>' + intro + '</p><button class="btn amber" id="pd-start">' + t('start') + '</button></div>';
       bindLangSeg();
       document.getElementById('pd-start').addEventListener('click', startExam);
       return;
@@ -198,7 +198,7 @@
     var html = '<div class="quiz-toolbar">' + langSeg() + '<strong>' + t('exam') + '</strong>' +
       (DATA.exam.timeMinutes ? '<span class="chip gray">' + t('timeLeft') + ' <span class="timer" id="pd-timer">' + fmtTime(E.left) + '</span></span>' : '') +
       '<span class="chip gray">' + answered + ' / ' + E.list.length + ' ' + t('answeredCount') + '</span></div>';
-    html += '<div class="card"><div class="qmeta"><span>' + t('question') + ' ' + (E.idx + 1) + ' ' + t('of') + ' ' + E.list.length + ' · ' + topicName(q.topic) + '</span></div>' +
+    html += '<div class="card quiz"><div class="qmeta"><span>' + t('question') + ' ' + (E.idx + 1) + ' ' + t('of') + ' ' + E.list.length + ' · ' + topicName(q.topic) + '</span></div>' +
       '<div class="bar" style="margin-bottom:14px"><i style="width:' + Math.round(100 * (E.idx + 1) / E.list.length) + '%"></i></div>' +
       (q.sign ? '<div class="signbox" data-sign="' + q.sign + '"></div>' : '') +
       '<p class="qtext">' + esc(q.q[lang]) + '</p><div class="opts">' +
@@ -211,7 +211,7 @@
       '<button class="btn amber" id="pd-submit">' + t('submit') + '</button></p>' +
       '<div class="qmeta" style="margin-top:10px"><span>' + t('questionNav') + '</span></div><div style="display:flex;gap:5px;flex-wrap:wrap">' +
       E.list.map(function (x, i) {
-        return '<button data-nav="' + i + '" style="width:38px;height:38px;border-radius:9px;border:1.5px solid ' + (i === E.idx ? 'var(--navy)' : 'var(--line)') + ';background:' + (E.answers[x.id] != null ? '#ffe9a8' : '#fff') + ';cursor:pointer;font-weight:600">' + (i + 1) + '</button>';
+        return '<button data-nav="' + i + '" class="navdot' + (i === E.idx ? ' cur' : '') + (E.answers[x.id] != null ? ' done' : '') + '">' + (i + 1) + '</button>';
       }).join('') + '</div></div>';
     root.innerHTML = html; bindLangSeg(); injectSigns();
     root.querySelectorAll('[data-opt]').forEach(function (b) { b.addEventListener('click', function () { E.answers[q.id] = parseInt(b.getAttribute('data-opt'), 10); render(); }); });
@@ -235,8 +235,13 @@
       ? '<span class="chip" style="background:var(--good-bg);border-color:#bfe0cb;color:var(--good)">' + t('passed') + '</span>'
       : '<span class="chip" style="background:var(--bad-bg);border-color:#efc4c0;color:var(--bad)">' + t('failed') + '</span>');
     var html = '<div class="quiz-toolbar">' + langSeg() + '<strong>' + t('exam') + ' · ' + t('score') + '</strong></div>';
-    html += '<div class="card"><p class="scoreline">' + t('yourScore') + '：' + right + ' / ' + E.list.length + '（' + pct + '%）</p>' +
-      (passNeed != null ? '<p>' + t('officialMark') + '：' + examPassLine() + '　' + verdict + '</p>' : '') +
+    var CIRC = 2 * Math.PI * 52;
+    html += '<div class="card quiz"><div style="display:flex;gap:18px;align-items:center;flex-wrap:wrap"><div class="scorering">' +
+      '<svg width="118" height="118" viewBox="0 0 118 118"><circle cx="59" cy="59" r="52" fill="none" stroke="#e8e4d8" stroke-width="11"/>' +
+      '<circle class="fg" id="pd-ring" cx="59" cy="59" r="52" fill="none" stroke="' + (passNeed != null && right < passNeed ? 'var(--bad)' : 'var(--good)') + '" stroke-width="11" stroke-linecap="round" stroke-dasharray="' + CIRC + '" stroke-dashoffset="' + CIRC + '" data-off="' + (CIRC * (1 - right / E.list.length)).toFixed(1) + '"/></svg>' +
+      '<div class="num">' + pct + '%<small>' + right + ' / ' + E.list.length + '</small></div></div>' +
+      '<div style="flex:1;min-width:200px"><p class="scoreline" style="margin:0 0 6px">' + t('yourScore') + '：' + right + ' / ' + E.list.length + '</p>' +
+      (passNeed != null ? '<p style="margin:0">' + t('officialMark') + '：' + examPassLine() + '　' + '<span class="verdict" style="display:inline-block">' + verdict + '</span></p>' : '') + '</div></div>' +
       '<h3>' + t('topicBreakdown') + '</h3><table class="breakdown">' +
       Object.keys(byTopic).map(function (id) { return '<tr><td>' + topicName(id) + '</td><td>' + byTopic[id].r + ' / ' + byTopic[id].n + '</td><td>' + Math.round(100 * byTopic[id].r / byTopic[id].n) + '%</td></tr>'; }).join('') +
       '</table>' +
@@ -253,6 +258,8 @@
           '<p class="src">' + t('source') + '：' + esc(q.source.section) + ' · <a href="' + q.source.url + '" target="_blank" rel="noopener">' + (lang === 'zh' ? '官方手册' : 'Official handbook') + '</a></p></div>';
       }).join('') + '</div>';
     root.innerHTML = html; bindLangSeg(); injectSigns();
+    var ring = document.getElementById('pd-ring');
+    if (ring) requestAnimationFrame(function () { requestAnimationFrame(function () { ring.style.strokeDashoffset = ring.getAttribute('data-off'); }); });
     document.getElementById('pd-again').addEventListener('click', function () { E.started = false; E.submitted = false; render(); });
   }
 
