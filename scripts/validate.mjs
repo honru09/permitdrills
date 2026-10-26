@@ -24,6 +24,15 @@ let errors = 0, warnings = 0;
 const err = (m) => { console.error('ERROR', m); errors++; };
 const warn = (m) => { console.warn('WARN', m); warnings++; };
 
+// Coverage-matrix reconciliation pins: the published matrix (methodology page
+// + state hubs) is generated from these banks, so bank sizes are pinned here.
+// If a bank legitimately grows, update the pin AND the matrix changes with it.
+const EXPECTED_COUNTS = {
+  'new-jersey': 131, massachusetts: 139, washington: 133, hawaii: 139, maryland: 145,
+};
+const EXPECTED_TOTAL = 687;
+let grandTotal = 0;
+
 for (const file of readdirSync(qdir).filter((f) => f.endsWith('.json'))) {
   const bank = JSON.parse(readFileSync(join(qdir, file), 'utf8'));
   const slug = file.replace('.json', '');
@@ -55,6 +64,16 @@ for (const file of readdirSync(qdir).filter((f) => f.endsWith('.json'))) {
   }
   const signCount = qs.filter((q) => q.sign).length;
   console.log(`${slug}: ${qs.length} questions, ${signCount} with signs`);
+  // Coverage reconciliation: topic sums and section sums must equal the bank
+  // total, and the bank total must equal the pinned count for the state.
+  const topicSum = Object.values(qs.reduce((a, q) => ((a[q.topic] = (a[q.topic] || 0) + 1), a), {})).reduce((a, b) => a + b, 0);
+  const sectionSum = Object.values(qs.reduce((a, q) => ((a[q.source.section] = (a[q.source.section] || 0) + 1), a), {})).reduce((a, b) => a + b, 0);
+  if (topicSum !== qs.length) err(`${slug}: coverage topic sum ${topicSum} != bank total ${qs.length}`);
+  if (sectionSum !== qs.length) err(`${slug}: coverage section sum ${sectionSum} != bank total ${qs.length}`);
+  if (EXPECTED_COUNTS[slug] != null && qs.length !== EXPECTED_COUNTS[slug])
+    err(`${slug}: bank count ${qs.length} != pinned coverage count ${EXPECTED_COUNTS[slug]}`);
+  grandTotal += qs.length;
 }
+if (grandTotal !== EXPECTED_TOTAL) err(`coverage grand total ${grandTotal} != pinned ${EXPECTED_TOTAL}`);
 if (errors) { console.error(`\n${errors} error(s), ${warnings} warning(s) — build blocked`); process.exit(1); }
 console.log(`Validation OK (${warnings} warning(s))`);

@@ -1,6 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
-import { STATES, allBanks, topicCounts } from '../lib/site';
+import { STATES, allBanks, topicCounts, EXAM_LANG } from '../lib/site';
 
 const banks = Object.fromEntries(allBanks().map(({ slug, bank }) => [slug, bank]));
 const stateList = Object.values(STATES);
@@ -17,9 +17,12 @@ function examLine(slug: string) {
   <p><span class="chip">中文讲解 · 中英题面一键切换</span> <span class="chip gray">根据官方手册编写 · 逐题标注出处</span></p>
   <h1>考美国驾照笔试，<br />用中文先练会，再上考场。</h1>
   <p class="lede">
-    PermitDrills 的题目全部根据各州<strong>官方驾驶手册</strong>自行编写，每道题都标注手册章节出处；题面和讲解都有简体中文，
-    也能一键切回英文原题面——因为考场上的题是英文的，练的时候就要两种都看。
-    Practice questions written from the official state driver handbooks — every question cites its handbook section, in Simplified Chinese and English.
+    PermitDrills 的题目全部根据各州<strong>官方驾驶手册</strong>自行编写，每道题都标注手册章节出处。
+    本站覆盖的五个州，<strong>官方笔试本身就提供中文版</strong>，用哪种语言考试由你选：打算用中文考，就用中文题面把规则学扎实；
+    打算用英文考，就先用中文理解、再切到英文题面熟悉考场说法。题面和讲解中英双语，一键切换。
+    Practice questions written from the official state driver handbooks — every question cites its handbook section.
+    In all five states we cover, the official knowledge test itself is offered in Chinese, so the exam language is your choice:
+    sit it in Chinese and drill the Chinese wording, or learn in Chinese and switch to the English wording you'll see on test day.
   </p>
   <div class="roadline" aria-hidden="true"></div>
 
@@ -34,6 +37,7 @@ function examLine(slug: string) {
             <span class="chip gray">{s.agency}</span>
             {examLine(s.slug) && <span class="chip">{examLine(s.slug)}</span>}
             {b && <span class="chip gray">{b.questions.length} 道练习题</span>}
+            <span class="chip gray">{EXAM_LANG[s.slug].cardZh}</span>
           </div>
           <p class="muted small" style="margin:0">
             {b ? `依据《${b.exam.handbook.title}》（${b.exam.handbook.edition}）编写 · 数据截至 ${b.exam.currentAsOf}` : '即将上线'}
@@ -50,8 +54,8 @@ function examLine(slug: string) {
       <p class="muted" style="margin:0">交通标志、交规路权、安全驾驶、共享道路、酒驾处罚、驾照手续——按专题刷，点完立刻看对错和讲解。</p>
     </div>
     <div class="card">
-      <h3 style="margin-top:0">② 中英一键切换</h3>
-      <p class="muted" style="margin:0">每道题都能在中文和英文之间切换。先用中文理解规则，再用英文熟悉考场题面，两种都不耽误。</p>
+      <h3 style="margin-top:0">② 按你的考试语言练</h3>
+      <p class="muted" style="margin:0">五个州的官方笔试都提供中文版，考试语言你自己定。用中文考：中文题面直接对着练；用英文考：先用中文学懂，再切英文题面熟悉说法。每道题一键切换，两种路径都不耽误。</p>
     </div>
     <div class="card">
       <h3 style="margin-top:0">③ 按官方格式模考</h3>

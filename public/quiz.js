@@ -24,6 +24,7 @@
       examIntro: '按官方格式：共 {n} 题{pass}，{time}。考试中不显示对错，交卷后出成绩报告。',
       noTime: '不限时', min: '分钟', needCorrect: '答对 {p} 题及格', percent: '正确率',
       prev: '上一题', questionNav: '题目导航', confirmSubmit: '还有未答题目，确定交卷吗？', topic: '专题',
+      reportIssue: '报告这道题有问题',
     },
     en: {
       practice: 'Practice mode', exam: 'Exam simulator', all: 'All topics', next: 'Next question', finish: 'Finish',
@@ -39,10 +40,19 @@
       examIntro: 'Official format: {n} questions{pass}, {time}. No feedback until you submit — then a full score report.',
       noTime: 'untimed', min: 'minutes', needCorrect: '{p} correct to pass', percent: 'accuracy',
       prev: 'Previous', questionNav: 'Questions', confirmSubmit: 'Some questions are unanswered. Submit anyway?', topic: 'Topic',
+      reportIssue: 'Report an issue with this question',
     },
   };
   function t(k) { return T[lang][k] || T.zh[k] || k; }
   function esc(s) { return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;'); }
+  /* Problem-report link: same inbox as the Premium waitlist (site.ts REPORT_EMAIL). */
+  function reportHref(q) {
+    var subject = 'Question issue — ' + DATA.slug + ' — ' + q.id;
+    var body = 'State: ' + DATA.slug + '\nQuestion ID: ' + q.id + '\nTopic: ' + q.topic +
+      '\nHandbook source: ' + q.source.section + '\n\nWhat looks wrong? (answer / translation / source link / other)\n';
+    return 'mailto:waitlist@permitdrills.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+  }
+  function reportLink(q) { return '<p class="reportline"><a href="' + reportHref(q) + '">' + t('reportIssue') + '</a></p>'; }
   function shuffle(a) { for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var x = a[i]; a[i] = a[j]; a[j] = x; } return a; }
   function topicName(id) { var m = DATA.topics[id]; return m ? (lang === 'zh' ? m.zh : m.en) : id; }
 
@@ -125,7 +135,7 @@
       var ok = P.picked === q.answer;
       html += '<div class="explain ' + (ok ? 'good' : 'bad') + '"><strong>' + (ok ? '✓ ' + t('correct') : '✗ ' + t('wrong') + ' — ' + t('correctAnswer') + '：' + 'ABCD'[q.answer]) + '</strong>' +
         '<p style="margin:8px 0">' + esc(q.explanation[lang]) + '</p>' +
-        '<p class="src">' + t('source') + '：' + esc(q.source.section) + ' · <a href="' + q.source.url + '" target="_blank" rel="noopener">' + (lang === 'zh' ? '官方手册' : 'Official handbook') + '</a></p></div>' +
+        '<p class="src">' + t('source') + '：' + esc(q.source.section) + ' · <a href="' + q.source.url + '" target="_blank" rel="noopener">' + (lang === 'zh' ? '官方手册' : 'Official handbook') + '</a></p>' + reportLink(q) + '</div>' +
         '<p style="margin-top:14px"><button class="btn amber" id="pd-next">' + (P.idx + 1 >= P.list.length ? t('finish') : t('next')) + '</button></p>';
     }
     html += '</div></div>';
@@ -274,7 +284,7 @@
           '<p style="font-weight:650;margin:4px 0">' + esc(q.q[lang]) + '</p>' +
           '<p class="small" style="margin:4px 0">' + t('correctAnswer') + '：' + 'ABCD'[q.answer] + '. ' + esc(q.options[lang][q.answer]) + (mine == null ? '（' + t('unanswered') + '）' : '') + '</p>' +
           '<p class="small" style="margin:4px 0">' + esc(q.explanation[lang]) + '</p>' +
-          '<p class="src">' + t('source') + '：' + esc(q.source.section) + ' · <a href="' + q.source.url + '" target="_blank" rel="noopener">' + (lang === 'zh' ? '官方手册' : 'Official handbook') + '</a></p></div>';
+          '<p class="src">' + t('source') + '：' + esc(q.source.section) + ' · <a href="' + q.source.url + '" target="_blank" rel="noopener">' + (lang === 'zh' ? '官方手册' : 'Official handbook') + '</a></p>' + reportLink(q) + '</div>';
       }).join('') + '</div>';
     root.innerHTML = html; bindLangSeg(); injectSigns();
     var ring = document.getElementById('pd-ring');

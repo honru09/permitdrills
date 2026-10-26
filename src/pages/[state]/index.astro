@@ -1,6 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { STATES, TOPICS, getBank, topicCounts } from '../../lib/site';
+import { STATES, TOPICS, getBank, topicCounts, EXAM_LANG, coverage } from '../../lib/site';
 
 export function getStaticPaths() {
   return Object.keys(STATES).map((slug) => ({ params: { state: slug } }));
@@ -9,6 +9,8 @@ const { state } = Astro.params;
 const meta = STATES[state];
 const bank = getBank(state);
 const counts = bank ? topicCounts(bank) : {};
+const lang = EXAM_LANG[state];
+const cov = bank ? coverage(bank) : null;
 const ex = bank?.exam;
 const passText = ex
   ? ex.passCorrect != null
@@ -34,8 +36,14 @@ const passText = ex
     <div class="facts">
       <span class="chip">{passText}</span>
       {ex?.timeMinutes ? <span class="chip">限时 {ex.timeMinutes} 分钟</span> : <span class="chip gray">官方未公布统一限时</span>}
-      <span class="chip gray">官方考试语言含中文</span>
+      <span class="chip gray">{lang.labelZh}</span>
     </div>
+    {lang.noteZh && (
+      <p class="small" style="margin:8px 0 0">
+        {lang.noteZh}
+        <span class="muted" style="display:block">{lang.noteEn}</span>
+      </p>
+    )}
     <p class="small muted" style="margin-bottom:0">
       依据手册：<a href={ex?.handbook.url} target="_blank" rel="noopener">{ex?.handbook.title}（{ex?.handbook.edition}）</a>
       {ex?.handbook.chineseUrl && <> · <a href={ex.handbook.chineseUrl} target="_blank" rel="noopener">官方中文版手册</a></>}
@@ -66,4 +74,11 @@ const passText = ex
       </a>
     ))}
   </div>
+
+  {cov && (
+    <p class="small muted" style="margin-top:14px">
+      题库覆盖 Coverage：{cov.topics.length} 个专题 · {cov.sections.length} 个手册章节出处 · 共 {cov.total} 道题——
+      逐章节明细见 <a href={`/methodology/#coverage-${state}`}>出题方法 · 覆盖矩阵</a>。
+    </p>
+  )}
 </Base>

@@ -1,6 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
-import { allBanks, STATES } from '../lib/site';
+import { allBanks, STATES, coverage, EXAM_LANG } from '../lib/site';
 const banks = allBanks();
 ---
 <Base title="出题方法 — 每一道题都能查到出处" description="PermitDrills 题库的生产方法：只从官方手册提取事实、原创出题、逐题记录出处与核验日期。How our question bank is built from official handbooks.">
@@ -33,6 +33,42 @@ const banks = allBanks();
       </div>
     ))}
   </div>
+
+  <h2>题库覆盖矩阵 · Coverage matrix</h2>
+  <p class="muted">
+    下面每张表都由题库数据在构建时直接生成——专题题数与手册章节题数两边相加，都必须等于该州题库总数，对不上构建就报错。
+    Generated from the question-bank data at build time: topic counts and handbook-section counts must each sum to the state's bank total, or the build fails.
+  </p>
+  {banks.map(({ slug, bank }) => {
+    const cov = coverage(bank);
+    return (
+      <div class="card" id={`coverage-${slug}`} style="margin-top:14px">
+        <h3 style="margin-top:0">{STATES[slug].nameZh} {STATES[slug].nameEn} — 共 {cov.total} 道题</h3>
+        <p class="small muted" style="margin:0 0 4px">{EXAM_LANG[slug].labelZh} · {EXAM_LANG[slug].labelEn}</p>
+        <table class="cov">
+          <thead><tr><th>专题 Topic</th><th class="n">题数</th></tr></thead>
+          <tbody>
+            {cov.topics.map((t) => (
+              <tr><td>{t.zh} · {t.en}</td><td class="n">{t.count}</td></tr>
+            ))}
+            <tr class="total"><td>合计 Total</td><td class="n">{cov.topics.reduce((a, t) => a + t.count, 0)}</td></tr>
+          </tbody>
+        </table>
+        <details style="margin-top:8px">
+          <summary class="small" style="cursor:pointer">手册章节覆盖 · Handbook sections covered（{cov.sections.length} 个章节）</summary>
+          <table class="cov">
+            <thead><tr><th>手册章节 Handbook section</th><th class="n">题数</th></tr></thead>
+            <tbody>
+              {cov.sections.map((s) => (
+                <tr><td><a href={s.url} target="_blank" rel="noopener">{s.section}</a></td><td class="n">{s.count}</td></tr>
+              ))}
+              <tr class="total"><td>合计 Total</td><td class="n">{cov.sections.reduce((a, s) => a + s.count, 0)}</td></tr>
+            </tbody>
+          </table>
+        </details>
+      </div>
+    );
+  })}
 
   <div class="card" style="margin-top:14px">
     <h3 style="margin-top:0">我们不做的事 · What we never do</h3>
