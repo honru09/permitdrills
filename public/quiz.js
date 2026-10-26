@@ -23,7 +23,7 @@
       shuffleStart: '开始练习', pickTopic: '先选一个专题（或全部），点开始。题目顺序每次随机。',
       examIntro: '按官方格式：共 {n} 题{pass}，{time}。考试中不显示对错，交卷后出成绩报告。',
       noTime: '不限时', min: '分钟', needCorrect: '答对 {p} 题及格', percent: '正确率',
-      prev: '上一题', questionNav: '题目导航', confirmSubmit: '还有未答题目，确定交卷吗？',
+      prev: '上一题', questionNav: '题目导航', confirmSubmit: '还有未答题目，确定交卷吗？', topic: '专题',
     },
     en: {
       practice: 'Practice mode', exam: 'Exam simulator', all: 'All topics', next: 'Next question', finish: 'Finish',
@@ -38,7 +38,7 @@
       shuffleStart: 'Start practicing', pickTopic: 'Pick a topic (or all of them) and start. Question order is shuffled each time.',
       examIntro: 'Official format: {n} questions{pass}, {time}. No feedback until you submit — then a full score report.',
       noTime: 'untimed', min: 'minutes', needCorrect: '{p} correct to pass', percent: 'accuracy',
-      prev: 'Previous', questionNav: 'Questions', confirmSubmit: 'Some questions are unanswered. Submit anyway?',
+      prev: 'Previous', questionNav: 'Questions', confirmSubmit: 'Some questions are unanswered. Submit anyway?', topic: 'Topic',
     },
   };
   function t(k) { return T[lang][k] || T.zh[k] || k; }
@@ -111,7 +111,7 @@
       return;
     }
     var q = P.list[P.idx];
-    html += '<div class="card quiz"><div class="qmeta"><span>' + t('question') + ' ' + (P.idx + 1) + ' ' + t('of') + ' ' + P.list.length + ' · ' + topicName(q.topic) + '</span><span>' + t('right') + ' ' + P.sessionRight + '</span></div>' +
+    html += '<div class="quiz-layout"><div class="quiz-main"><div class="card quiz"><div class="qmeta"><span>' + t('question') + ' ' + (P.idx + 1) + ' ' + t('of') + ' ' + P.list.length + ' · ' + topicName(q.topic) + '</span><span>' + t('right') + ' ' + P.sessionRight + '</span></div>' +
       '<div class="bar" style="margin-bottom:14px"><i style="width:' + Math.round(100 * P.idx / P.list.length) + '%"></i></div>' +
       (q.sign ? '<div class="signbox" data-sign="' + q.sign + '"></div>' : '') +
       '<p class="qtext">' + esc(q.q[lang]) + '</p><div class="opts">' +
@@ -128,7 +128,17 @@
         '<p class="src">' + t('source') + '：' + esc(q.source.section) + ' · <a href="' + q.source.url + '" target="_blank" rel="noopener">' + (lang === 'zh' ? '官方手册' : 'Official handbook') + '</a></p></div>' +
         '<p style="margin-top:14px"><button class="btn amber" id="pd-next">' + (P.idx + 1 >= P.list.length ? t('finish') : t('next')) + '</button></p>';
     }
-    html += '</div>';
+    html += '</div></div>';
+    var pAnswered = P.idx + (P.revealed ? 1 : 0);
+    var pPct = P.list.length ? Math.round(100 * pAnswered / P.list.length) : 0;
+    html += '<aside class="card quiz-rail" aria-label="' + t('progress') + '"><p class="rail-label">' + t('progress') + '</p>' +
+      '<p class="rail-big">' + (P.idx + 1) + ' <span>/ ' + P.list.length + '</span></p>' +
+      '<div class="bar"><i style="width:' + pPct + '%"></i></div>' +
+      '<div class="rail-rows">' +
+      '<div class="rail-row"><span class="rk">' + t('answeredCount') + '</span><b>' + pAnswered + ' / ' + P.list.length + '</b></div>' +
+      '<div class="rail-row"><span class="rk">' + t('right') + '</span><b>' + P.sessionRight + '</b></div>' +
+      '<div class="rail-row"><span class="rk">' + t('topic') + '</span><b>' + topicName(q.topic) + '</b></div>' +
+      '</div></aside></div>';
     root.innerHTML = html; bindLangSeg(); injectSigns();
     root.querySelectorAll('[data-topic]').forEach(function (b) { b.addEventListener('click', function () { P.topic = b.getAttribute('data-topic'); P.list = []; render(); }); });
     if (!P.revealed) {
@@ -198,7 +208,7 @@
     var html = '<div class="quiz-toolbar">' + langSeg() + '<strong>' + t('exam') + '</strong>' +
       (DATA.exam.timeMinutes ? '<span class="chip gray">' + t('timeLeft') + ' <span class="timer" id="pd-timer">' + fmtTime(E.left) + '</span></span>' : '') +
       '<span class="chip gray">' + answered + ' / ' + E.list.length + ' ' + t('answeredCount') + '</span></div>';
-    html += '<div class="card quiz"><div class="qmeta"><span>' + t('question') + ' ' + (E.idx + 1) + ' ' + t('of') + ' ' + E.list.length + ' · ' + topicName(q.topic) + '</span></div>' +
+    html += '<div class="quiz-layout"><div class="quiz-main"><div class="card quiz"><div class="qmeta"><span>' + t('question') + ' ' + (E.idx + 1) + ' ' + t('of') + ' ' + E.list.length + ' · ' + topicName(q.topic) + '</span></div>' +
       '<div class="bar" style="margin-bottom:14px"><i style="width:' + Math.round(100 * (E.idx + 1) / E.list.length) + '%"></i></div>' +
       (q.sign ? '<div class="signbox" data-sign="' + q.sign + '"></div>' : '') +
       '<p class="qtext">' + esc(q.q[lang]) + '</p><div class="opts">' +
@@ -209,10 +219,19 @@
       '<button class="btn ghost" id="pd-prev"' + (E.idx === 0 ? ' disabled style="opacity:.4"' : '') + '>' + t('prev') + '</button>' +
       '<button class="btn ghost" id="pd-nextq"' + (E.idx + 1 >= E.list.length ? ' disabled style="opacity:.4"' : '') + '>' + t('next') + '</button>' +
       '<button class="btn amber" id="pd-submit">' + t('submit') + '</button></p>' +
-      '<div class="qmeta" style="margin-top:10px"><span>' + t('questionNav') + '</span></div><div style="display:flex;gap:5px;flex-wrap:wrap">' +
+      '</div></div>' +
+      '<aside class="card quiz-rail" aria-label="' + t('progress') + '"><p class="rail-label">' + t('progress') + '</p>' +
+      '<p class="rail-big">' + answered + ' <span>/ ' + E.list.length + ' ' + t('answeredCount') + '</span></p>' +
+      '<div class="bar"><i style="width:' + (E.list.length ? Math.round(100 * answered / E.list.length) : 0) + '%"></i></div>' +
+      '<div class="rail-rows">' +
+      '<div class="rail-row"><span class="rk">' + t('answeredCount') + '</span><b>' + answered + '</b></div>' +
+      '<div class="rail-row"><span class="rk">' + t('unanswered') + '</span><b>' + (E.list.length - answered) + '</b></div>' +
+      '<div class="rail-row"><span class="rk">' + t('question') + '</span><b>' + (E.idx + 1) + ' / ' + E.list.length + '</b></div>' +
+      '</div>' +
+      '<p class="rail-nav-title">' + t('questionNav') + '</p><div class="rail-nav">' +
       E.list.map(function (x, i) {
         return '<button data-nav="' + i + '" class="navdot' + (i === E.idx ? ' cur' : '') + (E.answers[x.id] != null ? ' done' : '') + '">' + (i + 1) + '</button>';
-      }).join('') + '</div></div>';
+      }).join('') + '</div></aside></div>';
     root.innerHTML = html; bindLangSeg(); injectSigns();
     root.querySelectorAll('[data-opt]').forEach(function (b) { b.addEventListener('click', function () { E.answers[q.id] = parseInt(b.getAttribute('data-opt'), 10); render(); }); });
     root.querySelectorAll('[data-nav]').forEach(function (b) { b.addEventListener('click', function () { E.idx = parseInt(b.getAttribute('data-nav'), 10); render(); }); });

@@ -18,37 +18,65 @@ const t = TOPICS[topic];
 const bank = getBank(state);
 const qs = (bank?.questions ?? []).filter((q) => q.topic === topic);
 const letters = ['A', 'B', 'C', 'D', 'E'];
+// §4.3: chunk the flat list into numbered groups of 10 so the sticky mini-nav
+// has real jump targets; question order/content is unchanged.
+const GROUP_SIZE = 10;
+const groups = [];
+for (let s = 0; s < qs.length; s += GROUP_SIZE) {
+  groups.push({ start: s, items: qs.slice(s, s + GROUP_SIZE) });
+}
 ---
 <Base
   title={`${meta.nameZh}驾照笔试 · ${t.zh} ${t.en}`}
   description={`${meta.nameZh}驾照笔试「${t.zh}」专题：${qs.length} 道原创练习题，含答案、中文讲解与官方手册出处。${t.en} practice questions with answers and explanations.`}
 >
   <p class="small muted"><a href={`/${state}/`}>← {meta.nameZh} {meta.nameEn}</a> · 专题学习页</p>
-  <h1 style="font-size:30px">{t.icon} {meta.nameZh} · {t.zh}</h1>
+  <h1 id="top" style="font-size:30px">{t.icon} {meta.nameZh} · {t.zh}</h1>
   <p class="lede">{t.en} — 共 {qs.length} 道题。每题附答案、讲解和手册出处；想自测的话去 <a href={`/${state}/practice/`}>练习模式</a>，想按官方格式考一次去 <a href={`/${state}/exam/`}>模拟考试</a>。</p>
-  <div class="card">
-    {qs.map((q, i) => (
-      <article style={i > 0 ? 'border-top:1px solid var(--line);padding-top:16px;margin-top:16px' : ''}>
-        <p style="font-weight:650;margin:0 0 6px">{i + 1}. {q.q.zh}</p>
-        <p class="small muted" style="margin:0 0 8px">{q.q.en}</p>
-        {q.sign && <div class="signbox"><Sign id={q.sign} size={104} /></div>}
-        <ol style="margin:0 0 8px;padding-left:22px">
-          {q.options.zh.map((o, oi) => (
-            <li class={oi === q.answer ? 'ansrow' : ''} style={oi === q.answer ? 'font-weight:700' : ''}>
-              {o} <span class="muted small">/ {q.options.en[oi]}</span>
-              {oi === q.answer && <span class="chip" style="margin-left:6px">正确答案</span>}
-            </li>
-          ))}
-        </ol>
-        <p style="margin:0 0 4px">{q.explanation.zh}</p>
-        <p class="small muted" style="margin:0 0 6px">{q.explanation.en}</p>
-        <p class="src">出处 Source：{q.source.section} · <a href={q.source.url} target="_blank" rel="noopener">官方手册 Official handbook</a></p>
-      </article>
-    ))}
-    {qs.length === 0 && <p class="muted">本专题题目整理中。</p>}
-  </div>
-  <p style="margin-top:16px">
+  {qs.length > 0 && (
+    <nav class="study-nav" aria-label="本页题目分组导航 Question groups on this page">
+      <span class="sn-label">本页导航</span>
+      {groups.map((g, gi) => (
+        <a class="sn-jump" href={`#study-g${gi + 1}`}>第 {g.start + 1}–{g.start + g.items.length} 题</a>
+      ))}
+      <a class="sn-top" href="#top">↑ 回到顶部</a>
+    </nav>
+  )}
+  {groups.map((g, gi) => (
+    <section class="card study-group" id={`study-g${gi + 1}`} aria-label={`第 ${g.start + 1} 到 ${g.start + g.items.length} 题`}>
+      <h2 class="study-group-title">
+        <span>第 {gi + 1} 组</span>
+        <span class="sg-range">Questions {g.start + 1}–{g.start + g.items.length} · 共 {g.items.length} 题</span>
+      </h2>
+      {g.items.map((q, ii) => {
+        const i = g.start + ii;
+        return (
+          <article id={`q-${i + 1}`} style={ii > 0 ? 'border-top:1px solid var(--line);padding-top:16px;margin-top:16px' : ''}>
+            <p style="font-weight:650;margin:0 0 6px">{i + 1}. {q.q.zh}</p>
+            <p class="small muted" style="margin:0 0 8px">{q.q.en}</p>
+            {q.sign && <div class="signbox"><Sign id={q.sign} size={104} /></div>}
+            <ol style="margin:0 0 8px;padding-left:22px">
+              {q.options.zh.map((o, oi) => (
+                <li class={oi === q.answer ? 'ansrow' : ''} style={oi === q.answer ? 'font-weight:700' : ''}>
+                  {o} <span class="muted small">/ {q.options.en[oi]}</span>
+                  {oi === q.answer && <span class="chip" style="margin-left:6px">正确答案</span>}
+                </li>
+              ))}
+            </ol>
+            <p style="margin:0 0 4px">{q.explanation.zh}</p>
+            <p class="small muted" style="margin:0 0 6px">{q.explanation.en}</p>
+            <p class="src">出处 Source：{q.source.section} · <a href={q.source.url} target="_blank" rel="noopener">官方手册 Official handbook</a></p>
+          </article>
+        );
+      })}
+    </section>
+  ))}
+  {qs.length === 0 && (
+    <div class="card"><p class="muted">本专题题目整理中。</p></div>
+  )}
+  <p class="study-top-row">
     <a class="btn amber" href={`/${state}/practice/`}>用练习模式做这个专题</a>
     <a class="btn ghost" href={`/${state}/`}>回{meta.nameZh}主页</a>
+    {qs.length > 0 && <a class="btn ghost" href="#top">↑ 回到顶部 Back to top</a>}
   </p>
 </Base>
